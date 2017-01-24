@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MarrsProject title="8 Substation Model"
+	      schemaversion="0.4" pubversion="20150501">
+
+<Query title="Retrieve Substation Network"
+       type="QUERY_BACKBONE">
+<![CDATA[
+PREFIX cptlc: <urn:cite:cptl:general.cptlc.2014_07:>
+PREFIX enet: <urn:cite:cptl:enterprise.enet.2015_07:> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX snet:  <urn:cite:cptl:power.snet.2015_07:>	     
+PREFIX syard: <urn:cite:cptl:power.syard.2016_07:>
+
+SELECT ?src ?src_label ?src_type ?src_ip ?interaction ?dest ?dest_label ?dest_type ?dest_ip
+WHERE {
+  SERVICE <http://cptl-c.iti.illinois.edu/models/urn:cite:cptl:power.8sub.2016_08/query> {
+   GRAPH <urn:cite:cptl:power.8sub.2016_08:${NETWORK_NAME}> {
+    ?src rdfs:label ?src_label .
+    ?src rdf:type ?src_type .
+    OPTIONAL { ?src enet:hasIPAddressValue ?src_ip } .
+    ?dest rdfs:label ?dest_label .
+    ?dest rdf:type ?dest_type .
+    OPTIONAL { ?dest enet:hasIPAddressValue ?dest_ip } .    
+    ?src ?interaction ?dest .
+    FILTER( sameTerm(?interaction, <urn:cite:cptl:power.syard.2016_07:hasLine>) || sameTerm(?interaction, <urn:cite:cptl:general.cptlc.2014_07:hasEthernetLink>) || sameTerm(?interaction, <urn:cite:cptl:power.snet.2015_07:hasBreakerConnections>) || sameTerm(?interaction, <urn:cite:cptl:general.cptlc.2014_07:hasFiberEthernetLink>) || sameTerm(?interaction, <urn:cite:cptl:general.cptlc.2014_07:hasSerialLink>) || sameTerm(?interaction, <urn:cite:cptl:general.cptlc.2014_07:hasComponent> ) || sameTerm(?interaction, <urn:cite:cptl:enterprise.enet.2015_07:hasHost>)  )
+   }
+  }
+}  
+]]>
+  <AskBefore key="NETWORK_NAME"/>
+</Query>
+
+<Param key="NETWORK_NAME" val="Haverbrook"/>
+</MarrsProject>  
