@@ -1,0 +1,206 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1112>
+	rdfs:label "North Haverbrook BRK 1112" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1112> ;
+	cptlc:hasUUID "69846f54-74f1-4f2e-ba42-979a9f20109e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_2>
+	rdfs:label "North Haverbrook Distance Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "59748548-734f-4b54-bad0-71ca8cc63caf" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1413> ;
+	enet:hasIPAddressValue "10.33.1.202" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_2> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_7> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_2>
+	rdfs:label "North Haverbrook Overcurrent Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "67c266a7-43d3-40f7-9f87-189a2fcd2ee7" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_910> ;
+	enet:hasIPAddressValue "10.33.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_2> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_812>
+	rdfs:label "North Haverbrook BRK 812" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_812> ;
+	cptlc:hasUUID "d697baa5-4c3c-4541-83f9-debf0903520b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_1>
+	rdfs:label "Shelbyville SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_1> ;
+	cptlc:hasUUID "480622cc-1dcb-4219-92e8-150fac66bfae" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3>
+	rdfs:label "North Haverbrook Distance Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "0f762aee-deed-4c16-9f4b-cc7501e94607" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1112> ;
+	enet:hasIPAddressValue "10.33.1.203" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_913>
+	rdfs:label "North Haverbrook BRK 913" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_913> ;
+	cptlc:hasUUID "c5ec99ad-8d32-4dd5-b6f2-c5429da32988" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1413>
+	rdfs:label "North Haverbrook BRK 1413" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1413> ;
+	cptlc:hasUUID "1defdcaa-b1ba-45f7-a074-97745b98a417" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Switch_1>
+	rdfs:label "North Haverbrook Switch 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:Switch> ;
+	cptlc:hasUUID "13bce4b8-3364-4126-8368-63fe251864a4" ;
+	enet:hasIPAddressValue "192.168.3.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Switch_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2>
+	rdfs:label "Odgenville SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2> ;
+	cptlc:hasUUID "d89719b9-31fb-4231-ac49-74af9116487d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1>
+	rdfs:label "North Haverbrook Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "64fafacf-03fe-4877-80fb-46531ca2bdaf" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_78> ;
+	enet:hasIPAddressValue "10.33.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_4>
+	rdfs:label "North Haverbrook Overcurrent Relay 4" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "81a375b7-62cc-4d72-bded-d59974a7cea3" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_89> ;
+	enet:hasIPAddressValue "10.33.1.104" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_4> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_5> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_6>
+	rdfs:label "North Haverbrook Overcurrent Relay 6" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "4b30a284-ab49-4253-be6b-5e95b574f408" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1413> ;
+	enet:hasIPAddressValue "10.33.1.106" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_6> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_910>
+	rdfs:label "North Haverbrook BRK 910" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_910> ;
+	cptlc:hasUUID "527be059-68d3-4da2-a1d2-cbaa4688b242" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3>
+	rdfs:label "Cypress Creek SEL 421 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3> ;
+	cptlc:hasUUID "adcbd54d-8f75-48ba-a99e-1d3d08e23141" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_3>
+	rdfs:label "North Haverbrook Overcurrent Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "43b53562-dc7b-41a4-9ad0-debae65b0538" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_913> ;
+	enet:hasIPAddressValue "10.33.1.103" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_3> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_4> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_89>
+	rdfs:label "North Haverbrook BRK 89" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_89> ;
+	cptlc:hasUUID "a4bdfe51-352a-45cc-af53-51b4886f617a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_78>
+	rdfs:label "North Haverbrook BRK 78" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_78> ;
+	cptlc:hasUUID "7ba56574-6d0e-456d-9452-13ee38e8ba35" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_1>
+	rdfs:label "North Haverbrook Overcurrent Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "0d61ae49-16d2-4caa-85ca-c0522bd9e8b2" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_78> ;
+	enet:hasIPAddressValue "10.33.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_7>
+	rdfs:label "North Haverbrook Overcurrent Relay 7" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "e69e0a5d-135d-4ece-a01c-deefcfbb9701" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_1112> ;
+	enet:hasIPAddressValue "10.33.1.107" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_7> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_5>
+	rdfs:label "North Haverbrook Overcurrent Relay 5" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "a090cc41-df51-4dd8-9007-77c8f5cb86da" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard.BRK_812> ;
+	enet:hasIPAddressValue "10.33.1.105" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_5> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_6> ;
+	.
+

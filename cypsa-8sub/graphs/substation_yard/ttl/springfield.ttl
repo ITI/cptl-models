@@ -1,0 +1,144 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.UN_Gen5>
+	rdfs:label "Springfield UN Gen5" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Generator> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.UN_Gen5> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_43> ;
+	cptlc:hasUUID "4e213ea2-35ca-4302-ac40-2e6fb489aaa3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_44>
+	rdfs:label "Springfield ND 44" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_44> ;
+	cptlc:hasUUID "3ca757dc-7c1e-4aa3-ba6c-57c5e8e6a6fa" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_37>
+	rdfs:label "Haverbrook ND 37" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_37> ;
+	cptlc:hasUUID "aec929cb-d172-415a-bfa6-dfe5ffc5520b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_39>
+	rdfs:label "Springfield ND 39" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_39> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_37> ;
+	cptlc:hasUUID "fab8510a-d64e-481b-aeba-274db23ae766" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_40>
+	rdfs:label "Springfield ND 40" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_40> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_38> ;
+	cptlc:hasUUID "1977bb6d-cd4f-45ed-b4be-945822773cff" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.yard.ND_51>
+	rdfs:label "Paris ND 51" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.yard.ND_51> ;
+	cptlc:hasUUID "46d6a8f2-7b44-4f7b-b3f7-446cca40a69e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142>
+	rdfs:label "Springfield BRK 4142" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_42> ;
+	cptlc:hasUUID "9766a375-19b1-45dd-8891-8ebf7b8ce9e4" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941>
+	rdfs:label "Springfield BRK 3941" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_39> ;
+	cptlc:hasUUID "a3a7b489-8c9c-47a7-8e5a-617786f166aa" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_38>
+	rdfs:label "Haverbrook ND 38" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard.ND_38> ;
+	cptlc:hasUUID "33df492c-261e-4814-81bf-54f6f1d98bcb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_41>
+	rdfs:label "Springfield ND 41" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Bus> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_41> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041> ;
+	cptlc:hasUUID "2b68bfec-35df-4e6e-b694-6469e4504d5e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_42>
+	rdfs:label "Springfield ND 42" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_42> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Paris.yard.ND_51> ;
+	cptlc:hasUUID "2cdd062a-b1fd-4e00-9d9c-3f31ab506715" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_43>
+	rdfs:label "Springfield ND 43" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_43> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341> ;
+	cptlc:hasUUID "2316dbec-6fb4-4a7a-a99b-0a8a0a4a0929" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341>
+	rdfs:label "Springfield BRK 4341" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_41> ;
+	cptlc:hasUUID "f39a7ddf-3908-4daf-8e29-e281cd876c0c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441>
+	rdfs:label "Springfield BRK 4441" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_44> ;
+	cptlc:hasUUID "80535f3d-13b2-406f-9798-23f6ab8027da" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041>
+	rdfs:label "Springfield BRK 4041" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.ND_40> ;
+	cptlc:hasUUID "934dc8b6-41f0-4968-adbc-5045cf218585" ;
+	.
+

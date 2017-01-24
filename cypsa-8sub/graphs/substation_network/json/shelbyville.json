@@ -1,0 +1,212 @@
+{
+  "namespaces": [
+	{
+	    "cptlc": "urn:cite:cptl:general.cptlc.2014_07:",
+	    "enet": "urn:cite:cptl:enterprise.enet.2015_07:",
+	    "sel_catalog": "urn:cite:sel:power.catalog.2016_07:",
+	    "snet": "urn:cite:cptl:power.snet.2015_07:",
+	    "syard": "urn:cite:cptl:power.syard.2016_07:",
+	    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+	}
+  ],  
+  "nodes": [
+    {
+      "rdfs:label": "Shelbyville SEL 3620", 
+      "enet:hasIPAddressValue": "192.168.6.200", 
+      "rdf:type": "sel_catalog:3620", 
+      "cptlc:hasUUID": "65986695-cc11-463e-ae2f-83a3df1258c4"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 421 1", 
+      "enet:hasIPAddressValue": "10.36.1.201", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "f8486fb3-83fd-4401-a6f4-f93f7c088e87"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 421 2", 
+      "enet:hasIPAddressValue": "10.36.1.202", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "137bb87c-2302-4a6a-b09b-ba198f4e33a1"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 421 3", 
+      "enet:hasIPAddressValue": "10.36.1.203", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "67e354a9-07ed-453d-9da3-10f5f775f3e1"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 1", 
+      "enet:hasIPAddressValue": "10.36.1.101", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "fcf89e43-74b4-404b-a350-e737f533fd83"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 2", 
+      "enet:hasIPAddressValue": "10.36.1.102", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "43d4b592-7131-4940-8a23-2487682e00f5"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 3", 
+      "enet:hasIPAddressValue": "10.36.1.103", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "a9d2e23a-749a-4cd0-879e-f279be9aaa70"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 4", 
+      "enet:hasIPAddressValue": "10.36.1.104", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "b6b8db05-c60b-41f0-92a8-a460b1633952"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 5", 
+      "enet:hasIPAddressValue": "10.36.1.105", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "a1dd879f-8285-4a81-ac8b-62e8fdf6fa80"
+    }, 
+    {
+      "rdfs:label": "Shelbyville SEL 451 6", 
+      "enet:hasIPAddressValue": "10.36.1.106", 
+      "rdf:type": "sel_catalog:451", 
+      "cptlc:hasUUID": "efac9fae-64a2-4211-a5cf-49a2e5016ffb"
+    }, 
+    {
+      "rdfs:label": "North Haverbrook Distance Relay 2", 
+      "rdf:type": "snet:DistanceRelay", 
+      "cptlc:hasUUID": "e06d008d-f286-4f46-bd2f-bf913aaecc49"
+    }, 
+    {
+      "rdfs:label": "Cypress Creek SEL 421 4", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "05bf5cb2-0492-4b6b-88ff-f73eef19302f"
+    }, 
+    {
+      "rdfs:label": "Paris SEL 421 1", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "a9a84b0b-5757-4139-8a82-4fa77105fbf7"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 2629", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "54f75a1c-7a2b-4bec-8aa5-0823610da2d2"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 2928", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "5c1cb0b2-1a24-4f8d-9da0-4841a794a03f"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 3132", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "9e51260d-8401-46e9-b454-f432a2ad8674"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 3031", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "56eaf44a-bb18-443d-80a1-935a0e64d6f2"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 2729", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "14684f21-1650-4b0c-a577-5fd1904612d3"
+    }, 
+    {
+      "rdfs:label": "Shelbyville BRK 2931", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "5336c1b1-2d7c-44a1-99dc-f7de11240877"
+    }
+  ], 
+  "links": [
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "f8486fb3-83fd-4401-a6f4-f93f7c088e87"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "137bb87c-2302-4a6a-b09b-ba198f4e33a1"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "67e354a9-07ed-453d-9da3-10f5f775f3e1"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "fcf89e43-74b4-404b-a350-e737f533fd83"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "43d4b592-7131-4940-8a23-2487682e00f5"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "a9d2e23a-749a-4cd0-879e-f279be9aaa70"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "b6b8db05-c60b-41f0-92a8-a460b1633952"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "a1dd879f-8285-4a81-ac8b-62e8fdf6fa80"
+    }, 
+    {
+      "source": "65986695-cc11-463e-ae2f-83a3df1258c4", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "efac9fae-64a2-4211-a5cf-49a2e5016ffb"
+    }, 
+    {
+      "source": "f8486fb3-83fd-4401-a6f4-f93f7c088e87", 
+      "relation": "cptlc:hasFiberEthernetLink", 
+      "target": "e06d008d-f286-4f46-bd2f-bf913aaecc49"
+    }, 
+    {
+      "source": "137bb87c-2302-4a6a-b09b-ba198f4e33a1", 
+      "relation": "cptlc:hasFiberEthernetLink", 
+      "target": "05bf5cb2-0492-4b6b-88ff-f73eef19302f"
+    }, 
+    {
+      "source": "67e354a9-07ed-453d-9da3-10f5f775f3e1", 
+      "relation": "cptlc:hasFiberEthernetLink", 
+      "target": "a9a84b0b-5757-4139-8a82-4fa77105fbf7"
+    }, 
+    {
+      "source": "fcf89e43-74b4-404b-a350-e737f533fd83", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "54f75a1c-7a2b-4bec-8aa5-0823610da2d2"
+    }, 
+    {
+      "source": "43d4b592-7131-4940-8a23-2487682e00f5", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "5c1cb0b2-1a24-4f8d-9da0-4841a794a03f"
+    }, 
+    {
+      "source": "a9d2e23a-749a-4cd0-879e-f279be9aaa70", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "9e51260d-8401-46e9-b454-f432a2ad8674"
+    }, 
+    {
+      "source": "b6b8db05-c60b-41f0-92a8-a460b1633952", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "56eaf44a-bb18-443d-80a1-935a0e64d6f2"
+    }, 
+    {
+      "source": "a1dd879f-8285-4a81-ac8b-62e8fdf6fa80", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "14684f21-1650-4b0c-a577-5fd1904612d3"
+    }, 
+    {
+      "source": "efac9fae-64a2-4211-a5cf-49a2e5016ffb", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "5336c1b1-2d7c-44a1-99dc-f7de11240877"
+    }
+  ]
+}

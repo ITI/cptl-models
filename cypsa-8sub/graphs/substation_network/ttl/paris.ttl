@@ -1,0 +1,152 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3>
+	rdfs:label "Paris SEL 421 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "1bb97ffa-984d-4e2f-9522-a4200dd92089" ;
+	enet:hasIPAddressValue "10.35.1.203" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2>
+	rdfs:label "Paris SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "fed35c48-3b7b-4614-895d-4980a91fb3b6" ;
+	enet:hasIPAddressValue "10.35.1.202" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5051>
+	rdfs:label "Paris BRK 5051" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5051> ;
+	cptlc:hasUUID "de1f6aa1-7eeb-4562-be5c-10efa8f894ee" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4850>
+	rdfs:label "Paris BRK 4850" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4850> ;
+	cptlc:hasUUID "0ad6fa27-783c-44bf-ab03-d74f6f238767" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_3>
+	rdfs:label "Paris SEL 451 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "024c3c4b-8f3b-4c66-9293-20a52fe8eb03" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4850> ;
+	enet:hasIPAddressValue "10.35.1.103" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_1>
+	rdfs:label "Paris SEL 451 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "94aee359-b937-4a8c-b17c-2a7f775aa9cb" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5052> ;
+	enet:hasIPAddressValue "10.35.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1>
+	rdfs:label "Cypress Creek SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1> ;
+	cptlc:hasUUID "2a42a23c-e908-49cd-a8b0-f5eecb4f602f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_2>
+	rdfs:label "Paris SEL 451 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "c296d972-6246-47bb-a1eb-637cfb6211d6" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4950> ;
+	enet:hasIPAddressValue "10.35.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2>
+	rdfs:label "Springfield Distance Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2> ;
+	cptlc:hasUUID "742b4f3c-9514-4986-bdd1-b228a2f65585" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4950>
+	rdfs:label "Paris BRK 4950" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_4950> ;
+	cptlc:hasUUID "5da6776a-d434-4b18-9e3f-b2a76018d8a5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_1>
+	rdfs:label "Paris SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "9b9eb3ec-90a5-4fbb-ac18-80fd21c08208" ;
+	enet:hasIPAddressValue "10.35.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5052>
+	rdfs:label "Paris BRK 5052" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5052> ;
+	cptlc:hasUUID "2d3afb4b-dd6c-4995-a2bc-30e617c06d17" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_3620>
+	rdfs:label "Paris SEL 3620" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:3620> ;
+	cptlc:hasUUID "41f088ba-2e6e-4b7f-93ff-2b001e640dbc" ;
+	enet:hasIPAddressValue "192.168.5.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_3620> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_3> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_4> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_3>
+	rdfs:label "Shelbyville SEL 421 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_3> ;
+	cptlc:hasUUID "48edc523-2d7b-4233-887d-e3e722b06c4a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_4>
+	rdfs:label "Paris SEL 451 4" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "993826f0-be8d-4bf0-89f0-44d518650e0e" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Paris.yard.BRK_5051> ;
+	enet:hasIPAddressValue "10.35.1.104" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_4> ;
+	.
+

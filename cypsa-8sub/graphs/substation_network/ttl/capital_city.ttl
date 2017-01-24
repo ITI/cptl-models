@@ -1,0 +1,85 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4647>
+	rdfs:label "Capital City BRK 4647" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4647> ;
+	cptlc:hasUUID "2fb45dfb-2024-4e9b-be90-aeaa791df54b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Switch_1>
+	rdfs:label "Capital City Switch 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:Switch> ;
+	cptlc:hasUUID "77f78ca0-3f59-4d28-b098-f6d67e581623" ;
+	enet:hasIPAddressValue "192.168.7.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Switch_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1>
+	rdfs:label "Capital City Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "2753c46f-0a3c-4213-8f3c-41dc16e8a60a" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4546> ;
+	enet:hasIPAddressValue "10.37.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4546>
+	rdfs:label "Capital City BRK 4546" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4546> ;
+	cptlc:hasUUID "62e9bea6-a84c-484c-b5c9-6496d3ac8a1a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7>
+	rdfs:label "Cypress Creek SEL 421 7" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7> ;
+	cptlc:hasUUID "d5f19e38-e00a-404f-9c6b-123ae4eebde2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_1>
+	rdfs:label "Capital City Overcurrent Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "5132181c-be87-4ced-b3a9-b7140e5ff39c" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4546> ;
+	enet:hasIPAddressValue "10.37.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_2>
+	rdfs:label "Capital City Overcurrent Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "439a58ac-e7b2-45ce-a341-d33889b8a7ff" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard.BRK_4647> ;
+	enet:hasIPAddressValue "10.37.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_2> ;
+	.
+

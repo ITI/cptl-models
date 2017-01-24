@@ -1,0 +1,177 @@
+{
+  "namespaces": [
+      {
+	  "cptlc": "urn:cite:cptl:general.cptlc.2014_07:",
+	  "enet": "urn:cite:cptl:enterprise.enet.2015_07:",
+	  "sel_catalog": "urn:cite:sel:power.catalog.2016_07:",
+	  "snet": "urn:cite:cptl:power.snet.2015_07:",
+	  "syard": "urn:cite:cptl:power.syard.2016_07:",
+	  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	  "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+      }
+  ],  
+  "nodes": [
+    {
+      "rdfs:label": "Odgenville UN Gen1", 
+      "rdf:type": "syard:Generator", 
+      "cptlc:hasUUID": "f46f0289-b824-47c3-905d-85dc4f45cb69"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 1", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "f7cc29e6-4d96-47e5-af7f-89634551e5c9"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 14", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "f631b4ca-11f8-463a-b2b0-dde53089aa20"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 12", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "27f0e259-2fc8-48eb-98d0-5855eb9dab30"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 2", 
+      "rdf:type": "syard:Bus", 
+      "cptlc:hasUUID": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 42", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "66763827-6b0a-462a-be68-56b12ef46399"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 4", 
+      "rdf:type": "syard:Bus", 
+      "cptlc:hasUUID": "81c73eb6-420a-454f-8338-472371ce3534"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 34", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "cd4bf17d-75a0-40f0-83cf-5fe390aa9148"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 3", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "86c3ff63-f28e-4797-84b3-11f059527038"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 23", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "b42a69b0-a20f-41e5-92ac-2726f58fae5b"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 25", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "70b6ae3d-b0b9-4ecb-87e4-cc3a29a31062"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 5", 
+      "rdf:type": "syard:Bus", 
+      "cptlc:hasUUID": "f1d4601a-4caf-44dc-9b08-e04b22cae1d5"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 56", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "806c6126-ada2-445f-8c93-1de33ae8eb63"
+    }, 
+    {
+      "rdfs:label": "Odgenville ND 6", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "4e2ec78f-4c72-46e2-8047-01bd51c2521d"
+    }, 
+    {
+      "rdfs:label": "Odgenville BRK 62", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "88df51b5-6dbb-4844-9a65-9d88f441d0d1"
+    }
+  ], 
+  "links": [
+    {
+      "source": "f46f0289-b824-47c3-905d-85dc4f45cb69", 
+      "relation": "syard:hasLine", 
+      "target": "f7cc29e6-4d96-47e5-af7f-89634551e5c9"
+    }, 
+    {
+      "source": "f7cc29e6-4d96-47e5-af7f-89634551e5c9", 
+      "relation": "syard:hasLine", 
+      "target": "27f0e259-2fc8-48eb-98d0-5855eb9dab30"
+    }, 
+    {
+      "source": "f7cc29e6-4d96-47e5-af7f-89634551e5c9", 
+      "relation": "syard:hasLine", 
+      "target": "f631b4ca-11f8-463a-b2b0-dde53089aa20"
+    }, 
+    {
+      "source": "27f0e259-2fc8-48eb-98d0-5855eb9dab30", 
+      "relation": "syard:hasLine", 
+      "target": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9"
+    }, 
+    {
+      "source": "66763827-6b0a-462a-be68-56b12ef46399", 
+      "relation": "syard:hasLine", 
+      "target": "81c73eb6-420a-454f-8338-472371ce3534"
+    }, 
+    {
+      "source": "81c73eb6-420a-454f-8338-472371ce3534", 
+      "relation": "syard:hasLine", 
+      "target": "f631b4ca-11f8-463a-b2b0-dde53089aa20"
+    }, 
+    {
+      "source": "81c73eb6-420a-454f-8338-472371ce3534", 
+      "relation": "syard:hasLine", 
+      "target": "cd4bf17d-75a0-40f0-83cf-5fe390aa9148"
+    }, 
+    {
+      "source": "cd4bf17d-75a0-40f0-83cf-5fe390aa9148", 
+      "relation": "syard:hasLine", 
+      "target": "86c3ff63-f28e-4797-84b3-11f059527038"
+    }, 
+    {
+      "source": "86c3ff63-f28e-4797-84b3-11f059527038", 
+      "relation": "syard:hasLine", 
+      "target": "b42a69b0-a20f-41e5-92ac-2726f58fae5b"
+    }, 
+    {
+      "source": "b42a69b0-a20f-41e5-92ac-2726f58fae5b", 
+      "relation": "syard:hasLine", 
+      "target": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9"
+    }, 
+    {
+      "source": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9", 
+      "relation": "syard:hasLine", 
+      "target": "66763827-6b0a-462a-be68-56b12ef46399"
+    }, 
+    {
+      "source": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9", 
+      "relation": "syard:hasLine", 
+      "target": "70b6ae3d-b0b9-4ecb-87e4-cc3a29a31062"
+    }, 
+    {
+      "source": "1fcc2b5a-b47f-4875-8df1-e6df70a929a9", 
+      "relation": "syard:hasLine", 
+      "target": "88df51b5-6dbb-4844-9a65-9d88f441d0d1"
+    }, 
+    {
+      "source": "70b6ae3d-b0b9-4ecb-87e4-cc3a29a31062", 
+      "relation": "syard:hasLine", 
+      "target": "f1d4601a-4caf-44dc-9b08-e04b22cae1d5"
+    }, 
+    {
+      "source": "f1d4601a-4caf-44dc-9b08-e04b22cae1d5", 
+      "relation": "syard:hasLine", 
+      "target": "806c6126-ada2-445f-8c93-1de33ae8eb63"
+    }, 
+    {
+      "source": "806c6126-ada2-445f-8c93-1de33ae8eb63", 
+      "relation": "syard:hasLine", 
+      "target": "4e2ec78f-4c72-46e2-8047-01bd51c2521d"
+    }, 
+    {
+      "source": "4e2ec78f-4c72-46e2-8047-01bd51c2521d", 
+      "relation": "syard:hasLine", 
+      "target": "88df51b5-6dbb-4844-9a65-9d88f441d0d1"
+    }
+  ]
+}

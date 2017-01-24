@@ -1,0 +1,147 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_3>
+	rdfs:label "Odgenville ND 3" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_3> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23> ;
+	cptlc:hasUUID "86c3ff63-f28e-4797-84b3-11f059527038" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42>
+	rdfs:label "Odgenville BRK 42" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_4> ;
+	cptlc:hasUUID "66763827-6b0a-462a-be68-56b12ef46399" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12>
+	rdfs:label "Odgenville BRK 12" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_2> ;
+	cptlc:hasUUID "27f0e259-2fc8-48eb-98d0-5855eb9dab30" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.UN_Gen1>
+	rdfs:label "Odgenville UN Gen1" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Generator> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.UN_Gen1> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_1> ;
+	cptlc:hasUUID "f46f0289-b824-47c3-905d-85dc4f45cb69" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34>
+	rdfs:label "Odgenville BRK 34" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_3> ;
+	cptlc:hasUUID "cd4bf17d-75a0-40f0-83cf-5fe390aa9148" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_1>
+	rdfs:label "Odgenville ND 1" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_1> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	cptlc:hasUUID "f7cc29e6-4d96-47e5-af7f-89634551e5c9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56>
+	rdfs:label "Odgenville BRK 56" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_6> ;
+	cptlc:hasUUID "806c6126-ada2-445f-8c93-1de33ae8eb63" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_4>
+	rdfs:label "Odgenville ND 4" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Bus> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_4> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34> ;
+	cptlc:hasUUID "81c73eb6-420a-454f-8338-472371ce3534" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25>
+	rdfs:label "Odgenville BRK 25" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_5> ;
+	cptlc:hasUUID "70b6ae3d-b0b9-4ecb-87e4-cc3a29a31062" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_2>
+	rdfs:label "Odgenville ND 2" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Bus> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_2> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62> ;
+	cptlc:hasUUID "1fcc2b5a-b47f-4875-8df1-e6df70a929a9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_6>
+	rdfs:label "Odgenville ND 6" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Node> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_6> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62> ;
+	cptlc:hasUUID "4e2ec78f-4c72-46e2-8047-01bd51c2521d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23>
+	rdfs:label "Odgenville BRK 23" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_2> ;
+	cptlc:hasUUID "b42a69b0-a20f-41e5-92ac-2726f58fae5b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62>
+	rdfs:label "Odgenville BRK 62" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62> ;
+	cptlc:hasUUID "88df51b5-6dbb-4844-9a65-9d88f441d0d1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14>
+	rdfs:label "Odgenville BRK 14" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	cptlc:hasUUID "f631b4ca-11f8-463a-b2b0-dde53089aa20" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_5>
+	rdfs:label "Odgenville ND 5" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Bus> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.ND_5> ;
+	syard:hasLine <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56> ;
+	cptlc:hasUUID "f1d4601a-4caf-44dc-9b08-e04b22cae1d5" ;
+	.
+

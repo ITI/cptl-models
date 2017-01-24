@@ -1,0 +1,91 @@
+{
+  "namespaces": [
+	{
+	    "cptlc": "urn:cite:cptl:general.cptlc.2014_07:",
+	    "enet": "urn:cite:cptl:enterprise.enet.2015_07:",
+	    "sel_catalog": "urn:cite:sel:power.catalog.2016_07:",
+	    "snet": "urn:cite:cptl:power.snet.2015_07:",
+	    "syard": "urn:cite:cptl:power.syard.2016_07:",
+	    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+	}
+  ],  
+  "nodes": [
+    {
+      "rdfs:label": "Capital City Switch 1", 
+      "enet:hasIPAddressValue": "192.168.7.200", 
+      "rdf:type": "snet:Switch", 
+      "cptlc:hasUUID": "77f78ca0-3f59-4d28-b098-f6d67e581623"
+    }, 
+    {
+      "rdfs:label": "Capital City Distance Relay 1", 
+      "enet:hasIPAddressValue": "10.37.1.201", 
+      "rdf:type": "snet:DistanceRelay", 
+      "cptlc:hasUUID": "2753c46f-0a3c-4213-8f3c-41dc16e8a60a"
+    }, 
+    {
+      "rdfs:label": "Capital City Overcurrent Relay 1", 
+      "enet:hasIPAddressValue": "10.37.1.101", 
+      "rdf:type": "snet:OvercurrentRelay", 
+      "cptlc:hasUUID": "5132181c-be87-4ced-b3a9-b7140e5ff39c"
+    }, 
+    {
+      "rdfs:label": "Capital City Overcurrent Relay 2", 
+      "enet:hasIPAddressValue": "10.37.1.102", 
+      "rdf:type": "snet:OvercurrentRelay", 
+      "cptlc:hasUUID": "439a58ac-e7b2-45ce-a341-d33889b8a7ff"
+    }, 
+    {
+      "rdfs:label": "Cypress Creek SEL 421 7", 
+      "rdf:type": "sel_catalog:421", 
+      "cptlc:hasUUID": "d5f19e38-e00a-404f-9c6b-123ae4eebde2"
+    }, 
+    {
+      "rdfs:label": "Capital City BRK 4546", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "62e9bea6-a84c-484c-b5c9-6496d3ac8a1a"
+    }, 
+    {
+      "rdfs:label": "Capital City BRK 4647", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "2fb45dfb-2024-4e9b-be90-aeaa791df54b"
+    }
+  ], 
+  "links": [
+    {
+      "source": "77f78ca0-3f59-4d28-b098-f6d67e581623", 
+      "relation": "cptlc:hasEthernetLink", 
+      "target": "5132181c-be87-4ced-b3a9-b7140e5ff39c"
+    }, 
+    {
+      "source": "2753c46f-0a3c-4213-8f3c-41dc16e8a60a", 
+      "relation": "cptlc:hasFiberEthernetLink", 
+      "target": "d5f19e38-e00a-404f-9c6b-123ae4eebde2"
+    }, 
+    {
+      "source": "2753c46f-0a3c-4213-8f3c-41dc16e8a60a", 
+      "relation": "cptlc:hasSerialLink", 
+      "target": "439a58ac-e7b2-45ce-a341-d33889b8a7ff"
+    }, 
+    {
+      "source": "2753c46f-0a3c-4213-8f3c-41dc16e8a60a", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "62e9bea6-a84c-484c-b5c9-6496d3ac8a1a"
+    }, 
+    {
+      "source": "5132181c-be87-4ced-b3a9-b7140e5ff39c", 
+      "relation": "cptlc:hasSerialLink", 
+      "target": "2753c46f-0a3c-4213-8f3c-41dc16e8a60a"
+    }, 
+    {
+      "source": "5132181c-be87-4ced-b3a9-b7140e5ff39c", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "62e9bea6-a84c-484c-b5c9-6496d3ac8a1a"
+    }, 
+    {
+      "source": "439a58ac-e7b2-45ce-a341-d33889b8a7ff", 
+      "relation": "snet:hasBreakerConnections", 
+      "target": "2fb45dfb-2024-4e9b-be90-aeaa791df54b"
+    }
+  ]
+}

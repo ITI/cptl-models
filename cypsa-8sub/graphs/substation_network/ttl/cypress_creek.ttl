@@ -1,0 +1,277 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_1>
+	rdfs:label "Cypress Creek SEL 451 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "7941ce0f-4e6c-49da-aeda-a9b2ad526f13" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2425> ;
+	enet:hasIPAddressValue "10.31.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1815>
+	rdfs:label "Cypress Creek BRK 1815" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1815> ;
+	cptlc:hasUUID "33b20414-1393-4415-9ea6-15730203c777" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1>
+	rdfs:label "Capital City Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1> ;
+	cptlc:hasUUID "c07148cb-aaeb-49b6-bad0-ffc8d054bd1f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_2>
+	rdfs:label "Haverbrook Distance Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_2> ;
+	cptlc:hasUUID "a4b8c67d-bbc3-4ecf-b289-7782cef8d807" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1715>
+	rdfs:label "Cypress Creek BRK 1715" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1715> ;
+	cptlc:hasUUID "b73a8665-fc3c-45dc-b6da-1f875fe5b8a3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_3>
+	rdfs:label "Cypress Creek SEL 451 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "070bc84a-21d0-4415-a1d1-86a180d12794" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2019> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1719> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1925> ;
+	enet:hasIPAddressValue "10.31.1.103" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2225>
+	rdfs:label "Cypress Creek BRK 2225" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2225> ;
+	cptlc:hasUUID "6a412caa-9f48-4587-9984-8be96f5a2b3a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6>
+	rdfs:label "Cypress Creek SEL 421 6" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "a0922f69-e9f2-4c42-ba70-bda13444194b" ;
+	enet:hasIPAddressValue "10.31.1.206" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_3620>
+	rdfs:label "Cypress Creek SEL 3620" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:3620> ;
+	cptlc:hasUUID "36185780-2ec8-434e-b9ff-d23ea6e96193" ;
+	enet:hasIPAddressValue "192.168.1.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_3620> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_4> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_5> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_3> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_4> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_5> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2325>
+	rdfs:label "Cypress Creek BRK 2325" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2325> ;
+	cptlc:hasUUID "9fe04795-2ae4-47be-9dae-d60808bb84f1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1>
+	rdfs:label "Cypress Creek SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "73cd5af8-60b7-4563-bf38-c6cec7594d00" ;
+	enet:hasIPAddressValue "10.31.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_4>
+	rdfs:label "Cypress Creek SEL 421 4" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "7fb091cc-163c-4dfd-8f55-7aceda9aaee2" ;
+	enet:hasIPAddressValue "10.31.1.204" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_4> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_2>
+	rdfs:label "Shelbyville SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_2> ;
+	cptlc:hasUUID "fdbc4b0e-0a55-48a0-b37b-b18c347c9956" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2>
+	rdfs:label "Paris SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2> ;
+	cptlc:hasUUID "ad04ff88-d11e-4b96-8f37-bf63f0403deb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1719>
+	rdfs:label "Cypress Creek BRK 1719" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1719> ;
+	cptlc:hasUUID "f415bc05-3b2e-4f23-bbcd-a5e579bc4510" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3>
+	rdfs:label "Cypress Creek SEL 421 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "c56d1e83-8ccc-44fd-93a9-25f50ddb703f" ;
+	enet:hasIPAddressValue "10.31.1.203" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3>
+	rdfs:label "North Haverbrook Distance Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_3> ;
+	cptlc:hasUUID "8cc7974c-c37b-4986-a6b4-eb8785b72979" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1615>
+	rdfs:label "Cypress Creek BRK 1615" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1615> ;
+	cptlc:hasUUID "d3692701-fe5e-4b1c-8635-f8bb2147bfb6" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_5>
+	rdfs:label "Cypress Creek SEL 451 5" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "7380eecd-a2b3-4969-9083-21a3d18f10b8" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2125> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2225> ;
+	enet:hasIPAddressValue "10.31.1.105" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_5> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1519>
+	rdfs:label "Cypress Creek BRK 1519" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1519> ;
+	cptlc:hasUUID "c85043d2-1a1d-4c7a-ab8e-69cb353576ff" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2425>
+	rdfs:label "Cypress Creek BRK 2425" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2425> ;
+	cptlc:hasUUID "10ff7c21-ec7c-4bc7-a06b-007e8731f675" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_2>
+	rdfs:label "Cypress Creek SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_2> ;
+	enet:hasIPAddressValue "10.31.1.202" ;
+	cptlc:hasUUID "7f336b00-f54f-4cc9-87bb-21251a1f2dd2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_5>
+	rdfs:label "Cypress Creek SEL 421 5" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "5b8800b5-ac08-4819-bba9-6b7b60f64cae" ;
+	enet:hasIPAddressValue "10.31.1.205" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_5> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1>
+	rdfs:label "Odgenville SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1> ;
+	cptlc:hasUUID "a1cc5d34-9d45-4729-8361-c06a90df9ace" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7>
+	rdfs:label "Cypress Creek SEL 421 7" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "c5a1f3fe-dd10-4e9a-a025-68f91fe748c9" ;
+	enet:hasIPAddressValue "10.31.1.207" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Distance_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2019>
+	rdfs:label "Cypress Creek BRK 2019" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2019> ;
+	cptlc:hasUUID "f63e8aaf-0ad1-4099-a616-b153ebb568d1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1925>
+	rdfs:label "Cypress Creek BRK 1925" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1925> ;
+	cptlc:hasUUID "2a2d110d-9951-4fc3-a61c-f072caf8513d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2125>
+	rdfs:label "Cypress Creek BRK 2125" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2125> ;
+	cptlc:hasUUID "2154a90c-8ccb-4faa-85b7-a531513a0c6d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_2>
+	rdfs:label "Cypress Creek SEL 451 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "9cf12279-ecdd-426f-9a59-b0d79ca11718" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1519> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1715> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1815> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_1615> ;
+	enet:hasIPAddressValue "10.31.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_4>
+	rdfs:label "Cypress Creek SEL 451 4" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "530748f2-af9a-4da4-aeb3-ef7a35108dc3" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard.BRK_2325> ;
+	enet:hasIPAddressValue "10.31.1.104" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_4> ;
+	.
+

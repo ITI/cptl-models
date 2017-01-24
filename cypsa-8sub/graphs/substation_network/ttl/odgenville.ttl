@@ -1,0 +1,160 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56>
+	rdfs:label "Odgenville BRK 56" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56> ;
+	cptlc:hasUUID "c81b71fc-8677-4887-974b-a9cba0939904" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23>
+	rdfs:label "Odgenville BRK 23" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23> ;
+	cptlc:hasUUID "b13aafed-99af-4fc0-b53f-e273802a1ea7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1>
+	rdfs:label "North Haverbrook Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1> ;
+	cptlc:hasUUID "ed9c5caf-1309-40b2-81a3-72f1ab68d683" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12>
+	rdfs:label "Odgenville BRK 12" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12> ;
+	cptlc:hasUUID "5be74b36-a578-409a-b355-e51533fe5e79" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34>
+	rdfs:label "Odgenville BRK 34" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34> ;
+	cptlc:hasUUID "c49558e3-a38c-4314-9d7a-64a4fb74823d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1>
+	rdfs:label "Odgenville SEL 421 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "bb2c3b34-8299-437f-a162-f79a6e72640d" ;
+	enet:hasIPAddressValue "10.34.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42>
+	rdfs:label "Odgenville BRK 42" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42> ;
+	cptlc:hasUUID "4a96d2ea-ecf4-4171-a5ee-e1958c8103ee" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25>
+	rdfs:label "Odgenville BRK 25" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25> ;
+	cptlc:hasUUID "7c37443e-a221-41ec-bcd9-9b2480e32ab1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_2>
+	rdfs:label "Odgenville SEL 451 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "28b2617f-3245-467b-a2e5-1b0e149589b2" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_42> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_23> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_34> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12> ;
+	enet:hasIPAddressValue "10.34.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62>
+	rdfs:label "Odgenville BRK 62" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62> ;
+	cptlc:hasUUID "af8aa8da-7f9d-454d-85e8-1cb4678fa7d7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14>
+	rdfs:label "Odgenville BRK 14" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	cptlc:hasUUID "0529e661-acc9-449f-aa55-9195fd4d84e6" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6>
+	rdfs:label "Cypress Creek SEL 421 6" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6> ;
+	cptlc:hasUUID "02b71caa-d730-4577-91dd-e960c78d869b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2>
+	rdfs:label "Odgenville SEL 421 2" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasUUID "bdda7db1-1d59-4b99-a015-008b57cec064" ;
+	enet:hasIPAddressValue "10.34.1.202" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Distance_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_1>
+	rdfs:label "Odgenville SEL 451 1" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "cf98e3de-4318-46fe-8645-b39fb26f2627" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_14> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_12> ;
+	enet:hasIPAddressValue "10.34.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_3620>
+	rdfs:label "Odgenville SEL 3620" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:3620> ;
+	cptlc:hasUUID "aba37a93-1e83-4a65-8598-1a865d99a6ad" ;
+	enet:hasIPAddressValue "192.168.4.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_3620> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_2> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_3>
+	rdfs:label "Odgenville SEL 451 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:451> ;
+	cptlc:hasUUID "afbe4c7c-ca25-404b-a56d-554a96e31928" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_25> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_56> ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard.BRK_62> ;
+	enet:hasIPAddressValue "10.34.1.103" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_3> ;
+	.
+

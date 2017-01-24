@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiid="cptl" tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts"
+	       xmlns:dc="http://purl.org/dc/elements/1.1/">
+  
+  <ctsnamespace abbr="cptl" ns="http://cptl-c.org/cptlns/cptl">
+    <description xml:lang="eng"> Inventory of ontologies used by the Cyber Physical Topology Language (CPTL)</description>
+  </ctsnamespace>
+
+  <!-- Enterprise -->
+  <textgroup urn="urn:cts:cptl:enterprise:">
+    <groupname xml:lang="eng">CPTL Enterprise Ontologies</groupname>
+    <work urn="urn:cts:cptl:enterprise.enet:" xml:lang="eng">
+      <title xml:lang="eng">CPTL Enterprise Network</title>
+      <edition urn="urn:cts:cptl:enterprise.enet.2015-07:">
+	<label xml:lang="eng">CPTL Enterprise Network Ontology, July 2015</label>
+	<description xml:lang="eng">An ontology to describe relations among assets within an enterprise network.</description>
+	<online/>
+      </edition>
+    </work>
+  </textgroup>
+
+  <!-- General -->
+  <textgroup urn="urn:cts:cptl:general:">
+    <groupname xml:lang="eng">CPTL General-Purpose Ontologies</groupname>
+    <work urn="urn:cts:cptl:general.cptlc:" xml:lang="eng">
+      <title xml:lang="eng">CPTL Core</title>
+      <edition urn="urn:cts:cptl:general.cptlc.2014-07:">
+	<label xml:lang="eng">CPTL Core, July 2014</label>
+	<description xml:lang="eng">Basic concepts and relations within cyber-physical systems</description>
+	<online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <!-- Electrical Power -->
+  <textgroup urn="urn:cts:cptl:power:">
+    <groupname xml:lang="eng">CPTL Ontologies Specific to Electrical Power</groupname>
+
+    <work urn="urn:cts:cptl:power.snet:" xml:lang="eng">
+      <title xml:lang="eng">Substation Network Assets and Relations</title>
+      <edition urn="urn:cts:cptl:power.snet.2015-07:">
+	<label xml:lang="eng">CPTL Substation Network Ontology, July 2015</label>
+	<description xml:lang="eng">An ontology to describe relations among assets within a substation network.</description>
+	<online/>
+      </edition>
+    </work>
+
+    <work urn="urn:cts:cptl:power.syard:" xml:lang="eng">
+      <title xml:lang="eng">Substation Yard Assets and Relations</title>
+      <edition urn="urn:cts:cptl:power.syard.2015-07:">
+	<label xml:lang="eng">CPTL Substation Yard Ontology, July 2015</label>
+	<description xml:lang="eng">An ontology to describe relations among assets within a substation yard.</description>
+	<online/>
+      </edition>
+    </work>
+  </textgroup>
+
+</TextInventory>

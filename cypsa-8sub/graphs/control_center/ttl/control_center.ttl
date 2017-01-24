@@ -1,0 +1,1866 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2350e4e8-7951-4288-ad77-f8383ea9e874>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2350e4e8-7951-4288-ad77-f8383ea9e874> ;
+	enet:hasIPAddressValue "10.38.1.1" ;
+	cptlc:hasUUID "2350e4e8-7951-4288-ad77-f8383ea9e874" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fd2c5fa4-2ec7-4ac6-82ce-a51dfcd6f95a>
+	rdfs:label "ciscoasa" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fd2c5fa4-2ec7-4ac6-82ce-a51dfcd6f95a> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.84b96cc1-22d1-4ae2-85ed-ad2a3528889c> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fa30b400-f23e-44b5-84e7-0bc6050dea55> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a1f07e46-6239-42c6-9c50-5956e0776e86> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2264230f-0885-44ac-82f6-37b2d0f72df7> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.715dd0f0-0a59-4225-8ba7-f1b44e021ec3> ;
+	cptlc:hasUUID "fd2c5fa4-2ec7-4ac6-82ce-a51dfcd6f95a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f70d2847-b1ad-4076-ad7f-de9fb517b40f>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f70d2847-b1ad-4076-ad7f-de9fb517b40f> ;
+	cptlc:hasUUID "f70d2847-b1ad-4076-ad7f-de9fb517b40f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4596b71-031a-4675-be38-22d4bb6973e2>
+	rdfs:label "NPV_IFACE_1901" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4596b71-031a-4675-be38-22d4bb6973e2> ;
+	enet:hasIPAddressValue "192.17.102.104" ;
+	cptlc:hasUUID "c4596b71-031a-4675-be38-22d4bb6973e2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0e2d7c4e-cbfb-409d-bf65-03974e441ddf>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0e2d7c4e-cbfb-409d-bf65-03974e441ddf> ;
+	cptlc:hasUUID "0e2d7c4e-cbfb-409d-bf65-03974e441ddf" ;
+	.
+
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f3df12e-2be0-4be4-93f5-5280d346443f>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f3df12e-2be0-4be4-93f5-5280d346443f> ;
+	cptlc:hasUUID "6f3df12e-2be0-4be4-93f5-5280d346443f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aef4b0d0-b07f-420e-ba88-635add6c31e0>
+	rdfs:label "NPV_IFACE_1951" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aef4b0d0-b07f-420e-ba88-635add6c31e0> ;
+	enet:hasIPAddressValue "10.35.1.101" ;
+	cptlc:hasUUID "aef4b0d0-b07f-420e-ba88-635add6c31e0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b6bcd7aa-db1f-4252-9277-1d5839ed539f>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b6bcd7aa-db1f-4252-9277-1d5839ed539f> ;
+	cptlc:hasUUID "b6bcd7aa-db1f-4252-9277-1d5839ed539f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.383991d3-c629-4fa9-87a1-bed5313278a8>
+	rdfs:label "NPV_IFACE_1977" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.383991d3-c629-4fa9-87a1-bed5313278a8> ;
+	enet:hasIPAddressValue "10.38.1.201" ;
+	cptlc:hasUUID "383991d3-c629-4fa9-87a1-bed5313278a8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a11a61a0-ae4f-44db-8788-afaeda03f343>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a11a61a0-ae4f-44db-8788-afaeda03f343> ;
+	cptlc:hasUUID "a11a61a0-ae4f-44db-8788-afaeda03f343" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c37821b-ba6a-4ce4-8ff9-51ec259b4ac3>
+	rdfs:label "NPV_IFACE_1931" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c37821b-ba6a-4ce4-8ff9-51ec259b4ac3> ;
+	enet:hasIPAddressValue "10.34.1.250" ;
+	cptlc:hasUUID "5c37821b-ba6a-4ce4-8ff9-51ec259b4ac3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e3f92938-6cd3-42e6-9ff0-50af24d090ec>
+	rdfs:label "NPV_IFACE_2019" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e3f92938-6cd3-42e6-9ff0-50af24d090ec> ;
+	enet:hasIPAddressValue "10.31.1.105" ;
+	cptlc:hasUUID "e3f92938-6cd3-42e6-9ff0-50af24d090ec" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d6e5789a-3a46-4279-a2cd-8a298bfcc85a>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d6e5789a-3a46-4279-a2cd-8a298bfcc85a> ;
+	cptlc:hasUUID "d6e5789a-3a46-4279-a2cd-8a298bfcc85a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bee4ac73-8a0f-4bd0-970a-e843abf7c357>
+	rdfs:label "NPV_IFACE_1893" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bee4ac73-8a0f-4bd0-970a-e843abf7c357> ;
+	enet:hasIPAddressValue "72.36.82.195" ;
+	cptlc:hasUUID "bee4ac73-8a0f-4bd0-970a-e843abf7c357" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac81b0ef-2d14-4b70-aee7-c1da2709a1c3>
+	rdfs:label "NPV_IFACE_1953" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac81b0ef-2d14-4b70-aee7-c1da2709a1c3> ;
+	enet:hasIPAddressValue "10.35.1.102" ;
+	cptlc:hasUUID "ac81b0ef-2d14-4b70-aee7-c1da2709a1c3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1>
+	rdfs:label "10.34.1.201" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f76b8ad-cdc7-478f-b511-f80514c7fa9a> ;
+	cptlc:hasUUID "345cba97-5f48-407c-b398-f741b43054a5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f139294-c723-4e25-85dc-11f2d8e6f6c0>
+	rdfs:label "NPV_IFACE_1879" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f139294-c723-4e25-85dc-11f2d8e6f6c0> ;
+	enet:hasIPAddressValue "0.0.0.0" ;
+	cptlc:hasUUID "6f139294-c723-4e25-85dc-11f2d8e6f6c0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1020b8a5-705b-45a9-a91e-4a1d2bfa0b1e>
+	rdfs:label "NPV_IFACE_1957" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1020b8a5-705b-45a9-a91e-4a1d2bfa0b1e> ;
+	enet:hasIPAddressValue "10.35.1.104" ;
+	cptlc:hasUUID "1020b8a5-705b-45a9-a91e-4a1d2bfa0b1e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7a6ad2f0-7ce5-4d86-944d-b0e1beeb46b5>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7a6ad2f0-7ce5-4d86-944d-b0e1beeb46b5> ;
+	cptlc:hasUUID "7a6ad2f0-7ce5-4d86-944d-b0e1beeb46b5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7d1fba41-4a05-4336-b34b-6769ee436f0b>
+	rdfs:label "NPV_IFACE_1989" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7d1fba41-4a05-4336-b34b-6769ee436f0b> ;
+	enet:hasIPAddressValue "10.38.1.104" ;
+	cptlc:hasUUID "7d1fba41-4a05-4336-b34b-6769ee436f0b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f151103a-0700-4c97-b7d9-b03bc15daafd>
+	rdfs:label "Unmapped" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Gateway> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f151103a-0700-4c97-b7d9-b03bc15daafd> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f139294-c723-4e25-85dc-11f2d8e6f6c0> ;
+	cptlc:hasUUID "f151103a-0700-4c97-b7d9-b03bc15daafd" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6db54c79-9614-4dd0-ad64-4cc9e87f34fc>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6db54c79-9614-4dd0-ad64-4cc9e87f34fc> ;
+	enet:hasIPAddressValue "10.1.1.4" ;
+	cptlc:hasUUID "6db54c79-9614-4dd0-ad64-4cc9e87f34fc" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4027f8a6-0671-402b-8a44-e3c405e0678f>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4027f8a6-0671-402b-8a44-e3c405e0678f> ;
+	cptlc:hasUUID "4027f8a6-0671-402b-8a44-e3c405e0678f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dee6d85e-2ee3-4552-a1e9-dab475869680>
+	rdfs:label "NPV_IFACE_1967" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dee6d85e-2ee3-4552-a1e9-dab475869680> ;
+	enet:hasIPAddressValue "10.36.1.101" ;
+	cptlc:hasUUID "dee6d85e-2ee3-4552-a1e9-dab475869680" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac7a2473-b60b-4cd0-a3ee-56ffca75c454>
+	rdfs:label "NPV_IFACE_1945" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac7a2473-b60b-4cd0-a3ee-56ffca75c454> ;
+	enet:hasIPAddressValue "10.35.1.201" ;
+	cptlc:hasUUID "ac7a2473-b60b-4cd0-a3ee-56ffca75c454" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Switch_1>
+	rdfs:label "10.37.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Switch_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54123611-5cd4-4896-b76f-2109a0d48ee7> ;
+	cptlc:hasUUID "a978bbcf-c314-46ee-bb1f-536d535425be" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4d9def7f-5389-4db8-a2c1-7a65996ad693>
+	rdfs:label "72.36.82.1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Gateway> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4d9def7f-5389-4db8-a2c1-7a65996ad693> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a037b508-6644-40ff-9004-b046856111a9> ;
+	cptlc:hasUUID "4d9def7f-5389-4db8-a2c1-7a65996ad693" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e6c5edc9-51ff-4f90-9fca-3703b4755aed>
+	rdfs:label "NPV_IFACE_1983" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e6c5edc9-51ff-4f90-9fca-3703b4755aed> ;
+	enet:hasIPAddressValue "10.38.1.101" ;
+	cptlc:hasUUID "e6c5edc9-51ff-4f90-9fca-3703b4755aed" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9d3e8f25-96d1-4b72-a062-4af85293df14>
+	rdfs:label "70.32.128.171" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9d3e8f25-96d1-4b72-a062-4af85293df14> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.556b380d-397b-470b-9fb0-78709d2c0973> ;
+	cptlc:hasUUID "9d3e8f25-96d1-4b72-a062-4af85293df14" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e1d696ef-18a5-41dd-9f0f-9d1312285176>
+	rdfs:label "NPV_IFACE_1897" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e1d696ef-18a5-41dd-9f0f-9d1312285176> ;
+	enet:hasIPAddressValue "192.17.102.102" ;
+	cptlc:hasUUID "e1d696ef-18a5-41dd-9f0f-9d1312285176" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fb370e27-cdd2-4cac-921f-aa8056f8b479>
+	rdfs:label "NPV_IFACE_1987" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fb370e27-cdd2-4cac-921f-aa8056f8b479> ;
+	enet:hasIPAddressValue "10.38.1.103" ;
+	cptlc:hasUUID "fb370e27-cdd2-4cac-921f-aa8056f8b479" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2d519708-5bbc-4e35-b95c-d7cc4b31239b>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2d519708-5bbc-4e35-b95c-d7cc4b31239b> ;
+	enet:hasIPAddressValue "10.1.1.6" ;
+	cptlc:hasUUID "2d519708-5bbc-4e35-b95c-d7cc4b31239b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.971121eb-f1df-4b43-a64f-115c39be152d>
+	rdfs:label "NPV_IFACE_1973" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.971121eb-f1df-4b43-a64f-115c39be152d> ;
+	enet:hasIPAddressValue "10.36.1.104" ;
+	cptlc:hasUUID "971121eb-f1df-4b43-a64f-115c39be152d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.acafae30-314b-4f60-84c5-4c1098d4c7ae>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.acafae30-314b-4f60-84c5-4c1098d4c7ae> ;
+	cptlc:hasUUID "acafae30-314b-4f60-84c5-4c1098d4c7ae" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18b363d4-81a2-4c14-b945-6dfe3c7cda08>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18b363d4-81a2-4c14-b945-6dfe3c7cda08> ;
+	cptlc:hasUUID "18b363d4-81a2-4c14-b945-6dfe3c7cda08" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c726e5f8-ba92-4196-81cf-a361907ac966>
+	rdfs:label "72.36.82.196" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c726e5f8-ba92-4196-81cf-a361907ac966> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0290d0e5-562f-4159-af58-90436ac6cf0c> ;
+	cptlc:hasUUID "c726e5f8-ba92-4196-81cf-a361907ac966" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.79736744-0ff4-4b7a-8d42-204a7d74a80e>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.79736744-0ff4-4b7a-8d42-204a7d74a80e> ;
+	enet:hasIPAddressValue "10.1.1.3" ;
+	cptlc:hasUUID "79736744-0ff4-4b7a-8d42-204a7d74a80e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9f198cab-5e3c-4fd9-9e9e-0f8ed93eefab>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9f198cab-5e3c-4fd9-9e9e-0f8ed93eefab> ;
+	cptlc:hasUUID "9f198cab-5e3c-4fd9-9e9e-0f8ed93eefab" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0a6d5418-608d-4b91-a9ae-920c36a255b6>
+	rdfs:label "10.37.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0a6d5418-608d-4b91-a9ae-920c36a255b6> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54123611-5cd4-4896-b76f-2109a0d48ee7> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3767dbe9-de5c-451a-a2ad-d19daf16f9e5> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e091d48b-9b09-4961-a659-f968c40cc0df> ;
+	cptlc:hasUUID "0a6d5418-608d-4b91-a9ae-920c36a255b6" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f0b267c4-ca4a-456c-8546-98d8e629d68d>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f0b267c4-ca4a-456c-8546-98d8e629d68d> ;
+	enet:hasIPAddressValue "10.1.1.8" ;
+	cptlc:hasUUID "f0b267c4-ca4a-456c-8546-98d8e629d68d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f38a35bb-324e-42e6-8775-0416abd5812d>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f38a35bb-324e-42e6-8775-0416abd5812d> ;
+	cptlc:hasUUID "f38a35bb-324e-42e6-8775-0416abd5812d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2>
+	rdfs:label "10.35.1.202" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fe5c9576-4e44-4961-bede-de3d2b4395c9> ;
+	cptlc:hasUUID "68c6b203-225d-4462-b032-8d994e2f6453" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.eca27a82-a511-48d4-a5dd-63047b6763eb>
+	rdfs:label "NPV_IFACE_2021" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.eca27a82-a511-48d4-a5dd-63047b6763eb> ;
+	enet:hasIPAddressValue "10.32.1.250" ;
+	cptlc:hasUUID "eca27a82-a511-48d4-a5dd-63047b6763eb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.>
+	rdfs:label "Odgenville" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6db54c79-9614-4dd0-ad64-4cc9e87f34fc> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.de37689d-dc1d-4379-b722-4e3f78f154a4> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9a1a57c3-2a76-4800-80db-2bad3e179b4c> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.63840acc-7211-4770-8602-ea33373351b8> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2203efd3-069b-45b3-b0b0-2ddf5abae8e0> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ed7b9658-26de-47b0-82a3-0243365ad565> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f8dccfa-9921-4429-ba47-6b6844270da0> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71169652-fda0-4b4b-aef2-5a86219d796f> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ba4ff897-82e8-4814-ac09-5efa4ed3a24c> ;
+	cptlc:hasUUID "e05c7229-c49c-4674-8859-826009187f99" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Overcurrent_Relay_1>
+	rdfs:label "10.32.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Overcurrent_Relay_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a617aa43-6dc0-41c6-ae28-f9065075a707> ;
+	cptlc:hasUUID "590e8f50-f6d2-4eb2-9b78-1f6ad199eb96" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e184e8a7-8887-429b-a4cd-14bb325eb34c>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e184e8a7-8887-429b-a4cd-14bb325eb34c> ;
+	cptlc:hasUUID "e184e8a7-8887-429b-a4cd-14bb325eb34c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.25adc925-b32e-4494-bc6e-0c657e2978ce>
+	rdfs:label "Vlan2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.25adc925-b32e-4494-bc6e-0c657e2978ce> ;
+	cptlc:hasUUID "25adc925-b32e-4494-bc6e-0c657e2978ce" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18bfdb1d-29b1-4b32-99d1-06ebe7068e7b>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18bfdb1d-29b1-4b32-99d1-06ebe7068e7b> ;
+	cptlc:hasUUID "18bfdb1d-29b1-4b32-99d1-06ebe7068e7b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dbda1c13-2af9-414f-b985-97cd78b74533>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dbda1c13-2af9-414f-b985-97cd78b74533> ;
+	enet:hasIPAddressValue "10.1.1.7" ;
+	cptlc:hasUUID "dbda1c13-2af9-414f-b985-97cd78b74533" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Switch_1>
+	rdfs:label "10.33.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Switch_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bb2f0407-e79d-4aea-b4f3-f1892c06fe41> ;
+	cptlc:hasUUID "e6b19c5d-f4ff-425c-aadf-33acd8963070" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_3>
+	rdfs:label "10.31.1.103" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.08012000-4c0a-4a35-b752-08e0181348e9> ;
+	cptlc:hasUUID "7fe0bce7-5f54-41df-a6c2-a81fe003c516" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f30f891-5e76-48c5-abc5-af9a3fcd374d>
+	rdfs:label "10.36.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f30f891-5e76-48c5-abc5-af9a3fcd374d> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71cd459f-0715-49c1-aad1-f815000bd3ab> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f180ea33-d63b-47a2-bdef-855486b34529> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6285f875-08c3-4ba1-8756-58253cfa87b6> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cd475306-25bf-4fdb-b22a-14870d711102> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dee6d85e-2ee3-4552-a1e9-dab475869680> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.865c6a52-99f9-46da-94c6-7bc3c25069f0> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f2fa63a-b98f-4b51-9f73-0da03faf9028> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.971121eb-f1df-4b43-a64f-115c39be152d> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ffaabb37-3019-426b-b5c8-78e628745efb> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.abe2e453-4907-4280-b2d9-19208c2b3055> ;
+	cptlc:hasUUID "0f30f891-5e76-48c5-abc5-af9a3fcd374d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aefca014-d163-4d47-aed4-cab55e8a1f9e>
+	rdfs:label "192.17.102.102" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aefca014-d163-4d47-aed4-cab55e8a1f9e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e1d696ef-18a5-41dd-9f0f-9d1312285176> ;
+	cptlc:hasUUID "aefca014-d163-4d47-aed4-cab55e8a1f9e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9447c4c6-a48c-40a6-8935-c5b2d6d1f443>
+	rdfs:label "NPV_IFACE_1935" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9447c4c6-a48c-40a6-8935-c5b2d6d1f443> ;
+	enet:hasIPAddressValue "10.34.1.202" ;
+	cptlc:hasUUID "9447c4c6-a48c-40a6-8935-c5b2d6d1f443" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Switch_1>
+	rdfs:label "10.38.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Switch_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.946f7865-cf3a-4e3c-abcd-8df82e649da3> ;
+	cptlc:hasUUID "670a6181-1a84-434c-9582-536278c1f0a3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f76b8ad-cdc7-478f-b511-f80514c7fa9a>
+	rdfs:label "NPV_IFACE_1933" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f76b8ad-cdc7-478f-b511-f80514c7fa9a> ;
+	enet:hasIPAddressValue "10.34.1.201" ;
+	cptlc:hasUUID "0f76b8ad-cdc7-478f-b511-f80514c7fa9a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.235623c1-6587-4c58-85fd-05bcd6b3725e>
+	rdfs:label "NPV_IFACE_2005" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.235623c1-6587-4c58-85fd-05bcd6b3725e> ;
+	enet:hasIPAddressValue "10.31.1.205" ;
+	cptlc:hasUUID "235623c1-6587-4c58-85fd-05bcd6b3725e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d22bd5de-217b-4632-8e61-3e3dfac38d34>
+	rdfs:label "NPV_IFACE_1895" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d22bd5de-217b-4632-8e61-3e3dfac38d34> ;
+	enet:hasIPAddressValue "10.39.1.22" ;
+	cptlc:hasUUID "d22bd5de-217b-4632-8e61-3e3dfac38d34" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_5>
+	rdfs:label "10.31.1.205" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_5> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.235623c1-6587-4c58-85fd-05bcd6b3725e> ;
+	cptlc:hasUUID "e224c3c8-d3e0-466a-bcd6-823fd5c55acb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d0b868e4-5baf-4bbc-a058-3bd604cf199c>
+	rdfs:label "Ethernet0/5" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d0b868e4-5baf-4bbc-a058-3bd604cf199c> ;
+	cptlc:hasUUID "d0b868e4-5baf-4bbc-a058-3bd604cf199c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b2b0186e-ee13-4653-b97e-7951c99e358a>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b2b0186e-ee13-4653-b97e-7951c99e358a> ;
+	enet:hasIPAddressValue "10.31.1.1" ;
+	cptlc:hasUUID "b2b0186e-ee13-4653-b97e-7951c99e358a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a619422b-58f0-42bc-89a9-2e2fddce2965>
+	rdfs:label "NPV_IFACE_1949" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a619422b-58f0-42bc-89a9-2e2fddce2965> ;
+	enet:hasIPAddressValue "10.35.1.203" ;
+	cptlc:hasUUID "a619422b-58f0-42bc-89a9-2e2fddce2965" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fc2d39da-9db4-4f18-9a11-ed850772e490>
+	rdfs:label "10.34.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fc2d39da-9db4-4f18-9a11-ed850772e490> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c37821b-ba6a-4ce4-8ff9-51ec259b4ac3> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0f76b8ad-cdc7-478f-b511-f80514c7fa9a> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9447c4c6-a48c-40a6-8935-c5b2d6d1f443> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.39857355-81f2-457a-ae9a-73252d85e9f9> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1141f6d2-e95b-4160-bfba-270c0e4f513d> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.12fb1c38-7338-461f-9018-16084f233878> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.de37689d-dc1d-4379-b722-4e3f78f154a4> ;
+	cptlc:hasUUID "fc2d39da-9db4-4f18-9a11-ed850772e490" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.279066fb-2607-42a4-b7d8-3696776a05e0>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.279066fb-2607-42a4-b7d8-3696776a05e0> ;
+	cptlc:hasUUID "279066fb-2607-42a4-b7d8-3696776a05e0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.61f77099-8a83-4644-8f61-519f23ba0a76>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.61f77099-8a83-4644-8f61-519f23ba0a76> ;
+	cptlc:hasUUID "61f77099-8a83-4644-8f61-519f23ba0a76" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.89105627-fc5e-4b6c-ab58-62cf31ed4dc9>
+	rdfs:label "192.17.0.0/16" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.89105627-fc5e-4b6c-ab58-62cf31ed4dc9> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e1d696ef-18a5-41dd-9f0f-9d1312285176> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d2f4eea7-8556-463f-ad7a-dc5e87da26d1> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4596b71-031a-4675-be38-22d4bb6973e2> ;
+	cptlc:hasUUID "89105627-fc5e-4b6c-ab58-62cf31ed4dc9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.12fb1c38-7338-461f-9018-16084f233878>
+	rdfs:label "NPV_IFACE_1941" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.12fb1c38-7338-461f-9018-16084f233878> ;
+	enet:hasIPAddressValue "10.34.1.103" ;
+	cptlc:hasUUID "12fb1c38-7338-461f-9018-16084f233878" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_2>
+	rdfs:label "10.31.1.102" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8ddda7a2-336b-4880-9d8c-23ad7d9e90be> ;
+	cptlc:hasUUID "dbec8fc8-444e-4a7c-a9cf-0074289918ee" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_5>
+	rdfs:label "10.36.1.105" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_5> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ffaabb37-3019-426b-b5c8-78e628745efb> ;
+	cptlc:hasUUID "dc75089c-68f0-429b-a6db-55fa6a81cee5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.63840acc-7211-4770-8602-ea33373351b8>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.63840acc-7211-4770-8602-ea33373351b8> ;
+	cptlc:hasUUID "63840acc-7211-4770-8602-ea33373351b8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.865c6a52-99f9-46da-94c6-7bc3c25069f0>
+	rdfs:label "NPV_IFACE_1969" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.865c6a52-99f9-46da-94c6-7bc3c25069f0> ;
+	enet:hasIPAddressValue "10.36.1.102" ;
+	cptlc:hasUUID "865c6a52-99f9-46da-94c6-7bc3c25069f0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dc19acf3-2759-4cc2-b8e2-0ccf9249a592>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dc19acf3-2759-4cc2-b8e2-0ccf9249a592> ;
+	cptlc:hasUUID "dc19acf3-2759-4cc2-b8e2-0ccf9249a592" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f59b56e-9a3d-4ab0-aa2a-fa1275a1c792>
+	rdfs:label "NPV_IFACE_1903" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f59b56e-9a3d-4ab0-aa2a-fa1275a1c792> ;
+	enet:hasIPAddressValue "70.32.128.22" ;
+	cptlc:hasUUID "6f59b56e-9a3d-4ab0-aa2a-fa1275a1c792" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2339a7ca-bc5b-4fe4-be5c-683177e2d398>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2339a7ca-bc5b-4fe4-be5c-683177e2d398> ;
+	enet:hasIPAddressValue "10.1.1.9" ;
+	cptlc:hasUUID "2339a7ca-bc5b-4fe4-be5c-683177e2d398" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.db5d0d76-e33a-4e25-b7e3-0d81b833848b>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.db5d0d76-e33a-4e25-b7e3-0d81b833848b> ;
+	cptlc:hasUUID "db5d0d76-e33a-4e25-b7e3-0d81b833848b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fbd08cad-1a56-44fc-b5b8-0b57a5e32787>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fbd08cad-1a56-44fc-b5b8-0b57a5e32787> ;
+	cptlc:hasUUID "fbd08cad-1a56-44fc-b5b8-0b57a5e32787" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fe5c9576-4e44-4961-bede-de3d2b4395c9>
+	rdfs:label "NPV_IFACE_1947" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fe5c9576-4e44-4961-bede-de3d2b4395c9> ;
+	enet:hasIPAddressValue "10.35.1.202" ;
+	cptlc:hasUUID "fe5c9576-4e44-4961-bede-de3d2b4395c9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2203efd3-069b-45b3-b0b0-2ddf5abae8e0>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2203efd3-069b-45b3-b0b0-2ddf5abae8e0> ;
+	cptlc:hasUUID "2203efd3-069b-45b3-b0b0-2ddf5abae8e0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b769c43d-00f7-44d9-b95f-4be7cfbc1a85>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b769c43d-00f7-44d9-b95f-4be7cfbc1a85> ;
+	cptlc:hasUUID "b769c43d-00f7-44d9-b95f-4be7cfbc1a85" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4179de3e-d5a9-4502-b65d-06274b456134>
+	rdfs:label "Vlan2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4179de3e-d5a9-4502-b65d-06274b456134> ;
+	cptlc:hasUUID "4179de3e-d5a9-4502-b65d-06274b456134" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_3>
+	rdfs:label "10.36.1.203" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cd475306-25bf-4fdb-b22a-14870d711102> ;
+	cptlc:hasUUID "b7ff6e5d-a4b0-400a-8a72-cbdfb1c019e0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_3620>
+	rdfs:label "10.35.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_3620> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.21366994-cddd-4aca-a752-95f5df1f7c1c> ;
+	cptlc:hasUUID "1749e012-9569-455c-9143-e964c6768254" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.abe2e453-4907-4280-b2d9-19208c2b3055>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.abe2e453-4907-4280-b2d9-19208c2b3055> ;
+	enet:hasIPAddressValue "10.36.1.1" ;
+	cptlc:hasUUID "abe2e453-4907-4280-b2d9-19208c2b3055" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ed7b9658-26de-47b0-82a3-0243365ad565>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ed7b9658-26de-47b0-82a3-0243365ad565> ;
+	cptlc:hasUUID "ed7b9658-26de-47b0-82a3-0243365ad565" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_2>
+	rdfs:label "10.31.1.202" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.336cd687-1b6c-44d0-8bd1-0b8424149b2a> ;
+	cptlc:hasUUID "d17b23d9-343a-49a8-a6a2-fb262290ef16" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2>
+	rdfs:label "10.34.1.202" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_421_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9447c4c6-a48c-40a6-8935-c5b2d6d1f443> ;
+	cptlc:hasUUID "e1f6ba7c-9aa8-4f76-a67c-24a63ce33a82" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_1>
+	rdfs:label "10.37.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.Overcurrent_Relay_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3767dbe9-de5c-451a-a2ad-d19daf16f9e5> ;
+	cptlc:hasUUID "10a7f5a9-fc1b-410a-831a-1cc82899c5c5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_3620>
+	rdfs:label "10.31.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_3620> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.64f7a4b2-8f15-4e4f-9794-8b513452367d> ;
+	cptlc:hasUUID "f5601445-f091-4a91-8a31-e24a6233805f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.>
+	rdfs:label "Paris" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.67417627-7997-4184-915c-591a2d96e313> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1008034f-879e-496a-9340-3208ab990243> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4d66a53c-3434-49a2-92bd-9e87a6fc5d1b> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e184e8a7-8887-429b-a4cd-14bb325eb34c> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.083d3bdc-858f-4b6a-b98f-b131a497896b> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f70d2847-b1ad-4076-ad7f-de9fb517b40f> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b769c43d-00f7-44d9-b95f-4be7cfbc1a85> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b6bcd7aa-db1f-4252-9277-1d5839ed539f> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4b2e3684-5b1a-4f6b-a484-b17ef3206395> ;
+	cptlc:hasUUID "9e969ec3-e9e8-49a2-ab72-f9b3ae5ec17f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1090e64d-c279-43b2-b674-82541707f6d8>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1090e64d-c279-43b2-b674-82541707f6d8> ;
+	cptlc:hasUUID "1090e64d-c279-43b2-b674-82541707f6d8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1141f6d2-e95b-4160-bfba-270c0e4f513d>
+	rdfs:label "NPV_IFACE_1939" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1141f6d2-e95b-4160-bfba-270c0e4f513d> ;
+	enet:hasIPAddressValue "10.34.1.102" ;
+	cptlc:hasUUID "1141f6d2-e95b-4160-bfba-270c0e4f513d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4b19a028-de82-44dd-acf8-fd4b75a51ac1>
+	rdfs:label "72.36.82.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4b19a028-de82-44dd-acf8-fd4b75a51ac1> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c6531f4f-d8c1-46eb-9cbe-1f76f4ec8628> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bee4ac73-8a0f-4bd0-970a-e843abf7c357> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0290d0e5-562f-4159-af58-90436ac6cf0c> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.84b96cc1-22d1-4ae2-85ed-ad2a3528889c> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a037b508-6644-40ff-9004-b046856111a9> ;
+	cptlc:hasUUID "4b19a028-de82-44dd-acf8-fd4b75a51ac1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9a1a57c3-2a76-4800-80db-2bad3e179b4c>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9a1a57c3-2a76-4800-80db-2bad3e179b4c> ;
+	cptlc:hasUUID "9a1a57c3-2a76-4800-80db-2bad3e179b4c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_2>
+	rdfs:label "10.34.1.102" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1141f6d2-e95b-4160-bfba-270c0e4f513d> ;
+	cptlc:hasUUID "ace08a35-c7e0-43bc-8310-d480a6a9e991" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_4>
+	rdfs:label "10.31.1.104" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_4> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1c99c8c6-ecca-45dd-8ad0-7e7d16702359> ;
+	cptlc:hasUUID "73fc3bd2-505e-4447-95f8-bcb14cf1288c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.96be6cc3-d372-4838-98fc-4021389409bb>
+	rdfs:label "10.37.1.201" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.96be6cc3-d372-4838-98fc-4021389409bb> ;
+	cptlc:hasUUID "96be6cc3-d372-4838-98fc-4021389409bb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_3>
+	rdfs:label "10.35.1.103" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bdb6ea7b-44b2-430d-bf4a-249a32e15a08> ;
+	cptlc:hasUUID "62a78fdc-841b-4b5b-b0f7-bf55fa58c21c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a617aa43-6dc0-41c6-ae28-f9065075a707>
+	rdfs:label "NPV_IFACE_2023" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a617aa43-6dc0-41c6-ae28-f9065075a707> ;
+	enet:hasIPAddressValue "10.32.1.101" ;
+	cptlc:hasUUID "a617aa43-6dc0-41c6-ae28-f9065075a707" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4b2e3684-5b1a-4f6b-a484-b17ef3206395>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4b2e3684-5b1a-4f6b-a484-b17ef3206395> ;
+	cptlc:hasUUID "4b2e3684-5b1a-4f6b-a484-b17ef3206395" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d2f4eea7-8556-463f-ad7a-dc5e87da26d1>
+	rdfs:label "NPV_IFACE_1899" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d2f4eea7-8556-463f-ad7a-dc5e87da26d1> ;
+	enet:hasIPAddressValue "192.17.102.103" ;
+	cptlc:hasUUID "d2f4eea7-8556-463f-ad7a-dc5e87da26d1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a09cf4f7-b99d-475c-a43a-66a9972e4d8e>
+	rdfs:label "10.31.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a09cf4f7-b99d-475c-a43a-66a9972e4d8e> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.032953d2-fd9d-457c-a7af-3248132e6e72> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8ddda7a2-336b-4880-9d8c-23ad7d9e90be> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.08012000-4c0a-4a35-b752-08e0181348e9> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.64f7a4b2-8f15-4e4f-9794-8b513452367d> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1c99c8c6-ecca-45dd-8ad0-7e7d16702359> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4bec3d7b-72a6-4e64-ab72-1c43090f7b9f> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.336cd687-1b6c-44d0-8bd1-0b8424149b2a> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9c274459-4bd0-4046-96d6-2aa047ee9892> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9ef6340c-c6cb-4f59-ac77-2253a90a3efc> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.235623c1-6587-4c58-85fd-05bcd6b3725e> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54c88cd1-42bf-4665-b8b4-aaac75408f99> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e3f92938-6cd3-42e6-9ff0-50af24d090ec> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cc0190e0-fc40-48a2-a7ad-9fa4a951ebe1> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b2b0186e-ee13-4653-b97e-7951c99e358a> ;
+	cptlc:hasUUID "a09cf4f7-b99d-475c-a43a-66a9972e4d8e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54123611-5cd4-4896-b76f-2109a0d48ee7>
+	rdfs:label "NPV_IFACE_1883" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54123611-5cd4-4896-b76f-2109a0d48ee7> ;
+	enet:hasIPAddressValue "10.37.1.250" ;
+	cptlc:hasUUID "54123611-5cd4-4896-b76f-2109a0d48ee7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6272f8c9-5685-46cb-8d77-8a46f265a7f8>
+	rdfs:label "10.38.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6272f8c9-5685-46cb-8d77-8a46f265a7f8> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e6c5edc9-51ff-4f90-9fca-3703b4755aed> ;
+	cptlc:hasUUID "6272f8c9-5685-46cb-8d77-8a46f265a7f8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3>
+	rdfs:label "10.35.1.203" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a619422b-58f0-42bc-89a9-2e2fddce2965> ;
+	cptlc:hasUUID "56b6d71f-6798-4399-8dff-6726b090b3a3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c7e6cb29-8bb1-4a70-8537-de6b8872cff3>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c7e6cb29-8bb1-4a70-8537-de6b8872cff3> ;
+	enet:hasIPAddressValue "10.33.1.1" ;
+	cptlc:hasUUID "c7e6cb29-8bb1-4a70-8537-de6b8872cff3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3767dbe9-de5c-451a-a2ad-d19daf16f9e5>
+	rdfs:label "NPV_IFACE_1887" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3767dbe9-de5c-451a-a2ad-d19daf16f9e5> ;
+	enet:hasIPAddressValue "10.37.1.101" ;
+	cptlc:hasUUID "3767dbe9-de5c-451a-a2ad-d19daf16f9e5" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.36dbb6b2-ce43-47c4-bc32-b08a21874be8>
+	rdfs:label "Ethernet0/5" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.36dbb6b2-ce43-47c4-bc32-b08a21874be8> ;
+	cptlc:hasUUID "36dbb6b2-ce43-47c4-bc32-b08a21874be8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.>
+	rdfs:label "Springfield" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f0b267c4-ca4a-456c-8546-98d8e629d68d> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2350e4e8-7951-4288-ad77-f8383ea9e874> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.11c2cc61-01fe-4424-8723-1043e9740855> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7a6ad2f0-7ce5-4d86-944d-b0e1beeb46b5> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4c9ab95-98e9-4803-a01c-f8d2d1cc934d> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.38e9e0c2-d8b2-49df-bbdc-12ee07de4116> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f38a35bb-324e-42e6-8775-0416abd5812d> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a11a61a0-ae4f-44db-8788-afaeda03f343> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4027f8a6-0671-402b-8a44-e3c405e0678f> ;
+	cptlc:hasUUID "7883cf14-abb0-44c1-aba5-8f9a389ad0ae" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9ef6340c-c6cb-4f59-ac77-2253a90a3efc>
+	rdfs:label "NPV_IFACE_2003" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9ef6340c-c6cb-4f59-ac77-2253a90a3efc> ;
+	enet:hasIPAddressValue "10.31.1.204" ;
+	cptlc:hasUUID "9ef6340c-c6cb-4f59-ac77-2253a90a3efc" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8fd9b338-7cc6-4c13-b642-7e8a5978457f>
+	rdfs:label "Ethernet0/7" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8fd9b338-7cc6-4c13-b642-7e8a5978457f> ;
+	cptlc:hasUUID "8fd9b338-7cc6-4c13-b642-7e8a5978457f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ca413e56-becf-448f-b503-dde1dddad567>
+	rdfs:label "70.32.128.22" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ca413e56-becf-448f-b503-dde1dddad567> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f59b56e-9a3d-4ab0-aa2a-fa1275a1c792> ;
+	cptlc:hasUUID "ca413e56-becf-448f-b503-dde1dddad567" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bdb6ea7b-44b2-430d-bf4a-249a32e15a08>
+	rdfs:label "NPV_IFACE_1955" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bdb6ea7b-44b2-430d-bf4a-249a32e15a08> ;
+	enet:hasIPAddressValue "10.35.1.103" ;
+	cptlc:hasUUID "bdb6ea7b-44b2-430d-bf4a-249a32e15a08" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e2ca11c5-5718-4a5d-87c6-aaa050f4754a>
+	rdfs:label "10.1.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e2ca11c5-5718-4a5d-87c6-aaa050f4754a> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.67417627-7997-4184-915c-591a2d96e313> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2339a7ca-bc5b-4fe4-be5c-683177e2d398> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a40a1523-14c9-4439-9f31-ea38dd1600f3> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f0b267c4-ca4a-456c-8546-98d8e629d68d> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fa30b400-f23e-44b5-84e7-0bc6050dea55> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.79736744-0ff4-4b7a-8d42-204a7d74a80e> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6db54c79-9614-4dd0-ad64-4cc9e87f34fc> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2d519708-5bbc-4e35-b95c-d7cc4b31239b> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dbda1c13-2af9-414f-b985-97cd78b74533> ;
+	cptlc:hasUUID "e2ca11c5-5718-4a5d-87c6-aaa050f4754a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3>
+	rdfs:label "10.31.1.203" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9c274459-4bd0-4046-96d6-2aa047ee9892> ;
+	cptlc:hasUUID "7ebf4bc8-8811-4a22-927c-0c779faf1008" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_4>
+	rdfs:label "10.31.1.204" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_4> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9ef6340c-c6cb-4f59-ac77-2253a90a3efc> ;
+	cptlc:hasUUID "74b36b3c-ff0e-4a7d-835d-631b565cd2d0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.>
+	rdfs:label "Haverbrook" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.95988879-4b91-4314-b48f-35956a4243c7> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a40a1523-14c9-4439-9f31-ea38dd1600f3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.acafae30-314b-4f60-84c5-4c1098d4c7ae> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.61f77099-8a83-4644-8f61-519f23ba0a76> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d5cc8944-4f68-4937-a79f-d862275585c8> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d0b868e4-5baf-4bbc-a058-3bd604cf199c> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b5c22b94-6391-4d7d-b3d3-ad16645a907e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8fd9b338-7cc6-4c13-b642-7e8a5978457f> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7b8dc58e-a9ba-421b-8ab9-70663133cc18> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4179de3e-d5a9-4502-b65d-06274b456134> ;
+	cptlc:hasUUID "8d8573af-1bad-4d09-a105-0c953dbfe900" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6484ab74-45c9-4dde-8d23-a5177f5b9242>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6484ab74-45c9-4dde-8d23-a5177f5b9242> ;
+	cptlc:hasUUID "6484ab74-45c9-4dde-8d23-a5177f5b9242" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f90bbb35-c2b5-4320-afda-947397d94add>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f90bbb35-c2b5-4320-afda-947397d94add> ;
+	cptlc:hasUUID "f90bbb35-c2b5-4320-afda-947397d94add" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8adbb18d-17bd-44de-b0d3-142e406baf39>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8adbb18d-17bd-44de-b0d3-142e406baf39> ;
+	cptlc:hasUUID "8adbb18d-17bd-44de-b0d3-142e406baf39" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_3620>
+	rdfs:label "10.34.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_3620> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c37821b-ba6a-4ce4-8ff9-51ec259b4ac3> ;
+	cptlc:hasUUID "1376bcad-d573-43a6-9e78-30dda7529c53" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.>
+	rdfs:label "North Haverbrook" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.79736744-0ff4-4b7a-8d42-204a7d74a80e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c7e6cb29-8bb1-4a70-8537-de6b8872cff3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.01e3620e-f5bf-4e0d-bf32-032a27d833f7> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d6e5789a-3a46-4279-a2cd-8a298bfcc85a> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fbd08cad-1a56-44fc-b5b8-0b57a5e32787> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18b363d4-81a2-4c14-b945-6dfe3c7cda08> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0e2d7c4e-cbfb-409d-bf65-03974e441ddf> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6f3df12e-2be0-4be4-93f5-5280d346443f> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.18bfdb1d-29b1-4b32-99d1-06ebe7068e7b> ;
+	cptlc:hasUUID "84b5f336-90fe-45ce-bea4-998d8e58c29d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d948bd88-285b-4707-9612-0275c98e383e>
+	rdfs:label "Ethernet0/7" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d948bd88-285b-4707-9612-0275c98e383e> ;
+	cptlc:hasUUID "d948bd88-285b-4707-9612-0275c98e383e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fa30b400-f23e-44b5-84e7-0bc6050dea55>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fa30b400-f23e-44b5-84e7-0bc6050dea55> ;
+	enet:hasIPAddressValue "10.1.1.1" ;
+	cptlc:hasUUID "fa30b400-f23e-44b5-84e7-0bc6050dea55" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c62c5495-824e-46d6-bae8-b8bc77acc173>
+	rdfs:label "10.35.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c62c5495-824e-46d6-bae8-b8bc77acc173> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.21366994-cddd-4aca-a752-95f5df1f7c1c> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac7a2473-b60b-4cd0-a3ee-56ffca75c454> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fe5c9576-4e44-4961-bede-de3d2b4395c9> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a619422b-58f0-42bc-89a9-2e2fddce2965> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aef4b0d0-b07f-420e-ba88-635add6c31e0> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac81b0ef-2d14-4b70-aee7-c1da2709a1c3> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bdb6ea7b-44b2-430d-bf4a-249a32e15a08> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1020b8a5-705b-45a9-a91e-4a1d2bfa0b1e> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1008034f-879e-496a-9340-3208ab990243> ;
+	cptlc:hasUUID "c62c5495-824e-46d6-bae8-b8bc77acc173" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Switch_1>
+	rdfs:label "10.32.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Switch_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.eca27a82-a511-48d4-a5dd-63047b6763eb> ;
+	cptlc:hasUUID "58da33ee-d7dd-442d-8577-7826502fcccc" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.64f7a4b2-8f15-4e4f-9794-8b513452367d>
+	rdfs:label "NPV_IFACE_1995" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.64f7a4b2-8f15-4e4f-9794-8b513452367d> ;
+	enet:hasIPAddressValue "10.31.1.250" ;
+	cptlc:hasUUID "64f7a4b2-8f15-4e4f-9794-8b513452367d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.00085977-42ac-40ae-8a36-47f69e89afa1>
+	rdfs:label "Vlan1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.00085977-42ac-40ae-8a36-47f69e89afa1> ;
+	cptlc:hasUUID "00085977-42ac-40ae-8a36-47f69e89afa1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c53ff42-ffe3-4c48-9786-8433fea176e1>
+	rdfs:label "72.36.82.195" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5c53ff42-ffe3-4c48-9786-8433fea176e1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bee4ac73-8a0f-4bd0-970a-e843abf7c357> ;
+	cptlc:hasUUID "5c53ff42-ffe3-4c48-9786-8433fea176e1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.39857355-81f2-457a-ae9a-73252d85e9f9>
+	rdfs:label "NPV_IFACE_1937" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.39857355-81f2-457a-ae9a-73252d85e9f9> ;
+	enet:hasIPAddressValue "10.34.1.101" ;
+	cptlc:hasUUID "39857355-81f2-457a-ae9a-73252d85e9f9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_1>
+	rdfs:label "10.36.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dee6d85e-2ee3-4552-a1e9-dab475869680> ;
+	cptlc:hasUUID "8a07c09a-1b5e-4586-a49a-ac0bc6d3f34a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_5>
+	rdfs:label "10.31.1.105" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_5> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e3f92938-6cd3-42e6-9ff0-50af24d090ec> ;
+	cptlc:hasUUID "a2554bdd-bf3f-4a8e-bf53-d877a3842e91" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ccf8abcd-24e8-410c-9d36-aeb10c06e6d6>
+	rdfs:label "NPV_IFACE_1981" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ccf8abcd-24e8-410c-9d36-aeb10c06e6d6> ;
+	enet:hasIPAddressValue "10.38.1.203" ;
+	cptlc:hasUUID "ccf8abcd-24e8-410c-9d36-aeb10c06e6d6" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d1eb703a-7b53-4a57-99fd-75613d581a89>
+	rdfs:label "NPV_IFACE_1991" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d1eb703a-7b53-4a57-99fd-75613d581a89> ;
+	enet:hasIPAddressValue "10.38.1.105" ;
+	cptlc:hasUUID "d1eb703a-7b53-4a57-99fd-75613d581a89" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d19ad4e5-6227-43f5-8b04-ed02ca4784fa>
+	rdfs:label "72.36.82.194" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d19ad4e5-6227-43f5-8b04-ed02ca4784fa> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c6531f4f-d8c1-46eb-9cbe-1f76f4ec8628> ;
+	cptlc:hasUUID "d19ad4e5-6227-43f5-8b04-ed02ca4784fa" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_1>
+	rdfs:label "10.35.1.201" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac7a2473-b60b-4cd0-a3ee-56ffca75c454> ;
+	cptlc:hasUUID "f20d44ec-1d6d-4e25-a5de-df86fdb926f9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.018c377f-7582-4bc2-913d-931d0a975dc1>
+	rdfs:label "10.32.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.018c377f-7582-4bc2-913d-931d0a975dc1> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.eca27a82-a511-48d4-a5dd-63047b6763eb> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a617aa43-6dc0-41c6-ae28-f9065075a707> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.95988879-4b91-4314-b48f-35956a4243c7> ;
+	cptlc:hasUUID "018c377f-7582-4bc2-913d-931d0a975dc1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Capital_City.network.>
+	rdfs:label "Capital City" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Capital_City.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dbda1c13-2af9-414f-b985-97cd78b74533> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e091d48b-9b09-4961-a659-f968c40cc0df> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9f198cab-5e3c-4fd9-9e9e-0f8ed93eefab> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f90bbb35-c2b5-4320-afda-947397d94add> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1090e64d-c279-43b2-b674-82541707f6d8> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a4bf1883-2013-46c5-9d51-f7e32ceb8563> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.279066fb-2607-42a4-b7d8-3696776a05e0> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2318a722-e74a-4d3b-91c4-1c3147bc9343> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.752af86e-5045-4588-8338-8ef3bd059193> ;
+	cptlc:hasUUID "33337c89-2a8e-46cd-8acd-49a534acbe3f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3c2e68e3-c319-4ba3-b046-eba9587bc571>
+	rdfs:label "NPV_IFACE_1915" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3c2e68e3-c319-4ba3-b046-eba9587bc571> ;
+	enet:hasIPAddressValue "10.33.1.101" ;
+	cptlc:hasUUID "3c2e68e3-c319-4ba3-b046-eba9587bc571" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a4bf1883-2013-46c5-9d51-f7e32ceb8563>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a4bf1883-2013-46c5-9d51-f7e32ceb8563> ;
+	cptlc:hasUUID "a4bf1883-2013-46c5-9d51-f7e32ceb8563" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4bec3d7b-72a6-4e64-ab72-1c43090f7b9f>
+	rdfs:label "NPV_IFACE_1997" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4bec3d7b-72a6-4e64-ab72-1c43090f7b9f> ;
+	enet:hasIPAddressValue "10.31.1.201" ;
+	cptlc:hasUUID "4bec3d7b-72a6-4e64-ab72-1c43090f7b9f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f2fa63a-b98f-4b51-9f73-0da03faf9028>
+	rdfs:label "NPV_IFACE_1971" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f2fa63a-b98f-4b51-9f73-0da03faf9028> ;
+	enet:hasIPAddressValue "10.36.1.103" ;
+	cptlc:hasUUID "3f2fa63a-b98f-4b51-9f73-0da03faf9028" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7b8dc58e-a9ba-421b-8ab9-70663133cc18>
+	rdfs:label "Vlan1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7b8dc58e-a9ba-421b-8ab9-70663133cc18> ;
+	cptlc:hasUUID "7b8dc58e-a9ba-421b-8ab9-70663133cc18" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c6531f4f-d8c1-46eb-9cbe-1f76f4ec8628>
+	rdfs:label "NPV_IFACE_1891" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c6531f4f-d8c1-46eb-9cbe-1f76f4ec8628> ;
+	enet:hasIPAddressValue "72.36.82.194" ;
+	cptlc:hasUUID "c6531f4f-d8c1-46eb-9cbe-1f76f4ec8628" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.84b96cc1-22d1-4ae2-85ed-ad2a3528889c>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.84b96cc1-22d1-4ae2-85ed-ad2a3528889c> ;
+	enet:hasIPAddressValue "72.36.82.50" ;
+	cptlc:hasUUID "84b96cc1-22d1-4ae2-85ed-ad2a3528889c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a40a1523-14c9-4439-9f31-ea38dd1600f3>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a40a1523-14c9-4439-9f31-ea38dd1600f3> ;
+	enet:hasIPAddressValue "10.1.1.2" ;
+	cptlc:hasUUID "a40a1523-14c9-4439-9f31-ea38dd1600f3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1>
+	rdfs:label "10.31.1.201" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4bec3d7b-72a6-4e64-ab72-1c43090f7b9f> ;
+	cptlc:hasUUID "274a2d0a-5cfb-43f8-9dd2-e5b15d8dd74c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4c9ab95-98e9-4803-a01c-f8d2d1cc934d>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c4c9ab95-98e9-4803-a01c-f8d2d1cc934d> ;
+	cptlc:hasUUID "c4c9ab95-98e9-4803-a01c-f8d2d1cc934d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ae2493cb-a684-4b02-926b-a14962811dc2>
+	rdfs:label "NPV_IFACE_1985" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ae2493cb-a684-4b02-926b-a14962811dc2> ;
+	enet:hasIPAddressValue "10.38.1.102" ;
+	cptlc:hasUUID "ae2493cb-a684-4b02-926b-a14962811dc2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cc0190e0-fc40-48a2-a7ad-9fa4a951ebe1>
+	rdfs:label "NPV_IFACE_2009" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cc0190e0-fc40-48a2-a7ad-9fa4a951ebe1> ;
+	enet:hasIPAddressValue "10.31.1.207" ;
+	cptlc:hasUUID "cc0190e0-fc40-48a2-a7ad-9fa4a951ebe1" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.48af3a3a-13ba-48d7-8886-75b7ef99398a>
+	rdfs:label "10.38.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.48af3a3a-13ba-48d7-8886-75b7ef99398a> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.383991d3-c629-4fa9-87a1-bed5313278a8> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f869e4aa-34e5-4c55-8bad-e3937e021794> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ccf8abcd-24e8-410c-9d36-aeb10c06e6d6> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e6c5edc9-51ff-4f90-9fca-3703b4755aed> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ae2493cb-a684-4b02-926b-a14962811dc2> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.fb370e27-cdd2-4cac-921f-aa8056f8b479> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7d1fba41-4a05-4336-b34b-6769ee436f0b> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d1eb703a-7b53-4a57-99fd-75613d581a89> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.946f7865-cf3a-4e3c-abcd-8df82e649da3> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2350e4e8-7951-4288-ad77-f8383ea9e874> ;
+	cptlc:hasUUID "48af3a3a-13ba-48d7-8886-75b7ef99398a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.>
+	rdfs:label "Cypress Creek" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b2b0186e-ee13-4653-b97e-7951c99e358a> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2339a7ca-bc5b-4fe4-be5c-683177e2d398> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b69d1d07-c77a-4c76-83dc-6351bd021509> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ab1b2040-c035-4582-b970-0a94ae46087e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c732757b-871d-4c9c-abbb-24b04a71447a> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.36dbb6b2-ce43-47c4-bc32-b08a21874be8> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bbd4943c-a364-474c-a1e2-1848343ffeac> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d948bd88-285b-4707-9612-0275c98e383e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.00085977-42ac-40ae-8a36-47f69e89afa1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.25adc925-b32e-4494-bc6e-0c657e2978ce> ;
+	cptlc:hasUUID "92e20ccf-65ad-49c5-81dc-7fea19061217" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6677e7ed-bc29-4920-9d64-9085a1df2362>
+	rdfs:label "unmapped" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6677e7ed-bc29-4920-9d64-9085a1df2362> ;
+	cptlc:hasUUID "6677e7ed-bc29-4920-9d64-9085a1df2362" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.946f7865-cf3a-4e3c-abcd-8df82e649da3>
+	rdfs:label "NPV_IFACE_1993" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.946f7865-cf3a-4e3c-abcd-8df82e649da3> ;
+	enet:hasIPAddressValue "10.38.1.250" ;
+	cptlc:hasUUID "946f7865-cf3a-4e3c-abcd-8df82e649da3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_1>
+	rdfs:label "10.36.1.201" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f180ea33-d63b-47a2-bdef-855486b34529> ;
+	cptlc:hasUUID "ee6dd930-ea25-4ab0-8237-eac37cbd5331" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_4>
+	rdfs:label "10.35.1.104" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_4> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1020b8a5-705b-45a9-a91e-4a1d2bfa0b1e> ;
+	cptlc:hasUUID "f3fcf5e7-3854-4616-bde4-099f2acdc2d7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.67417627-7997-4184-915c-591a2d96e313>
+	rdfs:label "outside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.67417627-7997-4184-915c-591a2d96e313> ;
+	enet:hasIPAddressValue "10.1.1.5" ;
+	cptlc:hasUUID "67417627-7997-4184-915c-591a2d96e313" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.752af86e-5045-4588-8338-8ef3bd059193>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.752af86e-5045-4588-8338-8ef3bd059193> ;
+	cptlc:hasUUID "752af86e-5045-4588-8338-8ef3bd059193" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.556b380d-397b-470b-9fb0-78709d2c0973>
+	rdfs:label "NPV_IFACE_1907" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.556b380d-397b-470b-9fb0-78709d2c0973> ;
+	enet:hasIPAddressValue "70.32.128.171" ;
+	cptlc:hasUUID "556b380d-397b-470b-9fb0-78709d2c0973" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.60d306b9-25b5-41eb-b3f4-c9fa5b4d298d>
+	rdfs:label "NPV_IFACE_1905" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.60d306b9-25b5-41eb-b3f4-c9fa5b4d298d> ;
+	enet:hasIPAddressValue "70.32.128.74" ;
+	cptlc:hasUUID "60d306b9-25b5-41eb-b3f4-c9fa5b4d298d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9c274459-4bd0-4046-96d6-2aa047ee9892>
+	rdfs:label "NPV_IFACE_2001" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.9c274459-4bd0-4046-96d6-2aa047ee9892> ;
+	enet:hasIPAddressValue "10.31.1.203" ;
+	cptlc:hasUUID "9c274459-4bd0-4046-96d6-2aa047ee9892" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.01e3620e-f5bf-4e0d-bf32-032a27d833f7>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.01e3620e-f5bf-4e0d-bf32-032a27d833f7> ;
+	cptlc:hasUUID "01e3620e-f5bf-4e0d-bf32-032a27d833f7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71169652-fda0-4b4b-aef2-5a86219d796f>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71169652-fda0-4b4b-aef2-5a86219d796f> ;
+	cptlc:hasUUID "71169652-fda0-4b4b-aef2-5a86219d796f" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_1>
+	rdfs:label "10.35.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.aef4b0d0-b07f-420e-ba88-635add6c31e0> ;
+	cptlc:hasUUID "c1481a81-b81b-4e3f-ac96-221a7c3b3407" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.032953d2-fd9d-457c-a7af-3248132e6e72>
+	rdfs:label "NPV_IFACE_2011" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.032953d2-fd9d-457c-a7af-3248132e6e72> ;
+	enet:hasIPAddressValue "10.31.1.101" ;
+	cptlc:hasUUID "032953d2-fd9d-457c-a7af-3248132e6e72" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4d66a53c-3434-49a2-92bd-9e87a6fc5d1b>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.4d66a53c-3434-49a2-92bd-9e87a6fc5d1b> ;
+	cptlc:hasUUID "4d66a53c-3434-49a2-92bd-9e87a6fc5d1b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6285f875-08c3-4ba1-8756-58253cfa87b6>
+	rdfs:label "NPV_IFACE_1963" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6285f875-08c3-4ba1-8756-58253cfa87b6> ;
+	enet:hasIPAddressValue "10.36.1.202" ;
+	cptlc:hasUUID "6285f875-08c3-4ba1-8756-58253cfa87b6" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1c99c8c6-ecca-45dd-8ad0-7e7d16702359>
+	rdfs:label "NPV_IFACE_2017" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1c99c8c6-ecca-45dd-8ad0-7e7d16702359> ;
+	enet:hasIPAddressValue "10.31.1.104" ;
+	cptlc:hasUUID "1c99c8c6-ecca-45dd-8ad0-7e7d16702359" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.21366994-cddd-4aca-a752-95f5df1f7c1c>
+	rdfs:label "NPV_IFACE_1943" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.21366994-cddd-4aca-a752-95f5df1f7c1c> ;
+	enet:hasIPAddressValue "10.35.1.250" ;
+	cptlc:hasUUID "21366994-cddd-4aca-a752-95f5df1f7c1c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f869e4aa-34e5-4c55-8bad-e3937e021794>
+	rdfs:label "NPV_IFACE_1979" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f869e4aa-34e5-4c55-8bad-e3937e021794> ;
+	enet:hasIPAddressValue "10.38.1.202" ;
+	cptlc:hasUUID "f869e4aa-34e5-4c55-8bad-e3937e021794" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.80e61782-cc4f-439b-9aa1-ef32591f9bfc>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.80e61782-cc4f-439b-9aa1-ef32591f9bfc> ;
+	cptlc:hasUUID "80e61782-cc4f-439b-9aa1-ef32591f9bfc" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d5cc8944-4f68-4937-a79f-d862275585c8>
+	rdfs:label "Ethernet0/4" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d5cc8944-4f68-4937-a79f-d862275585c8> ;
+	cptlc:hasUUID "d5cc8944-4f68-4937-a79f-d862275585c8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cd475306-25bf-4fdb-b22a-14870d711102>
+	rdfs:label "NPV_IFACE_1965" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cd475306-25bf-4fdb-b22a-14870d711102> ;
+	enet:hasIPAddressValue "10.36.1.203" ;
+	cptlc:hasUUID "cd475306-25bf-4fdb-b22a-14870d711102" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.11c2cc61-01fe-4424-8723-1043e9740855>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.11c2cc61-01fe-4424-8723-1043e9740855> ;
+	cptlc:hasUUID "11c2cc61-01fe-4424-8723-1043e9740855" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e091d48b-9b09-4961-a659-f968c40cc0df>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.e091d48b-9b09-4961-a659-f968c40cc0df> ;
+	enet:hasIPAddressValue "10.37.1.1" ;
+	cptlc:hasUUID "e091d48b-9b09-4961-a659-f968c40cc0df" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b8cb3111-ce20-48be-a4c8-04566a954857>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b8cb3111-ce20-48be-a4c8-04566a954857> ;
+	cptlc:hasUUID "b8cb3111-ce20-48be-a4c8-04566a954857" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_1>
+	rdfs:label "10.33.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network.Overcurrent_Relay_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3c2e68e3-c319-4ba3-b046-eba9587bc571> ;
+	cptlc:hasUUID "31888556-090b-48eb-8f8e-0c5208345ae9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.08012000-4c0a-4a35-b752-08e0181348e9>
+	rdfs:label "NPV_IFACE_2015" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.08012000-4c0a-4a35-b752-08e0181348e9> ;
+	enet:hasIPAddressValue "10.31.1.103" ;
+	cptlc:hasUUID "08012000-4c0a-4a35-b752-08e0181348e9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bb2f0407-e79d-4aea-b4f3-f1892c06fe41>
+	rdfs:label "NPV_IFACE_1929" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bb2f0407-e79d-4aea-b4f3-f1892c06fe41> ;
+	enet:hasIPAddressValue "10.33.1.250" ;
+	cptlc:hasUUID "bb2f0407-e79d-4aea-b4f3-f1892c06fe41" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.38e9e0c2-d8b2-49df-bbdc-12ee07de4116>
+	rdfs:label "GigabitEthernet1/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.38e9e0c2-d8b2-49df-bbdc-12ee07de4116> ;
+	cptlc:hasUUID "38e9e0c2-d8b2-49df-bbdc-12ee07de4116" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f604bace-b84d-4215-9d8f-4d1fa6e9a0a8>
+	rdfs:label "10.39.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f604bace-b84d-4215-9d8f-4d1fa6e9a0a8> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d22bd5de-217b-4632-8e61-3e3dfac38d34> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a1f07e46-6239-42c6-9c50-5956e0776e86> ;
+	cptlc:hasUUID "f604bace-b84d-4215-9d8f-4d1fa6e9a0a8" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bef37444-ad4d-44e0-b231-0d90b6e12af2>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bef37444-ad4d-44e0-b231-0d90b6e12af2> ;
+	cptlc:hasUUID "bef37444-ad4d-44e0-b231-0d90b6e12af2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.715dd0f0-0a59-4225-8ba7-f1b44e021ec3>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.715dd0f0-0a59-4225-8ba7-f1b44e021ec3> ;
+	cptlc:hasUUID "715dd0f0-0a59-4225-8ba7-f1b44e021ec3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.336cd687-1b6c-44d0-8bd1-0b8424149b2a>
+	rdfs:label "NPV_IFACE_1999" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.336cd687-1b6c-44d0-8bd1-0b8424149b2a> ;
+	enet:hasIPAddressValue "10.31.1.202" ;
+	cptlc:hasUUID "336cd687-1b6c-44d0-8bd1-0b8424149b2a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.de37689d-dc1d-4379-b722-4e3f78f154a4>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.de37689d-dc1d-4379-b722-4e3f78f154a4> ;
+	enet:hasIPAddressValue "10.34.1.1" ;
+	cptlc:hasUUID "de37689d-dc1d-4379-b722-4e3f78f154a4" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f180ea33-d63b-47a2-bdef-855486b34529>
+	rdfs:label "NPV_IFACE_1961" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.f180ea33-d63b-47a2-bdef-855486b34529> ;
+	enet:hasIPAddressValue "10.36.1.201" ;
+	cptlc:hasUUID "f180ea33-d63b-47a2-bdef-855486b34529" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_4>
+	rdfs:label "10.36.1.104" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_4> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.971121eb-f1df-4b43-a64f-115c39be152d> ;
+	cptlc:hasUUID "2355c2c9-12af-414f-8c6f-0ba72339db88" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8ddda7a2-336b-4880-9d8c-23ad7d9e90be>
+	rdfs:label "NPV_IFACE_2013" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8ddda7a2-336b-4880-9d8c-23ad7d9e90be> ;
+	enet:hasIPAddressValue "10.31.1.102" ;
+	cptlc:hasUUID "8ddda7a2-336b-4880-9d8c-23ad7d9e90be" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.083d3bdc-858f-4b6a-b98f-b131a497896b>
+	rdfs:label "Management0/0" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.083d3bdc-858f-4b6a-b98f-b131a497896b> ;
+	cptlc:hasUUID "083d3bdc-858f-4b6a-b98f-b131a497896b" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bbd4943c-a364-474c-a1e2-1848343ffeac>
+	rdfs:label "Ethernet0/6" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bbd4943c-a364-474c-a1e2-1848343ffeac> ;
+	cptlc:hasUUID "bbd4943c-a364-474c-a1e2-1848343ffeac" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_1>
+	rdfs:label "10.34.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.39857355-81f2-457a-ae9a-73252d85e9f9> ;
+	cptlc:hasUUID "f5f2c3c9-de1d-4892-9502-65e1e9d0aa92" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6a0f93a7-ee1e-4ba4-add8-f0b347f06a97>
+	rdfs:label "10.33.1.0/24" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6a0f93a7-ee1e-4ba4-add8-f0b347f06a97> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bb2f0407-e79d-4aea-b4f3-f1892c06fe41> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3c2e68e3-c319-4ba3-b046-eba9587bc571> ;
+	enet:hasHost <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c7e6cb29-8bb1-4a70-8537-de6b8872cff3> ;
+	cptlc:hasUUID "6a0f93a7-ee1e-4ba4-add8-f0b347f06a97" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2318a722-e74a-4d3b-91c4-1c3147bc9343>
+	rdfs:label "GigabitEthernet1/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2318a722-e74a-4d3b-91c4-1c3147bc9343> ;
+	cptlc:hasUUID "2318a722-e74a-4d3b-91c4-1c3147bc9343" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b5c22b94-6391-4d7d-b3d3-ad16645a907e>
+	rdfs:label "Ethernet0/6" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b5c22b94-6391-4d7d-b3d3-ad16645a907e> ;
+	cptlc:hasUUID "b5c22b94-6391-4d7d-b3d3-ad16645a907e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b69d1d07-c77a-4c76-83dc-6351bd021509>
+	rdfs:label "Ethernet0/2" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b69d1d07-c77a-4c76-83dc-6351bd021509> ;
+	cptlc:hasUUID "b69d1d07-c77a-4c76-83dc-6351bd021509" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c732757b-871d-4c9c-abbb-24b04a71447a>
+	rdfs:label "Ethernet0/4" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.c732757b-871d-4c9c-abbb-24b04a71447a> ;
+	cptlc:hasUUID "c732757b-871d-4c9c-abbb-24b04a71447a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0290d0e5-562f-4159-af58-90436ac6cf0c>
+	rdfs:label "NPV_IFACE_2025" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.0290d0e5-562f-4159-af58-90436ac6cf0c> ;
+	enet:hasIPAddressValue "72.36.82.196" ;
+	cptlc:hasUUID "0290d0e5-562f-4159-af58-90436ac6cf0c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2264230f-0885-44ac-82f6-37b2d0f72df7>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2264230f-0885-44ac-82f6-37b2d0f72df7> ;
+	cptlc:hasUUID "2264230f-0885-44ac-82f6-37b2d0f72df7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ba4ff897-82e8-4814-ac09-5efa4ed3a24c>
+	rdfs:label "GigabitEthernet1/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ba4ff897-82e8-4814-ac09-5efa4ed3a24c> ;
+	cptlc:hasUUID "ba4ff897-82e8-4814-ac09-5efa4ed3a24c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54c88cd1-42bf-4665-b8b4-aaac75408f99>
+	rdfs:label "NPV_IFACE_2007" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54c88cd1-42bf-4665-b8b4-aaac75408f99> ;
+	enet:hasIPAddressValue "10.31.1.206" ;
+	cptlc:hasUUID "54c88cd1-42bf-4665-b8b4-aaac75408f99" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_3>
+	rdfs:label "10.36.1.103" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f2fa63a-b98f-4b51-9f73-0da03faf9028> ;
+	cptlc:hasUUID "aef8e6ec-fce2-4d81-9aab-eefd7b68f03d" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f8dccfa-9921-4429-ba47-6b6844270da0>
+	rdfs:label "GigabitEthernet1/1" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.3f8dccfa-9921-4429-ba47-6b6844270da0> ;
+	cptlc:hasUUID "3f8dccfa-9921-4429-ba47-6b6844270da0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a037b508-6644-40ff-9004-b046856111a9>
+	rdfs:label "NPV_IFACE_2027" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a037b508-6644-40ff-9004-b046856111a9> ;
+	enet:hasIPAddressValue "72.36.82.1" ;
+	cptlc:hasUUID "a037b508-6644-40ff-9004-b046856111a9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5ef2137c-ebc7-4a9f-ba27-019d3e14d918>
+	rdfs:label "192.17.102.103" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.5ef2137c-ebc7-4a9f-ba27-019d3e14d918> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d2f4eea7-8556-463f-ad7a-dc5e87da26d1> ;
+	cptlc:hasUUID "5ef2137c-ebc7-4a9f-ba27-019d3e14d918" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_2>
+	rdfs:label "10.36.1.202" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_421_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6285f875-08c3-4ba1-8756-58253cfa87b6> ;
+	cptlc:hasUUID "b0b367de-a895-46b4-be22-e06701feee70" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.95988879-4b91-4314-b48f-35956a4243c7>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.95988879-4b91-4314-b48f-35956a4243c7> ;
+	enet:hasIPAddressValue "10.32.1.1" ;
+	cptlc:hasUUID "95988879-4b91-4314-b48f-35956a4243c7" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ffaabb37-3019-426b-b5c8-78e628745efb>
+	rdfs:label "NPV_IFACE_1975" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ffaabb37-3019-426b-b5c8-78e628745efb> ;
+	enet:hasIPAddressValue "10.36.1.105" ;
+	cptlc:hasUUID "ffaabb37-3019-426b-b5c8-78e628745efb" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_2>
+	rdfs:label "10.35.1.102" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_451_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ac81b0ef-2d14-4b70-aee7-c1da2709a1c3> ;
+	cptlc:hasUUID "8ce666fb-a466-475f-8e16-5dcfb55c49c9" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.77b4ba61-257f-4f49-a738-3bf8864aa3d3>
+	rdfs:label "72.0.0.0/8" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.77b4ba61-257f-4f49-a738-3bf8864aa3d3> ;
+	cptlc:hasUUID "77b4ba61-257f-4f49-a738-3bf8864aa3d3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71cd459f-0715-49c1-aad1-f815000bd3ab>
+	rdfs:label "NPV_IFACE_1959" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71cd459f-0715-49c1-aad1-f815000bd3ab> ;
+	enet:hasIPAddressValue "10.36.1.250" ;
+	cptlc:hasUUID "71cd459f-0715-49c1-aad1-f815000bd3ab" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.48bfa380-3e5b-4525-83b2-b43c3ed46d4e>
+	rdfs:label "10.39.1.22" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.48bfa380-3e5b-4525-83b2-b43c3ed46d4e> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.d22bd5de-217b-4632-8e61-3e3dfac38d34> ;
+	cptlc:hasUUID "48bfa380-3e5b-4525-83b2-b43c3ed46d4e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7>
+	rdfs:label "10.31.1.207" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_7> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.cc0190e0-fc40-48a2-a7ad-9fa4a951ebe1> ;
+	cptlc:hasUUID "afafc3ed-6261-4740-b189-b0faf7c31534" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_1>
+	rdfs:label "10.31.1.101" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_451_1> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.032953d2-fd9d-457c-a7af-3248132e6e72> ;
+	cptlc:hasUUID "71325a8f-3bb3-4d66-bcae-1c72141c75bc" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_3>
+	rdfs:label "10.34.1.103" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Odgenville.network.SEL_451_3> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.12fb1c38-7338-461f-9018-16084f233878> ;
+	cptlc:hasUUID "1d0ebcc8-0948-4494-a225-cb6a07fc99e0" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_2>
+	rdfs:label "10.36.1.102" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_451_2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.865c6a52-99f9-46da-94c6-7bc3c25069f0> ;
+	cptlc:hasUUID "c3e2b3e6-8ed1-491b-a496-cca2b39c269e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.>
+	rdfs:label "Shelbyville" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Firewall> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.2d519708-5bbc-4e35-b95c-d7cc4b31239b> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.abe2e453-4907-4280-b2d9-19208c2b3055> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.b8cb3111-ce20-48be-a4c8-04566a954857> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.db5d0d76-e33a-4e25-b7e3-0d81b833848b> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.80e61782-cc4f-439b-9aa1-ef32591f9bfc> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.8adbb18d-17bd-44de-b0d3-142e406baf39> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.dc19acf3-2759-4cc2-b8e2-0ccf9249a592> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.bef37444-ad4d-44e0-b231-0d90b6e12af2> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.6484ab74-45c9-4dde-8d23-a5177f5b9242> ;
+	cptlc:hasUUID "fdea7748-842e-4db8-97e5-38539b6e8b35" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ab1b2040-c035-4582-b970-0a94ae46087e>
+	rdfs:label "Ethernet0/3" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.ab1b2040-c035-4582-b970-0a94ae46087e> ;
+	cptlc:hasUUID "ab1b2040-c035-4582-b970-0a94ae46087e" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6>
+	rdfs:label "10.31.1.206" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network.SEL_421_6> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.54c88cd1-42bf-4665-b8b4-aaac75408f99> ;
+	cptlc:hasUUID "395abeb2-32c5-4bd5-a496-fea414ce2778" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a1f07e46-6239-42c6-9c50-5956e0776e86>
+	rdfs:label "dmz" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.a1f07e46-6239-42c6-9c50-5956e0776e86> ;
+	enet:hasIPAddressValue "10.39.1.1" ;
+	cptlc:hasUUID "a1f07e46-6239-42c6-9c50-5956e0776e86" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7b97db6e-1454-488d-9b1d-87b89353eeee>
+	rdfs:label "Internet" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Network> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.7b97db6e-1454-488d-9b1d-87b89353eeee> ;
+	cptlc:hasUUID "7b97db6e-1454-488d-9b1d-87b89353eeee" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_3620>
+	rdfs:label "10.36.1.250" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:Host> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network.SEL_3620> ;
+	cptlc:hasComponent <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.71cd459f-0715-49c1-aad1-f815000bd3ab> ;
+	cptlc:hasUUID "8a451ed6-a846-4a76-9a19-303d8359180c" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1008034f-879e-496a-9340-3208ab990243>
+	rdfs:label "inside" ;
+	rdf:type <urn:cite:cptl:enterprise.enet.2015_07:NIC> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Control_Center.network.1008034f-879e-496a-9340-3208ab990243> ;
+	enet:hasIPAddressValue "10.35.1.1" ;
+	cptlc:hasUUID "1008034f-879e-496a-9340-3208ab990243" ;
+	.
+

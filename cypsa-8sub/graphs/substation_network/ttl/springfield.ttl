@@ -1,0 +1,181 @@
+@prefix cypress_creek.yard: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.yard> .
+@prefix enet: <urn:cite:cptl:enterprise.enet.2015_07:> .
+@prefix capital_city.network: <urn:cite:cptl:power.8sub.2016_08:Capital_City.network> .
+@prefix shelbyville.yard: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.yard> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix shelbyville.network: <urn:cite:cptl:power.8sub.2016_08:Shelbyville.network> .
+@prefix odgenville.network: <urn:cite:cptl:power.8sub.2016_08:Odgenville.network> .
+@prefix snet: <urn:cite:cptl:power.snet.2015_07:> .
+@prefix springfield.yard: <urn:cite:cptl:power.8sub.2016_08:Springfield.yard> .
+@prefix paris.yard: <urn:cite:cptl:power.8sub.2016_08:Paris.yard> .
+@prefix paris.network: <urn:cite:cptl:power.8sub.2016_08:Paris.network> .
+@prefix cypress_creek.network: <urn:cite:cptl:power.8sub.2016_08:Cypress_Creek.network> .
+@prefix north_haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.yard> .
+@prefix north_haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:North_Haverbrook.network> .
+@prefix control_center.network: <urn:cite:cptl:power.8sub.2016_08:Control_Center.network> .
+@prefix cptlc: <urn:cite:cptl:general.cptlc.2014_07:> .
+@prefix haverbrook.yard: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.yard> .
+@prefix odgenville.yard: <urn:cite:cptl:power.8sub.2016_08:Odgenville.yard> .
+@prefix springfield.network: <urn:cite:cptl:power.8sub.2016_08:Springfield.network> .
+@prefix capital_city.yard: <urn:cite:cptl:power.8sub.2016_08:Capital_City.yard> .
+@prefix sel_catalog: <urn:cite:sel:power.catalog.2016_07:> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix haverbrook.network: <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network> .
+
+<urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3>
+	rdfs:label "Paris SEL 421 3" ;
+	rdf:type <urn:cite:sel:power.catalog.2016_07:421> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3> ;
+	cptlc:hasUUID "9fe628df-b617-4d7b-a144-d9a9c0c17205" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_2>
+	rdfs:label "Springfield Overcurrent Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "88dba10a-7e77-41b1-9373-733a65f650f5" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142> ;
+	enet:hasIPAddressValue "10.38.1.102" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_2> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Reverse_Power_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441>
+	rdfs:label "Springfield BRK 4441" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441> ;
+	cptlc:hasUUID "9f4e632c-c0d2-40a0-94e1-31738c571ef2" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041>
+	rdfs:label "Springfield BRK 4041" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041> ;
+	cptlc:hasUUID "97838e82-f3f6-46b2-82ac-48778c61df13" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_1>
+	rdfs:label "Haverbrook Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_1> ;
+	cptlc:hasUUID "01d24675-dcf7-4792-8041-e9ce3b1ede7a" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Switch_1>
+	rdfs:label "Springfield Switch 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:Switch> ;
+	cptlc:hasUUID "a040abf9-95da-48dc-a133-ab302a4d9671" ;
+	enet:hasIPAddressValue "192.168.8.200" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Switch_1> ;
+	cptlc:hasEthernetLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_5>
+	rdfs:label "Springfield Overcurrent Relay 5" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "705cf996-d5d0-424d-bacd-545a1e0eb226" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941> ;
+	enet:hasIPAddressValue "10.38.1.105" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_5> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941>
+	rdfs:label "Springfield BRK 3941" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941> ;
+	cptlc:hasUUID "95d62569-eff7-4b01-aa55-a90a44678384" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_3>
+	rdfs:label "Springfield Overcurrent Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "7d4aa12a-b202-4bdd-b7f5-96484841eeb9" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341> ;
+	enet:hasIPAddressValue "10.38.1.103" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_3> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_4> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_3>
+	rdfs:label "Haverbrook Distance Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_3> ;
+	cptlc:hasUUID "88c4d925-8661-425f-add3-b012aa369264" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_1>
+	rdfs:label "Springfield Distance Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "161242af-b72f-4fc0-aa56-9715ac284a92" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041> ;
+	enet:hasIPAddressValue "10.38.1.201" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_1> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_3> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_3>
+	rdfs:label "Springfield Distance Relay 3" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "cf47fd37-83f1-4ded-9339-bda45252af5c" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_3941> ;
+	enet:hasIPAddressValue "10.38.1.203" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_3> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Haverbrook.network.Distance_Relay_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_5> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Reverse_Power_Relay_1>
+	rdfs:label "Springfield Reverse Power Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:ReversePowerRelay> ;
+	cptlc:hasUUID "af21a363-d391-4ec0-a1ed-0c82e283b8ae" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Reverse_Power_Relay_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_3> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341>
+	rdfs:label "Springfield BRK 4341" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4341> ;
+	cptlc:hasUUID "018fc1be-76c0-439b-9f82-ecaa79d5f1b3" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2>
+	rdfs:label "Springfield Distance Relay 2" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:DistanceRelay> ;
+	cptlc:hasUUID "eeccfcf3-4131-4c49-aac2-3690aa481434" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142> ;
+	enet:hasIPAddressValue "10.38.1.202" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_2> ;
+	cptlc:hasFiberEthernetLink <urn:cite:cptl:power.8sub.2016_08:Paris.network.SEL_421_3> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_2> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_1>
+	rdfs:label "Springfield Overcurrent Relay 1" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "4394cdf3-bda5-471f-8ef3-f8c61aabb57e" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4041> ;
+	enet:hasIPAddressValue "10.38.1.101" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_1> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_1> ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142>
+	rdfs:label "Springfield BRK 4142" ;
+	rdf:type <urn:cite:cptl:power.syard.2016_07:Breaker> ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4142> ;
+	cptlc:hasUUID "66685ae1-a031-4e59-955b-7a297e41c1fa" ;
+	.
+
+<urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_4>
+	rdfs:label "Springfield Overcurrent Relay 4" ;
+	rdf:type <urn:cite:cptl:power.snet.2015_07:OvercurrentRelay> ;
+	cptlc:hasUUID "9930e062-0261-4b74-b3c0-32ff3316b7a4" ;
+	snet:hasBreakerConnections <urn:cite:cptl:power.8sub.2016_08:Springfield.yard.BRK_4441> ;
+	enet:hasIPAddressValue "10.38.1.104" ;
+	cptlc:hasURN <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Overcurrent_Relay_4> ;
+	cptlc:hasSerialLink <urn:cite:cptl:power.8sub.2016_08:Springfield.network.Distance_Relay_3> ;
+	.
+

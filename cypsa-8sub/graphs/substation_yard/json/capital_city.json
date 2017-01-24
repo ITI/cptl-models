@@ -1,0 +1,72 @@
+{
+  "namespaces": [
+      {
+	  "cptlc": "urn:cite:cptl:general.cptlc.2014_07:",
+	  "enet": "urn:cite:cptl:enterprise.enet.2015_07:",
+	  "sel_catalog": "urn:cite:sel:power.catalog.2016_07:",
+	  "snet": "urn:cite:cptl:power.snet.2015_07:",
+	  "syard": "urn:cite:cptl:power.syard.2016_07:",
+	  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	  "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+      }
+  ],  
+  "nodes": [
+    {
+      "rdfs:label": "Capital City ND 45", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "be7338e9-28f7-4421-a16f-027094cf8fe8"
+    }, 
+    {
+      "rdfs:label": "Capital City BRK 4546", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "379e20aa-da69-452e-b176-01333515e4f4"
+    }, 
+    {
+      "rdfs:label": "Capital City ND 46", 
+      "rdf:type": "syard:Bus", 
+      "cptlc:hasUUID": "f6372823-8c2c-4786-9d5a-19c288ea6eda"
+    }, 
+    {
+      "rdfs:label": "Capital City BRK 4647", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "c49f979c-12a3-406d-aa2d-03d0066ea33f"
+    }, 
+    {
+      "rdfs:label": "Capital City ND 47", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "3271cedd-d5d6-4756-825a-18d11902bb19"
+    }, 
+    {
+      "rdfs:label": "Cypress Creek TX 4545", 
+      "rdf:type": "syard:Transformer", 
+      "cptlc:hasUUID": "2eea5e6e-240e-4f4e-b3e3-846155aed8cd"
+    }
+  ], 
+  "links": [
+    {
+      "source": "be7338e9-28f7-4421-a16f-027094cf8fe8", 
+      "relation": "syard:hasLine", 
+      "target": "379e20aa-da69-452e-b176-01333515e4f4"
+    }, 
+    {
+      "source": "be7338e9-28f7-4421-a16f-027094cf8fe8", 
+      "relation": "syard:hasLine", 
+      "target": "2eea5e6e-240e-4f4e-b3e3-846155aed8cd"
+    }, 
+    {
+      "source": "379e20aa-da69-452e-b176-01333515e4f4", 
+      "relation": "syard:hasLine", 
+      "target": "f6372823-8c2c-4786-9d5a-19c288ea6eda"
+    }, 
+    {
+      "source": "f6372823-8c2c-4786-9d5a-19c288ea6eda", 
+      "relation": "syard:hasLine", 
+      "target": "c49f979c-12a3-406d-aa2d-03d0066ea33f"
+    }, 
+    {
+      "source": "c49f979c-12a3-406d-aa2d-03d0066ea33f", 
+      "relation": "syard:hasLine", 
+      "target": "3271cedd-d5d6-4756-825a-18d11902bb19"
+    }
+  ]
+}

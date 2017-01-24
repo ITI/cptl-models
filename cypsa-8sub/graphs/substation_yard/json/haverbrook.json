@@ -1,0 +1,162 @@
+{
+  "namespaces": [
+      {
+	  "cptlc": "urn:cite:cptl:general.cptlc.2014_07:",
+	  "enet": "urn:cite:cptl:enterprise.enet.2015_07:",
+	  "sel_catalog": "urn:cite:sel:power.catalog.2016_07:",
+	  "snet": "urn:cite:cptl:power.snet.2015_07:",
+	  "syard": "urn:cite:cptl:power.syard.2016_07:",
+	  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	  "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+      }
+  ],  
+  "nodes": [
+    {
+      "rdfs:label": "Haverbrook UN Gen4", 
+      "rdf:type": "syard:Generator", 
+      "cptlc:hasUUID": "5ab58f4e-8bfc-4ded-a7a8-1d1378575d9e"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 33", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "d5abe7eb-cb95-4cad-916f-bb8be0046c0f"
+    }, 
+    {
+      "rdfs:label": "Haverbrook BRK 3335", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "f951264d-6252-4a92-8f4f-8a61ca27626e"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 35", 
+      "rdf:type": "syard:Bus", 
+      "cptlc:hasUUID": "7868381b-6642-4673-8866-5d5ffea54d37"
+    }, 
+    {
+      "rdfs:label": "Haverbrook BRK 3735", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "2f4afa24-3702-42e5-a407-910381c11c2e"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 37", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "6f8a780f-4566-434f-a017-b0c424869899"
+    }, 
+    {
+      "rdfs:label": "Haverbrook BRK 3635", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "31086c66-7ca0-4d98-a45c-7b62058a73a6"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 36", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "02f6bdf5-42aa-4b0a-82ba-81730efbe695"
+    }, 
+    {
+      "rdfs:label": "Haverbrook BRK 3835", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "57e4d4da-dee3-4412-8230-e035b4b6f31d"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 38", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "cf32ab76-3c29-4d07-8782-b7d946183a15"
+    }, 
+    {
+      "rdfs:label": "Haverbrook BRK 3435", 
+      "rdf:type": "syard:Breaker", 
+      "cptlc:hasUUID": "f4b7af45-277f-4875-8c20-2f9d326b68f2"
+    }, 
+    {
+      "rdfs:label": "Haverbrook ND 34", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "08ca8f34-7d9e-4508-b79c-fda561561495"
+    }, 
+    {
+      "rdfs:label": "Springfield ND 39", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "7783e89d-06ed-480e-a682-2a270bf6c979"
+    }, 
+    {
+      "rdfs:label": "Cypress Creek ND 18", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "fae8d46a-169a-426c-8d57-c1055f2c8a7c"
+    }, 
+    {
+      "rdfs:label": "Springfield ND 40", 
+      "rdf:type": "syard:Node", 
+      "cptlc:hasUUID": "57000a54-4e79-4167-a9ef-a0da847fe814"
+    }
+  ], 
+  "links": [
+    {
+      "source": "5ab58f4e-8bfc-4ded-a7a8-1d1378575d9e", 
+      "relation": "syard:hasLine", 
+      "target": "d5abe7eb-cb95-4cad-916f-bb8be0046c0f"
+    }, 
+    {
+      "source": "d5abe7eb-cb95-4cad-916f-bb8be0046c0f", 
+      "relation": "syard:hasLine", 
+      "target": "f951264d-6252-4a92-8f4f-8a61ca27626e"
+    }, 
+    {
+      "source": "f951264d-6252-4a92-8f4f-8a61ca27626e", 
+      "relation": "syard:hasLine", 
+      "target": "7868381b-6642-4673-8866-5d5ffea54d37"
+    }, 
+    {
+      "source": "7868381b-6642-4673-8866-5d5ffea54d37", 
+      "relation": "syard:hasLine", 
+      "target": "2f4afa24-3702-42e5-a407-910381c11c2e"
+    }, 
+    {
+      "source": "7868381b-6642-4673-8866-5d5ffea54d37", 
+      "relation": "syard:hasLine", 
+      "target": "31086c66-7ca0-4d98-a45c-7b62058a73a6"
+    }, 
+    {
+      "source": "7868381b-6642-4673-8866-5d5ffea54d37", 
+      "relation": "syard:hasLine", 
+      "target": "57e4d4da-dee3-4412-8230-e035b4b6f31d"
+    }, 
+    {
+      "source": "7868381b-6642-4673-8866-5d5ffea54d37", 
+      "relation": "syard:hasLine", 
+      "target": "f4b7af45-277f-4875-8c20-2f9d326b68f2"
+    }, 
+    {
+      "source": "2f4afa24-3702-42e5-a407-910381c11c2e", 
+      "relation": "syard:hasLine", 
+      "target": "6f8a780f-4566-434f-a017-b0c424869899"
+    }, 
+    {
+      "source": "6f8a780f-4566-434f-a017-b0c424869899", 
+      "relation": "syard:hasLine", 
+      "target": "7783e89d-06ed-480e-a682-2a270bf6c979"
+    }, 
+    {
+      "source": "31086c66-7ca0-4d98-a45c-7b62058a73a6", 
+      "relation": "syard:hasLine", 
+      "target": "02f6bdf5-42aa-4b0a-82ba-81730efbe695"
+    }, 
+    {
+      "source": "02f6bdf5-42aa-4b0a-82ba-81730efbe695", 
+      "relation": "syard:hasLine", 
+      "target": "fae8d46a-169a-426c-8d57-c1055f2c8a7c"
+    }, 
+    {
+      "source": "57e4d4da-dee3-4412-8230-e035b4b6f31d", 
+      "relation": "syard:hasLine", 
+      "target": "cf32ab76-3c29-4d07-8782-b7d946183a15"
+    }, 
+    {
+      "source": "cf32ab76-3c29-4d07-8782-b7d946183a15", 
+      "relation": "syard:hasLine", 
+      "target": "57000a54-4e79-4167-a9ef-a0da847fe814"
+    }, 
+    {
+      "source": "f4b7af45-277f-4875-8c20-2f9d326b68f2", 
+      "relation": "syard:hasLine", 
+      "target": "08ca8f34-7d9e-4508-b79c-fda561561495"
+    }
+  ]
+}

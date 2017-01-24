@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/cts/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- On-line configuration for inventory in testinventory2.xml -->
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus">
+
+  <!-- enterprise -->
+  <online
+        urn="urn:cts:cptl:enterprise.enet.2015-07:"
+        type="xml"
+        docname="enet.rdf">
+
+        <namespaceMapping abbreviation="rdf" nsURI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <namespaceMapping abbreviation="owl" nsURI="http://www.w3.org/2002/07/owl#"/>
+        <citationMapping>
+          <citation label="Class" scope="/rdf:RDF"
+		    xpath="/owl:Class[@rdf:ID='?']"/>
+	  <citation label="ObjectProperty" scope="/rdf:RDF"
+		    xpath="/owl:ObjectProperty[@rdf:ID='?']"/>
+	  <citation label="DatatypeProperty" scope="/rdf:RDF"
+		    xpath="/owl:DatatypeProperty[@rdf:ID='?']"/>
+        </citationMapping>
+    </online>
+
+    <!-- general -->
+    <online
+        urn="urn:cts:cptl:general.cptlc.2014-07:"
+        type="xml"
+        docname="cptlc.rdf">
+
+        <namespaceMapping abbreviation="rdf" nsURI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <namespaceMapping abbreviation="owl" nsURI="http://www.w3.org/2002/07/owl#"/>
+        <citationMapping>
+          <citation label="Class" scope="/rdf:RDF"
+		    xpath="/owl:Class[@rdf:ID='?']"/>
+	  <citation label="ObjectProperty" scope="/rdf:RDF"
+		    xpath="/owl:ObjectProperty[@rdf:ID='?']"/>
+	  <citation label="DatatypeProperty" scope="/rdf:RDF"
+		    xpath="/owl:DatatypeProperty[@rdf:ID='?']"/>
+        </citationMapping>
+    </online>
+
+    <!-- power -->
+    <online
+        urn="urn:cts:cptl:power.snet.2015-07:"
+        type="xml"
+        docname="snet.rdf">
+
+        <namespaceMapping abbreviation="rdf" nsURI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <namespaceMapping abbreviation="owl" nsURI="http://www.w3.org/2002/07/owl#"/>
+        <citationMapping>
+          <citation label="Class" scope="/rdf:RDF"
+		    xpath="/owl:Class[@rdf:ID='?']"/>
+	  <citation label="ObjectProperty" scope="/rdf:RDF"
+		    xpath="/owl:ObjectProperty[@rdf:ID='?']"/>
+	  <citation label="DatatypeProperty" scope="/rdf:RDF"
+		    xpath="/owl:DatatypeProperty[@rdf:ID='?']"/>
+        </citationMapping>
+    </online>
+
+    <online
+        urn="urn:cts:cptl:power.syard.2015-07:"
+        type="xml"
+        docname="syard.rdf">
+
+        <namespaceMapping abbreviation="rdf" nsURI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <namespaceMapping abbreviation="owl" nsURI="http://www.w3.org/2002/07/owl#"/>
+        <citationMapping>
+          <citation label="Class" scope="/rdf:RDF"
+		    xpath="/owl:Class[@rdf:ID='?']"/>
+	  <citation label="ObjectProperty" scope="/rdf:RDF"
+		    xpath="/owl:ObjectProperty[@rdf:ID='?']"/>
+	  <citation label="DatatypeProperty" scope="/rdf:RDF"
+		    xpath="/owl:DatatypeProperty[@rdf:ID='?']"/>
+        </citationMapping>
+    </online>
+    
+    
+
+</CitationConfiguration>
