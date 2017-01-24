@@ -1,0 +1,29 @@
+@prefix cptlimg: <urn:cite:cptl:power.schematics.2016_09:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix syard: <urn:cite:cptl:power.syard.2016_07:> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600> a cptlimg:Image ;
+    cptlimg:containsROI <urn:cite:ieee:power.14bus.1993_08:14bus600@0.46,0.46,0.03,0.05>,
+        <urn:cite:ieee:power.14bus.1993_08:14bus600@0.47,0.46,0.03,0.05>,
+        <urn:cite:ieee:power.14bus.1993_08:14bus600@0.48,0.46,0.03,0.05>,
+        <urn:cite:ieee:power.14bus.1993_08:14bus600@0.72,0.46,0.03,0.05>,
+        <urn:cite:ieee:power.14bus.1993_08:14bus600@0.72,0.47,0.03,0.05> .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600@0.46,0.46,0.03,0.05> a cptlimg:ROI,
+        syard:Transformer .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600@0.47,0.46,0.03,0.05> a cptlimg:ROI,
+        syard:Transformer .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600@0.48,0.46,0.03,0.05> a cptlimg:ROI,
+        syard:Transformer .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600@0.72,0.46,0.03,0.05> a cptlimg:ROI,
+        syard:Transformer .
+
+<urn:cite:ieee:power.14bus.1993_08:14bus600@0.72,0.47,0.03,0.05> a cptlimg:ROI,
+        syard:Transformer .
+
