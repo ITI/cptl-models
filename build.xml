@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2019, Gabriel A. Weaver
+    University of Illinois at Urbana Champaign
+    All Rights Reserved
+-->
+<project name="ComplexityMetrics" default="tasks" basedir=".">
+  <description>
+    Build file for running experiments using complexity metrics.
+  </description>
+
+  <!-- Set global properties for this build -->
+  <property name="build.dir" location="build"/>
+  <property name="data.dir" location="data"/>
+  <property name="src.dir" location="src"/>
+  <property name="src.test.dir" location="src/testing"/>
+
+  <target name="tasks">
+    <echo message="============= UTILS"/>
+    <echo message="clean   clean build"/>
+    <echo message="test           test"/>
+  </target>
+
+  <target name="init">
+    <echo message="export PYTHONPATH=`pwd`/src"/>
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${build.data.dir}"/>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+
+  <target name="test">
+    <exec executable="python" dir=".">
+      <arg line="${src.test.dir}/edu/illinois/iti/dao/TestCommunicationsNetworkDAO.py"/>
+    </exec>
+  </target>
+ 
+</project>
