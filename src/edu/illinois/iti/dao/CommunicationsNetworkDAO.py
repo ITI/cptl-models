@@ -25,8 +25,13 @@ class IMNCommunicationsNetworkDAO():
     typeBlock = Keyword("type") + Word(alphanums)
     modelBlock = Keyword("model") + Word(alphanums)
 
+    interfaceBlock = Keyword("interface") + Word(alphanums) + \
+                     SkipTo(MatchFirst(Literal("!"))) + Literal("!")
+    hostnameBlock = Keyword("hostname") + Word(alphanums + "-") + Literal("!")
+    
+    networkConfigContents = hostnameBlock.setResultsName("imn:hostname") | interfaceBlock.setResultsName("imn:interface")
     networkConfigBlock = Keyword("network-config") + Literal("{") + \
-                          SkipTo(MatchFirst(Literal("}")) ) + Literal("}")
+                         OneOrMore(networkConfigContents) + Literal("}")
     canvasBlock = Keyword("canvas") + Word(alphanums)
     iconCoordsBlock = Keyword("iconcoords") + Literal("{") + \
                       SkipTo(MatchFirst(Literal("}"))) + Literal("}")
@@ -78,6 +83,8 @@ class IMNCommunicationsNetworkDAO():
     def getEntityTypes(self):
         entityTypes = []
         entityTypes.append("imn:type")
+        entityTypes.append("imn:hostname")
+        entityTypes.append("imn:interface")
         entityTypes.append("imn:network-config")
         entityTypes.append("imn:canvas")
         entityTypes.append("imn:iconcoords")
@@ -99,6 +106,12 @@ class IMNCommunicationsNetworkDAO():
         if "imn:type" == entityType:
             typeBlocks = self.typeBlock.scanString(networkFileLines)
             result = typeBlocks
+        elif "imn:hostname" == entityType:
+            hostnameBlocks = self.hostnameBlock.scanString(networkFileLines)
+            result = hostnameBlocks
+        elif "imn:interface" == entityType:
+            interfaceBlocks = self.interfaceBlock.scanString(networkFileLines)
+            result = interfaceBlocks
         elif "imn:network-config" == entityType:
             networkConfigBlocks = \
                                   self.networkConfigBlock.scanString(networkFileLines)
@@ -164,7 +177,13 @@ class IMNCommunicationsNetworkDAO():
             for node, start, end in nodeBlocks:
                 nName = node[1]
                 nId = int(nName[1:])
-                G.add_node(nId, name=nName)
+                G.add_node(nId)
+                G.nodes[nId]["name"] = nName
+
+                if "imn:hostname" in node:
+                    G.nodes[nId]["imn:hostname"] = node["imn:hostname"][1]
+                if "imn:interface" in node:
+                    G.nodes[nId]["imn:interface"] = node["imn:interface"][1]
 
             for edge, start, end in linkBlocks:
                 eName = edge[1]

@@ -40,7 +40,7 @@ node n3 {
     type router
     model PC
     network-config {
-	hostname n3
+	hostname DB-1
 	!
 	interface eth0
 	 ip address 10.0.0.20/24

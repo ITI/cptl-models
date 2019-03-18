@@ -23,6 +23,8 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
     def test_get_entity_occurrences(self):
         expectedCounts = {}
         expectedCounts["imn:type"] = 3
+        expectedCounts["imn:hostname"] = 3
+        expectedCounts["imn:interface"] = 2
         expectedCounts["imn:network-config"] = 3
         expectedCounts["imn:canvas"] = 4
         expectedCounts["imn:iconcoords"] = 3
