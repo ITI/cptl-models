@@ -9,6 +9,7 @@ All Rights Reserved
 from pyparsing import *
 import json
 import networkx as nx
+import pyshark
 
 class IMNCommunicationsNetworkDAO():
 
@@ -22,7 +23,7 @@ class IMNCommunicationsNetworkDAO():
     #-- Grammar for the IMN file
 
     #---- nodes
-    typeBlock = Keyword("type") + Word(alphanums)
+    typeBlock = Keyword("type") + Word(alphanums).setResultsName("imn:type")
     modelBlock = Keyword("model") + Word(alphanums)
 
     interfaceBlock = Keyword("interface") + Word(alphanums) + \
@@ -167,7 +168,7 @@ class IMNCommunicationsNetworkDAO():
         return result
         
     def getNetwork(self, networkFilePath):
-        G = nx.MultiDiGraph()
+        G = nx.DiGraph()
         with open(networkFilePath, "r") as networkFile:
             networkFileLines = "".join(networkFile.readlines())
             nodeBlocks = self.getEntityOccurrences(networkFileLines, \
@@ -180,6 +181,8 @@ class IMNCommunicationsNetworkDAO():
                 G.add_node(nId)
                 G.nodes[nId]["name"] = nName
 
+                if "imn:type" in node:
+                    G.nodes[nId]["imn:type"] = node["imn:type"]
                 if "imn:hostname" in node:
                     G.nodes[nId]["imn:hostname"] = node["imn:hostname"][1]
                 if "imn:interface" in node:
@@ -191,4 +194,4 @@ class IMNCommunicationsNetworkDAO():
                 tId = int(edge[5].split()[1][1:])
                 G.add_edge(sId, tId, name=eName)
         return G
-    
+

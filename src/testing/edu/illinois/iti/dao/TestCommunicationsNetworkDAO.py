@@ -11,6 +11,7 @@ import json
 import networkx as nx
 import unittest
 
+
 class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
 
     def setUp(self):
@@ -62,6 +63,19 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
         gData = nx.node_link_data(G)
         gStr = json.dumps(gData, indent=4)
         print(gStr)
+
+
+"""class TestPCAPNetworkDAO(unittest.TestCase):
+
+    def setUp(self):
+        self.pcapFilePath = "data/testing/sample.pcap"
+        self.pnDAO = PCAPNetworkDAO(self.pcapFilePath)
+
+    def test_get_network(self):
+        G = self.cnDAO.getNetwork()
+        self.assertEqual( G.number_of_nodes(), 3)
+        self.assertEqual( G.number_of_edges(), 2)
+"""
 
 if __name__ == '__main__':
     unittest.main()
