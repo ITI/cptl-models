@@ -10,6 +10,8 @@ from edu.illinois.iti.dao.CommunicationsNetworkDAO import IMNCommunicationsNetwo
 import networkx as nx
 import unittest
 
+    
+
 class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
 
     def setUp(self):
