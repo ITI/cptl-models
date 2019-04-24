@@ -6,17 +6,21 @@ Created on March 14, 2019
 Copyright (c) 2019 University of Illinois at Urbana Champaign.  
 All Rights Reserved
 """
-from edu.illinois.iti.dao.CommunicationsNetworkDAO import IMNCommunicationsNetworkDAO
+from edu.illinois.iti.dao.CommunicationsNetworkDAO import IMNCommunicationsNetworkDAO, MuxVizCommunicationsNetworkDAO
+from networkx.readwrite import json_graph
 import json
 import networkx as nx
+import os
 import unittest
-
 
 class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
 
     def setUp(self):
         self.imnFilePath = "data/testing/simple.imn"
         self.cnDAO = IMNCommunicationsNetworkDAO.create(self.imnFilePath)
+
+        self.pevFilePath = "data/everglades/cyber/PEV.imn"
+        self.cnDAO2 = IMNCommunicationsNetworkDAO.create(self.pevFilePath)
 
     def test_init(self):
         self.assertEqual(self.cnDAO.networkFilePath, self.imnFilePath)
@@ -60,10 +64,65 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
         self.assertEqual(G.number_of_nodes(), 3)
         self.assertEqual(G.number_of_edges(), 2)
 
-        gData = nx.node_link_data(G)
+        gData = json_graph.node_link_data(G)
         gStr = json.dumps(gData, indent=4)
-        print(gStr)
 
+        G2 = self.cnDAO2.getNetwork(self.cnDAO2.networkFilePath)
+        self.assertEqual(G2.number_of_nodes(), 7)
+        self.assertEqual(G2.number_of_edges(), 6)
+        gData2 = json_graph.node_link_data(G2)
+        gStr2 = json.dumps(gData2, indent=4)
+        print(gStr2)
+
+class TestMuxVizCommunicationsNetworkDAO(unittest.TestCase):
+    
+    communicationsNetworkInputFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/everglades/cyber/PEV.communications.json"
+    communicationsNetworkSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/network.communications.schema.json"
+
+    def testReadCommunicationsNetwork(self):
+        cnDAO = MuxVizCommunicationsNetworkDAO()
+        cnDAO.readNetwork(self.communicationsNetworkInputFilePath)
+        self.assertEqual( len(cnDAO.gCyber.nodes()), 7)
+        
+    def testGetExtendedEdges(self):
+        cnDAO = MuxVizCommunicationsNetworkDAO()
+        cnDAO.readNetwork(self.communicationsNetworkInputFilePath)
+        
+        edgeList = cnDAO.getExtendedEdges()
+        self.assertEqual( len(edgeList), len(cnDAO.gCyber.edges()) )
+
+    def testGetNodes(self):
+        cnDAO = MuxVizCommunicationsNetworkDAO()
+        cnDAO.readNetwork(self.communicationsNetworkInputFilePath)
+
+        nodeList = cnDAO.getNodes()
+        self.assertEqual( len(nodeList), len(cnDAO.gCyber.nodes()) )
+
+    def testWriteNetwork(self):
+        outputDirPath = "/tmp"
+        cnDAO = MuxVizCommunicationsNetworkDAO()
+        gCyber = cnDAO.readNetwork(self.communicationsNetworkInputFilePath)
+        
+        configFileName = "communications_config.txt"
+        edgesFileName = "communications_edges.txt"
+        layersFileName = "communications_layers.txt"
+        nodesFileName = "communications_nodes.txt"
+        
+        configFilePath = "/".join( [outputDirPath, configFileName] )
+        edgesFilePath = "/".join( [outputDirPath, edgesFileName] )
+        layersFilePath = "/".join( [outputDirPath, layersFileName] )
+        nodesFilePath = "/".join( [outputDirPath, nodesFileName] )
+        
+        self.assertFalse(os.path.exists(configFilePath))
+        self.assertFalse(os.path.exists(edgesFilePath))
+        self.assertFalse(os.path.exists(layersFilePath))
+        self.assertFalse(os.path.exists(nodesFilePath))
+
+        cnDAO.writeNetwork(outputDirPath)
+        self.assertTrue(os.path.exists(configFilePath))
+        self.assertTrue(os.path.exists(edgesFilePath))
+        self.assertTrue(os.path.exists(layersFilePath))
+        self.assertTrue(os.path.exists(nodesFilePath))
 
 """class TestPCAPNetworkDAO(unittest.TestCase):
 

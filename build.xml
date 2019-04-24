@@ -18,6 +18,7 @@
     <echo message="============= UTILS"/>
     <echo message="clean   clean build"/>
     <echo message="test           test"/>
+    <echo message="validateNetwork    "/>
   </target>
 
   <target name="init">
@@ -34,6 +35,19 @@
     <exec executable="python" dir=".">
       <arg line="${src.test.dir}/edu/illinois/iti/dao/TestCommunicationsNetworkDAO.py"/>
     </exec>
+  </target>
+
+  <target name="validateJSON">
+    <exec executable="jsonschema">
+      <arg line="-i ${input.json.filepath} ${json.schema.filepath}"/>
+    </exec>
+  </target>
+
+  <target name="validateNetwork">
+    <antcall target="validateJSON">
+      <param name="input.json.filepath" value="${data.dir}/everglades/cyber/PEV.communications.json"/>
+      <param name="json.schema.filepath" value="${data.dir}/network.communications.schema.json"/>
+    </antcall>
   </target>
  
 </project>

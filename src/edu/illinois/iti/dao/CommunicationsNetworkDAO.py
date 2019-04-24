@@ -8,6 +8,7 @@ All Rights Reserved
 """
 from pyparsing import *
 import json
+from networkx.readwrite import json_graph
 import networkx as nx
 import pyshark
 
@@ -64,10 +65,11 @@ class IMNCommunicationsNetworkDAO():
     nodeBlock = nodeStart + OneOrMore(nodeContents) + nodeEnd
 
     #---- links
+    colorBlock = Keyword("color") + Word(alphas)
     nodesBlock = Keyword("nodes") + Literal("{") + \
-                      SkipTo(MatchFirst(Literal("}"))) + Literal("}")
+                      SkipTo(MatchFirst(Literal("}"))).setResultsName("imn:LinkNodes") + Literal("}")
     bandwidthBlock = Keyword("bandwidth") + Word(nums)
-    linkContents = nodesBlock | bandwidthBlock
+    linkContents = nodesBlock | bandwidthBlock | colorBlock
     
     linkName = Word("l" + nums).setResultsName("linkName")
     linkStart = Keyword("link") + linkName + Literal("{")
@@ -175,23 +177,144 @@ class IMNCommunicationsNetworkDAO():
                                                    "imn:node")
             linkBlocks = self.getEntityOccurrences(networkFileLines, \
                                                    "imn:link")
+            nIdx = 0
             for node, start, end in nodeBlocks:
                 nName = node[1]
-                nId = int(nName[1:])
-                G.add_node(nId)
-                G.nodes[nId]["name"] = nName
+                G.add_node(nIdx)
+                G.nodes(data=True)[nIdx][1]["name"] = nName
 
                 if "imn:type" in node:
-                    G.nodes[nId]["imn:type"] = node["imn:type"]
+                    G.nodes(data=True)[nIdx][1]["imn:type"] = node["imn:type"]
                 if "imn:hostname" in node:
-                    G.nodes[nId]["imn:hostname"] = node["imn:hostname"][1]
+                    G.nodes(data=True)[nIdx][1]["imn:hostname"] = node["imn:hostname"][1]
                 if "imn:interface" in node:
-                    G.nodes[nId]["imn:interface"] = node["imn:interface"][1]
+                    G.nodes(data=True)[nIdx][1]["imn:interface"] = node["imn:interface"][1]
+                nIdx += 1
 
+            nodeNames = list(map(lambda x: x[1]["name"], G.nodes(data=True)))
             for edge, start, end in linkBlocks:
                 eName = edge[1]
-                sId = int(edge[5].split()[0][1:])
-                tId = int(edge[5].split()[1][1:])
-                G.add_edge(sId, tId, name=eName)
+                linkNodes = edge["imn:LinkNodes"].split()
+                sName = linkNodes[0]
+                tName = linkNodes[1]
+
+                sIdx = nodeNames.index(sName)
+                tIdx = nodeNames.index(tName)
+                G.add_edge(sIdx, tIdx, name=eName)
         return G
 
+class MuxVizCommunicationsNetworkDAO():
+    """
+    Currently a transcoder class to read in a communications
+     network and serialize it to a MuxViz network format.
+    """
+    gCyber = None
+    nodeNames = None
+
+    @staticmethod
+    def create(networkFilePath):
+        cnDAO = MuxVizCommunicationsNetworkDAO()
+        
+        cnDAO.readNetwork(networkFilePath)
+        return cnDAO
+
+    def readNetwork(self, networkFilePath):
+        with open(networkFilePath) as networkFile:
+            graphData = json.load(networkFile)
+        networkFile.close()
+
+        self.nodeNames = list(map(lambda x: x["id"], graphData["nodes"]))
+        for edge in graphData["links"]:
+            edge["source"] = self.nodeNames.index( edge["source"] )
+            edge["target"] = self.nodeNames.index( edge["target"] )
+        self.gCyber = json_graph.node_link_graph(graphData)
+        
+    # Config
+    def writeConfig(self, configFilePath, configContents):
+        with open(configFilePath, 'w') as configOutFile:
+            configOutFile.write(configContents)
+        configOutFile.close()
+
+    # Extended Edges
+    def getExtendedEdges(self):
+        layer = 1
+        entries = []
+
+        for edge in self.gCyber.edges_iter(data=True):
+            sourceNode = str( self.nodeNames.index( edge[0] ) )
+            sourceLayer = str(layer)
+            destNode = str( self.nodeNames.index( edge[1] ) )
+            destLayer = str(layer)
+            
+            entry = " ".join([sourceNode, sourceLayer, destNode, destLayer])
+            entries.append(entry)
+        return entries
+
+    def writeExtendedEdges(self, edgesFilePath):
+        entries = self.getExtendedEdges()
+        with open(edgesFilePath, 'w') as edgesOutFile:
+            edgesOutFile.write("\n".join(entries))
+        edgesOutFile.close()
+        
+    # Layers
+    def getLayers(self):
+        layersContent = []
+        header = "layerID layerLabel"
+        content = "2 Cyber"
+        layersContent.append(header)
+        layersContent.append(content)
+        return layersContent
+    
+    def writeLayers(self, layersFilePath):
+        layersContent = self.getLayers()
+        with open(layersFilePath, 'w') as layersOutFile:
+            layersOutFile.write("\n".join(layersContent))
+        layersOutFile.close()
+
+    # Nodes
+    def getNodes(self):
+        nodes = []
+        for node in self.gCyber.nodes_iter(data=True):
+            nodeID = str(self.nodeNames.index( node[0] ))
+            nodeLabel = str(node[1]["name"])
+            #nodeLat = str(node[1]["latitude"])
+            #nodeLong = str(node[1]["longitude"])
+            nodeEntry = " ".join([nodeID, nodeLabel])
+            nodes.append(nodeEntry)
+        return nodes
+        
+    def writeNodes(self, nodesFilePath):
+        nodesContent = self.getNodes()
+        headers = ["nodeID", "nodeLabel"]
+        nodesContent.insert(0, " ".join(headers) )
+        with open(nodesFilePath, 'w') as nodesOutFile:
+            nodesOutFile.write("\n".join(nodesContent))
+        nodesOutFile.close()
+
+    def writeNetwork(self, outputDirPath):
+        
+        configFileName = "communications_config.txt"
+        edgesFileName = "communications_edges.txt"
+        layersFileName = "communications_layers.txt"
+        nodesFileName = "communications_nodes.txt"
+
+        configFilePath = "/".join( [outputDirPath, configFileName] )
+        edgesFilePath = "/".join( [outputDirPath, edgesFileName] )
+        layersFilePath = "/".join( [outputDirPath, layersFileName] )
+        nodesFilePath = "/".join( [outputDirPath, nodesFileName] )
+
+        # 0. export the non-edge colored network config
+        configContents = ";".join( [edgesFilePath, "Cyber", nodesFilePath] )
+        self.writeConfig(configFilePath, configContents)
+
+        # 1. export the extended edges list
+        self.writeExtendedEdges(edgesFilePath)
+
+        # 2. export the layers information
+        self.writeLayers(layersFilePath)
+
+        # 3. export the nodes information
+        self.writeNodes(nodesFilePath)
+    
+
+    

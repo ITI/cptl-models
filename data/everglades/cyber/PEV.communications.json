@@ -1,0 +1,86 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "name": "n1",
+            "imn:type": "lanswitch",
+            "imn:hostname": "n1",
+            "id": 0
+        },
+        {
+            "name": "n2",
+            "imn:type": "lanswitch",
+            "imn:hostname": "n2",
+            "id": 1
+        },
+        {
+            "name": "n4",
+            "imn:type": "router",
+            "imn:hostname": "GOS",
+            "imn:interface": "eth0",
+            "id": 2
+        },
+        {
+            "name": "n5",
+            "imn:type": "router",
+            "imn:hostname": "n5",
+            "imn:interface": "eth0",
+            "id": 3
+        },
+        {
+            "name": "n6",
+            "imn:type": "router",
+            "imn:hostname": "n6",
+            "imn:interface": "eth0",
+            "id": 4
+        },
+        {
+            "name": "n7",
+            "imn:type": "router",
+            "imn:hostname": "TOS",
+            "imn:interface": "eth0",
+            "id": 5
+        },
+        {
+            "name": "n3",
+            "imn:type": "router",
+            "imn:hostname": "n3",
+            "imn:interface": "eth0",
+            "id": 6
+        }
+    ],
+    "links": [
+        {
+            "name": "l6",
+            "source": 0,
+            "target": 5
+        },
+        {
+            "name": "l1",
+            "source": 1,
+            "target": 6
+        },
+        {
+            "name": "l3",
+            "source": 2,
+            "target": 0
+        },
+        {
+            "name": "l4",
+            "source": 3,
+            "target": 1
+        },
+        {
+            "name": "l5",
+            "source": 4,
+            "target": 1
+        },
+        {
+            "name": "l2",
+            "source": 6,
+            "target": 0
+        }
+    ]
+}
