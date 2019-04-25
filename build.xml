@@ -45,7 +45,7 @@
 
   <target name="validateNetwork">
     <antcall target="validateJSON">
-      <param name="input.json.filepath" value="${data.dir}/everglades/cyber/PEV.communications.json"/>
+      <param name="input.json.filepath" value="${data.dir}/everglades/cyber/PEV.communicationsv2.json"/>
       <param name="json.schema.filepath" value="${data.dir}/network.communications.schema.json"/>
     </antcall>
   </target>

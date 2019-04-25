@@ -7,8 +7,9 @@ Copyright (c) 2019 University of Illinois at Urbana Champaign.
 All Rights Reserved
 """
 from pyparsing import *
-import json
 from networkx.readwrite import json_graph
+import csv
+import json
 import networkx as nx
 import pyshark
 
@@ -168,7 +169,50 @@ class IMNCommunicationsNetworkDAO():
             result = linkBlocks
             
         return result
+    
+    def geocodeNetwork(self, G, geocodedFilePath):
+        # The file contains geocodings for the nodes, using
+        #  this information, we get the geocodings for the 
+        #  edges.
+
+        nodeHostNames = list(map(lambda x: x[1]["imn:hostname"], G.nodes(data=True)))
+        with open(geocodedFilePath, 'r') as geocodedFile:
+            geocodedReader = csv.DictReader(geocodedFile)
+            for geocodedRow in geocodedReader:
+                nodeName = geocodedRow["name"]
+                latitude = geocodedRow["latitude"]
+                longitude = geocodedRow["longitude"]
+
+                nodeIdx = nodeHostNames.index(nodeName)
+                node = G.nodes(data=True)[nodeIdx]
+                node[1]["latitude"] = float(latitude)
+                node[1]["longitude"] = float(longitude)
+                
+        for edge in G.edges_iter(data=True):
+            sourceNodeIdx = edge[0] 
+            destNodeIdx = edge[1]
+            sourceNode = G.nodes(data=True)[sourceNodeIdx]
+            destNode = G.nodes(data=True)[destNodeIdx]
+            
+            sourceLatitude = sourceNode[1]["latitude"]
+            destLatitude = destNode[1]["latitude"]
+            sourceLongitude = sourceNode[1]["longitude"]
+            destLongitude = destNode[1]["longitude"]
+
+            # for edge lat and long, assume the earth is locally flat
+            #  and compute centroid.  This may not be the most valid for
+            #  vessel routes over long distances but we
+            #  aren't simulating this yet.
+            lat = [sourceLatitude, destLatitude]
+            lon = [sourceLongitude, destLongitude]
+            
+            midLat = sum(lat) / len(lat)
+            midLon = sum(lon) / len(lon)
+            edge[2]["latitude"] = midLat
+            edge[2]["longitude"] = midLon
+        return
         
+
     def getNetwork(self, networkFilePath):
         G = nx.DiGraph()
         with open(networkFilePath, "r") as networkFile:

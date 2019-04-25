@@ -19,8 +19,11 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
         self.imnFilePath = "data/testing/simple.imn"
         self.cnDAO = IMNCommunicationsNetworkDAO.create(self.imnFilePath)
 
+        self.pevGeocodeFilePath = "data/everglades/cyber/PEV.geocoding.csv"
         self.pevFilePath = "data/everglades/cyber/PEV.imn"
+
         self.cnDAO2 = IMNCommunicationsNetworkDAO.create(self.pevFilePath)
+        
 
     def test_init(self):
         self.assertEqual(self.cnDAO.networkFilePath, self.imnFilePath)
@@ -72,7 +75,13 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
         self.assertEqual(G2.number_of_edges(), 6)
         gData2 = json_graph.node_link_data(G2)
         gStr2 = json.dumps(gData2, indent=4)
-        print(gStr2)
+
+    def test_geocode_network(self):
+        gCyber = self.cnDAO2.getNetwork(self.cnDAO2.networkFilePath)
+        gCyberGeocoded = self.cnDAO2.geocodeNetwork(gCyber, self.pevGeocodeFilePath)
+        gData = json_graph.node_link_data(gCyber)
+        gStr = json.dumps(gData, indent=4)
+        print(gStr)
 
 class TestMuxVizCommunicationsNetworkDAO(unittest.TestCase):
     
