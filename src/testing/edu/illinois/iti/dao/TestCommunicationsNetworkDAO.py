@@ -85,7 +85,7 @@ class TestIMNCommunicationsNetworkDAO(unittest.TestCase):
 
 class TestMuxVizCommunicationsNetworkDAO(unittest.TestCase):
     
-    communicationsNetworkInputFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/everglades/cyber/PEV.communications.json"
+    communicationsNetworkInputFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/everglades/cyber/PEV.communicationsv2.json"
     communicationsNetworkSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/network.communications.schema.json"
 
     def testReadCommunicationsNetwork(self):

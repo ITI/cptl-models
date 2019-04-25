@@ -1,0 +1,23 @@
+{
+  "name": "PEV Multilayer",
+  "networks": [ 
+     {
+       "name": "PEV Southport",
+       "type": "Transportation",
+       "schema": "transportation/schema/network.schema.v2.json",
+       "network": "transportation/network-baseline.extended2.json"
+     },
+     {
+       "name": "Crowley",
+       "type": "Communications",
+       "schema": "cyber/schema/network.communications.schema.json",
+       "network": "cyber/PEV.communicationsv2.json"
+     },
+     {
+       "name": "Interconnect",
+       "type": "Transportation,Communications",
+       "schema": "multilayer/schema/network.interconnect.schema.json",
+       "network": "multilayer/PEV.transportation-cyber.json"
+     } 	      
+  ]
+}

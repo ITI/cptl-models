@@ -1,0 +1,44 @@
+{
+    "commodities": [
+        {
+            "EAT": "2017-05-01 21:10:00",
+            "LDT": "2017-05-03 09:10:00",
+            "source": "Berth 30",
+            "name": "MELBOURNE STRAIT",
+            "commodityGroup": "Machinery",
+            "destination": "SC",
+            "origin": "DOMINICAN REPUBLIC",
+            "nTEU": 0.0,
+            "group_uuid": "83aabe39-7381-4ec0-abb9-9cdc20144e2c",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-01 21:10:00",
+            "LDT": "2017-05-03 09:10:00",
+            "source": "Berth 30",
+            "name": "MELBOURNE STRAIT",
+            "commodityGroup": "All Others",
+            "destination": "SC",
+            "origin": "HONDURAS",
+            "nTEU": 4.5,
+            "group_uuid": "66279747-aed3-4f2f-9842-2a3fe47e4320",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Transportation Network",
+	"description": "A network to describe a transportation system at a port.",
+	"type": "object",
+	"properties": {
+		"directed": {
+			"type": "boolean",
+			"description": "Indicator of whether the graph is directed"
+		},
+		"graph": {
+			"type": "object",
+			"description": "Contains metadata about the transportation network"
+		},
+		"links": {
+			"type": "array",
+			"description": "List of edges in the transportation network",
+			"items": {
+				"type": "object",
+				"description": "An edge",
+				"properties": {
+					"capacity": {
+						"type": "number",
+						"description": "The total capacity of the node (for all commodities)"
+					},
+					"cargo_categories": {
+						"type": "array",
+						"description": "List of cargo types supported by the link",
+						"items": {
+							"type": "string",
+							"enum": ["Non-hazardous", "Hazardous", "Perishable", "Liquid", "Gas", "Passenger", "Retail", "Goods"]
+						}
+					},
+					"cost": {
+						"type": "number",
+						"description": "The (non-temporal) cost of using an edge"
+					},
+					"id": {
+						"type": "integer",
+						"description": "Integer identifier for the edge"
+					},
+					"latitude": {
+						"type": "number",
+						"description": "Latitude GIS coordinate"
+					},
+					"longitude": {
+						"type": "number",
+						"description": "Longitude GIS coordinate"
+					},
+					"name": {
+						"type": "string",
+						"description": "The name of the edge"
+					},
+					"nbr_containers": {
+						"type": "integer",
+						"description": "The number of containers on the edge"
+					},
+					"source": {
+						"type": "string",
+						"description": "The name for the edge's source node"
+					},
+					"target": {
+						"type": "string",
+						"description": "The name for the edge's target node"
+					},
+					"travel_time": {
+						"type": "number",
+						"description": "The time for all commodities to move across an edge"
+					}
+				},
+				"required": ["capacity", "cargo_categories", "cost", "nbr_containers", "source", "target", "travel_time"]
+			},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		"multigraph": {
+			"type": "boolean",
+			"description": "Indicates whether this is a multigraph"
+		},
+		"nodes": {
+			"type": "array",
+			"description": "List of nodes in the transportation network",
+			"items": {
+				"type": "object",
+				"description": "A node",
+				"properties": {
+					"capacity": {
+						"type": "number",
+						"description": "The total capacity of the node for all commodities"
+					},
+					"cost": {
+						"type": "number",
+						"description": "The (non-temporal) cost of servicing a commodity at the node location"
+					},
+					"extended_time_period": {
+						"type": "number",
+						"description": "If the commodity stays at the node longer than this time period (in minutes), then additional costs are incurred"
+					},
+					"extended_time_rate": {
+						"type": "number",
+						"description": "If a commodity stays at the node longer than the extended time period, costs are incurred at this rate (dollars/minute)"
+					},
+					"id": {
+						"type": "string",
+						"description": "Integer identifier for the node"
+					},
+					"latitude": {
+						"type": "number",
+						"description": "Latitude GIS coordinate"
+					},
+					"longitude": {
+						"type": "number",
+						"description": "Longitude GIS coordinate"
+					},
+					"nbr_containers": {
+						"type": "integer",
+						"description": "The number of containers at the node"
+					},
+					"service_time": {
+						"type": "number",
+						"description": "The time to service any commodity at the location"
+					},
+					"storage": {
+						"type": "integer",
+						"description": "The total storage capacity of the node for all commodities"
+					}
+				},
+				"required": ["capacity", "cost", "extended_time_period", "extended_time_rate", "id", "latitude", "longitude", "nbr_containers", "service_time", "storage"]
+			},
+			"minItems": 0,
+			"uniqueItems": true
+		}
+	},
+	"required": ["directed", "graph", "links", "multigraph", "nodes"]
+}

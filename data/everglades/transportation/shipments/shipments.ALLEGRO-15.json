@@ -1,0 +1,44 @@
+{
+    "commodities": [
+        {
+            "EAT": "2017-05-15 13:55:00",
+            "LDT": "2017-05-17 01:55:00",
+            "source": "Berth 32",
+            "name": "ALLEGRO",
+            "commodityGroup": "Machinery",
+            "destination": "FL",
+            "origin": "DOMINICAN REPUBLIC",
+            "nTEU": 0.0,
+            "group_uuid": "25b3d871-f835-4645-adc6-58925d5573f8",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-15 13:55:00",
+            "LDT": "2017-05-17 01:55:00",
+            "source": "Berth 32",
+            "name": "ALLEGRO",
+            "commodityGroup": "Household Products",
+            "destination": "GA",
+            "origin": "GUATEMALA",
+            "nTEU": 2.0,
+            "group_uuid": "81661241-82e6-4ce5-9602-c796a0260311",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

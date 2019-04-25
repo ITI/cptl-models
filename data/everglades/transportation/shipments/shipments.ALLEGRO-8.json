@@ -1,0 +1,64 @@
+{
+    "commodities": [
+        {
+            "EAT": "2017-05-08 16:30:00",
+            "LDT": "2017-05-10 04:30:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "destination": "CA",
+            "origin": "COLOMBIA",
+            "nTEU": 12.0,
+            "group_uuid": "0f2107d0-a6d4-495c-9bf8-5b1f06bd67dc",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-08 16:30:00",
+            "LDT": "2017-05-10 04:30:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Waste Products",
+            "destination": "CT",
+            "origin": "DOMINICAN REPUBLIC",
+            "nTEU": 2.0,
+            "group_uuid": "b9d975c7-83d3-4c3d-a41a-afbb1aed1363",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-08 16:30:00",
+            "LDT": "2017-05-10 04:30:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Machinery",
+            "destination": "FL",
+            "origin": "TURKS AND CAICOS IS",
+            "nTEU": 0.0,
+            "group_uuid": "7335032b-507e-4b5f-8fa8-aaf7cca50dd8",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

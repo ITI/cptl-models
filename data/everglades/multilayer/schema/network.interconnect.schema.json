@@ -1,0 +1,75 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Interconnection Network",
+	"description": "A network to describe interconnections among infrastructure networks.",
+	"type": "object",
+	"properties": {
+		"directed": {
+			"type": "boolean",
+			"description": "Indicator of whether the graph is directed"
+		},
+		"graph": {
+			"type": "object",
+			"description": "Contains metadata about the communications network"
+		},
+		"links": {
+			"type": "array",
+			"description": "List of edges in the communications network",
+			"items": {
+				"type": "object",
+				"description": "An edge",
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "The name of the edge"
+					},
+					"source": {
+						"type": "string",
+						"description": "The name for the edge's source node"
+					},
+					"target": {
+						"type": "string",
+						"description": "The name for the edge's target node"
+					}
+				},
+				"required": ["name", "source", "target"]
+			},
+			"minItems": 1,
+			"uniqueItems": true
+		},
+		"multigraph": {
+			"type": "boolean",
+			"description": "Indicates whether this is a multigraph"
+		},
+		"nodes": {
+			"type": "array",
+			"description": "List of nodes in the transportation network",
+			"items": {
+				"type": "object",
+				"description": "A node",
+				"properties": {
+					"id": {
+						"type": "string",
+						"description": "String identifier for the node"
+					},
+					"name": {
+						"type": "string",
+						"description": "The name of the node"
+					},
+					"latitude": {
+						"type": "number",
+						"description": "Latitude GIS coordinate"
+					},
+					"longitude": {
+						"type": "number",
+						"description": "Longitude GIS coordinate"
+					}
+				},
+				"required": ["id", "name" ]
+			},
+			"minItems": 0,
+			"uniqueItems": true
+		}
+	},
+	"required": ["directed", "graph", "links", "multigraph", "nodes"]
+}

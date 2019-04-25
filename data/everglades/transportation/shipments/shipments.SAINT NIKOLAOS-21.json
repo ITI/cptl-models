@@ -1,0 +1,64 @@
+{
+    "commodities": [
+        {
+            "EAT": "2017-05-21 12:15:00",
+            "LDT": "2017-05-23 00:15:00",
+            "source": "Berth 30",
+            "name": "SAINT NIKOLAOS",
+            "commodityGroup": "Aggregates",
+            "destination": "FL",
+            "origin": "BRAZIL",
+            "nTEU": 10.0,
+            "group_uuid": "f9449bbc-4818-47ba-bb1e-f042a30dd30f",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-21 12:15:00",
+            "LDT": "2017-05-23 00:15:00",
+            "source": "Berth 30",
+            "name": "SAINT NIKOLAOS",
+            "commodityGroup": "All Others",
+            "destination": "FL",
+            "origin": "HONDURAS",
+            "nTEU": 9.39,
+            "group_uuid": "60d85c05-108d-4f33-bf9c-ae06b0cad91a",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-21 12:15:00",
+            "LDT": "2017-05-23 00:15:00",
+            "source": "Berth 30",
+            "name": "SAINT NIKOLAOS",
+            "commodityGroup": "Fish",
+            "destination": "CA",
+            "origin": "COLOMBIA",
+            "nTEU": 0.61,
+            "group_uuid": "9e9253e5-bab4-4739-bbb8-a89ffd10210e",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

@@ -210,8 +210,8 @@ class IMNCommunicationsNetworkDAO():
             midLon = sum(lon) / len(lon)
             edge[2]["latitude"] = midLat
             edge[2]["longitude"] = midLon
-        return
-        
+        return G
+    
 
     def getNetwork(self, networkFilePath):
         G = nx.DiGraph()
@@ -246,6 +246,38 @@ class IMNCommunicationsNetworkDAO():
                 tIdx = nodeNames.index(tName)
                 G.add_edge(sIdx, tIdx, name=eName)
         return G
+
+    def writeNetwork(self, G, outputFilePath):
+        # Convert graph to string identifiers
+        gOut = nx.DiGraph()
+        nodeHostNames = list( map(lambda x: x[1]["imn:hostname"], G.nodes(data=True)) )
+
+        for node in G.nodes(data=True):
+            nId = node[1]["imn:hostname"]
+            gOut.add_node(nId, node[1])
+        
+        for edge in G.edges(data=True):
+            sIdx = edge[0]
+            tIdx = edge[1]
+            sId = nodeHostNames[sIdx]
+            tId = nodeHostNames[tIdx]
+            gOut.add_edge(sId, tId, edge[2])
+
+        gData = json_graph.node_link_data(gOut)
+        for edge in gData["links"]:
+            sourceIdx = edge["source"]
+            targetIdx = edge["target"]
+            sourceId = nodeHostNames[sourceIdx]
+            targetId = nodeHostNames[targetIdx]
+            edge["source"] = sourceId
+            edge["target"] = targetId
+
+        gStr = json.dumps(gData, indent=4)
+        
+        with open(outputFilePath, 'w') as outputFile:
+            outputFile.write(gStr)
+        outputFile.close()
+        return
 
 class MuxVizCommunicationsNetworkDAO():
     """
@@ -321,15 +353,15 @@ class MuxVizCommunicationsNetworkDAO():
         for node in self.gCyber.nodes_iter(data=True):
             nodeID = str(self.nodeNames.index( node[0] ))
             nodeLabel = str(node[1]["name"])
-            #nodeLat = str(node[1]["latitude"])
-            #nodeLong = str(node[1]["longitude"])
-            nodeEntry = " ".join([nodeID, nodeLabel])
+            nodeLat = str(node[1]["latitude"])
+            nodeLong = str(node[1]["longitude"])
+            nodeEntry = " ".join([nodeID, nodeLabel, nodeLat, nodeLong])
             nodes.append(nodeEntry)
         return nodes
         
     def writeNodes(self, nodesFilePath):
         nodesContent = self.getNodes()
-        headers = ["nodeID", "nodeLabel"]
+        headers = ["nodeID", "nodeLabel", "nodeLat", "nodeLong"]
         nodesContent.insert(0, " ".join(headers) )
         with open(nodesFilePath, 'w') as nodesOutFile:
             nodesOutFile.write("\n".join(nodesContent))

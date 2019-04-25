@@ -1,0 +1,23 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [],
+    "links": [
+        {
+            "name": "l1",
+            "source": "kiosk1",
+            "target": "McIntosh N 1"
+        },
+        {
+            "name": "l2",
+            "source": "kiosk2",
+            "target": "McIntosh N 1"
+        },
+	{
+	    "name": "l3",
+	    "source": "TOS",
+	    "target": "Crowley"
+	}
+    ]
+}

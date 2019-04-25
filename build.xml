@@ -10,6 +10,7 @@
 
   <!-- Set global properties for this build -->
   <property name="build.dir" location="build"/>
+  <property name="build.data.dir" location="build/data"/>
   <property name="data.dir" location="data"/>
   <property name="src.dir" location="src"/>
   <property name="src.test.dir" location="src/testing"/>
@@ -19,12 +20,17 @@
     <echo message="clean   clean build"/>
     <echo message="test           test"/>
     <echo message="validateNetwork    "/>
+    <echo message="imn2muxviz  convert  "/>
   </target>
 
   <target name="init">
     <echo message="export PYTHONPATH=`pwd`/src"/>
     <mkdir dir="${build.dir}"/>
     <mkdir dir="${build.data.dir}"/>
+    <mkdir dir="${build.data.dir}/everglades/cyber"/>
+    <mkdir dir="${build.data.dir}/everglades/cyber/muxviz"/>
+    <mkdir dir="${build.data.dir}/everglades/transportation"/>
+    <mkdir dir="${build.data.dir}/everglades/transportation/muxviz"/>
   </target>
 
   <target name="clean">
@@ -43,11 +49,72 @@
     </exec>
   </target>
 
-  <target name="validateNetwork">
+  <!-- CYBER NETWORK -->
+  <property name="input.cyber.imn.filepath" value="${data.dir}/everglades/cyber/PEV.imn"/>
+  <property name="input.cyber.geocode.filepath" value="${data.dir}/everglades/cyber/PEV.geocoding.csv"/>
+  <property name="output.cyber.json.filepath" value="${build.data.dir}/everglades/cyber/PEV.communicationsv2.json"/>
+  <property name="output.cyber.muxviz.dir" value="${build.data.dir}/everglades/cyber/muxviz"/>
+
+  <target name="imn2json-cyber">
+    <exec executable="python" dir=".">      
+      <arg value="${src.dir}/bin/imn2json-cyber.py"/>
+      <arg value="${input.cyber.imn.filepath}"/>
+      <arg value="${input.cyber.geocode.filepath}"/>
+      <arg value="${output.cyber.json.filepath}"/>
+    </exec>
+  </target>
+
+  <target name="json2muxviz-cyber">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/json2muxviz-cyber.py"/>
+      <arg value="${output.cyber.json.filepath}"/>
+      <arg value="${output.cyber.muxviz.dir}"/>
+    </exec>
+  </target>
+
+  <target name="validate-json-cyber">
     <antcall target="validateJSON">
-      <param name="input.json.filepath" value="${data.dir}/everglades/cyber/PEV.communicationsv2.json"/>
-      <param name="json.schema.filepath" value="${data.dir}/network.communications.schema.json"/>
+      <param name="input.json.filepath" value="${output.cyber.json.filepath}"/>
+      <param name="json.schema.filepath" value="${data.dir}/everglades/cyber/schema/network.communications.schema.json"/>
     </antcall>
   </target>
- 
+
+  <target name="imn2muxviz-cyber" depends="init">
+    <antcall target="imn2json-cyber"/>
+    <antcall target="validate-json-cyber"/>
+    <antcall target="json2muxviz-cyber"/>
+  </target>
+
+  <!-- TRANSPORTATION NETWORK -->
+  <property name="input.transportation.json.filepath" value="${data.dir}/everglades/transportation/network-baseline.extended2.json"/>
+  <property name="output.transportation.json.filepath" value="${build.data.dir}/everglades/transportation/network-baseline.extended2.json"/>
+  <property name="output.transportation.muxviz.dir" value="${build.data.dir}/everglades/transportation/muxviz"/>
+  
+  <target name="copy-json-transportation">
+    <copy file="${input.transportation.json.filepath}" tofile="${output.transportation.json.filepath}"/>
+  </target>
+
+  <target name="validate-json-transportation" depends="copy-json-transportation">
+    <antcall target="validateJSON">
+      <param name="input.json.filepath" value="${output.transportation.json.filepath}"/>
+      <param name="json.schema.filepath" value="${data.dir}/everglades/transportation/schema/network.schema.v2.json"/>
+    </antcall>
+  </target>
+
+  <target name="json2muxviz-transportation" depends="copy-json-transportation">
+    <antcall target="validate-json-transportation"/>
+
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/json2muxviz-transportation.py"/>
+      <arg value="${output.transportation.json.filepath}"/>
+      <arg value="${output.transportation.muxviz.dir}"/>
+    </exec>
+  </target>
+
+  <!-- ALL NETWORK -->
+  <target name="generate-muxviz">
+    <antcall target="imn2muxviz-cyber"/>
+    <antcall target="json2muxviz-transportation"/>
+  </target>
+
 </project>

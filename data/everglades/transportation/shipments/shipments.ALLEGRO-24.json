@@ -1,0 +1,64 @@
+{
+    "commodities": [
+        {
+            "EAT": "2017-05-24 13:45:00",
+            "LDT": "2017-05-26 01:45:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "destination": "FL",
+            "origin": "VENEZUELA",
+            "nTEU": 12.0,
+            "group_uuid": "bf73e890-abd7-4c2e-bf9d-5240722c2fb6",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-24 13:45:00",
+            "LDT": "2017-05-26 01:45:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Household Products",
+            "destination": "FL",
+            "origin": "DOMINICAN REPUBLIC",
+            "nTEU": 1.75,
+            "group_uuid": "ff2ded77-c5db-4ea7-b53f-87bedcc77f68",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": "2017-05-24 13:45:00",
+            "LDT": "2017-05-26 01:45:00",
+            "source": "Berth 31",
+            "name": "ALLEGRO",
+            "commodityGroup": "Machinery",
+            "destination": "FL",
+            "origin": "BAHAMAS",
+            "nTEU": 0.0,
+            "group_uuid": "b39241ed-f7d0-4728-8172-9256c5ee4ce9",
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}
