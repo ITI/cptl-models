@@ -1,7 +1,7 @@
 node n1 {
     type lanswitch
     network-config {
-	hostname n1
+	hostname switch-admin
 	!
     }
     canvas c1
@@ -15,7 +15,7 @@ node n1 {
 node n2 {
     type lanswitch
     network-config {
-	hostname n2
+	hostname switch-gate
 	!
     }
     canvas c1
@@ -47,7 +47,7 @@ node n5 {
     type router
     model PC
     network-config {
-	hostname n5
+	hostname kiosk1
 	!
 	interface eth0
 	 ip address 10.0.1.20/24
@@ -64,7 +64,7 @@ node n6 {
     type router
     model PC
     network-config {
-	hostname n6
+	hostname kiosk2
 	!
 	interface eth0
 	 ip address 10.0.1.21/24
@@ -98,7 +98,7 @@ node n3 {
     type router
     model router
     network-config {
-	hostname n3
+	hostname router-crowley
 	!
 	interface eth1
 	 ip address 10.0.0.1/24
