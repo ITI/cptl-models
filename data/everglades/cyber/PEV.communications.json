@@ -7,48 +7,62 @@
             "name": "n1",
             "imn:type": "lanswitch",
             "imn:hostname": "n1",
-            "id": 0
+            "id": 0,
+	    "longitude": 26.066661,
+	    "latitude": -80.117608
         },
         {
             "name": "n2",
             "imn:type": "lanswitch",
             "imn:hostname": "n2",
-            "id": 1
+            "id": 1,
+	    "longitude": 26.069066,
+	    "latitude": -80.121740
         },
         {
             "name": "n4",
             "imn:type": "router",
             "imn:hostname": "GOS",
             "imn:interface": "eth0",
-            "id": 2
+            "id": 2,
+	    "longitude": 26.065472,
+	    "latitude": -80.117608
         },
         {
             "name": "n5",
             "imn:type": "router",
             "imn:hostname": "n5",
             "imn:interface": "eth0",
-            "id": 3
+            "id": 3,
+	    "longitude": 26.069843,
+	    "latitude": -80.121644
         },
         {
             "name": "n6",
             "imn:type": "router",
             "imn:hostname": "n6",
             "imn:interface": "eth0",
-            "id": 4
+            "id": 4,
+	    "longitude": 26.069759,
+	    "latitude": -80.122178
         },
         {
             "name": "n7",
             "imn:type": "router",
             "imn:hostname": "TOS",
             "imn:interface": "eth0",
-            "id": 5
+            "id": 5,
+	    "longitude": 26.065503,
+	    "latitude": -80.118419
         },
         {
             "name": "n3",
             "imn:type": "router",
             "imn:hostname": "n3",
             "imn:interface": "eth0",
-            "id": 6
+            "id": 6,
+	    "longitude": 26.067601,
+	    "latitude": -80.120309
         }
     ],
     "links": [
