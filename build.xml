@@ -166,7 +166,7 @@
     </exec>
   </target>
 
-  <target name="generate-muxviz">
+  <target name="generate-muxviz" depends="init">
     <copy file="${input.multilayer.inventory.filepath}" tofile="${output.multilayer.inventory.filepath}"/>
     <copy file="${input.multilayer.json.filepath}" tofile="${output.multilayer.json.filepath}"/>
 
