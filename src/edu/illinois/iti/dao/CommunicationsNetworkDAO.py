@@ -214,7 +214,7 @@ class IMNCommunicationsNetworkDAO():
     
 
     def getNetwork(self, networkFilePath):
-        G = nx.DiGraph()
+        G = nx.MultiDiGraph()
         with open(networkFilePath, "r") as networkFile:
             networkFileLines = "".join(networkFile.readlines())
             nodeBlocks = self.getEntityOccurrences(networkFileLines, \
@@ -249,7 +249,7 @@ class IMNCommunicationsNetworkDAO():
 
     def writeNetwork(self, G, outputFilePath):
         # Convert graph to string identifiers
-        gOut = nx.DiGraph()
+        gOut = nx.MultiDiGraph()
         nodeHostNames = list( map(lambda x: x[1]["imn:hostname"], G.nodes(data=True)) )
 
         for node in G.nodes(data=True):
@@ -261,7 +261,7 @@ class IMNCommunicationsNetworkDAO():
             tIdx = edge[1]
             sId = nodeHostNames[sIdx]
             tId = nodeHostNames[tIdx]
-            gOut.add_edge(sId, tId, edge[2])
+            gOut.add_edge(sId, tId, attr_dict=edge[2])
 
         gData = json_graph.node_link_data(gOut)
         for edge in gData["links"]:

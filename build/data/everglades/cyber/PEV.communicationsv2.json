@@ -1,0 +1,118 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "name": "n1",
+            "imn:type": "lanswitch",
+            "imn:hostname": "switch-admin",
+            "latitude": 26.066661,
+            "longitude": -80.117486,
+            "id": "switch-admin"
+        },
+        {
+            "name": "n2",
+            "imn:type": "lanswitch",
+            "imn:hostname": "switch-gate",
+            "latitude": 26.069066,
+            "longitude": -80.12174,
+            "id": "switch-gate"
+        },
+        {
+            "name": "n4",
+            "imn:type": "router",
+            "imn:hostname": "GOS",
+            "imn:interface": "eth0",
+            "latitude": 26.065472,
+            "longitude": -80.117608,
+            "id": "GOS"
+        },
+        {
+            "name": "n5",
+            "imn:type": "router",
+            "imn:hostname": "kiosk1",
+            "imn:interface": "eth0",
+            "latitude": 26.069843,
+            "longitude": -80.121644,
+            "id": "kiosk1"
+        },
+        {
+            "name": "n6",
+            "imn:type": "router",
+            "imn:hostname": "kiosk2",
+            "imn:interface": "eth0",
+            "latitude": 26.069759,
+            "longitude": -80.122178,
+            "id": "kiosk2"
+        },
+        {
+            "name": "n7",
+            "imn:type": "router",
+            "imn:hostname": "TOS",
+            "imn:interface": "eth0",
+            "latitude": 26.065503,
+            "longitude": -80.118419,
+            "id": "TOS"
+        },
+        {
+            "name": "n3",
+            "imn:type": "router",
+            "imn:hostname": "router-crowley",
+            "imn:interface": "eth0",
+            "latitude": 26.067601,
+            "longitude": -80.120309,
+            "id": "router-crowley"
+        }
+    ],
+    "links": [
+        {
+            "name": "l6",
+            "latitude": 26.066082,
+            "longitude": -80.1179525,
+            "source": "switch-admin",
+            "target": "TOS",
+            "key": 0
+        },
+        {
+            "name": "l1",
+            "latitude": 26.0683335,
+            "longitude": -80.1210245,
+            "source": "switch-gate",
+            "target": "router-crowley",
+            "key": 0
+        },
+        {
+            "name": "l3",
+            "latitude": 26.066066499999998,
+            "longitude": -80.117547,
+            "source": "GOS",
+            "target": "switch-admin",
+            "key": 0
+        },
+        {
+            "name": "l4",
+            "latitude": 26.0694545,
+            "longitude": -80.121692,
+            "source": "kiosk1",
+            "target": "switch-gate",
+            "key": 0
+        },
+        {
+            "name": "l5",
+            "latitude": 26.0694125,
+            "longitude": -80.121959,
+            "source": "kiosk2",
+            "target": "switch-gate",
+            "key": 0
+        },
+        {
+            "name": "l2",
+            "latitude": 26.067131,
+            "longitude": -80.1188975,
+            "source": "router-crowley",
+            "target": "switch-admin",
+            "key": 0
+        }
+    ]
+}

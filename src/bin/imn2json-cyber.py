@@ -21,10 +21,6 @@ def main(argv):
     geocodeFilePath = argv[1]
     jsonFilePath = argv[2]
     
-    print(imnFilePath)
-    print(geocodeFilePath)
-    print(jsonFilePath)
-
     cnDAO = IMNCommunicationsNetworkDAO.create(imnFilePath)
     gCyber = cnDAO.getNetwork(imnFilePath)
     gCyberGeocoded = cnDAO.geocodeNetwork(gCyber, geocodeFilePath)

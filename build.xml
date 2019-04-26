@@ -31,6 +31,8 @@
     <mkdir dir="${build.data.dir}/everglades/cyber/muxviz"/>
     <mkdir dir="${build.data.dir}/everglades/transportation"/>
     <mkdir dir="${build.data.dir}/everglades/transportation/muxviz"/>
+    <mkdir dir="${build.data.dir}/everglades/multilayer"/>
+    <mkdir dir="${build.data.dir}/everglades/multilayer/muxviz"/>
   </target>
 
   <target name="clean">
@@ -40,6 +42,7 @@
   <target name="test">
     <exec executable="python" dir=".">
       <arg line="${src.test.dir}/edu/illinois/iti/dao/TestCommunicationsNetworkDAO.py"/>
+      <arg line="${src.test.dir}/edu/illinois/iti/dao/TestMultilayerNetworkDAO.py"/>
     </exec>
   </target>
 
@@ -112,9 +115,43 @@
   </target>
 
   <!-- ALL NETWORK -->
+  <property name="input.multilayer.inventory.filepath" value="${data.dir}/everglades/multilayer/multilayer.inventory.json"/>
+  <property name="output.multilayer.inventory.filepath" value="${build.data.dir}/everglades/multilayer/multilayer.inventory.json"/>
+  <property name="input.multilayer.json.filepath" value="${data.dir}/everglades/multilayer/PEV.transportation-cyber.json"/>
+  <property name="output.multilayer.json.filepath" value="${build.data.dir}/everglades/multilayer/PEV.transportation-cyber.json"/>
+  <property name="output.merged.json.filepath" value="${build.data.dir}/everglades/multilayer/PEV.merged.json"/>
+  <property name="output.merged.muxviz.dir" value="${build.data.dir}/everglades/multilayer/muxviz"/>
+
+  <property name="network1.name" value="PEV Southport"/>
+  <property name="network2.name" value="Crowley"/>
+  <property name="networkI.name" value="Interconnect"/>
+	    
+  <target name="json2multilayer">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/json2multilayer.py"/>
+      <arg value="${output.multilayer.inventory.filepath}"/>
+      <arg value="${network1.name}"/>
+      <arg value="${network2.name}"/>
+      <arg value="${networkI.name}"/>
+      <arg value="${output.merged.json.filepath}"/>
+    </exec>
+  </target>
+
+  <target name="json2muxviz-merged" depends="json2multilayer">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/json2muxviz-merged.py"/>
+      <arg value="${output.merged.json.filepath}"/>
+      <arg value="${output.merged.muxviz.dir}"/>
+    </exec>
+  </target>
+
   <target name="generate-muxviz">
+    <copy file="${input.multilayer.inventory.filepath}" tofile="${output.multilayer.inventory.filepath}"/>
+    <copy file="${input.multilayer.json.filepath}" tofile="${output.multilayer.json.filepath}"/>
+
     <antcall target="imn2muxviz-cyber"/>
     <antcall target="json2muxviz-transportation"/>
+    <antcall target="json2muxviz-merged"/>
   </target>
 
 </project>
