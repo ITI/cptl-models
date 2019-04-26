@@ -250,6 +250,7 @@ class IMNCommunicationsNetworkDAO():
     def writeNetwork(self, G, outputFilePath):
         # Convert graph to string identifiers
         gOut = nx.MultiDiGraph()
+        gOut.graph["type"] = "Communications"
         nodeHostNames = list( map(lambda x: x[1]["imn:hostname"], G.nodes(data=True)) )
 
         for node in G.nodes(data=True):

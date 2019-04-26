@@ -53,6 +53,7 @@
   </target>
 
   <!-- CYBER NETWORK -->
+  <!-- static network -->
   <property name="input.cyber.imn.filepath" value="${data.dir}/everglades/cyber/PEV.imn"/>
   <property name="input.cyber.geocode.filepath" value="${data.dir}/everglades/cyber/PEV.geocoding.csv"/>
   <property name="output.cyber.json.filepath" value="${build.data.dir}/everglades/cyber/PEV.communicationsv2.json"/>
@@ -88,11 +89,19 @@
     <antcall target="json2muxviz-cyber"/>
   </target>
 
+  <!-- dynamic flows -->
+  <target name="snapshot2timeline-cyber">
+    <echo message="Not yet implemented!"/>
+  </target>
+
   <!-- TRANSPORTATION NETWORK -->
+  <!-- static network -->
   <property name="input.transportation.json.filepath" value="${data.dir}/everglades/transportation/network-baseline.extended2.json"/>
   <property name="output.transportation.json.filepath" value="${build.data.dir}/everglades/transportation/network-baseline.extended2.json"/>
   <property name="output.transportation.muxviz.dir" value="${build.data.dir}/everglades/transportation/muxviz"/>
-  
+  <property name="input.transportation.sqlite.filepath" value="/Volumes/Seagate Backup Plus Drive/Work/responseSurface/startDuration-McIntosh N 1-18-3.sqlite"/>
+  <property name="input.transportation.timeStep" value="120"/>
+
   <target name="copy-json-transportation">
     <copy file="${input.transportation.json.filepath}" tofile="${output.transportation.json.filepath}"/>
   </target>
@@ -104,7 +113,7 @@
     </antcall>
   </target>
 
-  <target name="json2muxviz-transportation" depends="copy-json-transportation">
+  <target name="json2muxviz-transportation" depends="init,validate-json-transportation">
     <antcall target="validate-json-transportation"/>
 
     <exec executable="python" dir=".">
@@ -114,7 +123,19 @@
     </exec>
   </target>
 
+  <!-- dynamic flows -->
+  <target name="snapshot2timeline-transportation" depends="json2muxviz-transportation">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/snapshot2timeline-transportation.py"/>
+      <arg value="${output.transportation.json.filepath}"/>
+      <arg value="${input.transportation.sqlite.filepath}"/>
+      <arg value="${input.transportation.timeStep}"/>
+      <arg value="${output.transportation.muxviz.dir}"/>
+    </exec>
+  </target>
+
   <!-- ALL NETWORK -->
+  <!-- static network -->
   <property name="input.multilayer.inventory.filepath" value="${data.dir}/everglades/multilayer/multilayer.inventory.json"/>
   <property name="output.multilayer.inventory.filepath" value="${build.data.dir}/everglades/multilayer/multilayer.inventory.json"/>
   <property name="input.multilayer.json.filepath" value="${data.dir}/everglades/multilayer/PEV.transportation-cyber.json"/>
@@ -125,7 +146,7 @@
   <property name="network1.name" value="PEV Southport"/>
   <property name="network2.name" value="Crowley"/>
   <property name="networkI.name" value="Interconnect"/>
-	    
+
   <target name="json2multilayer">
     <exec executable="python" dir=".">
       <arg value="${src.dir}/bin/json2multilayer.py"/>
@@ -152,6 +173,17 @@
     <antcall target="imn2muxviz-cyber"/>
     <antcall target="json2muxviz-transportation"/>
     <antcall target="json2muxviz-merged"/>
+  </target>
+
+  <!-- dynamic flows -->
+  <target name="snapshot2timeline-multilayer" depends="generate-muxviz">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/snapshot2timeline-transportation.py"/>
+      <arg value="${output.merged.json.filepath}"/>
+      <arg value="${input.transportation.sqlite.filepath}"/>
+      <arg value="${input.transportation.timeStep}"/>
+      <arg value="${output.merged.muxviz.dir}"/>
+    </exec>    
   </target>
 
 </project>
