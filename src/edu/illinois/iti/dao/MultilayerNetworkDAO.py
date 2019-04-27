@@ -152,13 +152,14 @@ class MuxVizMultilayerNetworkDAO():
     def getExtendedEdges(self):
         entries = []
 
+        edgeWeight = "1"
         for edge in self.gMulti.edges_iter(data=True):
             sourceNode = self.nodeNames.index( edge[0] ) 
             sourceLayer = self.getLayer(sourceNode)
             destNode = self.nodeNames.index( edge[1] ) 
             destLayer = self.getLayer(destNode)
             
-            entry = " ".join([str(sourceNode), str(sourceLayer), str(destNode), str(destLayer)])
+            entry = " ".join([str(sourceNode + 1), str(sourceLayer), str(destNode + 1), str(destLayer), edgeWeight])
             entries.append(entry)
         return entries
 
@@ -192,7 +193,7 @@ class MuxVizMultilayerNetworkDAO():
     def getNodes(self):
         nodes = []
         for node in self.gMulti.nodes_iter(data=True):
-            nodeID = str(self.nodeNames.index( node[0] ))
+            nodeID = str(self.nodeNames.index( node[0] ) + 1)
             nodeLabel = node[0].replace(" ", "_")
             nodeLat = str(node[1]["latitude"])
             nodeLong = str(node[1]["longitude"])

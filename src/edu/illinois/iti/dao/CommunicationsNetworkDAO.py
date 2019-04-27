@@ -317,13 +317,14 @@ class MuxVizCommunicationsNetworkDAO():
         layer = 1
         entries = []
 
+        edgeWeight = "1"
         for edge in self.gCyber.edges_iter(data=True):
-            sourceNode = str( self.nodeNames.index( edge[0] ) )
+            sourceNode = str( self.nodeNames.index( edge[0] ) + 1)
             sourceLayer = str(layer)
-            destNode = str( self.nodeNames.index( edge[1] ) )
+            destNode = str( self.nodeNames.index( edge[1] ) + 1)
             destLayer = str(layer)
             
-            entry = " ".join([sourceNode, sourceLayer, destNode, destLayer])
+            entry = " ".join([sourceNode, sourceLayer, destNode, destLayer, edgeWeight])
             entries.append(entry)
         return entries
 
@@ -352,8 +353,8 @@ class MuxVizCommunicationsNetworkDAO():
     def getNodes(self):
         nodes = []
         for node in self.gCyber.nodes_iter(data=True):
-            nodeID = str(self.nodeNames.index( node[0] ))
-            nodeLabel = str(node[1]["name"])
+            nodeID = str(self.nodeNames.index( node[0] ) + 1)
+            nodeLabel = str(node[1]["imn:hostname"])
             nodeLat = str(node[1]["latitude"])
             nodeLong = str(node[1]["longitude"])
             nodeEntry = " ".join([nodeID, nodeLabel, nodeLat, nodeLong])
