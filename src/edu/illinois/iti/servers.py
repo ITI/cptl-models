@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request, Response
+from flask import Flask, jsonify, request, Response, send_from_directory
+import glob
 import json
 
 class ScenarioServerAction():
@@ -54,9 +55,11 @@ class ScenarioServerAction():
     def getNetworkDescriptionWrapper(self, scenarioId, networkId):
         networkDesc = self.getNetworkDescription(scenarioId, networkId)
         return jsonify(networkDesc)
-
-    def getFlowArchiveWrapper(self, flowId):
-        return Response("Not yet implemented", status=200, headers={})
+    
+    def getFlowArchiveWrapper(self, scenarioId, flowId):
+        zipFileName = flowId + ".zip"
+        zipParentDirPath = "/".join([self.dataDir, scenarioId, "flows"])
+        return send_from_directory(zipParentDirPath, zipFileName, as_attachment=True)
     
 class ScenarioServerWrapper():
 
