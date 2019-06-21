@@ -1,0 +1,41 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+    	{
+	    "id": "n5",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.1.20"},
+			       { "name": "ctrl0",
+			         "imn:ip": "172.16.0.5"} ]
+	},
+	{
+	    "id": "n6",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.1.21"},
+			       { "name": "ctrl0",
+			         "imn:ip": "172.16.0.5"} ]
+	},
+	{
+	    "id": "GOS",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.0.10"},
+			       { "name": "ctrl0",
+			         "imn:ip": "172.16.0.4"} ]
+	},
+	{
+	   "id": "FIT"
+	},
+	{	
+	   "id": "Crowley"
+	}
+    ],
+    "links": [
+        {
+            "name": "l1",
+            "source": "FIT",
+            "target": "n5"
+        }
+    ]
+}

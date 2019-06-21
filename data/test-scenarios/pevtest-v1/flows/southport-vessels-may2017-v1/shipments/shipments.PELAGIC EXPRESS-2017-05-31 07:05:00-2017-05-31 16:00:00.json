@@ -1,0 +1,67 @@
+{
+    "commodities": [
+        {
+            "EAT": 43625.0,
+            "LDT": 45785.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Vehicle Parts",
+            "delay_cost": null,
+            "destination": "ME",
+            "group_uuid": "8d37e143-22ff-4ee1-9d0e-f8587b9e2e71",
+            "nTEU": 2.0,
+            "name": "PELAGIC EXPRESS",
+            "origin": "PORTUGAL",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 43625.0,
+            "LDT": 45785.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "FL",
+            "group_uuid": "8d37e143-22ff-4ee1-9d0e-f8587b9e2e71",
+            "nTEU": 42.0,
+            "name": "PELAGIC EXPRESS",
+            "origin": "ITALY",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 43625.0,
+            "LDT": 45785.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Rubber",
+            "delay_cost": null,
+            "destination": "FL",
+            "group_uuid": "8d37e143-22ff-4ee1-9d0e-f8587b9e2e71",
+            "nTEU": 2.0,
+            "name": "PELAGIC EXPRESS",
+            "origin": "BRAZIL",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

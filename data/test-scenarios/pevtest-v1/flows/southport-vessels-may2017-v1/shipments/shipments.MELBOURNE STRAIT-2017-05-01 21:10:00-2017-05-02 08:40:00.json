@@ -1,0 +1,45 @@
+{
+    "commodities": [
+        {
+            "EAT": 1270.0,
+            "LDT": 3430.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "FL",
+            "group_uuid": "73794d64-fd94-4fb9-95eb-9de1a40b5dbe",
+            "nTEU": 0.0,
+            "name": "MELBOURNE STRAIT",
+            "origin": "TURKS AND CAICOS IS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 1270.0,
+            "LDT": 3430.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "ME",
+            "group_uuid": "73794d64-fd94-4fb9-95eb-9de1a40b5dbe",
+            "nTEU": 4.5,
+            "name": "MELBOURNE STRAIT",
+            "origin": "PORTUGAL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}
