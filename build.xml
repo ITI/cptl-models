@@ -19,6 +19,7 @@
     <echo message="============= UTILS"/>
     <echo message="clean   clean build"/>
     <echo message="test           test"/>
+    <echo message="startServer        "/>
     <echo message="validateNetwork    "/>
     <echo message="imn2muxviz  convert  "/>
   </target>
@@ -68,6 +69,18 @@
     </exec>
   </target>
 
+  <property name="serverName" value="ScenarioServer"/>
+  <property name="serverPort" value="1336"/>
+  <property name="scenario.dir" value="${data.dir}/test-scenarios"/>
+  <target name="startServer">
+    <exec executable="python" dir=".">
+      <arg value="${src.dir}/bin/scenarioServer.py"/>
+      <arg value="${serverName}"/>
+      <arg value="${serverPort}"/>
+      <arg value="${scenario.dir}"/>
+    </exec>
+  </target>
+  
   <target name="json2muxviz-cyber">
     <exec executable="python" dir=".">
       <arg value="${src.dir}/bin/json2muxviz-cyber.py"/>

@@ -77,7 +77,7 @@ class ScenarioServerWrapper():
         server.dataDir = dataDir
         server.serverName = serverName
         server.serverIP = serverIP
-        server.serverPort = serverPort
+        server.serverPort = int(serverPort)
 
         return server
 
@@ -87,7 +87,7 @@ class ScenarioServerWrapper():
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>", endpointName="getScenarioDescription", handler=self.actions.getScenarioDescriptionWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/<networkId>", endpointName="getNetworkDescription", handler=self.actions.getNetworkDescriptionWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/flows/<flowId>", endpointName="getFlowArchive", handler=self.actions.getFlowArchiveWrapper )
-        self.app.run(debug=debugOn)
+        self.app.run(debug=debugOn, port=self.serverPort)
 
     def add_endpoint(self, endpoint=None, endpointName=None, handler=None):
         self.app.add_url_rule(endpoint, endpointName, handler)
