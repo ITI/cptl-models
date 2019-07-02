@@ -59,7 +59,7 @@ class ScenarioServerAction():
     def getNetworkDescriptionIMNWrapper(self, scenarioId, networkId):
         networkFileName = ".".join([networkId, "imn"])
         parentDirPath = "/".join([self.dataDir, scenarioId, "networks", "imn"])
-        return send_from_directory(parentDirPath, networkFileName, as_attachment=True)
+        return send_from_directory(parentDirPath, networkFileName, as_attachment=PTrue)
 
     def getFlowArchiveWrapper(self, scenarioId, flowId):
         zipFileName = flowId + ".zip"
@@ -96,7 +96,7 @@ class ScenarioServerWrapper():
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/imn/<networkId>", endpointName="getNetworkIMNDescription", handler=self.actions.getNetworkDescriptionIMNWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/<networkId>", endpointName="getNetworkDescription", handler=self.actions.getNetworkDescriptionWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/flows/<flowId>", endpointName="getFlowArchive", handler=self.actions.getFlowArchiveWrapper )
-        self.app.run(debug=debugOn, port=self.serverPort)
+        self.app.run(debug=debugOn, host=self.serverIP, port=self.serverPort)
 
     def add_endpoint(self, endpoint=None, endpointName=None, handler=None):
         self.app.add_url_rule(endpoint, endpointName, handler)
