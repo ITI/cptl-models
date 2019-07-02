@@ -6,11 +6,12 @@ Created on April 18, 2019
 Copyright (c) 2019 University of Illinois at Urbana Champaign
 All rights reserved
 """
-from edu.illinois.iti.servers import ScenarioServerAction, ScenarioServerWrapper
+from edu.illinois.iti.servers import ScenarioServerAction, ScenarioServerClient, ScenarioServerWrapper
 import os
 import os.path
 import unittest
 
+"""
 class TestScenarioServerWrapper(unittest.TestCase):
 
     dataDir = "/home/euclid/Documents/cptl-models/data/test-scenarios/"
@@ -42,6 +43,36 @@ class TestScenarioServerWrapper(unittest.TestCase):
         networkId = "trans-southport-v1"
         networkDesc = self.scenarioServer.getNetwork(networkId)
         self.assertEqual(len(networkDesc["links"], 5))
+"""
 
+class TestScenarioServerClient(unittest.TestCase):
+
+    """
+    A wrapper function for requests to the scenario server
+    """
+    serverIP = "192.168.2.1"
+    serverPort = "1336"
+
+    # These tests assume 
+    def testGetScenarios(self):
+        scenarioClient = ScenarioServerClient.create(self.serverIP, self.serverPort)
+        invFileName = "inventory.json"
+        jsonData = scenarioClient.getScenarios(invFileName)
+        self.assertEqual(len(jsonData.keys()), 1)
+
+    def testGetScenarioDescription(self):
+        scenarioClient = ScenarioServerClient.create(self.serverIP, self.serverPort)
+        scenarioId= "pevtest-v1"
+        jsonData = scenarioClient.getScenarioDescription(scenarioId)
+        self.assertEqual(len(jsonData["networks"]), 3)
+
+    def testGetNetworkDescription(self):
+        scenarioClient = ScenarioServerClient.create(self.serverIP, self.serverPort)
+        scenarioId= "pevtest-v1"
+        networkId = "trans-cyber-v1"
+        jsonData = scenarioClient.getNetworkDescription(scenarioId, networkId)
+        self.assertEqual(len(jsonData["links"]), 1)
+
+        
 if __name__ == '__main__':
     unittest.main()

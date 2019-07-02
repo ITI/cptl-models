@@ -1,6 +1,9 @@
 from flask import Flask, jsonify, request, Response, send_from_directory
+from timeit import default_timer as timer
 import glob
 import json
+import requests, zipfile, io
+import urllib.request
 
 class ScenarioServerAction():
 
@@ -100,3 +103,60 @@ class ScenarioServerWrapper():
 
     def add_endpoint(self, endpoint=None, endpointName=None, handler=None):
         self.app.add_url_rule(endpoint, endpointName, handler)
+
+class ScenarioServerClient():
+    """
+    A wrapper function for requests to the scenario server
+    """
+
+    @staticmethod
+    def create(serverIP, serverPort):
+        scenarioClient = ScenarioServerClient()
+        scenarioClient.serverIP = serverIP
+        scenarioClient.serverPort = serverPort
+        return scenarioClient
+
+    def getScenarios(self, invFileName):
+        requestPath = f"cptl/api/v0.1/scenarios"
+
+        if None == invFileName:
+            invFileName = "inventory.json"
+            
+        requestParams = f"inv={invFileName}"
+        urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
+
+        jsonData = self.getResponse(urlStr)
+        return jsonData
+
+    def getScenarioDescription(self, scenarioId):
+        requestPath = f"cptl/api/v0.1/scenarios/{scenarioId}"
+        requestParams = ""
+        urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
+        jsonData = self.getResponse(urlStr)
+        return jsonData
+
+    def getNetworkDescription(self, scenarioId, networkId):
+        requestPath = f"cptl/api/v0.1/scenarios/{scenarioId}/networks/{networkId}"
+        requestParams = ""
+        urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
+        jsonData = self.getResponse(urlStr)
+        return jsonData
+
+    def getFlowArchive(self, scenarioId, flowId):
+        requestPath = f"cptl/api/v0.1/scenarios/{scenarioId}/flows/{flowId}"
+        requestParams = ""
+        urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
+        r = requests.get(urlStr)
+        z = zipfile.Zipfile(io.BytesIO(r.content))
+        return z
+        
+    def getResponse(self, urlStr):
+        jsonData = {}
+        txStart = timer()
+        with urllib.request.urlopen(urlStr) as response:
+            jsonStr = response.read()
+            txEnd = timer()
+            duration = txEnd - txStart
+            jsonData = json.loads(jsonStr)
+        return jsonData
+
