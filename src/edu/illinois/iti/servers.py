@@ -48,7 +48,7 @@ class ScenarioServerAction():
         return jsonify(scenarioDesc)
 
     def getNetworkDescription(self, scenarioId, networkId):
-        networkFileName = networkId + ".json"
+        networkFileName = ".".join([networkId, "json"])
         networkFilePath = "/".join([self.dataDir, scenarioId, "networks", networkFileName])
         with open(networkFilePath) as networkFile:
             networkDesc = json.load(networkFile)
@@ -58,7 +58,12 @@ class ScenarioServerAction():
     def getNetworkDescriptionWrapper(self, scenarioId, networkId):
         networkDesc = self.getNetworkDescription(scenarioId, networkId)
         return jsonify(networkDesc)
-    
+
+    def getNetworkDescriptionIMNWrapper(self, scenarioId, networkId):
+        networkFileName = ".".join([networkId, "imn"])
+        parentDirPath = "/".join([self.dataDir, scenarioId, "networks", "imn"])
+        return send_from_directory(parentDirPath, networkFileName, as_attachment=True)
+
     def getFlowArchiveWrapper(self, scenarioId, flowId):
         zipFileName = flowId + ".zip"
         zipParentDirPath = "/".join([self.dataDir, scenarioId, "flows"])
@@ -91,6 +96,7 @@ class ScenarioServerWrapper():
         self.add_endpoint(endpoint="/", endpointName="", handler=self.actions.getIndex)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios", endpointName="getScenarios", handler=self.actions.getScenariosWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>", endpointName="getScenarioDescription", handler=self.actions.getScenarioDescriptionWrapper)
+        self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/imn/<networkId>", endpointName="getNetworkIMNDescription", handler=self.actions.getNetworkDescriptionIMNWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/<networkId>", endpointName="getNetworkDescription", handler=self.actions.getNetworkDescriptionWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/flows/<flowId>", endpointName="getFlowArchive", handler=self.actions.getFlowArchiveWrapper )
         self.app.run(debug=debugOn, port=self.serverPort)
