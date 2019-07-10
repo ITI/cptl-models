@@ -10,15 +10,16 @@ from edu.illinois.iti.servers import ScenarioServerWrapper
 import sys
 
 def usage():
-    print("scenarioServer.py <serverName> <serverPort> <scenarioDir>")
+    print("scenarioServer.py <serverName> <serverIP> <serverPort> <scenarioDir>")
     sys.exit(-1)
 
 def main(argv):
     serverName = argv[0]
-    serverPort = argv[1]
-    scenarioDir = argv[2]
+    serverIP = argv[1]
+    serverPort = argv[2]
+    scenarioDir = argv[3]
     
-    scenarioServer = ScenarioServerWrapper.create(serverName, "127.0.0.1", serverPort, scenarioDir)
+    scenarioServer = ScenarioServerWrapper.create(serverName, serverIP, serverPort, scenarioDir)
     scenarioServer.start(debugOn=True)
 
 if __name__ == '__main__':

@@ -70,12 +70,14 @@
   </target>
 
   <property name="serverName" value="ScenarioServer"/>
+  <property name="serverIP" value="192.168.2.1"/>
   <property name="serverPort" value="1336"/>
   <property name="scenario.dir" value="${data.dir}/test-scenarios"/>
   <target name="startServer">
     <exec executable="python" dir=".">
       <arg value="${src.dir}/bin/scenarioServer.py"/>
       <arg value="${serverName}"/>
+      <arg value="${serverIP}"/>
       <arg value="${serverPort}"/>
       <arg value="${scenario.dir}"/>
     </exec>
