@@ -62,7 +62,7 @@ class ScenarioServerAction():
     def getNetworkDescriptionIMNWrapper(self, scenarioId, networkId):
         networkFileName = ".".join([networkId, "imn"])
         parentDirPath = "/".join([self.dataDir, scenarioId, "networks", "imn"])
-        return send_from_directory(parentDirPath, networkFileName, as_attachment=PTrue)
+        return send_from_directory(parentDirPath, networkFileName, as_attachment=True)
 
     def getFlowArchiveWrapper(self, scenarioId, flowId):
         zipFileName = flowId + ".zip"
