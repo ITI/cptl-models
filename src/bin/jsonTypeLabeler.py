@@ -81,15 +81,15 @@ def main(argv):
         # see if it is a node type or edge type
         nodesList = list(filter(lambda x: x[1]["rdf:type"] == type, nodes))
         for node in nodesList:
-            node[1]["service_time"] = serviceTime
-            node[1]["holding_time"] = holdingTime
-            node[1]["storage"] = storage
-            node[1]["capacity"] = capacity
+            node[1]["service_time"] = float(serviceTime)
+            node[1]["holding_time"] = float(holdingTime)
+            node[1]["storage"] = int(storage)
+            node[1]["capacity"] = int(capacity)
 
         edgesList = list(filter(lambda x: x[2]["rdf:type"] == type, edges))
         for edge in edgesList:
-            edge[2]["travel_time"] = serviceTime
-            edge[2]["capacity"] = capacity
+            edge[2]["travel_time"] = float(serviceTime)
+            edge[2]["capacity"] = int(capacity)
             
     networkData = json_graph.node_link_data(gTrans)
     networkStr = json.dumps(networkData, indent=4)

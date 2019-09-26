@@ -59,6 +59,18 @@ class ScenarioServerAction():
         networkDesc = self.getNetworkDescription(scenarioId, networkId)
         return jsonify(networkDesc)
 
+    def getScheduleDescription(self, scenarioId, scheduleId):
+        scheduleFileName = ".".join([scheduleId, "json"])
+        scheduleFilePath = "/".join([self.dataDir, scenarioId, "flows", scheduleFileName])
+        with open(scheduleFilePath) as scheduleFile:
+            scheduleDesc = json.load(scheduleFile)
+        scheduleFile.close()
+        return scheduleDesc
+    
+    def getScheduleDescriptionWrapper(self, scenarioId, scheduleId):
+        scheduleDesc = self.getScheduleDescription(scenarioId, scheduleId)
+        return jsonify(scheduleDesc)
+    
     def getNetworkDescriptionIMNWrapper(self, scenarioId, networkId):
         networkFileName = ".".join([networkId, "imn"])
         parentDirPath = "/".join([self.dataDir, scenarioId, "networks", "imn"])
@@ -68,6 +80,7 @@ class ScenarioServerAction():
         zipFileName = flowId + ".zip"
         zipParentDirPath = "/".join([self.dataDir, scenarioId, "flows"])
         return send_from_directory(zipParentDirPath, zipFileName, as_attachment=True)
+
     
 class ScenarioServerWrapper():
 
@@ -98,7 +111,7 @@ class ScenarioServerWrapper():
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>", endpointName="getScenarioDescription", handler=self.actions.getScenarioDescriptionWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/imn/<networkId>", endpointName="getNetworkIMNDescription", handler=self.actions.getNetworkDescriptionIMNWrapper)
         self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/networks/<networkId>", endpointName="getNetworkDescription", handler=self.actions.getNetworkDescriptionWrapper)
-        self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/flows/<flowId>", endpointName="getFlowArchive", handler=self.actions.getFlowArchiveWrapper )
+        self.add_endpoint(endpoint="/cptl/api/v0.1/scenarios/<scenarioId>/flows/<scheduleId>", endpointName="getScheduleDescription", handler=self.actions.getScheduleDescriptionWrapper )
         self.app.run(debug=debugOn, host=self.serverIP, port=self.serverPort)
 
     def add_endpoint(self, endpoint=None, endpointName=None, handler=None):
@@ -137,6 +150,13 @@ class ScenarioServerClient():
 
     def getNetworkDescription(self, scenarioId, networkId):
         requestPath = f"cptl/api/v0.1/scenarios/{scenarioId}/networks/{networkId}"
+        requestParams = ""
+        urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
+        jsonData = self.getResponse(urlStr)
+        return jsonData
+
+    def getScheduleDescription(self, scenarioId, scheduleId):
+        requestPath = f"cptl/api/v0.1/scenarios/{scenarioId}/flows/{scheduleId}"
         requestParams = ""
         urlStr = f"http://{self.serverIP}:{self.serverPort}/{requestPath}?{requestParams}"
         jsonData = self.getResponse(urlStr)
