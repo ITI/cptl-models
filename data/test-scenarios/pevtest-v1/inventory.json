@@ -74,11 +74,17 @@
 	    "dc:publisher":  "Gabriel A. Weaver, UIUC",
 	    "dc:identifier": "southport-vessels-may2017-v1"
 	},
-	"schedule-exp1v2": {
+	"schedule-exp1v2a": {
 	    "dc:title":  "Crowley Vessels May 2017",
-	    "dc:description": "Vessels coming to Southport, PEV.  Shipment files have destination set to 'McIntosh Intersection', but vessels have a shipper of Crowley in isolation",
+	    "dc:description": "Vessels coming to Southport, PEV.  Shipment files have destination set to 'McIntosh Intersection', but vessels have a shipper of Crowley in isolation (08:00-17:00 workday)",
 	    "dc:publisher":  "Gabriel A. Weaver, UIUC",
-	    "dc:identifier": "schedule-exp1v2"
+	    "dc:identifier": "schedule-exp1v2a"
+	},
+	"schedule-exp1v2b": {
+	    "dc:title":  "Crowley Vessels May 2017",
+	    "dc:description": "Vessels coming to Southport, PEV.  Shipment files have destination set to 'McIntosh Intersection', but vessels have a shipper of Crowley in isolation (08:00-20:00 workday)",
+	    "dc:publisher":  "Gabriel A. Weaver, UIUC",
+	    "dc:identifier": "schedule-exp1v2b"
 	}
     }
 }
