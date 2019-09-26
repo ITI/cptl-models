@@ -73,10 +73,10 @@ def main(argv):
     edges = gTrans.edges(data=True)
     for row in queueingAttrData:
         type = row["rdf:type"]
-        serviceTime = row["service_time"]
-        holdingTime = row["holding_time"]
-        storage = row["storage"]
-        capacity = row["capacity"]
+        serviceTime = float(row["service_time"])
+        holdingTime = float(row["holding_time"])
+        storage = int(row["storage"])
+        capacity = int(row["capacity"])
 
         # see if it is a node type or edge type
         nodesList = list(filter(lambda x: x[1]["rdf:type"] == type, nodes))
