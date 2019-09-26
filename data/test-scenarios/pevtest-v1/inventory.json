@@ -14,10 +14,22 @@
 	},
 	"transportation-network-gate-disrupt-exp1": {
 	    "dc:title": "South Port Transportation Model",
-	    "dc:description": "Transportation network that includes a simple model of roadways and seaways at SouthPort, PEV",
+	    "dc:description": "Transportation network with delay at FIT Gate (1500m holding time default)",
 	    "dc:publisher": "CIRI/HSTG",
 	    "dc:identifier": "transportation-network-gate-disrupt-exp1"
-	},		
+	},
+	"transportation-network-gate-exp1v2": {
+	    "dc:title": "South Port Transportation Model",
+	    "dc:description": "Transportation network that includes a simple model of roadways and seaways at SouthPort, PEV",
+	    "dc:publisher": "CIRI/HSTG",
+	    "dc:identifier": "transportation-network-gate-exp1v2"
+	},	
+	"transportation-network-gate-disrupt-exp1v2": {
+	    "dc:title": "South Port Transportation Model",
+	    "dc:description": "Transportation network but switch to disrupt Crowley Gate (720m holding time default)",
+	    "dc:publisher": "CIRI/HSTG",
+	    "dc:identifier": "transportation-network-gate-disrupt-exp1v2"
+	},
 	"cyber-crowley-v1": {
 	    "dc:title": "Crowley Cyber Model",
 	    "dc:description": "A communications network for Crowley that includes a Terminal Operating System, Gate Operating System, and Gate Kiosks.",
@@ -47,8 +59,13 @@
 	    "dc:description": "Dependencies between FIT Gate and Cyber Operations.",
 	    "dc:publisher": "Gabriel A. Weaver, UIUC",
 	    "dc:identifier": "trans-cyber-exp1"
+	},
+	"trans-cyber-exp1v2": {
+	    "dc:title": "PEV Transportation-Cyber Dependencies (v2)",
+	    "dc:description": "Dependencies between Crowley Gate and Cyber Operations.",
+	    "dc:publisher": "Gabriel A. Weaver, UIUC",
+	    "dc:identifier": "trans-cyber-exp1v2"
 	}
-	
     },
     "flows": {
 	"southport-vessels-may2017-v1": {
@@ -56,6 +73,12 @@
 	    "dc:description": "Vessels coming to Southport, PEV. Based on Vessel Schedules from PEV as well as PIERS Bills of Lading Data. (imports only, zip archive)",
 	    "dc:publisher":  "Gabriel A. Weaver, UIUC",
 	    "dc:identifier": "southport-vessels-may2017-v1"
+	},
+	"schedule-exp1v2": {
+	    "dc:title":  "Crowley Vessels May 2017",
+	    "dc:description": "Vessels coming to Southport, PEV.  Shipment files have destination set to 'McIntosh Intersection', but vessels have a shipper of Crowley in isolation",
+	    "dc:publisher":  "Gabriel A. Weaver, UIUC",
+	    "dc:identifier": "schedule-exp1v2"
 	}
     }
 }
