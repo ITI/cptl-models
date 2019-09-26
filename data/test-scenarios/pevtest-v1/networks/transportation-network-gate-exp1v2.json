@@ -4,7 +4,7 @@
     "graph": {},
     "nodes": [
         {
-            "capacity": "1",
+            "capacity": 1,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -13,13 +13,13 @@
             "cost": 500,
             "extended_time_period": 180,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.072994,
             "longitude": -80.117034,
             "nbr_containers": 0,
-            "service_time": "60",
+            "service_time": 60.0,
             "rdf:type": "Berth",
-            "storage": "0",
+            "storage": 1,
             "transportation_methods": [
                 "Sea",
                 "Transloading"
@@ -27,7 +27,7 @@
             "id": "Berth 30"
         },
         {
-            "capacity": "1",
+            "capacity": 1,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -36,12 +36,12 @@
             "cost": 500,
             "extended_time_period": 180,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.071422,
             "longitude": -80.115243,
             "nbr_containers": 0,
-            "service_time": "60",
-            "storage": "0",
+            "service_time": 60.0,
+            "storage": 1,
             "transportation_methods": [
                 "Sea",
                 "Transloading"
@@ -50,7 +50,7 @@
             "id": "Berth 31"
         },
         {
-            "capacity": "1",
+            "capacity": 1,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -59,12 +59,12 @@
             "cost": 500,
             "extended_time_period": 180,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.068678,
             "longitude": -80.115335,
             "nbr_containers": 0,
-            "service_time": "60",
-            "storage": "0",
+            "service_time": 60.0,
+            "storage": 1,
             "transportation_methods": [
                 "Sea",
                 "Transloading"
@@ -73,7 +73,7 @@
             "id": "Berth 32"
         },
         {
-            "capacity": "1",
+            "capacity": 1,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -82,12 +82,12 @@
             "cost": 500,
             "extended_time_period": 180,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.066483,
             "longitude": -80.115846,
             "nbr_containers": 0,
-            "service_time": "60",
-            "storage": "0",
+            "service_time": 60.0,
+            "storage": 1,
             "transportation_methods": [
                 "Sea",
                 "Transloading"
@@ -96,7 +96,7 @@
             "id": "Berth 33"
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -105,12 +105,12 @@
             "cost": 100,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "270",
+            "holding_time": 270.0,
             "latitude": 26.065677,
             "longitude": -80.119918,
             "nbr_containers": 0,
-            "service_time": "5",
-            "storage": "20000",
+            "service_time": 5.0,
+            "storage": 20000,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -118,7 +118,7 @@
             "id": "Crowley"
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -127,12 +127,12 @@
             "cost": 100,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "270",
+            "holding_time": 270.0,
             "latitude": 26.068313,
             "longitude": -80.118437,
             "nbr_containers": 0,
-            "service_time": "5",
-            "storage": "20000",
+            "service_time": 5.0,
+            "storage": 20000,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -140,7 +140,7 @@
             "id": "MSC"
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -149,12 +149,12 @@
             "cost": 100,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "270",
+            "holding_time": 270.0,
             "latitude": 26.071382,
             "longitude": -80.119384,
             "nbr_containers": 0,
-            "service_time": "5",
-            "storage": "20000",
+            "service_time": 5.0,
+            "storage": 20000,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -162,7 +162,7 @@
             "id": "FIT"
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -171,12 +171,12 @@
             "cost": 100,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "270",
+            "holding_time": 270.0,
             "latitude": 26.073795,
             "longitude": -80.121913,
             "nbr_containers": 0,
-            "service_time": "5",
-            "storage": "20000",
+            "service_time": 5.0,
+            "storage": 20000,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -184,7 +184,7 @@
             "id": "King Ocean"
         },
         {
-            "capacity": "8",
+            "capacity": 8,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -193,12 +193,12 @@
             "cost": 0,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.065677,
             "longitude": -80.119918,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "20",
+            "service_time": 1.0,
+            "storage": 20,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -206,7 +206,7 @@
             "id": "Crowley Gate"
         },
         {
-            "capacity": "8",
+            "capacity": 8,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -215,12 +215,12 @@
             "cost": 0,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.068313,
             "longitude": -80.118437,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "20",
+            "service_time": 1.0,
+            "storage": 20,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -228,7 +228,7 @@
             "id": "MSC Gate"
         },
         {
-            "capacity": "8",
+            "capacity": 8,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -237,12 +237,12 @@
             "cost": 0,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.071382,
             "longitude": -80.119384,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "20",
+            "service_time": 1.0,
+            "storage": 20,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -250,7 +250,7 @@
             "id": "FIT Gate"
         },
         {
-            "capacity": "8",
+            "capacity": 8,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -259,12 +259,12 @@
             "cost": 0,
             "extended_time_period": 360,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.073795,
             "longitude": -80.121913,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "20",
+            "service_time": 1.0,
+            "storage": 20,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -272,7 +272,7 @@
             "id": "King Ocean Gate"
         },
         {
-            "capacity": "8",
+            "capacity": 8,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -281,12 +281,12 @@
             "cost": 10,
             "extended_time_period": 2,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.076866,
             "longitude": -80.124083,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "20",
+            "service_time": 1.0,
+            "storage": 20,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -294,7 +294,7 @@
             "id": "McIntosh Gate"
         },
         {
-            "capacity": "20",
+            "capacity": 20,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -303,12 +303,12 @@
             "cost": 10,
             "extended_time_period": 2,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.082274,
             "longitude": -80.124327,
             "nbr_containers": 0,
-            "service_time": "1",
-            "storage": "2",
+            "service_time": 1.0,
+            "storage": 2,
             "transportation_methods": [
                 "Roadway"
             ],
@@ -448,7 +448,7 @@
             "id": "PEV"
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -457,12 +457,12 @@
             "cost": 40,
             "extended_time_period": 100,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.072617,
             "longitude": -80.117034,
             "nbr_containers": 0,
-            "service_time": "0",
-            "storage": "10",
+            "service_time": 0.0,
+            "storage": 10,
             "transportation_methods": [
                 "Roadway",
                 "Transloading"
@@ -471,7 +471,7 @@
             "id": "Loading Dock 1"
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -480,12 +480,12 @@
             "cost": 40,
             "extended_time_period": 100,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.071388,
             "longitude": -80.115684,
             "nbr_containers": 0,
-            "service_time": "0",
-            "storage": "10",
+            "service_time": 0.0,
+            "storage": 10,
             "transportation_methods": [
                 "Roadway",
                 "Transloading"
@@ -494,7 +494,7 @@
             "id": "Loading Dock 2"
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -503,12 +503,12 @@
             "cost": 40,
             "extended_time_period": 100,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.068678,
             "longitude": -80.115736,
             "nbr_containers": 0,
-            "service_time": "0",
-            "storage": "10",
+            "service_time": 0.0,
+            "storage": 10,
             "transportation_methods": [
                 "Roadway",
                 "Transloading"
@@ -517,7 +517,7 @@
             "id": "Loading Dock 3"
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -526,12 +526,12 @@
             "cost": 40,
             "extended_time_period": 100,
             "extended_time_rate": 0.2,
-            "holding_time": "0",
+            "holding_time": 0.0,
             "latitude": 26.066563,
             "longitude": -80.116203,
             "nbr_containers": 0,
-            "service_time": "0",
-            "storage": "10",
+            "service_time": 0.0,
+            "storage": 10,
             "transportation_methods": [
                 "Roadway",
                 "Transloading"
@@ -3052,7 +3052,7 @@
             "key": 0
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3065,7 +3065,7 @@
             "longitude": -80.117247,
             "name": "Gantry Crane 1 Offload",
             "nbr_containers": 0,
-            "travel_time": "2.4",
+            "travel_time": 2.4,
             "type": "Primary",
             "transportation_methods": [
                 "Transloading"
@@ -3100,7 +3100,7 @@
             "key": 0
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3113,7 +3113,7 @@
             "longitude": -80.115476,
             "name": "Gantry Crane 2 Offload",
             "nbr_containers": 0,
-            "travel_time": "2.4",
+            "travel_time": 2.4,
             "type": "Primary",
             "transportation_methods": [
                 "Transloading"
@@ -3148,7 +3148,7 @@
             "key": 0
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3161,7 +3161,7 @@
             "longitude": -80.115533,
             "name": "Gantry Crane 3 Offload",
             "nbr_containers": 0,
-            "travel_time": "2.4",
+            "travel_time": 2.4,
             "type": "Primary",
             "transportation_methods": [
                 "Transloading"
@@ -3196,7 +3196,7 @@
             "key": 0
         },
         {
-            "capacity": "2",
+            "capacity": 2,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3209,7 +3209,7 @@
             "longitude": -80.115904,
             "name": "Gantry Crane 4 Offload",
             "nbr_containers": 0,
-            "travel_time": "2.4",
+            "travel_time": 2.4,
             "type": "Primary",
             "transportation_methods": [
                 "Transloading"
@@ -3244,7 +3244,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3257,7 +3257,7 @@
             "longitude": -80.121363,
             "name": "Crowley to Crowley Gate",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -3292,7 +3292,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3305,7 +3305,7 @@
             "longitude": -80.121777,
             "name": "MSC to MSC Gate",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -3340,7 +3340,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3353,7 +3353,7 @@
             "longitude": -80.121786,
             "name": "FIT to FIT Gate",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -3388,7 +3388,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -3401,7 +3401,7 @@
             "longitude": -80.123072,
             "name": "King Ocean to King Ocean Gate",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -4996,7 +4996,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5009,7 +5009,7 @@
             "longitude": -80.11605,
             "name": "Loading Dock 1 to 2",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Secondary",
             "transportation_methods": [
                 "Roadway"
@@ -5020,7 +5020,7 @@
             "key": 0
         },
         {
-            "capacity": "10000",
+            "capacity": 10000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5033,7 +5033,7 @@
             "longitude": -80.119982,
             "name": "Loading Dock 1 to King Ocean",
             "nbr_containers": 0,
-            "travel_time": "10",
+            "travel_time": 10.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5068,7 +5068,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5081,7 +5081,7 @@
             "longitude": -80.115776,
             "name": "Loading Dock 2 to 1",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5092,7 +5092,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5105,7 +5105,7 @@
             "longitude": -80.115794,
             "name": "Loading Dock 2 to 3",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5116,7 +5116,7 @@
             "key": 0
         },
         {
-            "capacity": "10000",
+            "capacity": 10000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5129,7 +5129,7 @@
             "longitude": -80.116005,
             "name": "Loading Dock 2 to FIT",
             "nbr_containers": 0,
-            "travel_time": "10",
+            "travel_time": 10.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5140,7 +5140,7 @@
             "key": 0
         },
         {
-            "capacity": "10000",
+            "capacity": 10000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5153,7 +5153,7 @@
             "longitude": -80.116005,
             "name": "Loading Dock 3 to MSC",
             "nbr_containers": 0,
-            "travel_time": "10",
+            "travel_time": 10.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5188,7 +5188,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5201,7 +5201,7 @@
             "longitude": -80.115494,
             "name": "Loading Dock 3 to 2",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5212,7 +5212,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5225,7 +5225,7 @@
             "longitude": -80.115897,
             "name": "Loading Dock 3 to 4",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5260,7 +5260,7 @@
             "key": 0
         },
         {
-            "capacity": "20000",
+            "capacity": 20000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5273,7 +5273,7 @@
             "longitude": -80.115668,
             "name": "Loading Dock 4 to 3",
             "nbr_containers": 0,
-            "travel_time": "3",
+            "travel_time": 3.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
@@ -5284,7 +5284,7 @@
             "key": 0
         },
         {
-            "capacity": "10000",
+            "capacity": 10000,
             "cargo_categories": [
                 "Non-hazardous",
                 "Perishable",
@@ -5297,7 +5297,7 @@
             "longitude": -80.116974,
             "name": "Loading Dock 4 to Crowley",
             "nbr_containers": 0,
-            "travel_time": "10",
+            "travel_time": 10.0,
             "type": "Primary",
             "transportation_methods": [
                 "Roadway"
