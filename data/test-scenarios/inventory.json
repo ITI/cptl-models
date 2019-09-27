@@ -5,6 +5,18 @@
 	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.",
 	    "dc:publisher":  "CIRI",
 	    "dc:identifier": "pevtest-v1"
-	}
+	},
+	"exp1v2a": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during normal 9-5 business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2a"
+	},
+	"exp1v2b": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during normal 9-8pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2b"
+	}	
     }
 }
