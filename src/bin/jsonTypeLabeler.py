@@ -5,6 +5,8 @@ Created on March 15, 2019
 
 Copyright (c) 2019 University of Illinois at Urbana Champaign
 All Rights Reserved
+
+example:  python src/bin/jsonTypeLabeler.py data/test-scenarios/exp1v3a/networks/transportation-template.json data/test-scenarios/exp1v3a/networks/csv/transportation-exp1v3.csv 
 """
 from networkx.readwrite import json_graph
 import csv
@@ -75,7 +77,8 @@ def main(argv):
         type = row["rdf:type"]
         serviceTime = float(row["service_time"])
         holdingTime = float(row["holding_time"])
-        storage = int(row["storage"])
+        if row["storage"]:
+            storage = int(row["storage"])
         capacity = int(row["capacity"])
 
         # see if it is a node type or edge type
