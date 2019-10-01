@@ -8,15 +8,57 @@
 	},
 	"exp1v2a": {
 	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
-	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during normal 9-5 business hours",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  No disruption",
 	    "dc:publisher":  "CIRI,gweaver",
 	    "dc:identifier": "exp1v2a"
 	},
 	"exp1v2b": {
 	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
-	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during normal 9-8pm business hours",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during second half of day 1, 9-5pm business hours",
 	    "dc:publisher":  "CIRI,gweaver",
 	    "dc:identifier": "exp1v2b"
-	}	
+	},
+	"exp1v2c": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during first half of day 2, 9-5pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2c"
+	},
+	"exp1v2d": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during second half of day 2, 9-5pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2d"
+	},
+	"exp1v2e": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades. 9-9 pm No disruption",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2e"
+	},
+	"exp1v2f": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during second half of day 1, 9-9pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2f"
+	},
+	"exp1v2g": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during first half of day 2, 9-9pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2g"
+	},
+	"exp1v2h": {
+	    "dc:title": "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model of SouthPort operations at Port Everglades.  Disruption during second half of day 2, 9-9pm business hours",
+	    "dc:publisher":  "CIRI,gweaver",
+	    "dc:identifier": "exp1v2h"
+	},
+	"exp1v3a": {
+	    "dc:title":  "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "Scenario that includes a transportation model.  Baseline with one vessel comes in at 10 am (600m) and another at 15:00 (900m) on Day 1.  9-5 business hours.  Simulation time for 3 days (4320m).  The intent is to see when the ships come in and how the containers percolate.  Modified travel time of Gantry Crane 4 Offload to be 1.1 minute for a TEU based on a crane rate of 25 TEU per hour (PEV website says 2.5 minutes in or out for boom shuttle time of 2 TEU).  Modified Loading Dock 4 based on video 20170427_165933.mp4.  Loading Dock 4 to Crowley can take up to 5 trucks at a time holding 2 TEU a piece (doubled capacity).  Holding time at Crowley is 270.  Exit to Gate is up to 5 trucks at a time holding 2 TEU a piece.  Gate can handle up to 5 trucks at a time.",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v3a"
+	}
     }
 }
