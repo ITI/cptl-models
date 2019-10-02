@@ -1,0 +1,901 @@
+{
+    "commodities": [
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 3.99,
+            "name": "1-MONTE ROSA-0",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.75,
+            "name": "2-MONTE ROSA-1",
+            "origin": "SPAIN-S",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Specialty Grains",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 3.0,
+            "name": "3-MONTE ROSA-2",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Bulk Foods",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 3.5,
+            "name": "4-MONTE ROSA-3",
+            "origin": "URUGUAY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 35.85,
+            "name": "5-MONTE ROSA-4",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Steel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "6-MONTE ROSA-5",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "7-MONTE ROSA-6",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 0.5,
+            "name": "8-MONTE ROSA-7",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Footwear",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.75,
+            "name": "9-MONTE ROSA-8",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 0.35,
+            "name": "10-MONTE ROSA-9",
+            "origin": "SPAIN-S",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.99,
+            "name": "11-MONTE ROSA-10",
+            "origin": "PANAMA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Plastics",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 7.0,
+            "name": "12-MONTE ROSA-11",
+            "origin": "PERU",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 56.0,
+            "name": "13-MONTE ROSA-12",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 27.13,
+            "name": "14-MONTE ROSA-13",
+            "origin": "BAHAMAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 10.35,
+            "name": "15-MONTE ROSA-14",
+            "origin": "COSTA RICA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Manufactured Plastic Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 3.5,
+            "name": "16-MONTE ROSA-15",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 6.0,
+            "name": "17-MONTE ROSA-16",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "18-MONTE ROSA-17",
+            "origin": "SPAIN-S",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 18.0,
+            "name": "19-MONTE ROSA-18",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Barley/Oats/Rye",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "20-MONTE ROSA-19",
+            "origin": "VENEZUELA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Rubber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 4.0,
+            "name": "21-MONTE ROSA-20",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Furniture",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "22-MONTE ROSA-21",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 0.36,
+            "name": "23-MONTE ROSA-22",
+            "origin": "URUGUAY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beverages",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "24-MONTE ROSA-23",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 8.75,
+            "name": "25-MONTE ROSA-24",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 7.0,
+            "name": "26-MONTE ROSA-25",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 3.17,
+            "name": "27-MONTE ROSA-26",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 90.62,
+            "name": "28-MONTE ROSA-27",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beauty Care",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "29-MONTE ROSA-28",
+            "origin": "HAITI",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "30-MONTE ROSA-29",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 9.85,
+            "name": "31-MONTE ROSA-30",
+            "origin": "TURKS AND CAICOS IS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "32-MONTE ROSA-31",
+            "origin": "COSTA RICA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Flour/Mill Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "33-MONTE ROSA-32",
+            "origin": "ARGENTINA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 5.34,
+            "name": "34-MONTE ROSA-33",
+            "origin": "SPAIN-S",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 2.0,
+            "name": "35-MONTE ROSA-34",
+            "origin": "PANAMA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 20.0,
+            "name": "36-MONTE ROSA-35",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "37-MONTE ROSA-36",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Furniture",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 8.75,
+            "name": "38-MONTE ROSA-37",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Motor Vehicles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "39-MONTE ROSA-38",
+            "origin": "HONDURAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "40-MONTE ROSA-39",
+            "origin": "GERMANY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Vehicle Parts",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 1.0,
+            "name": "41-MONTE ROSA-40",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 19.0,
+            "name": "42-MONTE ROSA-41",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 14805.0,
+            "LDT": 16965.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "a879f74c-8a3a-4d08-bc9a-b9ed2725c311",
+            "nTEU": 38.01,
+            "name": "43-MONTE ROSA-42",
+            "origin": "PANAMA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

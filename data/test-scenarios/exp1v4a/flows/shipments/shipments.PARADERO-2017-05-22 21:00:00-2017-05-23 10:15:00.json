@@ -1,0 +1,45 @@
+{
+    "commodities": [
+        {
+            "EAT": 31500.0,
+            "LDT": 33660.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Medical",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "bd58ecf0-7204-4f37-997c-989449593a46",
+            "nTEU": 0.0,
+            "name": "1-PARADERO-0",
+            "origin": "COSTA RICA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 31500.0,
+            "LDT": 33660.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "bd58ecf0-7204-4f37-997c-989449593a46",
+            "nTEU": 2.0,
+            "name": "2-PARADERO-1",
+            "origin": "PANAMA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

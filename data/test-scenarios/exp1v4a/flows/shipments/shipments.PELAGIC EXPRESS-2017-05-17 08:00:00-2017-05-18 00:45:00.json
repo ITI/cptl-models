@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 23520.0,
+            "LDT": 25680.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Liquid"
+            ],
+            "commodityGroup": "Petroleum Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "b91a247e-2bf8-4932-aaa1-274147c3474f",
+            "nTEU": 3.28,
+            "name": "1-PELAGIC EXPRESS-0",
+            "origin": "TURKS AND CAICOS IS",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 23520.0,
+            "LDT": 25680.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "b91a247e-2bf8-4932-aaa1-274147c3474f",
+            "nTEU": 15.72,
+            "name": "2-PELAGIC EXPRESS-1",
+            "origin": "ITALY",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}
