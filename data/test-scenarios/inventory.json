@@ -59,6 +59,18 @@
 	    "dc:description": "A scenario that includes a transportation model.  Baseline with one vessel comes in at 10 am (600m) and another at 15:00 (900m) on Day 1.  9-5 business hours.  Simulation time for 3 days (4320m).  The intent is to see when the ships come in and how the containers percolate.  Modified travel time of Gantry Crane 4 Offload to be 1.1 minute for a TEU based on a crane rate of 25 TEU per hour (PEV website says 2.5 minutes in or out for boom shuttle time of 2 TEU).  Modified Loading Dock 4 based on video 20170427_165933.mp4.  Loading Dock 4 to Crowley can take up to 5 trucks at a time holding 2 TEU a piece (doubled capacity).  Holding time at Crowley is 270.  Exit to Gate is up to 5 trucks at a time holding 2 TEU a piece.  Gate can handle up to 5 trucks at a time.",
 	    "dc:publisher": "CIRI, gweaver",
 	    "dc:identifier": "exp1v3a"
-	}
+	},
+	"exp1v3b": {
+	    "dc:title":  "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "A scenario that includes a transportation model.  This is same as with (a) but a disruption occurs during all of day 2 1440-2880, when the gate is most used at Crowley from exp1v3a.  Due to this, we move out the simulation time to 5 days.",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v3b"	    
+	},
+	"exp1v3c": {
+	    "dc:title":  "Experiment 1 - Ransomware at Port Everglades",
+	    "dc:description": "A scenario that includes a transportation model.  This is same as with (a) but a disruption occurs during all of day 3 2880-4320, when the gate is most used at Crowley from exp1v3a.  Due to this, we move out the simulation time to 5 days.",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v3c"	    
+	}	
     }
 }
