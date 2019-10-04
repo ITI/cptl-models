@@ -77,6 +77,33 @@
 	    "dc:description": "A scenario that includes a transportation model.  This is same as with (a) but a disruption occurs during all of day 1 0-1440.",
 	    "dc:publisher": "CIRI, gweaver",
 	    "dc:identifier": "exp1v3d"	    
-	}		
+	},
+	"exp1v4a": {
+	    "dc:title":  "Experiment 1 - One Month Baseline",
+	    "dc:description": "A scenario that runs May 2017 PEV imports for 1 month",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v4a"
+	},
+	"exp1v4a1": {
+	    "dc:title":  "Experiment 1 - Debug",
+	    "dc:description":  "A scenario that runs May 2017 PEV imports when the piling occurs.  Approach to debug is to replicate exp1v3a but use subset of flows from exp1v4a through Berth 30.  Transportation network has been regenerated to have consistent capacities coming out of the gate to intersections.",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v4a1",
+	    "status":  "Last ran on 10.03.19"
+	},
+	"exp1v4a2": {
+	    "dc:title":  "Experiment 1 - Rerun exp1v4a",
+	    "dc:description":  "A scenario that runs May 2017 PEV imports when the piling occurs.  Approach to debug is to replicate exp1v3a but with consistent capacities coming out of the gate to intersections",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v4a2",
+	    "status":  "Last ran on 10.03.19"	    
+	},
+	"exp1v4b": {
+	    "dc:title":  "Experiment 1 - One Month.  Disrupt W2, Crowley",
+	    "dc:description": "A scenario that runs May 2017 PEV imports for 1 month, disrupt week 2 for Crowley Exit Gate.  Builds on exp1v4a2",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp1v4b",
+	    "status":  "Last ran on 10.03.19"	    
+	}	
     }
 }
