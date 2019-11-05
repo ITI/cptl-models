@@ -1,0 +1,119 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "name": "n1",
+            "imn:type": "lanswitch",
+            "imn:hostname": "n1",
+            "latitude": 26.066661,
+            "longitude": -80.117486,
+            "id": 0
+        },
+        {
+            "name": "n2",
+            "imn:type": "lanswitch",
+            "imn:hostname": "n2",
+            "latitude": 26.069066,
+            "longitude": -80.12174,
+            "id": 1
+        },
+        {
+            "name": "GOS",
+            "imn:type": "router",
+            "imn:hostname": "GOS",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.0.9"}],
+            "latitude": 26.065472,
+            "longitude": -80.117608,
+            "id": 2
+        },
+        {
+            "name": "crowley-kiosk0",
+            "imn:type": "router",
+            "imn:hostname": "crowley-kiosk0",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.1.20"},
+			       { "name": "ctrl0",
+			         "imn:ip": "172.16.0.5"} ],
+            "latitude": 26.069843,
+            "longitude": -80.121644,
+            "id": 3
+        },
+        {
+            "name": "n6",
+            "imn:type": "router",
+            "imn:hostname": "n6",
+	    "imn:interfaces": [{ "name": "eth0",
+				 "imn:ip": "10.0.1.21"},
+			       { "name": "ctrl0",
+			         "imn:ip": "172.16.0.5"} ],
+            "latitude": 26.069759,
+            "longitude": -80.122178,
+            "id": 4
+        },
+        {
+            "name": "n7",
+            "imn:type": "router",
+            "imn:hostname": "TOS",
+            "imn:interface": "eth0",
+            "latitude": 26.065503,
+            "longitude": -80.118419,
+            "id": 5
+        },
+        {
+            "name": "n3",
+            "imn:type": "router",
+            "imn:hostname": "n3",
+            "imn:interface": "eth0",
+            "latitude": 26.067601,
+            "longitude": -80.120309,
+            "id": 6
+        }
+    ],
+    "links": [
+        {
+            "name": "l6",
+            "latitude": 26.066082,
+            "longitude": -80.1179525,
+            "source": 0,
+            "target": 5
+        },
+        {
+            "name": "l1",
+            "latitude": 26.0683335,
+            "longitude": -80.1210245,
+            "source": 1,
+            "target": 6
+        },
+        {
+            "name": "l3",
+            "latitude": 26.066066499999998,
+            "longitude": -80.117547,
+            "source": 2,
+            "target": 0
+        },
+        {
+            "name": "l4",
+            "latitude": 26.0694545,
+            "longitude": -80.121692,
+            "source": 3,
+            "target": 1
+        },
+        {
+            "name": "l5",
+            "latitude": 26.0694125,
+            "longitude": -80.121959,
+            "source": 4,
+            "target": 1
+        },
+        {
+            "name": "l2",
+            "latitude": 26.067131,
+            "longitude": -80.1188975,
+            "source": 6,
+            "target": 0
+        }
+    ]
+}

@@ -1,0 +1,2658 @@
+node n1 {
+    type lanswitch
+    network-config {
+	hostname crowley-sw1
+	!
+    }
+    canvas c1
+    iconcoords {975.0 436.0}
+    labelcoords {975.0 460.0}
+    interface-peer {e1 n4}
+    interface-peer {e2 n7}
+    interface-peer {e0 n3}
+    interface-peer {e3 n8}
+    interface-peer {e4 n9}
+    interface-peer {e5 n10}
+    interface-peer {e6 n11}
+}
+
+node n2 {
+    type lanswitch
+    network-config {
+	hostname crowley-sw2
+	!
+    }
+    canvas c1
+    iconcoords {573.0 433.0}
+    labelcoords {573.0 457.0}
+    interface-peer {e1 n5}
+    interface-peer {e2 n6}
+    interface-peer {e0 n3}
+    interface-peer {e3 n14}
+    interface-peer {e4 n12}
+    interface-peer {e5 n13}
+}
+
+node n4 {
+    type router
+    model host
+    network-config {
+	hostname crowley-gos
+	!
+	interface eth0
+	 ip address 10.0.0.10/24
+	 ipv6 address 2001:0::10/64
+	!
+    }
+    canvas c1
+    iconcoords {1157.0 592.0}
+    labelcoords {1157.0 624.0}
+    interface-peer {eth0 n1}
+    services {DefaultRoute MySQLService}
+}
+
+node n5 {
+    type router
+    model PC
+    network-config {
+	hostname crowley-kiosk0
+	!
+	interface eth0
+	 ip address 10.0.1.20/24
+	 ipv6 address 2001:1::20/64
+	!
+    }
+    canvas c1
+    iconcoords {446.0 330.0}
+    labelcoords {446.0 362.0}
+    interface-peer {eth0 n2}
+}
+
+node n6 {
+    type router
+    model PC
+    network-config {
+	hostname crowley-kiosk1
+	!
+	interface eth0
+	 ip address 10.0.1.21/24
+	 ipv6 address 2001:1::21/64
+	!
+    }
+    canvas c1
+    iconcoords {384.0 360.0}
+    labelcoords {384.0 392.0}
+    interface-peer {eth0 n2}
+}
+
+node n7 {
+    type router
+    model host
+    network-config {
+	hostname crowley-tos
+	!
+	interface eth0
+	 ip address 10.0.0.11/24
+	 ipv6 address 2001:0::11/64
+	!
+    }
+    canvas c1
+    iconcoords {1183.0 530.0}
+    labelcoords {1183.0 562.0}
+    interface-peer {eth0 n1}
+}
+
+node n3 {
+    type router
+    model router
+    network-config {
+	hostname crowley-router-1
+	!
+	interface eth3
+	 ip address 10.0.18.2/24
+	 ipv6 address 2001:18::2/64
+	!
+	interface eth2
+	 ip address 10.0.13.2/24
+	 ipv6 address 2001:13::2/64
+	!
+	interface eth1
+	 ip address 10.0.0.1/24
+	 ipv6 address 2001:0::1/64
+	!
+	interface eth0
+	 ip address 10.0.1.1/24
+	 ipv6 address 2001:1::1/64
+	!
+    }
+    canvas c1
+    iconcoords {845.0 429.0}
+    labelcoords {845.0 461.0}
+    interface-peer {eth0 n2}
+    interface-peer {eth1 n1}
+    interface-peer {eth2 n88}
+    interface-peer {eth3 n104}
+}
+
+node n8 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c1
+    iconcoords {975.0 541.0}
+    labelcoords {975.0 573.0}
+    interface-peer {0 n1}
+}
+
+node n9 {
+    type router
+    model host
+    network-config {
+	hostname crowley-historian
+	!
+	interface eth0
+	 ip address 10.0.0.12/24
+	 ipv6 address 2001:0::12/64
+	!
+    }
+    canvas c1
+    iconcoords {1171.0 458.0}
+    labelcoords {1171.0 490.0}
+    interface-peer {eth0 n1}
+}
+
+node n10 {
+    type router
+    model host
+    network-config {
+	hostname crowley-dns
+	!
+	interface eth0
+	 ip address 10.0.0.13/24
+	 ipv6 address 2001:0::13/64
+	!
+    }
+    canvas c1
+    iconcoords {1182.0 388.0}
+    labelcoords {1182.0 420.0}
+    interface-peer {eth0 n1}
+}
+
+node n11 {
+    type router
+    model host
+    network-config {
+	hostname crowley-ntp
+	!
+	interface eth0
+	 ip address 10.0.0.14/24
+	 ipv6 address 2001:0::14/64
+	!
+    }
+    canvas c1
+    iconcoords {1177.0 306.0}
+    labelcoords {1177.0 338.0}
+    interface-peer {eth0 n1}
+}
+
+node n12 {
+    type router
+    model PC
+    network-config {
+	hostname crowley-kiosk3
+	!
+	interface eth0
+	 ip address 10.0.1.23/24
+	 ipv6 address 2001:1::23/64
+	!
+    }
+    canvas c1
+    iconcoords {385.0 493.0}
+    labelcoords {385.0 525.0}
+    interface-peer {eth0 n2}
+}
+
+node n13 {
+    type router
+    model PC
+    network-config {
+	hostname crowley-kiosk4
+	!
+	interface eth0
+	 ip address 10.0.1.24/24
+	 ipv6 address 2001:1::24/64
+	!
+    }
+    canvas c1
+    iconcoords {384.0 569.0}
+    labelcoords {384.0 601.0}
+    interface-peer {eth0 n2}
+}
+
+node n14 {
+    type router
+    model PC
+    network-config {
+	hostname crowley-kiosk2
+	!
+	interface eth0
+	 ip address 10.0.1.22/24
+	 ipv6 address 2001:1::22/64
+	!
+    }
+    canvas c1
+    iconcoords {387.0 425.0}
+    labelcoords {387.0 457.0}
+    interface-peer {eth0 n2}
+}
+
+node n15 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI4
+	!
+	interface eth0
+	 ip address 10.0.2.23/24
+	 ipv6 address 2001:2::23/64
+	!
+    }
+    canvas c2
+    iconcoords {731.0 512.0}
+    labelcoords {731.0 544.0}
+    interface-peer {eth0 n24}
+}
+
+node n16 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI1
+	!
+	interface eth0
+	 ip address 10.0.2.20/24
+	 ipv6 address 2001:2::20/64
+	!
+    }
+    canvas c2
+    iconcoords {732.0 443.0}
+    labelcoords {732.0 475.0}
+    interface-peer {eth0 n24}
+}
+
+node n17 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI2
+	!
+	interface eth0
+	 ip address 10.0.2.21/24
+	 ipv6 address 2001:2::21/64
+	!
+    }
+    canvas c2
+    iconcoords {812.0 444.0}
+    labelcoords {812.0 476.0}
+    interface-peer {eth0 n24}
+}
+
+node n18 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI6
+	!
+	interface eth0
+	 ip address 10.0.2.25/24
+	 ipv6 address 2001:2::25/64
+	!
+    }
+    canvas c2
+    iconcoords {899.0 513.0}
+    labelcoords {899.0 545.0}
+    interface-peer {eth0 n24}
+}
+
+node n19 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI3
+	!
+	interface eth0
+	 ip address 10.0.2.22/24
+	 ipv6 address 2001:2::22/64
+	!
+    }
+    canvas c2
+    iconcoords {902.0 444.0}
+    labelcoords {902.0 476.0}
+    interface-peer {eth0 n24}
+}
+
+node n20 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI7
+	!
+	interface eth0
+	 ip address 10.0.2.26/24
+	 ipv6 address 2001:2::26/64
+	!
+    }
+    canvas c2
+    iconcoords {822.0 576.0}
+    labelcoords {822.0 608.0}
+    interface-peer {eth0 n24}
+}
+
+node n21 {
+    type router
+    model PC
+    network-config {
+	hostname CraneHMI5
+	!
+	interface eth0
+	 ip address 10.0.2.24/24
+	 ipv6 address 2001:2::24/64
+	!
+    }
+    canvas c2
+    iconcoords {819.0 513.0}
+    labelcoords {819.0 545.0}
+    interface-peer {eth0 n24}
+}
+
+node n24 {
+    type lanswitch
+    network-config {
+	hostname bc-switch-1
+	!
+    }
+    canvas c2
+    iconcoords {688.0 585.0}
+    labelcoords {688.0 609.0}
+    interface-peer {e0 n16}
+    interface-peer {e1 n17}
+    interface-peer {e2 n19}
+    interface-peer {e3 n15}
+    interface-peer {e4 n21}
+    interface-peer {e5 n18}
+    interface-peer {e6 n20}
+    interface-peer {e7 n25}
+}
+
+node n25 {
+    type router
+    model router
+    network-config {
+	hostname bc-router-1
+	!
+	interface eth5
+	 ip address 10.0.23.1/24
+	 ipv6 address 2001:23::1/64
+	!
+	interface eth4
+	 ip address 10.0.22.1/24
+	 ipv6 address 2001:22::1/64
+	!
+	interface eth3
+	 ip address 10.0.17.2/24
+	 ipv6 address 2001:17::2/64
+	!
+	interface eth2
+	 ip address 10.0.12.2/24
+	 ipv6 address 2001:12::2/64
+	!
+	interface eth1
+	 ip address 10.0.11.1/24
+	 ipv6 address 2001:11::1/64
+	!
+	interface eth0
+	 ip address 10.0.2.1/24
+	 ipv6 address 2001:2::1/64
+	!
+    }
+    canvas c2
+    iconcoords {693.0 776.0}
+    labelcoords {693.0 808.0}
+    interface-peer {eth0 n24}
+    interface-peer {eth1 n77}
+    interface-peer {eth2 n86}
+    interface-peer {eth3 n102}
+    interface-peer {eth4 n111}
+    interface-peer {eth5 n112}
+}
+
+node n22 {
+    type lanswitch
+    network-config {
+	hostname kingocean-sw1
+	!
+    }
+    canvas c3
+    iconcoords {712.0 330.0}
+    labelcoords {712.0 354.0}
+    interface-peer {e1 n26}
+    interface-peer {e2 n29}
+    interface-peer {e0 n30}
+    interface-peer {e3 n31}
+    interface-peer {e4 n32}
+    interface-peer {e5 n33}
+    interface-peer {e6 n34}
+}
+
+node n23 {
+    type lanswitch
+    network-config {
+	hostname kingocean-sw2
+	!
+    }
+    canvas c3
+    iconcoords {335.0 332.0}
+    labelcoords {335.0 356.0}
+    interface-peer {e1 n27}
+    interface-peer {e2 n28}
+    interface-peer {e0 n30}
+    interface-peer {e3 n37}
+    interface-peer {e4 n35}
+    interface-peer {e5 n36}
+}
+
+node n26 {
+    type router
+    model host
+    network-config {
+	hostname kingocean-gos
+	!
+	interface eth0
+	 ip address 10.0.3.10/24
+	 ipv6 address 2001:3::10/64
+	!
+    }
+    canvas c3
+    iconcoords {888.0 497.0}
+    labelcoords {888.0 529.0}
+    interface-peer {eth0 n22}
+    services {DefaultRoute MySQLService}
+}
+
+node n27 {
+    type router
+    model PC
+    network-config {
+	hostname kingocean-kiosk0
+	!
+	interface eth0
+	 ip address 10.0.4.20/24
+	 ipv6 address 2001:4::20/64
+	!
+    }
+    canvas c3
+    iconcoords {113.0 199.0}
+    labelcoords {113.0 231.0}
+    interface-peer {eth0 n23}
+}
+
+node n28 {
+    type router
+    model PC
+    network-config {
+	hostname kingocean-kiosk1
+	!
+	interface eth0
+	 ip address 10.0.4.21/24
+	 ipv6 address 2001:4::21/64
+	!
+    }
+    canvas c3
+    iconcoords {115.0 265.0}
+    labelcoords {115.0 297.0}
+    interface-peer {eth0 n23}
+}
+
+node n29 {
+    type router
+    model host
+    network-config {
+	hostname kingocean-tos
+	!
+	interface eth0
+	 ip address 10.0.3.11/24
+	 ipv6 address 2001:3::11/64
+	!
+    }
+    canvas c3
+    iconcoords {914.0 435.0}
+    labelcoords {914.0 467.0}
+    interface-peer {eth0 n22}
+}
+
+node n30 {
+    type router
+    model router
+    network-config {
+	hostname kingocean-router-1
+	!
+	interface eth3
+	 ip address 10.0.19.2/24
+	 ipv6 address 2001:19::2/64
+	!
+	interface eth2
+	 ip address 10.0.14.2/24
+	 ipv6 address 2001:14::2/64
+	!
+	interface eth1
+	 ip address 10.0.3.1/24
+	 ipv6 address 2001:3::1/64
+	!
+	interface eth0
+	 ip address 10.0.4.1/24
+	 ipv6 address 2001:4::1/64
+	!
+    }
+    canvas c3
+    iconcoords {527.0 332.0}
+    labelcoords {527.0 364.0}
+    interface-peer {eth0 n23}
+    interface-peer {eth1 n22}
+    interface-peer {eth2 n90}
+    interface-peer {eth3 n106}
+}
+
+node n31 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c3
+    iconcoords {734.0 501.0}
+    labelcoords {734.0 533.0}
+    interface-peer {0 n22}
+}
+
+node n32 {
+    type router
+    model host
+    network-config {
+	hostname kingocean-historian
+	!
+	interface eth0
+	 ip address 10.0.3.12/24
+	 ipv6 address 2001:3::12/64
+	!
+    }
+    canvas c3
+    iconcoords {902.0 363.0}
+    labelcoords {902.0 395.0}
+    interface-peer {eth0 n22}
+}
+
+node n33 {
+    type router
+    model host
+    network-config {
+	hostname kingocean-dns
+	!
+	interface eth0
+	 ip address 10.0.3.13/24
+	 ipv6 address 2001:3::13/64
+	!
+    }
+    canvas c3
+    iconcoords {913.0 293.0}
+    labelcoords {913.0 325.0}
+    interface-peer {eth0 n22}
+}
+
+node n34 {
+    type router
+    model host
+    network-config {
+	hostname kingocean-ntp
+	!
+	interface eth0
+	 ip address 10.0.3.14/24
+	 ipv6 address 2001:3::14/64
+	!
+    }
+    canvas c3
+    iconcoords {908.0 211.0}
+    labelcoords {908.0 243.0}
+    interface-peer {eth0 n22}
+}
+
+node n35 {
+    type router
+    model PC
+    network-config {
+	hostname kingocean-kiosk3
+	!
+	interface eth0
+	 ip address 10.0.4.22/24
+	 ipv6 address 2001:4::22/64
+	!
+    }
+    canvas c3
+    iconcoords {116.0 398.0}
+    labelcoords {116.0 430.0}
+    interface-peer {eth0 n23}
+}
+
+node n36 {
+    type router
+    model PC
+    network-config {
+	hostname kingocean-kiosk4
+	!
+	interface eth0
+	 ip address 10.0.4.23/24
+	 ipv6 address 2001:4::23/64
+	!
+    }
+    canvas c3
+    iconcoords {115.0 474.0}
+    labelcoords {115.0 506.0}
+    interface-peer {eth0 n23}
+}
+
+node n37 {
+    type router
+    model PC
+    network-config {
+	hostname kingocean-kiosk2
+	!
+	interface eth0
+	 ip address 10.0.4.24/24
+	 ipv6 address 2001:4::24/64
+	!
+    }
+    canvas c3
+    iconcoords {118.0 330.0}
+    labelcoords {118.0 362.0}
+    interface-peer {eth0 n23}
+}
+
+node n38 {
+    type lanswitch
+    network-config {
+	hostname fit-sw1
+	!
+    }
+    canvas c4
+    iconcoords {715.0 327.0}
+    labelcoords {715.0 351.0}
+    interface-peer {e1 n40}
+    interface-peer {e2 n43}
+    interface-peer {e0 n44}
+    interface-peer {e3 n45}
+    interface-peer {e4 n46}
+    interface-peer {e5 n47}
+    interface-peer {e6 n48}
+}
+
+node n39 {
+    type lanswitch
+    network-config {
+	hostname fit-sw2
+	!
+    }
+    canvas c4
+    iconcoords {338.0 329.0}
+    labelcoords {338.0 353.0}
+    interface-peer {e1 n41}
+    interface-peer {e2 n42}
+    interface-peer {e0 n44}
+    interface-peer {e3 n51}
+    interface-peer {e4 n49}
+    interface-peer {e5 n50}
+}
+
+node n40 {
+    type router
+    model host
+    network-config {
+	hostname fit-gos
+	!
+	interface eth0
+	 ip address 10.0.5.10/24
+	 ipv6 address 2001:5::10/64
+	!
+    }
+    canvas c4
+    iconcoords {891.0 494.0}
+    labelcoords {891.0 526.0}
+    interface-peer {eth0 n38}
+    services {DefaultRoute MySQLService}
+}
+
+node n41 {
+    type router
+    model PC
+    network-config {
+	hostname fit-kiosk0
+	!
+	interface eth0
+	 ip address 10.0.6.20/24
+	 ipv6 address 2001:6::20/64
+	!
+    }
+    canvas c4
+    iconcoords {116.0 196.0}
+    labelcoords {116.0 228.0}
+    interface-peer {eth0 n39}
+}
+
+node n42 {
+    type router
+    model PC
+    network-config {
+	hostname fit-kiosk1
+	!
+	interface eth0
+	 ip address 10.0.6.21/24
+	 ipv6 address 2001:6::21/64
+	!
+    }
+    canvas c4
+    iconcoords {118.0 262.0}
+    labelcoords {118.0 294.0}
+    interface-peer {eth0 n39}
+}
+
+node n43 {
+    type router
+    model host
+    network-config {
+	hostname fit-tos
+	!
+	interface eth0
+	 ip address 10.0.5.11/24
+	 ipv6 address 2001:5::11/64
+	!
+    }
+    canvas c4
+    iconcoords {917.0 432.0}
+    labelcoords {917.0 464.0}
+    interface-peer {eth0 n38}
+}
+
+node n44 {
+    type router
+    model router
+    network-config {
+	hostname fit-router-1
+	!
+	interface eth3
+	 ip address 10.0.20.2/24
+	 ipv6 address 2001:20::2/64
+	!
+	interface eth2
+	 ip address 10.0.15.2/24
+	 ipv6 address 2001:15::2/64
+	!
+	interface eth1
+	 ip address 10.0.5.1/24
+	 ipv6 address 2001:5::1/64
+	!
+	interface eth0
+	 ip address 10.0.6.1/24
+	 ipv6 address 2001:6::1/64
+	!
+    }
+    canvas c4
+    iconcoords {530.0 329.0}
+    labelcoords {530.0 361.0}
+    interface-peer {eth0 n39}
+    interface-peer {eth1 n38}
+    interface-peer {eth2 n92}
+    interface-peer {eth3 n108}
+}
+
+node n45 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c4
+    iconcoords {737.0 498.0}
+    labelcoords {737.0 530.0}
+    interface-peer {0 n38}
+}
+
+node n46 {
+    type router
+    model host
+    network-config {
+	hostname fit-historian
+	!
+	interface eth0
+	 ip address 10.0.5.12/24
+	 ipv6 address 2001:5::12/64
+	!
+    }
+    canvas c4
+    iconcoords {905.0 360.0}
+    labelcoords {905.0 392.0}
+    interface-peer {eth0 n38}
+}
+
+node n47 {
+    type router
+    model host
+    network-config {
+	hostname fit-dns
+	!
+	interface eth0
+	 ip address 10.0.5.13/24
+	 ipv6 address 2001:5::13/64
+	!
+    }
+    canvas c4
+    iconcoords {916.0 290.0}
+    labelcoords {916.0 322.0}
+    interface-peer {eth0 n38}
+}
+
+node n48 {
+    type router
+    model host
+    network-config {
+	hostname fit-ntp
+	!
+	interface eth0
+	 ip address 10.0.5.14/24
+	 ipv6 address 2001:5::14/64
+	!
+    }
+    canvas c4
+    iconcoords {911.0 208.0}
+    labelcoords {911.0 240.0}
+    interface-peer {eth0 n38}
+}
+
+node n49 {
+    type router
+    model PC
+    network-config {
+	hostname fit-kiosk3
+	!
+	interface eth0
+	 ip address 10.0.6.22/24
+	 ipv6 address 2001:6::22/64
+	!
+    }
+    canvas c4
+    iconcoords {119.0 395.0}
+    labelcoords {119.0 427.0}
+    interface-peer {eth0 n39}
+}
+
+node n50 {
+    type router
+    model PC
+    network-config {
+	hostname fit-kiosk4
+	!
+	interface eth0
+	 ip address 10.0.6.23/24
+	 ipv6 address 2001:6::23/64
+	!
+    }
+    canvas c4
+    iconcoords {118.0 471.0}
+    labelcoords {118.0 503.0}
+    interface-peer {eth0 n39}
+}
+
+node n51 {
+    type router
+    model PC
+    network-config {
+	hostname fit-kiosk2
+	!
+	interface eth0
+	 ip address 10.0.6.24/24
+	 ipv6 address 2001:6::24/64
+	!
+    }
+    canvas c4
+    iconcoords {121.0 327.0}
+    labelcoords {121.0 359.0}
+    interface-peer {eth0 n39}
+}
+
+node n52 {
+    type lanswitch
+    network-config {
+	hostname msc-sw1
+	!
+    }
+    canvas c5
+    iconcoords {733.0 325.0}
+    labelcoords {733.0 349.0}
+    interface-peer {e1 n54}
+    interface-peer {e2 n57}
+    interface-peer {e0 n58}
+    interface-peer {e3 n59}
+    interface-peer {e4 n60}
+    interface-peer {e5 n61}
+    interface-peer {e6 n62}
+}
+
+node n53 {
+    type lanswitch
+    network-config {
+	hostname msc-sw2
+	!
+    }
+    canvas c5
+    iconcoords {356.0 327.0}
+    labelcoords {356.0 351.0}
+    interface-peer {e1 n55}
+    interface-peer {e2 n56}
+    interface-peer {e0 n58}
+    interface-peer {e3 n65}
+    interface-peer {e4 n63}
+    interface-peer {e5 n64}
+    interface-peer {e6 n69}
+    interface-peer {e7 n72}
+    interface-peer {e8 n95}
+}
+
+node n54 {
+    type router
+    model host
+    network-config {
+	hostname msc-gos
+	!
+	interface eth0
+	 ip address 10.0.7.10/24
+	 ipv6 address 2001:7::10/64
+	!
+    }
+    canvas c5
+    iconcoords {909.0 492.0}
+    labelcoords {909.0 524.0}
+    interface-peer {eth0 n52}
+    services {DefaultRoute MySQLService}
+}
+
+node n55 {
+    type router
+    model PC
+    network-config {
+	hostname msc-kiosk0
+	!
+	interface eth0
+	 ip address 10.0.8.20/24
+	 ipv6 address 2001:8::20/64
+	!
+    }
+    canvas c5
+    iconcoords {134.0 194.0}
+    labelcoords {134.0 226.0}
+    interface-peer {eth0 n53}
+}
+
+node n56 {
+    type router
+    model PC
+    network-config {
+	hostname msc-kiosk1
+	!
+	interface eth0
+	 ip address 10.0.8.21/24
+	 ipv6 address 2001:8::21/64
+	!
+    }
+    canvas c5
+    iconcoords {136.0 260.0}
+    labelcoords {136.0 292.0}
+    interface-peer {eth0 n53}
+}
+
+node n57 {
+    type router
+    model host
+    network-config {
+	hostname msc-tos
+	!
+	interface eth0
+	 ip address 10.0.7.11/24
+	 ipv6 address 2001:7::11/64
+	!
+    }
+    canvas c5
+    iconcoords {935.0 430.0}
+    labelcoords {935.0 462.0}
+    interface-peer {eth0 n52}
+}
+
+node n58 {
+    type router
+    model router
+    network-config {
+	hostname msc-router-1
+	!
+	interface eth3
+	 ip address 10.0.21.2/24
+	 ipv6 address 2001:21::2/64
+	!
+	interface eth2
+	 ip address 10.0.16.2/24
+	 ipv6 address 2001:16::2/64
+	!
+	interface eth1
+	 ip address 10.0.7.1/24
+	 ipv6 address 2001:7::1/64
+	!
+	interface eth0
+	 ip address 10.0.8.1/24
+	 ipv6 address 2001:8::1/64
+	!
+    }
+    canvas c5
+    iconcoords {548.0 327.0}
+    labelcoords {548.0 359.0}
+    interface-peer {eth0 n53}
+    interface-peer {eth1 n52}
+    interface-peer {eth2 n94}
+    interface-peer {eth3 n110}
+}
+
+node n59 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c5
+    iconcoords {734.0 490.0}
+    labelcoords {734.0 522.0}
+    interface-peer {0 n52}
+}
+
+node n60 {
+    type router
+    model host
+    network-config {
+	hostname msc-historian
+	!
+	interface eth0
+	 ip address 10.0.7.12/24
+	 ipv6 address 2001:7::12/64
+	!
+    }
+    canvas c5
+    iconcoords {923.0 358.0}
+    labelcoords {923.0 390.0}
+    interface-peer {eth0 n52}
+}
+
+node n61 {
+    type router
+    model host
+    network-config {
+	hostname msc-dns
+	!
+	interface eth0
+	 ip address 10.0.7.13/24
+	 ipv6 address 2001:7::13/64
+	!
+    }
+    canvas c5
+    iconcoords {934.0 288.0}
+    labelcoords {934.0 320.0}
+    interface-peer {eth0 n52}
+}
+
+node n62 {
+    type router
+    model host
+    network-config {
+	hostname msc-ntp
+	!
+	interface eth0
+	 ip address 10.0.7.14/24
+	 ipv6 address 2001:7::14/64
+	!
+    }
+    canvas c5
+    iconcoords {929.0 206.0}
+    labelcoords {929.0 238.0}
+    interface-peer {eth0 n52}
+}
+
+node n63 {
+    type router
+    model PC
+    network-config {
+	hostname msc-kiosk3
+	!
+	interface eth0
+	 ip address 10.0.8.22/24
+	 ipv6 address 2001:8::22/64
+	!
+    }
+    canvas c5
+    iconcoords {137.0 393.0}
+    labelcoords {137.0 425.0}
+    interface-peer {eth0 n53}
+}
+
+node n64 {
+    type router
+    model PC
+    network-config {
+	hostname msc-kiosk4
+	!
+	interface eth0
+	 ip address 10.0.8.23/24
+	 ipv6 address 2001:8::23/64
+	!
+    }
+    canvas c5
+    iconcoords {136.0 469.0}
+    labelcoords {136.0 501.0}
+    interface-peer {eth0 n53}
+}
+
+node n65 {
+    type router
+    model PC
+    network-config {
+	hostname msc-kiosk2
+	!
+	interface eth0
+	 ip address 10.0.8.24/24
+	 ipv6 address 2001:8::24/64
+	!
+    }
+    canvas c5
+    iconcoords {139.0 325.0}
+    labelcoords {139.0 357.0}
+    interface-peer {eth0 n53}
+}
+
+node n66 {
+    type lanswitch
+    network-config {
+	hostname cp1-sw1
+	!
+    }
+    canvas c6
+    iconcoords {606.0 307.0}
+    labelcoords {606.0 331.0}
+    interface-peer {e1 n67}
+    interface-peer {e0 n69}
+    interface-peer {e3 n70}
+    interface-peer {e6 n73}
+    interface-peer {e2 n82}
+    interface-peer {e4 n83}
+    interface-peer {e5 n84}
+}
+
+node n67 {
+    type router
+    model host
+    network-config {
+	hostname cp1-crowley
+	!
+	interface eth0
+	 ip address 10.0.9.10/24
+	 ipv6 address 2001:9::10/64
+	!
+    }
+    canvas c6
+    iconcoords {790.0 208.0}
+    labelcoords {790.0 240.0}
+    interface-peer {eth0 n66}
+    services {DefaultRoute MySQLService}
+}
+
+node n69 {
+    type router
+    model router
+    network-config {
+	hostname cp1-router-1
+	!
+	interface eth6
+	 ip address 10.0.16.1/24
+	 ipv6 address 2001:16::1/64
+	!
+	interface eth5
+	 ip address 10.0.15.1/24
+	 ipv6 address 2001:15::1/64
+	!
+	interface eth4
+	 ip address 10.0.14.1/24
+	 ipv6 address 2001:14::1/64
+	!
+	interface eth3
+	 ip address 10.0.13.1/24
+	 ipv6 address 2001:13::1/64
+	!
+	interface eth2
+	 ip address 10.0.12.1/24
+	 ipv6 address 2001:12::1/64
+	!
+	interface eth1
+	 ip address 10.0.9.1/24
+	 ipv6 address 2001:9::1/64
+	!
+	interface eth0
+	 ip address 10.0.8.2/24
+	 ipv6 address 2001:8::2/64
+	!
+    }
+    canvas c6
+    iconcoords {421.0 309.0}
+    labelcoords {421.0 341.0}
+    interface-peer {eth0 n53}
+    interface-peer {eth1 n66}
+    interface-peer {eth2 n85}
+    interface-peer {eth3 n87}
+    interface-peer {eth4 n89}
+    interface-peer {eth5 n91}
+    interface-peer {eth6 n93}
+}
+
+node n70 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c6
+    iconcoords {628.0 478.0}
+    labelcoords {628.0 510.0}
+    interface-peer {0 n66}
+}
+
+node n73 {
+    type router
+    model host
+    network-config {
+	hostname cp1-bc
+	!
+	interface eth0
+	 ip address 10.0.9.14/24
+	 ipv6 address 2001:9::14/64
+	!
+    }
+    canvas c6
+    iconcoords {782.0 116.0}
+    labelcoords {782.0 148.0}
+    interface-peer {eth0 n66}
+}
+
+node n72 {
+    type router
+    model router
+    network-config {
+	hostname cp2-router-1-junk
+	!
+	interface eth0
+	 ip address 10.0.8.3/24
+	 ipv6 address 2001:8::3/64
+	!
+    }
+    canvas c7
+    iconcoords {125.0 81.0}
+    labelcoords {125.0 113.0}
+    interface-peer {eth0 n53}
+}
+
+node n75 {
+    type router
+    model host
+    network-config {
+	hostname cp2-tos-junk
+	!
+    }
+    canvas c7
+    iconcoords {108.0 96.0}
+    labelcoords {108.0 128.0}
+}
+
+node n74 {
+    type router
+    model host
+    network-config {
+	hostname bc-harbormaster
+	!
+	interface eth0
+	 ip address 10.0.11.10/24
+	 ipv6 address 2001:11::10/64
+	!
+    }
+    canvas c2
+    iconcoords {244.0 550.0}
+    labelcoords {244.0 582.0}
+    interface-peer {eth0 n77}
+}
+
+node n76 {
+    type router
+    model host
+    network-config {
+	hostname bc-kiosk1
+	!
+	interface eth0
+	 ip address 10.0.11.11/24
+	 ipv6 address 2001:11::11/64
+	!
+    }
+    canvas c2
+    iconcoords {245.0 709.0}
+    labelcoords {245.0 741.0}
+    interface-peer {eth0 n77}
+}
+
+node n77 {
+    type lanswitch
+    network-config {
+	hostname bc-switch-2
+	!
+    }
+    canvas c2
+    iconcoords {354.0 622.0}
+    labelcoords {354.0 646.0}
+    interface-peer {e0 n74}
+    interface-peer {e1 n25}
+    interface-peer {e2 n76}
+    interface-peer {e3 n81}
+    interface-peer {e4 n78}
+    interface-peer {e5 n79}
+    interface-peer {e6 n80}
+}
+
+node n78 {
+    type router
+    model host
+    network-config {
+	hostname bc-kiosk2
+	!
+	interface eth0
+	 ip address 10.0.11.13/24
+	 ipv6 address 2001:11::13/64
+	!
+    }
+    canvas c2
+    iconcoords {296.0 736.0}
+    labelcoords {296.0 768.0}
+    interface-peer {eth0 n77}
+}
+
+node n79 {
+    type router
+    model host
+    network-config {
+	hostname bc-kiosk3
+	!
+	interface eth0
+	 ip address 10.0.11.14/24
+	 ipv6 address 2001:11::14/64
+	!
+    }
+    canvas c2
+    iconcoords {340.0 759.0}
+    labelcoords {340.0 791.0}
+    interface-peer {eth0 n77}
+}
+
+node n80 {
+    type router
+    model host
+    network-config {
+	hostname bc-kiosk4
+	!
+	interface eth0
+	 ip address 10.0.11.15/24
+	 ipv6 address 2001:11::15/64
+	!
+    }
+    canvas c2
+    iconcoords {398.0 783.0}
+    labelcoords {398.0 815.0}
+    interface-peer {eth0 n77}
+}
+
+node n81 {
+    type router
+    model host
+    network-config {
+	hostname bc-kiosk0
+	!
+	interface eth0
+	 ip address 10.0.11.12/24
+	 ipv6 address 2001:11::12/64
+	!
+    }
+    canvas c2
+    iconcoords {219.0 655.0}
+    labelcoords {219.0 687.0}
+    interface-peer {eth0 n77}
+}
+
+node n82 {
+    type router
+    model host
+    network-config {
+	hostname cp1-kingocean
+	!
+	interface eth0
+	 ip address 10.0.9.11/24
+	 ipv6 address 2001:9::11/64
+	!
+    }
+    canvas c6
+    iconcoords {791.0 290.0}
+    labelcoords {791.0 322.0}
+    interface-peer {eth0 n66}
+}
+
+node n83 {
+    type router
+    model host
+    network-config {
+	hostname cp1-fit
+	!
+	interface eth0
+	 ip address 10.0.9.12/24
+	 ipv6 address 2001:9::12/64
+	!
+    }
+    canvas c6
+    iconcoords {792.0 381.0}
+    labelcoords {792.0 413.0}
+    interface-peer {eth0 n66}
+}
+
+node n84 {
+    type router
+    model host
+    network-config {
+	hostname cp1-msc
+	!
+	interface eth0
+	 ip address 10.0.9.13/24
+	 ipv6 address 2001:9::13/64
+	!
+    }
+    canvas c6
+    iconcoords {793.0 466.0}
+    labelcoords {793.0 498.0}
+    interface-peer {eth0 n66}
+}
+
+node n85 {
+    type pseudo
+    network-config {
+	hostname n25
+	!
+    }
+    canvas c6
+    iconcoords {237.0 144.0}
+    labelcoords {237.0 144.0}
+    interface-peer {0 n69}
+    mirror n86
+}
+
+node n86 {
+    type pseudo
+    network-config {
+	hostname n69
+	!
+    }
+    canvas c2
+    iconcoords {894.0 751.0}
+    labelcoords {894.0 751.0}
+    interface-peer {0 n25}
+    mirror n85
+}
+
+node n87 {
+    type pseudo
+    network-config {
+	hostname n3
+	!
+    }
+    canvas c6
+    iconcoords {179.0 218.0}
+    labelcoords {179.0 218.0}
+    interface-peer {0 n69}
+    mirror n88
+}
+
+node n88 {
+    type pseudo
+    network-config {
+	hostname n69
+	!
+    }
+    canvas c1
+    iconcoords {875.0 306.0}
+    labelcoords {875.0 306.0}
+    interface-peer {0 n3}
+    mirror n87
+}
+
+node n89 {
+    type pseudo
+    network-config {
+	hostname n30
+	!
+    }
+    canvas c6
+    iconcoords {151.0 289.0}
+    labelcoords {151.0 289.0}
+    interface-peer {0 n69}
+    mirror n90
+}
+
+node n90 {
+    type pseudo
+    network-config {
+	hostname n69
+	!
+    }
+    canvas c3
+    iconcoords {413.0 189.0}
+    labelcoords {413.0 189.0}
+    interface-peer {0 n30}
+    mirror n89
+}
+
+node n91 {
+    type pseudo
+    network-config {
+	hostname n44
+	!
+    }
+    canvas c6
+    iconcoords {210.0 376.0}
+    labelcoords {210.0 376.0}
+    interface-peer {0 n69}
+    mirror n92
+}
+
+node n92 {
+    type pseudo
+    network-config {
+	hostname n69
+	!
+    }
+    canvas c4
+    iconcoords {398.0 188.0}
+    labelcoords {398.0 188.0}
+    interface-peer {0 n44}
+    mirror n91
+}
+
+node n93 {
+    type pseudo
+    network-config {
+	hostname n58
+	!
+    }
+    canvas c6
+    iconcoords {273.0 436.0}
+    labelcoords {273.0 436.0}
+    interface-peer {0 n69}
+    mirror n94
+}
+
+node n94 {
+    type pseudo
+    network-config {
+	hostname n69
+	!
+    }
+    canvas c5
+    iconcoords {411.0 176.0}
+    labelcoords {411.0 176.0}
+    interface-peer {0 n58}
+    mirror n93
+}
+
+node n68 {
+    type lanswitch
+    network-config {
+	hostname cp1-sw1
+	!
+    }
+    canvas c7
+    iconcoords {681.0 357.0}
+    labelcoords {681.0 381.0}
+    interface-peer {e1 n71}
+    interface-peer {e0 n95}
+    interface-peer {e3 n96}
+    interface-peer {e6 n97}
+    interface-peer {e2 n98}
+    interface-peer {e4 n99}
+    interface-peer {e5 n100}
+}
+
+node n71 {
+    type router
+    model host
+    network-config {
+	hostname cp2-crowley
+	!
+	interface eth0
+	 ip address 10.0.10.10/24
+	 ipv6 address 2001:10::10/64
+	!
+    }
+    canvas c7
+    iconcoords {865.0 258.0}
+    labelcoords {865.0 290.0}
+    interface-peer {eth0 n68}
+    services {DefaultRoute MySQLService}
+}
+
+node n95 {
+    type router
+    model router
+    network-config {
+	hostname cp2-router-1
+	!
+	interface eth6
+	 ip address 10.0.21.1/24
+	 ipv6 address 2001:21::1/64
+	!
+	interface eth5
+	 ip address 10.0.20.1/24
+	 ipv6 address 2001:20::1/64
+	!
+	interface eth4
+	 ip address 10.0.19.1/24
+	 ipv6 address 2001:19::1/64
+	!
+	interface eth3
+	 ip address 10.0.18.1/24
+	 ipv6 address 2001:18::1/64
+	!
+	interface eth2
+	 ip address 10.0.17.1/24
+	 ipv6 address 2001:17::1/64
+	!
+	interface eth1
+	 ip address 10.0.10.1/24
+	 ipv6 address 2001:10::1/64
+	!
+	interface eth0
+	 ip address 10.0.8.4/24
+	 ipv6 address 2001:8::4/64
+	!
+    }
+    canvas c7
+    iconcoords {496.0 359.0}
+    labelcoords {496.0 391.0}
+    interface-peer {eth0 n53}
+    interface-peer {eth1 n68}
+    interface-peer {eth2 n101}
+    interface-peer {eth3 n103}
+    interface-peer {eth4 n105}
+    interface-peer {eth5 n107}
+    interface-peer {eth6 n109}
+}
+
+node n96 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c7
+    iconcoords {703.0 528.0}
+    labelcoords {703.0 560.0}
+    interface-peer {0 n68}
+}
+
+node n97 {
+    type router
+    model host
+    network-config {
+	hostname cp2-bc
+	!
+	interface eth0
+	 ip address 10.0.10.11/24
+	 ipv6 address 2001:10::11/64
+	!
+    }
+    canvas c7
+    iconcoords {857.0 166.0}
+    labelcoords {857.0 198.0}
+    interface-peer {eth0 n68}
+}
+
+node n98 {
+    type router
+    model host
+    network-config {
+	hostname cp2-kingocean
+	!
+	interface eth0
+	 ip address 10.0.10.12/24
+	 ipv6 address 2001:10::12/64
+	!
+    }
+    canvas c7
+    iconcoords {866.0 340.0}
+    labelcoords {866.0 372.0}
+    interface-peer {eth0 n68}
+}
+
+node n99 {
+    type router
+    model host
+    network-config {
+	hostname cp2-fit
+	!
+	interface eth0
+	 ip address 10.0.10.13/24
+	 ipv6 address 2001:10::13/64
+	!
+    }
+    canvas c7
+    iconcoords {867.0 431.0}
+    labelcoords {867.0 463.0}
+    interface-peer {eth0 n68}
+}
+
+node n100 {
+    type router
+    model host
+    network-config {
+	hostname cp2-msc
+	!
+	interface eth0
+	 ip address 10.0.10.14/24
+	 ipv6 address 2001:10::14/64
+	!
+    }
+    canvas c7
+    iconcoords {868.0 516.0}
+    labelcoords {868.0 548.0}
+    interface-peer {eth0 n68}
+}
+
+node n101 {
+    type pseudo
+    network-config {
+	hostname n25
+	!
+    }
+    canvas c7
+    iconcoords {257.0 189.0}
+    labelcoords {257.0 189.0}
+    interface-peer {0 n95}
+    mirror n102
+}
+
+node n102 {
+    type pseudo
+    network-config {
+	hostname n95
+	!
+    }
+    canvas c2
+    iconcoords {895.0 788.0}
+    labelcoords {895.0 788.0}
+    interface-peer {0 n25}
+    mirror n101
+}
+
+node n103 {
+    type pseudo
+    network-config {
+	hostname n3
+	!
+    }
+    canvas c7
+    iconcoords {195.0 252.0}
+    labelcoords {195.0 252.0}
+    interface-peer {0 n95}
+    mirror n104
+}
+
+node n104 {
+    type pseudo
+    network-config {
+	hostname n95
+	!
+    }
+    canvas c1
+    iconcoords {951.0 355.0}
+    labelcoords {951.0 355.0}
+    interface-peer {0 n3}
+    mirror n103
+}
+
+node n105 {
+    type pseudo
+    network-config {
+	hostname n30
+	!
+    }
+    canvas c7
+    iconcoords {200.0 336.0}
+    labelcoords {200.0 336.0}
+    interface-peer {0 n95}
+    mirror n106
+}
+
+node n106 {
+    type pseudo
+    network-config {
+	hostname n95
+	!
+    }
+    canvas c3
+    iconcoords {643.0 187.0}
+    labelcoords {643.0 187.0}
+    interface-peer {0 n30}
+    mirror n105
+}
+
+node n107 {
+    type pseudo
+    network-config {
+	hostname n44
+	!
+    }
+    canvas c7
+    iconcoords {269.0 430.0}
+    labelcoords {269.0 430.0}
+    interface-peer {0 n95}
+    mirror n108
+}
+
+node n108 {
+    type pseudo
+    network-config {
+	hostname n95
+	!
+    }
+    canvas c4
+    iconcoords {677.0 188.0}
+    labelcoords {677.0 188.0}
+    interface-peer {0 n44}
+    mirror n107
+}
+
+node n109 {
+    type pseudo
+    network-config {
+	hostname n58
+	!
+    }
+    canvas c7
+    iconcoords {365.0 507.0}
+    labelcoords {365.0 507.0}
+    interface-peer {0 n95}
+    mirror n110
+}
+
+node n110 {
+    type pseudo
+    network-config {
+	hostname n95
+	!
+    }
+    canvas c5
+    iconcoords {698.0 163.0}
+    labelcoords {698.0 163.0}
+    interface-peer {0 n58}
+    mirror n109
+}
+
+node n111 {
+    type router
+    model host
+    network-config {
+	hostname bc-gos
+	!
+	interface eth0
+	 ip address 10.0.22.10/24
+	 ipv6 address 2001:22::10/64
+	!
+    }
+    canvas c2
+    iconcoords {914.0 695.0}
+    labelcoords {914.0 727.0}
+    interface-peer {eth0 n25}
+}
+
+node n112 {
+    type rj45
+    network-config {
+	hostname enp0s9
+	!
+    }
+    canvas c2
+    iconcoords {749.0 696.0}
+    labelcoords {749.0 728.0}
+    interface-peer {0 n25}
+}
+
+link l3 {
+    color Blue
+    nodes {n4 n1}
+    bandwidth 0
+}
+
+link l4 {
+    color Blue
+    nodes {n5 n2}
+    bandwidth 0
+}
+
+link l5 {
+    color Blue
+    nodes {n6 n2}
+    bandwidth 0
+}
+
+link l6 {
+    color Blue
+    nodes {n1 n7}
+    bandwidth 0
+}
+
+link l1 {
+    nodes {n2 n3}
+    bandwidth 0
+}
+
+link l2 {
+    nodes {n3 n1}
+    bandwidth 0
+}
+
+link l7 {
+    nodes {n1 n8}
+}
+
+link l8 {
+    color Blue
+    nodes {n9 n1}
+    bandwidth 0
+}
+
+link l9 {
+    color Blue
+    nodes {n10 n1}
+    bandwidth 0
+}
+
+link l10 {
+    color Blue
+    nodes {n11 n1}
+    bandwidth 0
+}
+
+link l11 {
+    color Blue
+    nodes {n2 n14}
+    bandwidth 0
+}
+
+link l12 {
+    color Blue
+    nodes {n12 n2}
+    bandwidth 0
+}
+
+link l13 {
+    color Blue
+    nodes {n13 n2}
+    bandwidth 0
+}
+
+link l14 {
+    nodes {n16 n24}
+    bandwidth 0
+}
+
+link l15 {
+    nodes {n17 n24}
+    bandwidth 0
+}
+
+link l16 {
+    nodes {n19 n24}
+    bandwidth 0
+}
+
+link l17 {
+    nodes {n15 n24}
+    bandwidth 0
+}
+
+link l18 {
+    nodes {n21 n24}
+    bandwidth 0
+}
+
+link l19 {
+    nodes {n18 n24}
+    bandwidth 0
+}
+
+link l20 {
+    nodes {n20 n24}
+    bandwidth 0
+}
+
+link l21 {
+    nodes {n24 n25}
+    bandwidth 0
+}
+
+link l22 {
+    color Blue
+    nodes {n26 n22}
+    bandwidth 0
+}
+
+link l23 {
+    color Blue
+    nodes {n22 n29}
+    bandwidth 0
+}
+
+link l24 {
+    nodes {n30 n22}
+    bandwidth 0
+}
+
+link l25 {
+    nodes {n22 n31}
+}
+
+link l26 {
+    color Blue
+    nodes {n32 n22}
+    bandwidth 0
+}
+
+link l27 {
+    color Blue
+    nodes {n33 n22}
+    bandwidth 0
+}
+
+link l28 {
+    color Blue
+    nodes {n34 n22}
+    bandwidth 0
+}
+
+link l29 {
+    color Blue
+    nodes {n27 n23}
+    bandwidth 0
+}
+
+link l30 {
+    color Blue
+    nodes {n28 n23}
+    bandwidth 0
+}
+
+link l31 {
+    nodes {n23 n30}
+    bandwidth 0
+}
+
+link l32 {
+    color Blue
+    nodes {n23 n37}
+    bandwidth 0
+}
+
+link l33 {
+    color Blue
+    nodes {n35 n23}
+    bandwidth 0
+}
+
+link l34 {
+    color Blue
+    nodes {n36 n23}
+    bandwidth 0
+}
+
+link l35 {
+    color Blue
+    nodes {n40 n38}
+    bandwidth 0
+}
+
+link l36 {
+    color Blue
+    nodes {n38 n43}
+    bandwidth 0
+}
+
+link l37 {
+    nodes {n44 n38}
+    bandwidth 0
+}
+
+link l38 {
+    nodes {n38 n45}
+}
+
+link l39 {
+    color Blue
+    nodes {n46 n38}
+    bandwidth 0
+}
+
+link l40 {
+    color Blue
+    nodes {n47 n38}
+    bandwidth 0
+}
+
+link l41 {
+    color Blue
+    nodes {n48 n38}
+    bandwidth 0
+}
+
+link l42 {
+    color Blue
+    nodes {n41 n39}
+    bandwidth 0
+}
+
+link l43 {
+    color Blue
+    nodes {n42 n39}
+    bandwidth 0
+}
+
+link l44 {
+    nodes {n39 n44}
+    bandwidth 0
+}
+
+link l45 {
+    color Blue
+    nodes {n39 n51}
+    bandwidth 0
+}
+
+link l46 {
+    color Blue
+    nodes {n49 n39}
+    bandwidth 0
+}
+
+link l47 {
+    color Blue
+    nodes {n50 n39}
+    bandwidth 0
+}
+
+link l48 {
+    color Blue
+    nodes {n54 n52}
+    bandwidth 0
+}
+
+link l49 {
+    color Blue
+    nodes {n52 n57}
+    bandwidth 0
+}
+
+link l50 {
+    nodes {n58 n52}
+    bandwidth 0
+}
+
+link l51 {
+    nodes {n52 n59}
+}
+
+link l52 {
+    color Blue
+    nodes {n60 n52}
+    bandwidth 0
+}
+
+link l53 {
+    color Blue
+    nodes {n61 n52}
+    bandwidth 0
+}
+
+link l54 {
+    color Blue
+    nodes {n62 n52}
+    bandwidth 0
+}
+
+link l55 {
+    color Blue
+    nodes {n55 n53}
+    bandwidth 0
+}
+
+link l56 {
+    color Blue
+    nodes {n56 n53}
+    bandwidth 0
+}
+
+link l57 {
+    nodes {n53 n58}
+    bandwidth 0
+}
+
+link l58 {
+    color Blue
+    nodes {n53 n65}
+    bandwidth 0
+}
+
+link l59 {
+    color Blue
+    nodes {n63 n53}
+    bandwidth 0
+}
+
+link l60 {
+    color Blue
+    nodes {n64 n53}
+    bandwidth 0
+}
+
+link l61 {
+    color Blue
+    nodes {n67 n66}
+    bandwidth 0
+}
+
+link l63 {
+    nodes {n69 n66}
+    bandwidth 0
+}
+
+link l64 {
+    nodes {n66 n70}
+}
+
+link l67 {
+    color Blue
+    nodes {n73 n66}
+    bandwidth 0
+}
+
+link l68 {
+    nodes {n53 n69}
+    bandwidth 0
+}
+
+link l70 {
+    nodes {n53 n72}
+    bandwidth 0
+}
+
+link l66 {
+    nodes {n74 n77}
+    bandwidth 0
+}
+
+link l71 {
+    nodes {n77 n25}
+    bandwidth 0
+}
+
+link l72 {
+    nodes {n76 n77}
+    bandwidth 0
+}
+
+link l73 {
+    nodes {n81 n77}
+    bandwidth 0
+}
+
+link l74 {
+    nodes {n77 n78}
+    bandwidth 0
+}
+
+link l75 {
+    nodes {n77 n79}
+    bandwidth 0
+}
+
+link l76 {
+    nodes {n77 n80}
+    bandwidth 0
+}
+
+link l77 {
+    nodes {n66 n82}
+    bandwidth 0
+}
+
+link l78 {
+    nodes {n66 n83}
+    bandwidth 0
+}
+
+link l79 {
+    nodes {n66 n84}
+    bandwidth 0
+}
+
+link l81 {
+    mirror l82
+    nodes {n69 n85}
+}
+
+link l82 {
+    mirror l81
+    nodes {n25 n86}
+}
+
+link l83 {
+    mirror l84
+    nodes {n69 n87}
+}
+
+link l84 {
+    mirror l83
+    nodes {n3 n88}
+}
+
+link l85 {
+    mirror l86
+    nodes {n69 n89}
+}
+
+link l86 {
+    mirror l85
+    nodes {n30 n90}
+}
+
+link l87 {
+    mirror l88
+    nodes {n69 n91}
+}
+
+link l88 {
+    mirror l87
+    nodes {n44 n92}
+}
+
+link l89 {
+    mirror l90
+    nodes {n69 n93}
+}
+
+link l90 {
+    mirror l89
+    nodes {n58 n94}
+}
+
+link l62 {
+    color Blue
+    nodes {n71 n68}
+    bandwidth 0
+}
+
+link l65 {
+    nodes {n95 n68}
+    bandwidth 0
+}
+
+link l69 {
+    nodes {n68 n96}
+}
+
+link l80 {
+    color Blue
+    nodes {n97 n68}
+    bandwidth 0
+}
+
+link l91 {
+    nodes {n68 n98}
+    bandwidth 0
+}
+
+link l92 {
+    nodes {n68 n99}
+    bandwidth 0
+}
+
+link l93 {
+    nodes {n68 n100}
+    bandwidth 0
+}
+
+link l94 {
+    nodes {n53 n95}
+    bandwidth 0
+}
+
+link l96 {
+    mirror l97
+    nodes {n95 n101}
+}
+
+link l97 {
+    mirror l96
+    nodes {n25 n102}
+}
+
+link l98 {
+    mirror l99
+    nodes {n95 n103}
+}
+
+link l99 {
+    mirror l98
+    nodes {n3 n104}
+}
+
+link l100 {
+    mirror l101
+    nodes {n95 n105}
+}
+
+link l101 {
+    mirror l100
+    nodes {n30 n106}
+}
+
+link l102 {
+    mirror l103
+    nodes {n95 n107}
+}
+
+link l103 {
+    mirror l102
+    nodes {n44 n108}
+}
+
+link l104 {
+    mirror l105
+    nodes {n95 n109}
+}
+
+link l105 {
+    mirror l104
+    nodes {n58 n110}
+}
+
+link l95 {
+    nodes {n25 n111}
+    bandwidth 0
+}
+
+link l106 {
+    nodes {n25 n112}
+}
+
+annotation a1 {
+    iconcoords {781.0 224.0 1232.0 642.0}
+    type rectangle
+    label {Crowley Industrial Zone Level 3}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+annotation a2 {
+    iconcoords {335.0 228.0 533.0 589.0}
+    type rectangle
+    label {Gate Kiosks}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+annotation a3 {
+    iconcoords {304 231 650 616}
+    type rectangle
+    label {Crowley Area Control Level 2:  Gate Kiosks}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+annotation a4 {
+    iconcoords {636.0 381.0 963.0 620.0}
+    type rectangle
+    label {BC Area Control Level 2 - Crane HMIs}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c2
+}
+
+annotation a5 {
+    iconcoords {637.0 638.0 962.0 809.0}
+    type rectangle
+    label {BC Industrial Zone Level 3}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c2
+}
+
+annotation a9 {
+    iconcoords {170.0 469.0 485.0 831.0}
+    type rectangle
+    label {BC Area Control Level 2 - Gate Kiosks}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #C0C0FF
+    width 0
+    border black
+    rad 25
+    canvas c2
+}
+
+canvas c2 {
+    name {Broward Country (BC)}
+    wallpaper-style {centered}
+    wallpaper {/media/sf_Experiments/exp1v5a/pevPhoto.png}
+    size {1233.0 1126}
+}
+
+canvas c1 {
+    name {Crowley}
+    wallpaper-style {scaled}
+    wallpaper {/home/euclid/Documents/cyber/images/SouthPort.medium.png}
+    size {1525 819}
+}
+
+canvas c3 {
+    name {King Ocean}
+}
+
+canvas c4 {
+    name {FIT}
+}
+
+canvas c5 {
+    name {MSC}
+}
+
+canvas c6 {
+    name {Cloud Provider 1}
+}
+
+canvas c7 {
+    name {Cloud Provider 2}
+}
+
+option global {
+    interface_names no
+    ip_addresses yes
+    ipv6_addresses no
+    node_labels yes
+    link_labels yes
+    show_api no
+    background_images no
+    annotations yes
+    grid no
+    traffic_start 0
+}
+
+option session {
+    controlnet=172.16.0.0/24
+    controlnet0=
+    controlnet1=
+    controlnet2=
+    controlnet3=
+    controlnet_updown_script=
+    enablerj45=1
+    enablesdt=0
+    preservedir=0
+    sdturl=tcp://127.0.0.1:50000/
+}
+
