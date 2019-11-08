@@ -1,5 +1,13 @@
 {
     "disruptions": [
+	{
+	    "network": "../networks/transportation-slowcrane-crowley.json",
+	    "time": 1000
+	},
+	{
+	    "network": "../networks/transportation.json",
+	    "time": 2500
+	}
     ],
     "network": "../networks/transportation.json",
     "shipments": [
