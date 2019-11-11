@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 20995.0,
+            "LDT": 23155.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "f56e1a18-da69-4276-86ec-1dea76be987c",
+            "nTEU": 0.0,
+            "name": "1-ALLEGRO-0",
+            "origin": "VIRGIN ISLAND",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 20995.0,
+            "LDT": 23155.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Household Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "f56e1a18-da69-4276-86ec-1dea76be987c",
+            "nTEU": 2.0,
+            "name": "2-ALLEGRO-1",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,548 @@
+{
+    "commodities": [
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Household Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 11.01,
+            "name": "1-MSC GINA-0",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Motor Vehicles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 0.12,
+            "name": "2-MSC GINA-1",
+            "origin": "VENEZUELA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Waste Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 2.0,
+            "name": "3-MSC GINA-2",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Liquid"
+            ],
+            "commodityGroup": "Oils",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 6.01,
+            "name": "4-MSC GINA-3",
+            "origin": "SPAIN-S",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Manufactured Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 7.7,
+            "name": "5-MSC GINA-4",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Home Furnishings & Accessories (excl. Furniture)",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 10.34,
+            "name": "6-MSC GINA-5",
+            "origin": "BAHAMAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 17.43,
+            "name": "7-MSC GINA-6",
+            "origin": "COLOMBIA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Footwear",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 20.01,
+            "name": "8-MSC GINA-7",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Plastics",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 2.0,
+            "name": "9-MSC GINA-8",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Electronics/Instruments",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 1.0,
+            "name": "10-MSC GINA-9",
+            "origin": "HAITI",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 8.57,
+            "name": "11-MSC GINA-10",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 126.69,
+            "name": "12-MSC GINA-11",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 118.27,
+            "name": "13-MSC GINA-12",
+            "origin": "COLOMBIA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beverages",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 157.6,
+            "name": "14-MSC GINA-13",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Cement/Gypsum/Lime",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 22.84,
+            "name": "15-MSC GINA-14",
+            "origin": "PORTUGAL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Manufactured Plastic Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 7.0,
+            "name": "16-MSC GINA-15",
+            "origin": "COSTA RICA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Textiles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 12.56,
+            "name": "17-MSC GINA-16",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Steel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 10.2,
+            "name": "18-MSC GINA-17",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 17.15,
+            "name": "19-MSC GINA-18",
+            "origin": "COLOMBIA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 9.0,
+            "name": "20-MSC GINA-19",
+            "origin": "BELGIUM",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 20.84,
+            "name": "21-MSC GINA-20",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Furniture",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 35.08,
+            "name": "22-MSC GINA-21",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 6.0,
+            "name": "23-MSC GINA-22",
+            "origin": "URUGUAY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 2.25,
+            "name": "24-MSC GINA-23",
+            "origin": "GERMANY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fish",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 1.0,
+            "name": "25-MSC GINA-24",
+            "origin": "PORTUGAL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 7910.0,
+            "LDT": 10070.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "d1d2975c-cdc1-4dc1-bc3e-364e89d313ee",
+            "nTEU": 28.74,
+            "name": "26-MSC GINA-25",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

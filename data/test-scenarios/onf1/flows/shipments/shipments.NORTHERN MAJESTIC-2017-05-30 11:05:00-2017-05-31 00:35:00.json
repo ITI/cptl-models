@@ -1,0 +1,673 @@
+{
+    "commodities": [
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 34.0,
+            "name": "1-NORTHERN MAJESTIC-0",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Bulk Foods",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.0,
+            "name": "2-NORTHERN MAJESTIC-1",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Motor Vehicles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.0,
+            "name": "3-NORTHERN MAJESTIC-2",
+            "origin": "COSTA RICA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.0,
+            "name": "4-NORTHERN MAJESTIC-3",
+            "origin": "SPAIN-S",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Toys",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 13.39,
+            "name": "5-NORTHERN MAJESTIC-4",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Footwear",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 3.0,
+            "name": "6-NORTHERN MAJESTIC-5",
+            "origin": "SPAIN-S",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.0,
+            "name": "7-NORTHERN MAJESTIC-6",
+            "origin": "NICARAGUA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Soybeans",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 19.0,
+            "name": "8-NORTHERN MAJESTIC-7",
+            "origin": "URUGUAY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 56.7,
+            "name": "9-NORTHERN MAJESTIC-8",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Electronics/Instruments",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 0.61,
+            "name": "10-NORTHERN MAJESTIC-9",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 4.61,
+            "name": "11-NORTHERN MAJESTIC-10",
+            "origin": "BRAZIL",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 1.0,
+            "name": "12-NORTHERN MAJESTIC-11",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Pulpmill Feedstocks",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 21.0,
+            "name": "13-NORTHERN MAJESTIC-12",
+            "origin": "BAHAMAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Home Furnishings & Accessories (excl. Furniture)",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 5.5,
+            "name": "14-NORTHERN MAJESTIC-13",
+            "origin": "PERU",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Flour/Mill Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 1.0,
+            "name": "15-NORTHERN MAJESTIC-14",
+            "origin": "ARGENTINA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 13.0,
+            "name": "16-NORTHERN MAJESTIC-15",
+            "origin": "URUGUAY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beverages",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 4.0,
+            "name": "17-NORTHERN MAJESTIC-16",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 1.01,
+            "name": "18-NORTHERN MAJESTIC-17",
+            "origin": "UNITED KINGDOM",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 144.49,
+            "name": "19-NORTHERN MAJESTIC-18",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 40.24,
+            "name": "20-NORTHERN MAJESTIC-19",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Textiles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.0,
+            "name": "21-NORTHERN MAJESTIC-20",
+            "origin": "MEXICO",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 3.76,
+            "name": "22-NORTHERN MAJESTIC-21",
+            "origin": "VENEZUELA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 4.0,
+            "name": "23-NORTHERN MAJESTIC-22",
+            "origin": "TURKS AND CAICOS IS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 22.56,
+            "name": "24-NORTHERN MAJESTIC-23",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 94.89,
+            "name": "25-NORTHERN MAJESTIC-24",
+            "origin": "NETHERLANDS ANTILLES",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Liquid"
+            ],
+            "commodityGroup": "Oils",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 1.0,
+            "name": "26-NORTHERN MAJESTIC-25",
+            "origin": "SPAIN-S",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 3.71,
+            "name": "27-NORTHERN MAJESTIC-26",
+            "origin": "COLOMBIA",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Manufactured Plastic Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 2.04,
+            "name": "28-NORTHERN MAJESTIC-27",
+            "origin": "HONDURAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Specialty Grains",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 4.0,
+            "name": "29-NORTHERN MAJESTIC-28",
+            "origin": "BAHAMAS",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 8.75,
+            "name": "30-NORTHERN MAJESTIC-29",
+            "origin": "ITALY",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beauty Care",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 3.0,
+            "name": "31-NORTHERN MAJESTIC-30",
+            "origin": "UNITED KINGDOM",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 42425.0,
+            "LDT": 44585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Furniture",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "fc17f707-0c94-41d5-a08e-d5a16768a5b4",
+            "nTEU": 18.5,
+            "name": "32-NORTHERN MAJESTIC-31",
+            "origin": "SPAIN-S",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

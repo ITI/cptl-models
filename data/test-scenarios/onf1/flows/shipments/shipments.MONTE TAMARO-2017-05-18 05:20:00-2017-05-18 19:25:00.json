@@ -1,0 +1,922 @@
+{
+    "commodities": [
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 25.5,
+            "name": "1-MONTE TAMARO-0",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 10.0,
+            "name": "2-MONTE TAMARO-1",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 18.0,
+            "name": "3-MONTE TAMARO-2",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Textiles",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 10.0,
+            "name": "4-MONTE TAMARO-3",
+            "origin": "HONDURAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 34.0,
+            "name": "5-MONTE TAMARO-4",
+            "origin": "BAHAMAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Non-hazardous",
+                "Perishable"
+            ],
+            "commodityGroup": "Fruits and Vegetables",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.0,
+            "name": "6-MONTE TAMARO-5",
+            "origin": "HONDURAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Household Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 4.0,
+            "name": "7-MONTE TAMARO-6",
+            "origin": "COSTA RICA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Vehicle Parts",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "8-MONTE TAMARO-7",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Manufactured Plastic Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.28,
+            "name": "9-MONTE TAMARO-8",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 72.33,
+            "name": "10-MONTE TAMARO-9",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beauty Care",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "11-MONTE TAMARO-10",
+            "origin": "BELIZE",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 5.0,
+            "name": "12-MONTE TAMARO-11",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 17.86,
+            "name": "13-MONTE TAMARO-12",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Plastics",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 2.0,
+            "name": "14-MONTE TAMARO-13",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.0,
+            "name": "15-MONTE TAMARO-14",
+            "origin": "BARBADOS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Steel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.44,
+            "name": "16-MONTE TAMARO-15",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 8.0,
+            "name": "17-MONTE TAMARO-16",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "18-MONTE TAMARO-17",
+            "origin": "TURKS AND CAICOS IS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.44,
+            "name": "19-MONTE TAMARO-18",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Bulk Foods",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.5,
+            "name": "20-MONTE TAMARO-19",
+            "origin": "URUGUAY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Flour/Mill Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 2.0,
+            "name": "21-MONTE TAMARO-20",
+            "origin": "ARGENTINA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Footwear",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.29,
+            "name": "22-MONTE TAMARO-21",
+            "origin": "BAHAMAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Furniture",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 4.0,
+            "name": "23-MONTE TAMARO-22",
+            "origin": "BELGIUM",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Lumber",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 8.0,
+            "name": "24-MONTE TAMARO-23",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Hardware/Tools",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.44,
+            "name": "25-MONTE TAMARO-24",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Other Food Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 8.0,
+            "name": "26-MONTE TAMARO-25",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Panel Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 26.17,
+            "name": "27-MONTE TAMARO-26",
+            "origin": "SPAIN-S",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 21.0,
+            "name": "28-MONTE TAMARO-27",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.5,
+            "name": "29-MONTE TAMARO-28",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Household Products",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 3.5,
+            "name": "30-MONTE TAMARO-29",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Minerals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "31-MONTE TAMARO-30",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 10.25,
+            "name": "32-MONTE TAMARO-31",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Glass/Ceramic",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 18.0,
+            "name": "33-MONTE TAMARO-32",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Industrial Chemicals",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.29,
+            "name": "34-MONTE TAMARO-33",
+            "origin": "BAHAMAS",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beverages",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "35-MONTE TAMARO-34",
+            "origin": "CHILE",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Beverages",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "36-MONTE TAMARO-35",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Footwear",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 2.62,
+            "name": "37-MONTE TAMARO-36",
+            "origin": "ITALY",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Vehicle Parts",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.29,
+            "name": "38-MONTE TAMARO-37",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Bulk Foods",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 2.0,
+            "name": "39-MONTE TAMARO-38",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Home Furnishings & Accessories (excl. Furniture)",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 0.44,
+            "name": "40-MONTE TAMARO-39",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 17.62,
+            "name": "41-MONTE TAMARO-40",
+            "origin": "COLOMBIA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Paper",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 14.0,
+            "name": "42-MONTE TAMARO-41",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 5.04,
+            "name": "43-MONTE TAMARO-42",
+            "origin": "GUATEMALA",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 24800.0,
+            "LDT": 26960.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "Aggregates",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "dd742b19-8cc2-4e4e-85b2-e002ed8d83e0",
+            "nTEU": 1.0,
+            "name": "44-MONTE TAMARO-43",
+            "origin": "BRAZIL",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}
