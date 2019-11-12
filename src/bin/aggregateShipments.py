@@ -11,23 +11,35 @@ import os
 import sys
 
 def usage():
-    print("aggregateShipments.py <shipmentsDir> <outputFilePath>")
+    print("aggregateShipments.py <scheduleFilePath> <shipper> <outputFilePath>")
     sys.exit(-1)
     
 def main(argv):
-    shipmentsDir = argv[0]
-    outputFilePath = argv[1]
+    scheduleFilePath = argv[0]
+    shipperName = argv[1]
+    outputFilePath = argv[2]
 
+    scheduleFileDir = os.path.dirname(scheduleFilePath)
     berthList = ["Berth 30", "Berth 31", "Berth 32", "Berth 33"]
     aggregatedDict = { "commodities": [] }
-    for filename in os.listdir(shipmentsDir):
-        if not ".json" in filename:
-            continue
-        with open(shipmentsDir + "/" + filename) as jsonFile:
-            shipmentsDict = json.load(jsonFile)
-            shipments = shipmentsDict["commodities"]
-            shipments = list(filter(lambda x: x["source"] in berthList, shipments))
-            aggregatedDict["commodities"].extend(shipments)
+    
+    with open(scheduleFilePath) as jsonScheduleFile:
+        scheduleDict = json.load(jsonScheduleFile)
+        shipmentsDict = scheduleDict["shipments"]
+
+        for shipment in shipmentsDict:
+            shipper = shipment["shipper"]
+            if shipper != shipperName:
+                continue
+            time = shipment["time"]
+            shipmentFile = shipment["shipment_file"]
+            with open(scheduleFileDir + "/" + shipmentFile) as vesselShipmentsFile:
+                vesselShipmentsDict = json.load(vesselShipmentsFile)
+                vesselShipments = vesselShipmentsDict["commodities"]
+                shipments = list(filter(lambda x: x["source"] in berthList, vesselShipments))
+                for shipment in shipments:
+                    shipment["shipper"] = shipper
+                aggregatedDict["commodities"].extend(shipments)
 
     with open(outputFilePath, 'w') as outFile:
         outputStr = json.dumps(aggregatedDict, indent=4)
