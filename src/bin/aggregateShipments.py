@@ -11,13 +11,15 @@ import os
 import sys
 
 def usage():
-    print("aggregateShipments.py <scheduleFilePath> <shipper> <outputFilePath>")
+    print("aggregateShipments.py <scheduleFilePath> <shipper> <startTime> <endTime> <outputFilePath>")
     sys.exit(-1)
     
 def main(argv):
     scheduleFilePath = argv[0]
     shipperName = argv[1]
-    outputFilePath = argv[2]
+    startTime = int(argv[2])
+    endTime = int(argv[3])
+    outputFilePath = argv[4]
 
     scheduleFileDir = os.path.dirname(scheduleFilePath)
     berthList = ["Berth 30", "Berth 31", "Berth 32", "Berth 33"]
@@ -29,9 +31,13 @@ def main(argv):
 
         for shipment in shipmentsDict:
             shipper = shipment["shipper"]
-            if shipper != shipperName:
+            if "All" != shipperName and shipper != shipperName:
                 continue
+
             time = shipment["time"]
+            if time < startTime or time > endTime:
+                continue
+
             shipmentFile = shipment["shipment_file"]
             with open(scheduleFileDir + "/" + shipmentFile) as vesselShipmentsFile:
                 vesselShipmentsDict = json.load(vesselShipmentsFile)
