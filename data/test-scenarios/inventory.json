@@ -127,11 +127,32 @@
 	    "status":  "Last ran on 10.03.19"	    
 	},
 	"exp2v1a": {
-	    "dc:title": "Experiment 2 - Two Weeks.  Disrupt Crowley with Network Latency",
+	    "dc:title": "Experiment 2 - Baseline, 3000m",
 	    "dc:description": "A scenario that runs and affects the movement of goods.  Builds on exp1v4a2 network and flows",
 	    "dc:publisher": "CIRI, gweaver",
 	    "dc:identifier": "exp2v1a",
 	    "status":  "Not run as of 11.4.19"
+	},
+	"exp2v1b": {
+	    "dc:title": "Experiment 2 - Disrupted, 30% packet loss on GOS DB",
+	    "dc:description": "A scenario with 30% packet loss on the GOS DB",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp2v1b",
+	    "status": "Run as of 11.8.19"
+	},
+	"exp2v1c": {
+	    "dc:title": "Experiment 2- Disrupted, decrease of crane rate of 25 to 20",
+	    "dc:description": "A scenario to start to look at crane rate changes",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "exp2v1c",
+	    "status": "Run as of 11.8.19"
+	},
+	"onf1": {
+	    "dc:title": "Experiment - Look at centralized versus decentralized runs of the ONF",
+	    "dc:description": "Port Everglades network, actual vessel schedules",
+	    "dc:publisher": "CIRI, gweaver",
+	    "dc:identifier": "onf1",
+	    "status": "Not run"
 	}
     }
 }

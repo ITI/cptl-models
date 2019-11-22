@@ -1,0 +1,45 @@
+{
+    "commodities": [
+        {
+            "EAT": 30570.0,
+            "LDT": 32730.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "0c513fb6-31bc-4dbe-a1f4-f8f2aa189d37",
+            "nTEU": 5.3,
+            "name": "1-NORDKAP-0",
+            "origin": "GUATEMALA",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 30570.0,
+            "LDT": 32730.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Aluminum & Non Ferrous",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "0c513fb6-31bc-4dbe-a1f4-f8f2aa189d37",
+            "nTEU": 105.7,
+            "name": "2-NORDKAP-1",
+            "origin": "NETHERLANDS ANTILLES",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "commodities": [
+        {
+            "EAT": 425.0,
+            "LDT": 2585.0,
+            "cargo_categories": [
+                "Goods",
+                "Non-hazardous"
+            ],
+            "commodityGroup": "Machinery",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "966ca0a6-a1ea-40ca-8628-f095b5fba346",
+            "nTEU": 0.0,
+            "name": "1-CAPE MAIL-0",
+            "origin": "DOMINICAN REPUBLIC",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        },
+        {
+            "EAT": 425.0,
+            "LDT": 2585.0,
+            "cargo_categories": [
+                "Goods"
+            ],
+            "commodityGroup": "All Others",
+            "delay_cost": null,
+            "destination": "McIntosh Intersection",
+            "group_uuid": "966ca0a6-a1ea-40ca-8628-f095b5fba346",
+            "nTEU": 0.0,
+            "name": "2-CAPE MAIL-1",
+            "origin": "GUATEMALA",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ]
+        }
+    ]
+}
