@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 24480,
+            "LDT": 31680,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "06cf9992-51a7-4c55-83e7-2ce7e612b9ad",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "85-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 0.0,
+            "origin": "PUERTO RICO",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 24480,
+            "LDT": 31680,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "06cf9992-51a7-4c55-83e7-2ce7e612b9ad",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "85-vesselName-1",
+            "commodityGroup": "85",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 1.75,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f2af7e1d-7adb-4055-b7f0-e8d655ad2a14",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "78-vesselName-0",
+            "commodityGroup": "61",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 0.88,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f2af7e1d-7adb-4055-b7f0-e8d655ad2a14",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "78-vesselName-1",
+            "commodityGroup": "52",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 2.64,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

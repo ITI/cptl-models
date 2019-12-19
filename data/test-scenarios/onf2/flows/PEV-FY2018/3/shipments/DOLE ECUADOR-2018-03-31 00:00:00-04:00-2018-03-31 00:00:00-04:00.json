@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c160a8e5-f54a-4cc3-8592-57eb832f5b54",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "130-vesselName-0",
+            "commodityGroup": "8",
+            "shipper": "Dole Fresh Fruit International LTD.",
+            "nTEU": 103.23,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c160a8e5-f54a-4cc3-8592-57eb832f5b54",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "130-vesselName-1",
+            "commodityGroup": "21",
+            "shipper": "Dole Fresh Fruit International LTD.",
+            "nTEU": 0.77,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

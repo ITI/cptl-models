@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "af12ed0d-0e66-484b-bfe6-eb915f80b852",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "123-vesselName-0",
+            "commodityGroup": "27",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 14.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "af12ed0d-0e66-484b-bfe6-eb915f80b852",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "123-vesselName-1",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 11.0,
+            "origin": "BARBADOS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

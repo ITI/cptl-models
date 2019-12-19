@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 41625,
+            "LDT": 48825,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "cafc28c6-00b6-4a2b-9c36-80c21417d229",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "123-vesselName-0",
+            "commodityGroup": "3",
+            "shipper": "AMERICAN PRESIDENT LINES",
+            "nTEU": 2.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41625,
+            "LDT": 48825,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "cafc28c6-00b6-4a2b-9c36-80c21417d229",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "123-vesselName-1",
+            "commodityGroup": "20",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 2.0,
+            "origin": "ARGENTINA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

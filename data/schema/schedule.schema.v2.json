@@ -1,0 +1,86 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "DES Schedule",
+	"description": "The schedule for the DES simulation.",
+	"type": "object",
+	"properties": {
+		"disruptions": {
+			"type": "array",
+			"description": "List of disruption events",
+			"items": {
+				"type": "object",
+				"description": "A disruption event",
+				"properties": {
+					"network": {
+						"type": "string",
+						"description": "Filename of a disrupted network description in JSON"
+					},
+					"time": {
+						"type": "integer",
+						"description": "The time at which the disruption occurs.  NB, replace with regex eventually"
+					}
+				},
+				"required": ["network", "time"]
+			},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		"network": {
+			"type": "string",
+			"description": "The default network description in JSON"
+		},
+		"shipments": {
+			"type": "array",
+			"description": "List of shipments",
+			"items": {
+				"type": "object",
+				"description": "A shipment",
+				"properties": {
+					"arrival_node": {
+						"type": "string",
+						"description": "The shipment arrival node"
+					},
+					"departure_node": {
+						"type": "string",
+						"description": "The shipment departure node"
+					},
+					"destination_node": {
+						"type": "string",
+						"description": "The ship's destination node"
+					},
+					"shipment_file": {
+						"type": "string",
+						"description": "The filename of the shipment file in JSON"
+					},
+					"shipment_uuid": {
+						"type": "string",
+						"description": "A UUID associated with the shipment"
+					},
+					"shipper": {
+						"type": "string",
+						"description": "The shipper's node - the node that all commodities from the ship pass through"
+					},
+					"time": {
+						"type": "integer",
+						"description": "The arrival time of the shipment.  NB replace with regex eventually"
+					}
+				}, "required": ["arrival_node", "departure_node", "destination_node", "shipment_file", "shipment_uuid", "shipper", "time"]
+			},
+			"minItems": 1,
+			"uniqueItems": true
+		},
+		"start_time": {
+			"type": "string",
+			"description": "The UTC start time of the simulation"
+		},
+		"workday_end": {
+			"type": "string",
+			"description": "The workday end time in hh:mm"
+		},
+		"workday_start": {
+			"type": "string",
+			"description": "The workday start time in hh:mm"
+		}
+	},
+	"required": ["disruptions", "network", "start_time", "workday_end", "workday_start"]
+}

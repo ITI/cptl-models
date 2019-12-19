@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 15785,
+            "LDT": 22985,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ff022808-7102-4585-b411-1866c39d923f",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-vesselName-0",
+            "commodityGroup": "87",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 2.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15785,
+            "LDT": 22985,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ff022808-7102-4585-b411-1866c39d923f",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-vesselName-1",
+            "commodityGroup": "86",
+            "shipper": "MAERSK LINE",
+            "nTEU": 0.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7ef78e38-5787-48fd-9004-45d9b5dc04a2",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "38-vesselName-0",
+            "commodityGroup": "22",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 1.75,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7ef78e38-5787-48fd-9004-45d9b5dc04a2",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "38-vesselName-1",
+            "commodityGroup": "20",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 2.0,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

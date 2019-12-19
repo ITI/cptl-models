@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 37440,
+            "LDT": 44640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7fd97db1-8d26-4d2c-997b-53d94391a775",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-vesselName-0",
+            "commodityGroup": "",
+            "shipper": "MSC",
+            "nTEU": 1.0,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 37440,
+            "LDT": 44640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7fd97db1-8d26-4d2c-997b-53d94391a775",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-vesselName-1",
+            "commodityGroup": "76",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

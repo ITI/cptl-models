@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 34430,
+            "LDT": 41630,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "34f1ad02-f6e4-428a-9dcb-ca5711c0c88a",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "101-vesselName-0",
+            "commodityGroup": "48",
+            "shipper": "Crowley",
+            "nTEU": 2.25,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 34430,
+            "LDT": 41630,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "34f1ad02-f6e4-428a-9dcb-ca5711c0c88a",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "101-vesselName-1",
+            "commodityGroup": "62",
+            "shipper": "Crowley",
+            "nTEU": 4.25,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

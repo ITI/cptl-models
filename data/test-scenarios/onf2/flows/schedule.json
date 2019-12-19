@@ -1,0 +1,1170 @@
+{
+    "disruptions": [],
+    "network": "../data/test-scenarios/onf2/networks/transportation.json",
+    "shipments": [
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "83afa123-9938-4760-b1d2-79bab8cdd3d7",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-31 03:50:00",
+            "shipment_file": "shipments/ROTHORN-5-31.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "8c42412d-57f4-40a7-8da6-8009c533176f",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-31 10:00:00",
+            "shipment_file": "shipments/MONTE ACONCAGUA-5-31.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "0f1a1612-e610-470e-b94f-6e95fc106e32",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-30 05:20:00",
+            "shipment_file": "shipments/AS FIORELLA-5-30.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33C",
+            "shipment_uuid": "d64c1a5b-026a-438a-ab68-f6244da9c0a1",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-31 10:10:00",
+            "shipment_file": "shipments/K-STORM-5-31.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "524c16bc-f8fe-4902-bb79-e23ae97c7b8c",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-31 02:20:00",
+            "shipment_file": "shipments/VEGA LUNA-5-31.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "587cf7c9-d374-4d57-9915-fac54618ba93",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-30 14:15:00",
+            "shipment_file": "shipments/ELISABETH-S.-5-30.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "fe4fd307-0d9d-4c2b-81cd-632d24dafd22",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-29 23:25:00",
+            "shipment_file": "shipments/DENEB J-5-29.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "55d93abf-7a7a-4109-ba0f-19943c06d88b",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-30 18:20:00",
+            "shipment_file": "shipments/ALLEGRO-5-30.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "17d80cd1-77f9-41c3-b4c8-1516afaeea7f",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-30 06:25:00",
+            "shipment_file": "shipments/MSC CADIZ-5-30.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "b61d7f36-17fc-4904-8e10-6f4280f659b8",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-30 02:35:00",
+            "shipment_file": "shipments/GREEN FAST-5-30.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "562680fa-315e-4f55-9e9d-a54bd24bc8e7",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-29 06:25:00",
+            "shipment_file": "shipments/MAERSK KOBE-5-29.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "1bd4777b-365f-4f78-a416-5b73485f8ed6",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-29 11:35:00",
+            "shipment_file": "shipments/FS IPANEMA-5-29.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "f5d8ea68-53b1-4176-a0c2-0eb38b5aa6c9",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-29 17:20:00",
+            "shipment_file": "shipments/MAERSK WEYMOUTH-5-29.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "45e1e738-6143-4b25-990c-435023d3397d",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-28 21:50:00",
+            "shipment_file": "shipments/CAP ROCA-5-28.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "eee46e35-e7d9-45da-9e29-7aec15ac1cd9",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-28 09:35:00",
+            "shipment_file": "shipments/PARADERO-5-28.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "76360eb6-68cd-466d-a48c-94d35a05401c",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-28 07:30:00",
+            "shipment_file": "shipments/LIMARI-5-28.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "bf7a8b51-af65-4f59-85c2-aaf9813dd235",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-28 06:35:00",
+            "shipment_file": "shipments/VEGA SACHSEN-5-28.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "ac970125-efba-4035-9315-aeb99d440107",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-27 21:05:00",
+            "shipment_file": "shipments/GREEN FAST-5-27.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "8348f76d-dc42-474e-9045-e86c936e737b",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-27 14:10:00",
+            "shipment_file": "shipments/YORKTOWN EXPRESS-5-27.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "069b5555-4676-463b-8115-6c6a03189add",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-26 19:15:00",
+            "shipment_file": "shipments/MAERSK MONTANA-5-26.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "6ce10ff4-8d7c-4cb0-80a1-7c84337b7e14",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-26 22:05:00",
+            "shipment_file": "shipments/MAERSK WILMINGTON-5-26.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "bc8c10d4-afeb-4bb3-abd8-35788a1a7255",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-26 14:15:00",
+            "shipment_file": "shipments/TUCANA J-5-26.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "f676f27b-bb45-41a8-8f65-7dffac90ba8d",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-26 07:15:00",
+            "shipment_file": "shipments/JPO AQUARIUS-5-26.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "7cfbe953-8abd-4bf1-818c-b3521748f023",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-26 02:35:00",
+            "shipment_file": "shipments/K-BREEZE-5-26.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "8e9d982c-34f2-472e-8a41-fcc6fb58c911",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-25 10:20:00",
+            "shipment_file": "shipments/REGULA-5-25.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "5adbd14c-4d93-4cb8-bcf2-285a9f6567bb",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-25 10:10:00",
+            "shipment_file": "shipments/WEISSHORN-5-25.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "0cc882b0-27f6-42bc-bfd6-3eb1df96696c",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-25 13:10:00",
+            "shipment_file": "shipments/ALLEGRO-5-25.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "5e54b2cf-9102-4ef7-b5f3-799a1081d11f",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-23 05:55:00",
+            "shipment_file": "shipments/AS FEDERICA-5-23.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "167184be-3da8-4278-9673-ec65018193b5",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": "2018-05-25 06:00:00",
+            "shipment_file": "shipments/CHIQUITA TRADER-5-25.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "16ff3021-02c7-4ccc-9ba8-451f7361bb5d",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-24 21:40:00",
+            "shipment_file": "shipments/TABEA-5-24.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "476a9b86-3a5e-46cf-887c-2a39e0599814",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-24 09:10:00",
+            "shipment_file": "shipments/AS FABRIZIA-5-24.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "22766912-f45c-49e4-97b8-673cbe00e728",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-23 06:45:00",
+            "shipment_file": "shipments/JAN CARIBE-5-23.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "a822165a-6b61-4048-aa86-4d51e4063424",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-24 05:15:00",
+            "shipment_file": "shipments/PEGASUS J-5-24.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "08c16b58-42bd-4bf1-a65e-c08855fa0292",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-23 12:45:00",
+            "shipment_file": "shipments/HOHERIFF-5-23.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "7b2f1a8a-8ca5-4e86-bf65-f3f8596d30db",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-24 08:40:00",
+            "shipment_file": "shipments/SPIRIT OF LISBON-5-24.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "aec23da2-ddc3-40d6-a1b8-153a28229e04",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-23 06:30:00",
+            "shipment_file": "shipments/DENEB J-5-23.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "d184a962-7299-46d2-8bea-0ffecf39b976",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-23 13:55:00",
+            "shipment_file": "shipments/JSP AMIHAN-5-23.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "5dc91dd8-5d72-4a50-903d-5348ad053c57",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-22 19:30:00",
+            "shipment_file": "shipments/WEISSHORN-5-22.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "d5f45ad7-886b-4fdd-947e-686870b72c5d",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-22 12:55:00",
+            "shipment_file": "shipments/CAP ROBERTA-5-22.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "8ec00040-a6df-4c17-99b7-8d7044ece252",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-22 05:45:00",
+            "shipment_file": "shipments/ALLEGRO-5-22.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "4b8472e9-7102-416d-ac99-17c202666b77",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-21 13:35:00",
+            "shipment_file": "shipments/MSC MARINA-5-21.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "680ef817-6750-4835-983b-94f53770b56d",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-21 06:35:00",
+            "shipment_file": "shipments/PARADERO-5-21.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "c33eedfc-c469-4068-8115-c88550880150",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-21 11:30:00",
+            "shipment_file": "shipments/ELISABETH-S.-5-21.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "1445a9f3-bf95-4446-8208-ad2e8f79418c",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-18 11:25:00",
+            "shipment_file": "shipments/CHARLOTTE-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "ab524514-79f4-4db7-a848-7c3dcf1d8e96",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-20 18:25:00",
+            "shipment_file": "shipments/CHARLESTON EXPRESS-5-20.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "a8dd7d52-2e97-484e-a553-daa08073a1d8",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-15 13:40:00",
+            "shipment_file": "shipments/VEGA SACHSEN-5-15.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "c47c2ea5-9959-46d9-aedd-d74a743d7394",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-20 05:20:00",
+            "shipment_file": "shipments/HAMMONIA PALATIUM-5-20.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "62c26fec-c333-406e-b02e-923fa3e04958",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-20 00:40:00",
+            "shipment_file": "shipments/MAERSK WINNIPEG-5-20.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "efbb43b8-8c96-47cb-94de-d1d993b839c8",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-19 22:40:00",
+            "shipment_file": "shipments/TUCANA J-5-19.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "a930aa0e-f36c-48b4-8ca1-cdeb87c378c4",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-19 13:50:00",
+            "shipment_file": "shipments/K-BREEZE-5-19.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "d8ec924d-6a62-4f84-a4ec-b24bdbbbc2d8",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-19 09:45:00",
+            "shipment_file": "shipments/DELPHINUS-5-19.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "8ca7e39d-9783-4a2c-9505-bb58b33cc2f6",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-18 20:45:00",
+            "shipment_file": "shipments/MELBOURNE STRAIT-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "0524a783-569d-442a-b576-a2f12dcfedf5",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-18 10:50:00",
+            "shipment_file": "shipments/ROTHORN-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "bacc6588-58a2-4b38-8ce8-6e93e79686f0",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": "2018-05-18 11:05:00",
+            "shipment_file": "shipments/CHIQUITA EXPRESS-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "c31508c4-5e79-4104-b895-ed08e0b6d4d9",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-18 12:20:00",
+            "shipment_file": "shipments/REGULA-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "955c8057-3ba5-4314-92de-4a259de6b238",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-18 11:40:00",
+            "shipment_file": "shipments/ALLEGRO-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33C",
+            "shipment_uuid": "4305bfcf-1f36-4118-aa10-8ade2d389dd0",
+            "shipper": "MAILBOAT COMPANY",
+            "time": "2018-05-18 08:20:00",
+            "shipment_file": "shipments/CAPE MAIL-5-18.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "1572071b-d2ad-4d8a-bb79-45cbda29556c",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-17 18:05:00",
+            "shipment_file": "shipments/MONTE AZUL-5-17.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "2fb1df2f-509d-4eab-821a-4e2acb5dcafb",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-16 02:50:00",
+            "shipment_file": "shipments/AS FIORELLA-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "00b9bc5a-7d51-4310-871d-905af2083fb1",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-17 10:15:00",
+            "shipment_file": "shipments/MSC KWANGYANG-5-17.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33C",
+            "shipment_uuid": "b7e1c17a-58f4-4bcc-b88a-4be93b01f3a1",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-17 03:25:00",
+            "shipment_file": "shipments/PEGASUS J-5-17.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "3d7e66fd-04ba-4e5d-ab8a-8f1720283d51",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-16 15:45:00",
+            "shipment_file": "shipments/VEGA LUNA-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "5fde83b1-eae8-4fd7-ad66-49be485ec694",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-16 04:25:00",
+            "shipment_file": "shipments/DENEB J-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "6b73b4b9-38fa-4467-9e93-99bb0d36e78f",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-16 14:15:00",
+            "shipment_file": "shipments/JPO CAPRICORNUS-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "81e97908-4404-402b-a04c-fa8e9799a2b5",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-16 16:00:00",
+            "shipment_file": "shipments/ALLEGRO-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "b1fe20d0-c67e-4bfa-b537-303fad2d025d",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-14 20:15:00",
+            "shipment_file": "shipments/K-STORM-5-14.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "da67aa79-577d-430b-9710-558ec2660515",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-15 19:50:00",
+            "shipment_file": "shipments/PLANET V-5-15.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "11bb1379-f999-493f-b8a9-8fc3f7e681c1",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-16 05:45:00",
+            "shipment_file": "shipments/MAERSK KENTUCKY-5-16.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "57298ff9-eef6-4e79-a980-f6170f974862",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-15 12:40:00",
+            "shipment_file": "shipments/ROTHORN-5-15.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "471e15c5-2e36-4b35-bd0c-9b0a7063117f",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-15 11:55:00",
+            "shipment_file": "shipments/MAERSK WILMINGTON-5-15.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "f04d79d0-c8f4-469e-9af1-88eca293379a",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-15 00:55:00",
+            "shipment_file": "shipments/CAP REINGA-5-15.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "0ce7a748-4d83-4dd0-8ad0-78a49443f0f6",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-14 19:55:00",
+            "shipment_file": "shipments/ALLEGRO-5-14.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "90ce6f68-eec3-4425-8670-3e6bf6f1b6e0",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-14 14:40:00",
+            "shipment_file": "shipments/SPIRIT OF LISBON-5-14.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "c6669fe6-48f3-4f1c-bada-98541f0a429c",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-14 07:20:00",
+            "shipment_file": "shipments/MSC LORETTA-5-14.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "9c8bdcb8-8a4a-4f3b-84c1-2ec303654f83",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-14 01:40:00",
+            "shipment_file": "shipments/MAERSK WEYMOUTH-5-14.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "95f2914a-46e5-4473-af1a-3c0a16f385dd",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-13 09:20:00",
+            "shipment_file": "shipments/WASHINGTON EXPRESS-5-13.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "0bc6e609-61d0-4f8c-b80c-bc91199e1332",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-12 18:00:00",
+            "shipment_file": "shipments/DELPHINUS-5-12.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "71286d3b-68c5-493c-aa0f-a5f4b7ff1300",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-12 15:55:00",
+            "shipment_file": "shipments/ALLEGRO-5-12.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "98073f60-7510-45bf-869a-3e400a764a01",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-12 13:05:00",
+            "shipment_file": "shipments/TUCANA J-5-12.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "50cbc76b-8f40-44ad-bbeb-dde5033f1c1f",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-12 07:30:00",
+            "shipment_file": "shipments/K-BREEZE-5-12.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "9ef9b2b7-77db-4435-8235-90cc4494657f",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-08 12:10:00",
+            "shipment_file": "shipments/JAN CARIBE-5-8.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "f1cbdde5-b0b2-4ba3-bd99-90a5523f3c6e",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-11 05:15:00",
+            "shipment_file": "shipments/WEISSHORN-5-11.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "499bc806-de12-4301-96e2-10f055a7fba6",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": "2018-05-11 14:35:00",
+            "shipment_file": "shipments/CHIQUITA TRADER-5-11.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "b142dd20-7881-4100-855f-056b51ea8abd",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-11 18:25:00",
+            "shipment_file": "shipments/REGULA-5-11.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "18258e34-c878-40f0-815d-b90dfc3575a1",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-11 06:15:00",
+            "shipment_file": "shipments/MAERSK OHIO-5-11.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "81ebf30b-9cf6-47ee-b645-abf3d0b9d04d",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-09 04:25:00",
+            "shipment_file": "shipments/AS FEDERICA-5-9.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "1ed949e5-dc1b-46eb-8b09-e4e81697814e",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-10 09:55:00",
+            "shipment_file": "shipments/RIO BARROW-5-10.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "0f0ab09f-cb05-45af-b4df-0153b97dec84",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-10 06:55:00",
+            "shipment_file": "shipments/MSC METHONI-5-10.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "1ebd59d1-3461-4f4a-a267-c059e9a93578",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-10 01:35:00",
+            "shipment_file": "shipments/MAERSK WINNIPEG-5-10.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "0b4d4951-f2eb-4141-9d54-f8b78b1a33e7",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-09 12:55:00",
+            "shipment_file": "shipments/VEGA SAGITTARIUS-5-9.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "0a3027cd-03bc-4404-b636-86a16e202a41",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-09 10:45:00",
+            "shipment_file": "shipments/DENEB J-5-9.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "99a000f9-14ad-4818-9320-3a4e8d252f6e",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-09 11:20:00",
+            "shipment_file": "shipments/JPO LIBRA-5-9.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "0e5f7b0f-6a11-4c81-a99d-09ece7e7ee45",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-09 11:55:00",
+            "shipment_file": "shipments/ALLEGRO-5-9.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "3bbf4fe8-f539-4bd2-8a43-99fc518fd6b8",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-08 12:10:00",
+            "shipment_file": "shipments/CAP ROCA-5-8.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "f7d6ea50-a543-4296-b436-4150a39fe5d7",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-08 13:10:00",
+            "shipment_file": "shipments/AGENA-5-8.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "0596c83b-46ff-437f-a32c-6224e6af7a0f",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-07 21:50:00",
+            "shipment_file": "shipments/K-STORM-5-7.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "88e9e905-a2f9-4162-987b-157dc7d160bd",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-07 18:55:00",
+            "shipment_file": "shipments/ALLEGRO-5-7.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "a7317d9a-5be4-4464-9bae-cc3b5ad108eb",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-07 09:45:00",
+            "shipment_file": "shipments/JPO CAPRICORNUS-5-7.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "065b95c9-c053-47ab-8b5a-33d46d1b5566",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-07 09:10:00",
+            "shipment_file": "shipments/VEGA SACHSEN-5-7.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "52e32e1c-395c-4224-a126-943cc453ac47",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-07 10:15:00",
+            "shipment_file": "shipments/MSC KRYSTAL-5-7.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "6da9e5e2-9a51-4c7b-9ebd-72f2cdf2645a",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-06 21:05:00",
+            "shipment_file": "shipments/MAERSK WOLFSBURG-5-6.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "7459ad67-1e00-4ba0-99f8-3781b126d107",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-06 20:25:00",
+            "shipment_file": "shipments/JACOB-5-6.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33C",
+            "shipment_uuid": "eb978628-ff3c-4a6b-875f-842692a0918c",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-06 08:20:00",
+            "shipment_file": "shipments/TUCANA J-5-6.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "73d4c1d6-9999-4a2c-ab5b-3028acaed7e9",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-06 04:45:00",
+            "shipment_file": "shipments/MAERSK IDAHO-5-6.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "24ee5a6e-23a4-4af7-88e8-03c009431066",
+            "shipper": "Hapag Lloyd",
+            "time": "2018-05-06 07:50:00",
+            "shipment_file": "shipments/ST LOUIS EXPRESS-5-6.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "afc9bae9-f6d5-413c-a855-4d46cec55de3",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-05 23:05:00",
+            "shipment_file": "shipments/PARADERO-5-5.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "ca872adb-60e9-44ea-bbe9-f1e0bae6b4fd",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-03 20:45:00",
+            "shipment_file": "shipments/CHARLOTTE-5-3.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "c604fa02-5713-4f24-984c-013003167aba",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-05 19:40:00",
+            "shipment_file": "shipments/ALLEGRO-5-5.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "da4f6dbe-8882-4ca2-84e0-128e89cae371",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-05 14:20:00",
+            "shipment_file": "shipments/K-BREEZE-5-5.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "3a7186f8-16a1-4fee-8667-718cc6e5ee05",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-04 22:30:00",
+            "shipment_file": "shipments/MSC VITTORIA-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "db9c9977-08d6-468b-b1d4-623c0f97a35f",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-04 11:40:00",
+            "shipment_file": "shipments/ROTHORN-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "f82ea1b0-8dba-4d19-a248-f1ff4429ef04",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": "2018-05-04 19:10:00",
+            "shipment_file": "shipments/MAERSK WEYMOUTH-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "16da62a0-f846-4bcf-ac58-5f64ca414990",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-04 12:15:00",
+            "shipment_file": "shipments/REGULA-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "0035eff5-55aa-4efe-b62d-457bb781836c",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-04 09:50:00",
+            "shipment_file": "shipments/PEGASUS J-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "6385fb82-3a82-4175-80a4-4cb5efebc529",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": "2018-05-04 07:15:00",
+            "shipment_file": "shipments/CHIQUITA EXPRESS-5-4.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "d2948a79-72e2-4713-9f79-4296cf22c9e3",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-01 20:25:00",
+            "shipment_file": "shipments/AS FIORELLA-5-1.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "1a3b7fd3-af3e-49ba-b107-f4cae1f8bf6a",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-03 02:10:00",
+            "shipment_file": "shipments/VEGA LUNA-5-3.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "a1dce60c-70c0-4230-b06a-4ac5ff7c94ee",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-03 04:20:00",
+            "shipment_file": "shipments/CAP ANDREAS-5-3.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "38de2dac-9bf8-4139-8d01-cd5c77cc899e",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-02 06:40:00",
+            "shipment_file": "shipments/DENEB J-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "418ddefa-c0af-418d-9b16-abef33da1425",
+            "shipper": "Hamburg-Sud",
+            "time": "2018-05-02 12:25:00",
+            "shipment_file": "shipments/DUBLIN EXPRESS-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "155ebde2-ff99-4f47-8199-3fbf2f8f65b9",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-02 16:25:00",
+            "shipment_file": "shipments/VEGA SACHSEN-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33B",
+            "shipment_uuid": "3715f790-68aa-4c1f-b972-3a5ad3dcd92a",
+            "shipper": "Seacor Marine Inc.",
+            "time": "2018-05-02 16:30:00",
+            "shipment_file": "shipments/FLORIDA EXPRESS-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33C",
+            "shipment_uuid": "3961848b-20ff-4f29-8cc5-9e957caefa69",
+            "shipper": "MAILBOAT COMPANY",
+            "time": "2018-05-02 08:25:00",
+            "shipment_file": "shipments/CAPE MAIL-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "4b96df19-0345-4609-8c3e-465d491298be",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-02 14:15:00",
+            "shipment_file": "shipments/JSP AMIHAN-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_uuid": "59825fe4-ea12-4ce0-aedd-2c6d8f051ef8",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-02 01:00:00",
+            "shipment_file": "shipments/GREEN FAST-5-2.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "0b152cdc-8b17-4e7d-b93a-ed58167d83ba",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-01 18:15:00",
+            "shipment_file": "shipments/ROTHORN-5-1.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33A",
+            "shipment_uuid": "9ff4eb48-94b6-4e44-96c5-1c61e677b32a",
+            "shipper": "Crowley Liner Services, Inc.",
+            "time": "2018-05-01 10:35:00",
+            "shipment_file": "shipments/K-STORM-5-1.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_uuid": "25bd40e7-94ff-46d3-baf6-e59dede4f81e",
+            "shipper": "King Ocean Services Limited (Cayman Islands) Incorporated",
+            "time": "2018-05-01 17:20:00",
+            "shipment_file": "shipments/AGENA-5-1.json"
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_uuid": "cad3f287-0709-441e-bfe7-258ab295939b",
+            "shipper": "MSC Container Mediterranean Shipping",
+            "time": "2018-05-01 09:05:00",
+            "shipment_file": "shipments/MSC MAUREEN-5-1.json"
+        }
+    ],
+    "start_time": "2018-05-01 00:00:00-0400",
+    "workday_end": "17:00",
+    "workday_start": "08:00"
+}

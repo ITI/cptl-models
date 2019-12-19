@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 21600,
+            "LDT": 28800,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c1b0cf68-fd21-45ac-a62c-dbca9d5e0133",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-vesselName-0",
+            "commodityGroup": "",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21600,
+            "LDT": 28800,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c1b0cf68-fd21-45ac-a62c-dbca9d5e0133",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-vesselName-1",
+            "commodityGroup": "85",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

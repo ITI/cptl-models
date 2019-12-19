@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 25920,
+            "LDT": 33120,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f27b2dd7-e209-454c-ad5d-6cffd9226c91",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-vesselName-0",
+            "commodityGroup": "3",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 2.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 25920,
+            "LDT": 33120,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f27b2dd7-e209-454c-ad5d-6cffd9226c91",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-vesselName-1",
+            "commodityGroup": "20",
+            "shipper": "AMERICAN PRESIDENT LINES",
+            "nTEU": 2.0,
+            "origin": "ECUADOR",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}
