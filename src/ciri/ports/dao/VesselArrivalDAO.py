@@ -242,7 +242,7 @@ class VesselArrivalEventFusionDAO():
             day = vesselArrivalDateTime.day
             vesselName = va.shipName
             shipmentKey = "-".join([vesselName, str(vesselArrivalDateTime), str(vesselDepartureDateTime)])
-            shipmentFileName = ".".join(["shipments", shipmentKey, "json" ])
+            shipmentFileName = ".".join([shipmentKey, "json" ])
             shipmentFilePath = "/".join([shipmentOutfilePrefix, shipmentFileName])
             vesselArrivalEvent["shipment_file"] = shipmentFilePath
             vesselArrivalEvent["shipment_uuid"] = str(uuid.uuid4())
