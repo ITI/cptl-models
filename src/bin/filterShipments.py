@@ -62,7 +62,7 @@ def main(argv):
             results = \
                 list(filter(lambda x: isIncludedVesselShipment(x), shipmentJSON["commodities"]))
             results = \
-                list(map(lambda x: normalizeShipLine(x), shipmentJSON["commodities"]))
+                list(map(lambda x: normalizeShipLine(x), results))
 
             resultJSON = {"commodities": results}
             

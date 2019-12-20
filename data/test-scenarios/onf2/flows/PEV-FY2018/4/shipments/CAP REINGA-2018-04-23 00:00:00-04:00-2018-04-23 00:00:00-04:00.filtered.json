@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "04134e27-a82c-46fe-81a5-2a335cd0119a",
+            "group_uuid": "6698c747-4a5c-421d-a7ad-1efd13a35485",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,6 +16,27 @@
             ],
             "name": "95-vesselName-0",
             "commodityGroup": "3",
+            "shipper": "FIT",
+            "nTEU": 2.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 31680,
+            "LDT": 38880,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6698c747-4a5c-421d-a7ad-1efd13a35485",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "95-vesselName-1",
+            "commodityGroup": "20",
             "shipper": "FIT",
             "nTEU": 2.0,
             "origin": "CHILE",
@@ -28,28 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "04134e27-a82c-46fe-81a5-2a335cd0119a",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "95-vesselName-1",
-            "commodityGroup": "20",
-            "shipper": "FIT",
-            "nTEU": 2.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 31680,
-            "LDT": 38880,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "04134e27-a82c-46fe-81a5-2a335cd0119a",
+            "group_uuid": "6698c747-4a5c-421d-a7ad-1efd13a35485",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "74",
             "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "HONDURAS",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         }
     ]

@@ -64,9 +64,9 @@ def main(argv):
         results = \
             list(filter(lambda x: isIncludedVesselArrival(x), vesselArrivals["shipments"]))
         results = \
-            list(map(lambda x: updateShipmentFilePath(x), vesselArrivals["shipments"]))
+            list(map(lambda x: updateShipmentFilePath(x), results))
         results = \
-            list(map(lambda x: normalizeShipLine(x), vesselArrivals["shipments"]))
+            list(map(lambda x: normalizeShipLine(x), results))
 
         vesselScheduleDict = { "shipments": results,\
                                    "disruptions": vesselArrivals["disruptions"],\

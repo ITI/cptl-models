@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "fbcb64a2-fb7d-4fc1-851b-0ee8718cfca7",
+            "group_uuid": "86875ddc-2b24-4705-abea-b9bede3c77d8",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -16,6 +16,27 @@
             ],
             "name": "124-vesselName-0",
             "commodityGroup": "",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 0.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 37440,
+            "LDT": 44640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "86875ddc-2b24-4705-abea-b9bede3c77d8",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "124-vesselName-1",
+            "commodityGroup": "27",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.0,
             "origin": "HONDURAS",
@@ -28,28 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "fbcb64a2-fb7d-4fc1-851b-0ee8718cfca7",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "124-vesselName-1",
-            "commodityGroup": "27",
-            "shipper": "Seacor Marine Inc.",
-            "nTEU": 0.0,
-            "origin": "VENEZUELA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 37440,
-            "LDT": 44640,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "fbcb64a2-fb7d-4fc1-851b-0ee8718cfca7",
+            "group_uuid": "86875ddc-2b24-4705-abea-b9bede3c77d8",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "87",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.0,
-            "origin": "PANAMA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "fbcb64a2-fb7d-4fc1-851b-0ee8718cfca7",
+            "group_uuid": "86875ddc-2b24-4705-abea-b9bede3c77d8",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "fbcb64a2-fb7d-4fc1-851b-0ee8718cfca7",
+            "group_uuid": "86875ddc-2b24-4705-abea-b9bede3c77d8",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "86",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.0,
-            "origin": "TURKS AND CAICOS IS",
+            "origin": "CAYMAN ISLANDS",
             "destination": "McIntosh Intersection"
         }
     ]

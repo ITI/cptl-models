@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -16,6 +16,48 @@
             ],
             "name": "106-vesselName-0",
             "commodityGroup": "76",
+            "shipper": "King Ocean",
+            "nTEU": 3.0,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-1",
+            "commodityGroup": "81",
+            "shipper": "King Ocean",
+            "nTEU": 2.0,
+            "origin": "NETHERLANDS ANTILLES",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-2",
+            "commodityGroup": "",
             "shipper": "King Ocean",
             "nTEU": 3.0,
             "origin": "GERMANY",
@@ -28,49 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-1",
-            "commodityGroup": "81",
-            "shipper": "King Ocean",
-            "nTEU": 2.0,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-2",
-            "commodityGroup": "",
-            "shipper": "King Ocean",
-            "nTEU": 3.0,
-            "origin": "BELGIUM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -123,7 +123,7 @@
             "commodityGroup": "28",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "URUGUAY",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,7 +133,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -144,7 +144,7 @@
             "commodityGroup": "22",
             "shipper": "King Ocean",
             "nTEU": 4.0,
-            "origin": "ITALY",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -154,7 +154,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -165,7 +165,7 @@
             "commodityGroup": "24",
             "shipper": "King Ocean",
             "nTEU": 4.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "NICARAGUA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,7 +175,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -186,48 +186,6 @@
             "commodityGroup": "87",
             "shipper": "King Ocean",
             "nTEU": 1.0,
-            "origin": "VENEZUELA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-9",
-            "commodityGroup": "31",
-            "shipper": "King Ocean",
-            "nTEU": 2.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-10",
-            "commodityGroup": "8",
-            "shipper": "King Ocean",
-            "nTEU": 4.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -238,7 +196,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-9",
+            "commodityGroup": "31",
+            "shipper": "King Ocean",
+            "nTEU": 2.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-10",
+            "commodityGroup": "8",
+            "shipper": "King Ocean",
+            "nTEU": 4.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -249,48 +249,6 @@
             "commodityGroup": "73",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-12",
-            "commodityGroup": "32",
-            "shipper": "King Ocean",
-            "nTEU": 0.02,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28800,
-            "LDT": 36000,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-13",
-            "commodityGroup": "20",
-            "shipper": "King Ocean",
-            "nTEU": 4.0,
             "origin": "PORTUGAL",
             "destination": "McIntosh Intersection"
         },
@@ -301,7 +259,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-12",
+            "commodityGroup": "32",
+            "shipper": "King Ocean",
+            "nTEU": 0.02,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-vesselName-13",
+            "commodityGroup": "20",
+            "shipper": "King Ocean",
+            "nTEU": 4.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -312,7 +312,7 @@
             "commodityGroup": "84",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "BAHAMAS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,7 +322,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -333,7 +333,7 @@
             "commodityGroup": "86",
             "shipper": "King Ocean",
             "nTEU": 0.0,
-            "origin": "BAHAMAS",
+            "origin": "PUERTO RICO",
             "destination": "McIntosh Intersection"
         },
         {
@@ -343,7 +343,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -364,7 +364,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -375,7 +375,7 @@
             "commodityGroup": "48",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "PANAMA",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -385,7 +385,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -396,7 +396,7 @@
             "commodityGroup": "3",
             "shipper": "King Ocean",
             "nTEU": 5.0,
-            "origin": "ECUADOR",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,7 +406,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -427,7 +427,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -438,7 +438,7 @@
             "commodityGroup": "4",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "PANAMA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -448,7 +448,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -459,7 +459,7 @@
             "commodityGroup": "72",
             "shipper": "King Ocean",
             "nTEU": 15.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "NETHERLANDS ANTILLES",
             "destination": "McIntosh Intersection"
         },
         {
@@ -469,7 +469,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -490,7 +490,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "96ad1039-3a82-4f73-834b-769d08c8869b",
+            "group_uuid": "b34afbf6-6434-4ac1-9e9e-4de63ef7dfea",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -501,7 +501,7 @@
             "commodityGroup": "33",
             "shipper": "King Ocean",
             "nTEU": 10.5,
-            "origin": "SPAIN-S",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         }
     ]
