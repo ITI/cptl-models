@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc761f02-d5f8-46dc-8a4d-54f785eb8987",
+            "group_uuid": "a261a0c2-3023-4142-b27e-49e62f0b845a",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -16,27 +16,6 @@
             ],
             "name": "1-vesselName-0",
             "commodityGroup": "85",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 2.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 1440,
-            "LDT": 8640,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "cc761f02-d5f8-46dc-8a4d-54f785eb8987",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "1-vesselName-1",
-            "commodityGroup": "33",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 2.0,
             "origin": "SPAIN-S",
@@ -49,7 +28,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc761f02-d5f8-46dc-8a4d-54f785eb8987",
+            "group_uuid": "a261a0c2-3023-4142-b27e-49e62f0b845a",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "1-vesselName-1",
+            "commodityGroup": "33",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 2.0,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 1440,
+            "LDT": 8640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "a261a0c2-3023-4142-b27e-49e62f0b845a",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
