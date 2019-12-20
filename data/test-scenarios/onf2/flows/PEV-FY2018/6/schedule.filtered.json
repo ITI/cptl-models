@@ -1,0 +1,936 @@
+{
+    "shipments": [
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.REGULA-2018-06-01 00:00:00-04:00-2018-06-01 00:00:00-04:00.json",
+            "shipment_uuid": "672a859b-c899-41bb-825a-9d6e30778672",
+            "shipper": "Crowley",
+            "time": 0
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHIQUITA EXPRESS-2018-06-01 00:00:00-04:00-2018-06-01 00:00:00-04:00.json",
+            "shipment_uuid": "f7cf627b-a4ca-4223-9514-6978246d36be",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": 0
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.PAVO J-2018-06-01 10:20:00-04:00-2018-06-02 00:00:00-04:00.json",
+            "shipment_uuid": "b0c0f255-1937-4b2c-a0d8-e0b791e4daed",
+            "shipper": "Crowley",
+            "time": 620
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.CHARLOTTE-2018-06-01 00:00:00-04:00-2018-06-01 00:00:00-04:00.json",
+            "shipment_uuid": "00d3659b-231d-48e9-a173-1cff58efe633",
+            "shipper": "King Ocean",
+            "time": 0
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-01 00:00:00-04:00-2018-06-01 00:00:00-04:00.json",
+            "shipment_uuid": "8556b3e2-46c0-41f7-9861-9cd75492d274",
+            "shipper": "MSC",
+            "time": 0
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MELBOURNE STRAIT-2018-06-01 18:55:00-04:00-2018-06-02 00:00:00-04:00.json",
+            "shipment_uuid": "0998b80c-db42-4829-9179-1d533f07b6ea",
+            "shipper": "King Ocean",
+            "time": 1135
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.TUCANA J-2018-06-02 00:00:00-04:00-2018-06-02 00:00:00-04:00.json",
+            "shipment_uuid": "81dfcbd8-442a-4a75-8cd8-7dd30121cbf3",
+            "shipper": "Crowley",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.K-BREEZE-2018-06-02 00:00:00-04:00-2018-06-02 00:00:00-04:00.json",
+            "shipment_uuid": "b11b1204-d7dc-44ce-894a-c848b5abe08a",
+            "shipper": "Crowley",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.SEALAND MICHIGAN-2018-06-02 00:00:00-04:00-2018-06-02 00:00:00-04:00.json",
+            "shipment_uuid": "5273b6af-2c9d-472f-8df5-87792ea2233c",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DELPHINUS-2018-06-03 00:00:00-04:00-2018-06-03 00:00:00-04:00.json",
+            "shipment_uuid": "8b4b0ed6-e2fa-4500-b835-1197115f4882",
+            "shipper": "King Ocean",
+            "time": 2880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MAERSK IOWA-2018-06-03 00:00:00-04:00-2018-06-03 00:00:00-04:00.json",
+            "shipment_uuid": "25ebc609-bbc2-4452-a7c6-e7056bf8801d",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 2880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.PHILADELPHIA EXPRESS-2018-06-03 21:15:00-04:00-2018-06-04 00:00:00-04:00.json",
+            "shipment_uuid": "ee72ac4c-e250-4d34-ab12-485e653af531",
+            "shipper": "Hapag Lloyd",
+            "time": 4155
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PARADERO-2018-06-04 00:00:00-04:00-2018-06-04 00:00:00-04:00.json",
+            "shipment_uuid": "3bfdc56d-c6b3-45e3-a008-64c1f728f13d",
+            "shipper": "Crowley",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.AS CLEOPATRA-2018-06-04 00:00:00-04:00-2018-06-04 00:00:00-04:00.json",
+            "shipment_uuid": "9e5d8457-cf80-4321-abd0-e8ccd8076d55",
+            "shipper": "MSC",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.DUBLIN EXPRESS-2018-06-04 00:00:00-04:00-2018-06-04 00:00:00-04:00.json",
+            "shipment_uuid": "8e0d62e4-c5cb-4c14-babf-bb5fe20bbcdf",
+            "shipper": "Hamburg-Sud",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.JSP AMIHAN-2018-06-04 00:00:00-04:00-2018-06-04 00:00:00-04:00.json",
+            "shipment_uuid": "08202c87-8567-4535-b337-5aeb22e59a66",
+            "shipper": "MSC",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.VEGA SACHSEN-2018-06-05 02:05:00-04:00-2018-06-06 00:00:00-04:00.json",
+            "shipment_uuid": "66fd3b0f-2eb5-46d2-8b16-c9ba87d82cd4",
+            "shipper": "Crowley",
+            "time": 5885
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC MARTA-2018-06-05 00:00:00-04:00-2018-06-05 00:00:00-04:00.json",
+            "shipment_uuid": "e9dcc1d6-809e-4827-bed3-92490b6ea450",
+            "shipper": "MSC",
+            "time": 5760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.JAN CARIBE-2018-06-05 12:40:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "a8bcfed8-ed7a-42ac-b38f-bc82880a71fa",
+            "shipper": "King Ocean",
+            "time": 6520
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MAERSK WINNIPEG-2018-06-05 00:00:00-04:00-2018-06-05 00:00:00-04:00.json",
+            "shipment_uuid": "285581e8-97eb-41fa-a2c8-1508bdcbb11b",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 5760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.WEISSHORN-2018-06-05 22:35:00-04:00-2018-06-06 00:00:00-04:00.json",
+            "shipment_uuid": "7db34d1d-7428-49f9-93fa-c43d0e090a4f",
+            "shipper": "Crowley",
+            "time": 7115
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.CAP REINGA-2018-06-05 23:20:00-04:00-2018-06-06 00:00:00-04:00.json",
+            "shipment_uuid": "3224f8d3-376f-44ea-8e00-202dc3b12198",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 7160
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.VEGA SAGITTARIUS-2018-06-06 06:45:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "82d5ce3e-c539-4d66-895c-10953fb6d8dc",
+            "shipper": "King Ocean",
+            "time": 7605
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.DENEB J-2018-06-06 00:00:00-04:00-2018-06-06 00:00:00-04:00.json",
+            "shipment_uuid": "57eaa6d9-ebcd-4759-b5ff-a40934e7c3f4",
+            "shipper": "Crowley",
+            "time": 7200
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.AS FABRIZIA-2018-06-06 10:50:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "41053e0b-1c46-4435-9f27-0ff9b63d3b92",
+            "shipper": "Crowley",
+            "time": 7850
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.K-STORM-2018-06-07 00:00:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "338c21b1-0ef1-4658-973f-d192838b01c6",
+            "shipper": "Crowley",
+            "time": 8640
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MAERSK IDAHO-2018-06-07 00:00:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "801d17e4-1724-471f-a36e-dfd558e87551",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 8640
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC TORONTO-2018-06-07 18:10:00-04:00-2018-06-08 00:00:00-04:00.json",
+            "shipment_uuid": "4909a94b-0c4e-4982-b220-7f961102a89a",
+            "shipper": "MSC",
+            "time": 9730
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DOLE ECUADOR-2018-06-07 00:00:00-04:00-2018-06-07 00:00:00-04:00.json",
+            "shipment_uuid": "fe446f7e-7d7b-474d-82d2-d3c5f940e5ac",
+            "shipper": "Dole Fresh Fruit International LTD.",
+            "time": 8640
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHIQUITA TRADER-2018-06-08 00:00:00-04:00-2018-06-08 00:00:00-04:00.json",
+            "shipment_uuid": "f0b6a577-65a6-431d-8239-17fb18f15f29",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": 10080
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.REGULA-2018-06-08 00:00:00-04:00-2018-06-08 00:00:00-04:00.json",
+            "shipment_uuid": "5e404ad2-90bf-457e-9fa4-fd302e0c6fe2",
+            "shipper": "Crowley",
+            "time": 10080
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MONTE ROSA-2018-06-08 19:05:00-04:00-2018-06-09 00:00:00-04:00.json",
+            "shipment_uuid": "55a15b7c-93b9-4687-a123-bbd03ba5b383",
+            "shipper": "Hamburg-Sud",
+            "time": 11225
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.FS IPANEMA-2018-06-09 00:00:00-04:00-2018-06-09 00:00:00-04:00.json",
+            "shipment_uuid": "36af8810-d20a-466d-b579-e9058c4fd7e6",
+            "shipper": "King Ocean",
+            "time": 11520
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-09 00:00:00-04:00-2018-06-09 00:00:00-04:00.json",
+            "shipment_uuid": "ea185ec6-dfe2-4421-bdab-9ca1a68155cc",
+            "shipper": "MSC",
+            "time": 11520
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.K-BREEZE-2018-06-09 00:00:00-04:00-2018-06-09 00:00:00-04:00.json",
+            "shipment_uuid": "5a57b332-0969-4f72-82b3-c4860f47a3af",
+            "shipper": "Crowley",
+            "time": 11520
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC NADRIELY-2018-06-09 00:00:00-04:00-2018-06-09 00:00:00-04:00.json",
+            "shipment_uuid": "b08bd6f7-d08e-41d8-b59e-458d53b805b9",
+            "shipper": "MSC",
+            "time": 11520
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DELPHINUS-2018-06-10 00:00:00-04:00-2018-06-10 00:00:00-04:00.json",
+            "shipment_uuid": "2f94914c-ce28-4fe8-9113-8f8fc1365ab9",
+            "shipper": "King Ocean",
+            "time": 12960
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PAVO J-2018-06-10 00:00:00-04:00-2018-06-10 00:00:00-04:00.json",
+            "shipment_uuid": "0b463821-3052-4b68-9098-075ad4bc7a75",
+            "shipper": "Crowley",
+            "time": 12960
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.PLANET V-2018-06-10 21:20:00-04:00-2018-06-11 00:00:00-04:00.json",
+            "shipment_uuid": "690df196-a2be-4243-a6cc-a9dc324e7c5c",
+            "shipper": "King Ocean",
+            "time": 14240
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PARADERO-2018-06-11 00:00:00-04:00-2018-06-11 00:00:00-04:00.json",
+            "shipment_uuid": "d9ba8e84-0953-46c0-a372-37f90d7659c5",
+            "shipper": "Crowley",
+            "time": 14400
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.JPO LIBRA-2018-06-11 00:00:00-04:00-2018-06-11 00:00:00-04:00.json",
+            "shipment_uuid": "bf4ff173-9ade-4951-8060-994d2df56ebc",
+            "shipper": "Hamburg-Sud",
+            "time": 14400
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-11 00:00:00-04:00-2018-06-11 00:00:00-04:00.json",
+            "shipment_uuid": "5de93579-339c-4714-988c-3c506fe9b450",
+            "shipper": "MSC",
+            "time": 14400
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CAP ROBERTA-2018-06-12 00:00:00-04:00-2018-06-12 00:00:00-04:00.json",
+            "shipment_uuid": "3e0c4db8-81a2-4d75-a92a-d557b4514186",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 15840
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.AS FIORELLA-2018-06-13 02:50:00-04:00-2018-06-14 00:00:00-04:00.json",
+            "shipment_uuid": "fdb5e084-88d6-4202-a767-121d35c31073",
+            "shipper": "Crowley",
+            "time": 17450
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.DENEB J-2018-06-13 00:00:00-04:00-2018-06-13 00:00:00-04:00.json",
+            "shipment_uuid": "b85c01da-1e07-4a78-b7d3-f8adee89934c",
+            "shipper": "Crowley",
+            "time": 17280
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.WINNER-2018-06-13 00:00:00-04:00-2018-06-13 00:00:00-04:00.json",
+            "shipment_uuid": "ac9c40cc-7aed-4e07-bd3b-34846253db55",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 17280
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-13 00:00:00-04:00-2018-06-13 00:00:00-04:00.json",
+            "shipment_uuid": "9c4cf19f-1cd5-4434-8d6f-4bf5f60a602c",
+            "shipper": "MSC",
+            "time": 17280
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.K-STORM-2018-06-13 23:55:00-04:00-2018-06-14 00:00:00-04:00.json",
+            "shipment_uuid": "55d55015-4350-4df5-bc21-06c5d38aaaa7",
+            "shipper": "Crowley",
+            "time": 18715
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MAERSK OHIO-2018-06-14 00:00:00-04:00-2018-06-14 00:00:00-04:00.json",
+            "shipment_uuid": "c2848352-dca7-4bae-be1e-26ee660a2267",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 18720
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MONTE TAMARO-2018-06-14 00:00:00-04:00-2018-06-14 00:00:00-04:00.json",
+            "shipment_uuid": "68b80093-0254-4cba-b365-35665636f60d",
+            "shipper": "Hamburg-Sud",
+            "time": 18720
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.MELBOURNE STRAIT-2018-06-15 00:00:00-04:00-2018-06-15 00:00:00-04:00.json",
+            "shipment_uuid": "517bfcee-f31e-4a6f-b067-006c8e616403",
+            "shipper": "King Ocean",
+            "time": 20160
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHIQUITA EXPRESS-2018-06-15 00:00:00-04:00-2018-06-15 00:00:00-04:00.json",
+            "shipment_uuid": "143ccac4-141e-4024-858f-4b19d74229f1",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": 20160
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC KINGSTON-2018-06-15 00:00:00-04:00-2018-06-15 00:00:00-04:00.json",
+            "shipment_uuid": "d38c556f-f16e-4c47-b6ea-dba549bebc9a",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 20160
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.REGULA-2018-06-15 00:00:00-04:00-2018-06-15 00:00:00-04:00.json",
+            "shipment_uuid": "bf6c3eb6-be70-4428-822a-7beb94ca2f19",
+            "shipper": "Crowley",
+            "time": 20160
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.WASHINGTON EXPRESS-2018-06-16 00:00:00-04:00-2018-06-16 00:00:00-04:00.json",
+            "shipment_uuid": "a0faad9a-bbed-4512-9ddd-737dcf016bb1",
+            "shipper": "Hapag Lloyd",
+            "time": 21600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.TUCANA J-2018-06-16 00:00:00-04:00-2018-06-16 00:00:00-04:00.json",
+            "shipment_uuid": "c7011fe8-f763-4c6e-abaa-f907df4ad1d5",
+            "shipper": "Crowley",
+            "time": 21600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-16 00:00:00-04:00-2018-06-16 00:00:00-04:00.json",
+            "shipment_uuid": "0b08cb66-443a-4447-b8ff-18286671c443",
+            "shipper": "MSC",
+            "time": 21600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.JPO AQUARIUS-2018-06-16 00:00:00-04:00-2018-06-16 00:00:00-04:00.json",
+            "shipment_uuid": "b7399e70-fbc0-4a7c-ae54-2218a70e60bf",
+            "shipper": "MSC",
+            "time": 21600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DELPHINUS-2018-06-16 00:00:00-04:00-2018-06-16 00:00:00-04:00.json",
+            "shipment_uuid": "71878299-a452-4806-9da3-fafa59f0c757",
+            "shipper": "King Ocean",
+            "time": 21600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MAERSK WINNIPEG-2018-06-17 00:00:00-04:00-2018-06-17 00:00:00-04:00.json",
+            "shipment_uuid": "b7a5b37f-3918-490e-85a7-531d816fc2b8",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 23040
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.ROTHORN-2018-06-17 00:00:00-04:00-2018-06-17 00:00:00-04:00.json",
+            "shipment_uuid": "cd6b8b06-cfea-4448-9e4d-7f076729f2ae",
+            "shipper": "King Ocean",
+            "time": 23040
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CAP ROCA-2018-06-17 00:00:00-04:00-2018-06-17 00:00:00-04:00.json",
+            "shipment_uuid": "8d912a15-1c26-4eae-b81f-9247193821ba",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 23040
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.PAVO J-2018-06-17 00:00:00-04:00-2018-06-17 00:00:00-04:00.json",
+            "shipment_uuid": "67ac2b5a-4c23-434d-bf27-665c5c4bf7c0",
+            "shipper": "Crowley",
+            "time": 23040
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.JPO CAPRICORNUS-2018-06-18 00:00:00-04:00-2018-06-18 00:00:00-04:00.json",
+            "shipment_uuid": "04f3b9b7-7c1f-4d64-812d-76d926558026",
+            "shipper": "Hamburg-Sud",
+            "time": 24480
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC MARGARITA-2018-06-18 00:00:00-04:00-2018-06-18 00:00:00-04:00.json",
+            "shipment_uuid": "235f75db-1b7c-43ff-b0bb-318c9f96314e",
+            "shipper": "MSC",
+            "time": 24480
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-18 00:00:00-04:00-2018-06-18 00:00:00-04:00.json",
+            "shipment_uuid": "f4d6bc28-da10-45d2-b816-18b66c4596a3",
+            "shipper": "MSC",
+            "time": 24480
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PARADERO-2018-06-18 00:00:00-04:00-2018-06-18 00:00:00-04:00.json",
+            "shipment_uuid": "d4d1270b-1e79-4d4e-a632-cd7239d87646",
+            "shipper": "Crowley",
+            "time": 24480
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.JAN CARIBE-2018-06-19 11:20:00-04:00-2018-06-21 00:00:00-04:00.json",
+            "shipment_uuid": "54117e67-f5be-4fc3-9714-81bba4d219f6",
+            "shipper": "King Ocean",
+            "time": 26600
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MAERSK WOLFSBURG-2018-06-19 00:00:00-04:00-2018-06-19 00:00:00-04:00.json",
+            "shipment_uuid": "aefaf230-7217-453c-9212-b41fec6dc8cb",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 25920
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.WEISSHORN-2018-06-19 15:30:00-04:00-2018-06-20 00:00:00-04:00.json",
+            "shipment_uuid": "ae95fc15-e6a3-4f81-94ba-2117ce20d8e5",
+            "shipper": "Crowley",
+            "time": 26850
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.DENEB J-2018-06-20 00:00:00-04:00-2018-06-20 00:00:00-04:00.json",
+            "shipment_uuid": "c924bf71-541f-4d8b-9660-3429ed318ede",
+            "shipper": "Crowley",
+            "time": 27360
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MAERSK KENTUCKY-2018-06-20 00:00:00-04:00-2018-06-20 00:00:00-04:00.json",
+            "shipment_uuid": "57ecab4f-6717-4578-bf36-4023e616c65a",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 27360
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.AS FABRIZIA-2018-06-20 11:25:00-04:00-2018-06-21 00:00:00-04:00.json",
+            "shipment_uuid": "548b3025-c76d-448a-ad84-507fb4d5e2df",
+            "shipper": "Crowley",
+            "time": 28045
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PEGASUS J-2018-06-20 23:15:00-04:00-2018-06-21 00:00:00-04:00.json",
+            "shipment_uuid": "04eece38-2775-4e61-a151-25fdfa97c044",
+            "shipper": "Crowley",
+            "time": 28755
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC VITTORIA-2018-06-21 00:00:00-04:00-2018-06-21 00:00:00-04:00.json",
+            "shipment_uuid": "2832c41f-4432-482f-b103-992fd176f628",
+            "shipper": "MSC",
+            "time": 28800
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHIQUITA TRADER-2018-06-22 00:00:00-04:00-2018-06-22 00:00:00-04:00.json",
+            "shipment_uuid": "cc755593-693b-454e-bdf6-23e5f3ca9f64",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": 30240
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.FS IPANEMA-2018-06-22 00:00:00-04:00-2018-06-22 00:00:00-04:00.json",
+            "shipment_uuid": "03c98f42-e117-4da2-88f7-2a5e7a17ccdc",
+            "shipper": "King Ocean",
+            "time": 30240
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.REGULA-2018-06-22 00:00:00-04:00-2018-06-22 00:00:00-04:00.json",
+            "shipment_uuid": "4b5ca96f-3706-4f9d-bbaf-b280cff86dc7",
+            "shipper": "Crowley",
+            "time": 30240
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-22 00:00:00-04:00-2018-06-22 00:00:00-04:00.json",
+            "shipment_uuid": "cfe308c4-e07c-47dc-b928-a04872f7c088",
+            "shipper": "MSC",
+            "time": 30240
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.K-BREEZE-2018-06-23 00:00:00-04:00-2018-06-23 00:00:00-04:00.json",
+            "shipment_uuid": "422e5477-71db-450e-8f5c-044c26a02eea",
+            "shipper": "Crowley",
+            "time": 31680
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DELPHINUS-2018-06-23 00:00:00-04:00-2018-06-23 00:00:00-04:00.json",
+            "shipment_uuid": "03175fc4-38b7-426a-9347-7ad89c830039",
+            "shipper": "King Ocean",
+            "time": 31680
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.AS CLEOPATRA-2018-06-23 00:00:00-04:00-2018-06-23 00:00:00-04:00.json",
+            "shipment_uuid": "e654803e-ae68-4018-b434-270f6c58dd9a",
+            "shipper": "MSC",
+            "time": 31680
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.CAP REINGA-2018-06-24 00:00:00-04:00-2018-06-24 00:00:00-04:00.json",
+            "shipment_uuid": "10a44bfc-f2e3-4974-aebf-d4a6d4880ee7",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 33120
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHARLESTON EXPRESS-2018-06-24 00:00:00-04:00-2018-06-24 00:00:00-04:00.json",
+            "shipment_uuid": "81f77a02-a7f9-4995-8bde-29b51df7f293",
+            "shipper": "Hapag Lloyd",
+            "time": 33120
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PAVO J-2018-06-24 00:00:00-04:00-2018-06-24 00:00:00-04:00.json",
+            "shipment_uuid": "d7d53757-922a-49d3-9dac-e9d1ab990313",
+            "shipper": "Crowley",
+            "time": 33120
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.GREEN FAST-2018-06-24 21:00:00-04:00-2018-06-25 00:00:00-04:00.json",
+            "shipment_uuid": "ba15b9cc-3fbf-4bc9-ad96-28737870cea5",
+            "shipper": "King Ocean",
+            "time": 34380
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.SPIRIT OF LISBON-2018-06-25 00:00:00-04:00-2018-06-25 00:00:00-04:00.json",
+            "shipment_uuid": "d3be4f11-f870-445a-b16b-de0a750715fa",
+            "shipper": "Hamburg-Sud",
+            "time": 34560
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-25 00:00:00-04:00-2018-06-25 00:00:00-04:00.json",
+            "shipment_uuid": "eed66276-a622-43e7-9e88-564cea578683",
+            "shipper": "MSC",
+            "time": 34560
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PARADERO-2018-06-26 00:00:00-04:00-2018-06-26 00:00:00-04:00.json",
+            "shipment_uuid": "52ded683-07a2-482f-bbbb-3bc7808d867e",
+            "shipper": "Crowley",
+            "time": 36000
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.MAERSK WEYMOUTH-2018-06-26 00:00:00-04:00-2018-06-26 00:00:00-04:00.json",
+            "shipment_uuid": "34f73e64-c041-4b52-b75e-6ce53251a17a",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 36000
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.DENEB J-2018-06-27 00:00:00-04:00-2018-06-27 00:00:00-04:00.json",
+            "shipment_uuid": "8ee588b9-5a00-4f0a-aa36-02fecb839d4e",
+            "shipper": "Crowley",
+            "time": 37440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.AS FIORELLA-2018-06-27 08:25:00-04:00-2018-06-28 00:00:00-04:00.json",
+            "shipment_uuid": "d4833bcc-8d35-4dae-8318-d21b06e9799a",
+            "shipper": "Crowley",
+            "time": 37945
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.PEGASUS J-2018-06-27 21:20:00-04:00-2018-06-28 00:00:00-04:00.json",
+            "shipment_uuid": "17a7129a-7ac0-423c-a630-40f77fc91440",
+            "shipper": "Crowley",
+            "time": 38720
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MAERSK MONTANA-2018-06-28 00:00:00-04:00-2018-06-28 00:00:00-04:00.json",
+            "shipment_uuid": "450e4107-11ca-4dca-9abb-04de1165e1b0",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "time": 38880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments/shipments.MSC METHONI-2018-06-28 00:00:00-04:00-2018-06-29 00:00:00-04:00.json",
+            "shipment_uuid": "d014fadd-83dd-478f-836f-81edb73d78be",
+            "shipper": "MSC",
+            "time": 38880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHARLOTTE-2018-06-28 00:00:00-04:00-2018-06-28 00:00:00-04:00.json",
+            "shipment_uuid": "cb255243-c5af-4239-b717-4ab03b45a5d6",
+            "shipper": "King Ocean",
+            "time": 38880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CHIQUITA EXPRESS-2018-06-29 00:00:00-04:00-2018-06-29 00:00:00-04:00.json",
+            "shipment_uuid": "1cac5010-190d-4ed3-b51a-5f340d8df71b",
+            "shipper": "Chiquita Fresh North America, LLC",
+            "time": 40320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.MSC MAUREEN-2018-06-29 18:30:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "0f98d8a0-d308-4ade-b9eb-db4a95a47f17",
+            "shipper": "MSC",
+            "time": 41430
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments/shipments.CAP ANDREAS-2018-06-29 00:00:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "008151ba-4ea2-476f-8cdf-7885f44746cf",
+            "shipper": "Hamburg-Sud",
+            "time": 40320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments/shipments.TUCANA J-2018-06-30 00:00:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "07e5156a-1a01-4f29-81f5-214941ea39db",
+            "shipper": "Crowley",
+            "time": 41760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.ALLEGRO-2018-06-30 00:00:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "12e39765-416a-4fb0-bde6-3034e2404293",
+            "shipper": "MSC",
+            "time": 41760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.JAN CARIBE-2018-06-30 00:00:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "22854532-018a-41fb-b749-d9e007998a78",
+            "shipper": "King Ocean",
+            "time": 41760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 31",
+            "shipment_file": "shipments/shipments.DELPHINUS-2018-06-30 00:00:00-04:00-2018-06-30 00:00:00-04:00.json",
+            "shipment_uuid": "f28d45f9-991c-42be-8127-063f0280fbd3",
+            "shipper": "King Ocean",
+            "time": 41760
+        }
+    ],
+    "disruptions": [],
+    "start_time": "2018-06-01 00:00:00-0400",
+    "workday_start": "17:00",
+    "workday_end": "08:00",
+    "network": "../../../networks/transportation.gnsi"
+}

@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "534e365f-b9fd-4304-bf66-330336d053bd",
+            "group_uuid": "c61a7d32-4dca-49a2-aaf6-2a882b34c43e",
             "source": "Berth 29",
             "transportation_methods": [
                 "Roadway",
@@ -18,27 +18,6 @@
             "commodityGroup": "87",
             "shipper": "SCM LINES",
             "nTEU": 1.0,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 21600,
-            "LDT": 28800,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "534e365f-b9fd-4304-bf66-330336d053bd",
-            "source": "Berth 29",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "58-vesselName-1",
-            "commodityGroup": "44",
-            "shipper": "SCM LINES",
-            "nTEU": 8.0,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -49,7 +28,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "534e365f-b9fd-4304-bf66-330336d053bd",
+            "group_uuid": "c61a7d32-4dca-49a2-aaf6-2a882b34c43e",
+            "source": "Berth 29",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "58-vesselName-1",
+            "commodityGroup": "44",
+            "shipper": "SCM LINES",
+            "nTEU": 8.0,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21600,
+            "LDT": 28800,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c61a7d32-4dca-49a2-aaf6-2a882b34c43e",
             "source": "Berth 29",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "86",
             "shipper": "SCM LINES",
             "nTEU": 0.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "JAMAICA",
             "destination": "McIntosh Intersection"
         }
     ]

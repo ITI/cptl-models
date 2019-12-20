@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -39,48 +39,6 @@
             "commodityGroup": "22",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 0.5,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "34-vesselName-2",
-            "commodityGroup": "",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 0.5,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "34-vesselName-3",
-            "commodityGroup": "20",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 9.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
@@ -91,18 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "34-vesselName-4",
-            "commodityGroup": "86",
+            "name": "34-vesselName-2",
+            "commodityGroup": "",
             "shipper": "HYBUR SHIPPING",
-            "nTEU": 0.0,
-            "origin": "CAYMAN ISLANDS",
+            "nTEU": 0.5,
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,38 +70,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "34-vesselName-5",
-            "commodityGroup": "8",
+            "name": "34-vesselName-3",
+            "commodityGroup": "20",
             "shipper": "HYBUR SHIPPING",
-            "nTEU": 6.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "34-vesselName-6",
-            "commodityGroup": "3",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 1.5,
+            "nTEU": 9.0,
             "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
@@ -154,7 +91,70 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "34-vesselName-4",
+            "commodityGroup": "86",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "34-vesselName-5",
+            "commodityGroup": "8",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 6.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "34-vesselName-6",
+            "commodityGroup": "3",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 1.5,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -175,7 +175,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a5b7fc65-f935-4a4f-a7e8-058e34710360",
+            "group_uuid": "968cc133-27b0-4d2b-b43f-59cae6301225",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
