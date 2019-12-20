@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 0,
+            "LDT": 7200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7d4bd930-76b0-46b9-ae83-d75341fbd06a",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "5-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

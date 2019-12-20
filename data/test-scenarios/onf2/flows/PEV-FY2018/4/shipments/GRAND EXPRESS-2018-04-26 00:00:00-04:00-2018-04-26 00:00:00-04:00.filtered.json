@@ -1,3 +1,88 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "302a54d3-1824-4dca-96c0-6b3e29714540",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-vesselName-0",
+            "commodityGroup": "89",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "UNITED KINGDOM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "302a54d3-1824-4dca-96c0-6b3e29714540",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-vesselName-1",
+            "commodityGroup": "95",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "302a54d3-1824-4dca-96c0-6b3e29714540",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-vesselName-2",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 9.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "302a54d3-1824-4dca-96c0-6b3e29714540",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-vesselName-3",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

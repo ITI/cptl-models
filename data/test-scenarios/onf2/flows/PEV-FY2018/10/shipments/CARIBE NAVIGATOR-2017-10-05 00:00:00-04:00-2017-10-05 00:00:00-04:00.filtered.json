@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0bbf84ee-395e-4d63-a62e-d0dea090b42b",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "23-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

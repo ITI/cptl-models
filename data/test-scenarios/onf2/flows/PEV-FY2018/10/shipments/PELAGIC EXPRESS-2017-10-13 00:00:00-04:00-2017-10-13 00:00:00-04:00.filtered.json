@@ -1,3 +1,67 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b98de10a-79a8-472f-b5ca-829cf4ffdb66",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "56-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 27.99,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b98de10a-79a8-472f-b5ca-829cf4ffdb66",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "56-vesselName-1",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b98de10a-79a8-472f-b5ca-829cf4ffdb66",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "56-vesselName-2",
+            "commodityGroup": "63",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

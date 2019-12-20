@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "511be7fb-45b1-4192-8c91-91e07b146e5e",
+            "source": "Berth 29",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "86-vesselName-0",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 294.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

@@ -1,3 +1,67 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 20160,
+            "LDT": 27360,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "300203fd-e615-4fa9-b5ea-d775a76fbf96",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "63-vesselName-0",
+            "commodityGroup": "94",
+            "shipper": "FIT",
+            "nTEU": 1.75,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 20160,
+            "LDT": 27360,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "300203fd-e615-4fa9-b5ea-d775a76fbf96",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "63-vesselName-1",
+            "commodityGroup": "87",
+            "shipper": "FIT",
+            "nTEU": 3.5,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 20160,
+            "LDT": 27360,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "300203fd-e615-4fa9-b5ea-d775a76fbf96",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "63-vesselName-2",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

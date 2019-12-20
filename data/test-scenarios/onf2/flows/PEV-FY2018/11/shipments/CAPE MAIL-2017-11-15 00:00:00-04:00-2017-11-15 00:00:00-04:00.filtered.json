@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 20160,
+            "LDT": 27360,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ac1e31e3-d758-4bc9-bd82-2af445ed9d03",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "69-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

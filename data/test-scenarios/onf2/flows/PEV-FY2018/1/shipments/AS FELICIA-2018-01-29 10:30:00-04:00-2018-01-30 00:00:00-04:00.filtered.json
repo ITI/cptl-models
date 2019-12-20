@@ -1,3 +1,46 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 40950,
+            "LDT": 48150,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "44a838f8-9a7f-4f8f-ae80-aa862467d870",
+            "source": "Berth 27",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "119-vesselName-0",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 0.88,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40950,
+            "LDT": 48150,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "44a838f8-9a7f-4f8f-ae80-aa862467d870",
+            "source": "Berth 27",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "119-vesselName-1",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 671.13,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

@@ -1,3 +1,109 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 22570,
+            "LDT": 29770,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b4d8c070-e5e4-4e26-9e98-ce6ef3ece61f",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "72-vesselName-0",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 0.5,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 22570,
+            "LDT": 29770,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b4d8c070-e5e4-4e26-9e98-ce6ef3ece61f",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "72-vesselName-1",
+            "commodityGroup": "73",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 22570,
+            "LDT": 29770,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b4d8c070-e5e4-4e26-9e98-ce6ef3ece61f",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "72-vesselName-2",
+            "commodityGroup": "72",
+            "shipper": "FIT",
+            "nTEU": 2.0,
+            "origin": "LEEWARD AND WINDWARD",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 22570,
+            "LDT": 29770,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b4d8c070-e5e4-4e26-9e98-ce6ef3ece61f",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "72-vesselName-3",
+            "commodityGroup": "95",
+            "shipper": "FIT",
+            "nTEU": 0.5,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 22570,
+            "LDT": 29770,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b4d8c070-e5e4-4e26-9e98-ce6ef3ece61f",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "72-vesselName-4",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

@@ -58,7 +58,7 @@ def main(argv):
         setName = "intersection"
         shipmentOutfilePrefix = "shipments"
         disruptionsList = []
-        transportationNetworkFilePath = "../../../network/transportation.gnsi"
+        transportationNetworkFilePath = "../../../networks/transportation.gnsi"
         startTime = getStartTime(month)
         workdayStart = "08:00"
         workdayEnd = "17:00"

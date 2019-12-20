@@ -1,3 +1,88 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "532115c7-d268-4d92-b1f8-3c6e3d0809a2",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-0",
+            "commodityGroup": "44",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "532115c7-d268-4d92-b1f8-3c6e3d0809a2",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-1",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 0.5,
+            "origin": "NETHERLANDS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "532115c7-d268-4d92-b1f8-3c6e3d0809a2",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-2",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 1.75,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "532115c7-d268-4d92-b1f8-3c6e3d0809a2",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-3",
+            "commodityGroup": "42",
+            "shipper": "FIT",
+            "nTEU": 0.5,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

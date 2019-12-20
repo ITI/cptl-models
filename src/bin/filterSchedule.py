@@ -19,6 +19,28 @@ def isIncludedVesselArrival(vesselArrivalDict):
     result = berthMask
     return result
 
+def updateShipmentFilePath(vesselArrivalDict):
+    shipmentFilePath = vesselArrivalDict["shipment_file"]
+    vesselArrivalDict["shipment_file"] = shipmentFilePath.replace(".json", ".filtered.json")
+    return vesselArrivalDict
+
+def normalizeShipLine(vesselArrivalDict):
+    shipLine = vesselArrivalDict["shipper"]
+    result = None
+    if "Crowley" in shipLine:
+        result = "Crowley"
+    elif "King Ocean" in shipLine:
+        result = "King Ocean"
+    elif "MSC" in shipLine:
+        result = "MSC"
+    else:
+        # Ugly hack assumption
+        result = "FIT"
+
+    vesselArrivalDict["shipper"] = result
+    return vesselArrivalDict
+
+
 def main(argv):
     scenarioBase = argv[0]
     
@@ -41,6 +63,11 @@ def main(argv):
 
         results = \
             list(filter(lambda x: isIncludedVesselArrival(x), vesselArrivals["shipments"]))
+        results = \
+            list(map(lambda x: updateShipmentFilePath(x), vesselArrivals["shipments"]))
+        results = \
+            list(map(lambda x: normalizeShipLine(x), vesselArrivals["shipments"]))
+
         vesselScheduleDict = { "shipments": results,\
                                    "disruptions": vesselArrivals["disruptions"],\
                                    "start_time": vesselArrivals["start_time"],\

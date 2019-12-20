@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 30120,
+            "LDT": 37320,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "8e922109-62b6-4d5e-bbb4-af32b6a9640c",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-vesselName-0",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 672.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

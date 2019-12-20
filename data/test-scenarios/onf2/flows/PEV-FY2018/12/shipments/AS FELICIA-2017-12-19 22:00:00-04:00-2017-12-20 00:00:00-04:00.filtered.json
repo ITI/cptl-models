@@ -1,3 +1,46 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 27240,
+            "LDT": 34440,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4e5c01ce-fc44-468a-837b-0707c16c9a7a",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-0",
+            "commodityGroup": "48",
+            "shipper": "FIT",
+            "nTEU": 3.5,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 27240,
+            "LDT": 34440,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4e5c01ce-fc44-468a-837b-0707c16c9a7a",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-1",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 1239.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

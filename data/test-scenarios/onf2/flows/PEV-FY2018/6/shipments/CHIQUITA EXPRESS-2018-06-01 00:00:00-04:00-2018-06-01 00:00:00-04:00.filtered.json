@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,9 +16,9 @@
             ],
             "name": "1-vesselName-0",
             "commodityGroup": "44",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 10.5,
-            "origin": "PANAMA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -37,9 +37,9 @@
             ],
             "name": "1-vesselName-1",
             "commodityGroup": "22",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 3.5,
-            "origin": "GERMANY",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -58,29 +58,8 @@
             ],
             "name": "1-vesselName-2",
             "commodityGroup": "52",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 8.75,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 0,
-            "LDT": 7200,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "1-vesselName-3",
-            "commodityGroup": "",
-            "shipper": "GREAT WHITE FLEET LTD",
-            "nTEU": 1.1,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -91,7 +70,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "1-vesselName-3",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 1.1,
+            "origin": "NETHERLANDS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 0,
+            "LDT": 7200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -100,9 +100,9 @@
             ],
             "name": "1-vesselName-4",
             "commodityGroup": "86",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 0.0,
-            "origin": "CHILE",
+            "origin": "CAYMAN ISLANDS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -121,9 +121,9 @@
             ],
             "name": "1-vesselName-5",
             "commodityGroup": "8",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 302.99,
-            "origin": "COSTA RICA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,7 +133,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "823865dd-856a-4179-a73e-5ba925dfd90b",
+            "group_uuid": "4f7c46d8-5191-41c6-8944-a61c21218014",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -142,9 +142,9 @@
             ],
             "name": "1-vesselName-6",
             "commodityGroup": "20",
-            "shipper": "GREAT WHITE FLEET LTD",
+            "shipper": "FIT",
             "nTEU": 2.17,
-            "origin": "ITALY",
+            "origin": "ECUADOR",
             "destination": "McIntosh Intersection"
         }
     ]

@@ -1,3 +1,88 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 27360,
+            "LDT": 34560,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ddd51cc9-256a-4515-b97b-94d53df35886",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "CAYMAN ISLANDS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 27360,
+            "LDT": 34560,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ddd51cc9-256a-4515-b97b-94d53df35886",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-1",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 4.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 27360,
+            "LDT": 34560,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ddd51cc9-256a-4515-b97b-94d53df35886",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-2",
+            "commodityGroup": "72",
+            "shipper": "FIT",
+            "nTEU": 2.0,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 27360,
+            "LDT": 34560,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ddd51cc9-256a-4515-b97b-94d53df35886",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "96-vesselName-3",
+            "commodityGroup": "73",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

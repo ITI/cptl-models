@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,9 +16,9 @@
             ],
             "name": "46-vesselName-0",
             "commodityGroup": "69",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 0.56,
-            "origin": "ITALY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -37,9 +37,9 @@
             ],
             "name": "46-vesselName-1",
             "commodityGroup": "8",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 9.75,
-            "origin": "COSTA RICA",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -58,9 +58,9 @@
             ],
             "name": "46-vesselName-2",
             "commodityGroup": "",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 5.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -79,9 +79,9 @@
             ],
             "name": "46-vesselName-3",
             "commodityGroup": "73",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 6.0,
-            "origin": "LEEWARD AND WINDWARD",
+            "origin": "TURKS AND CAICOS IS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -100,71 +100,8 @@
             ],
             "name": "46-vesselName-4",
             "commodityGroup": "22",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 11.0,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "46-vesselName-5",
-            "commodityGroup": "6",
-            "shipper": "CMA CGM",
-            "nTEU": 4.0,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "46-vesselName-6",
-            "commodityGroup": "21",
-            "shipper": "CMA CGM",
-            "nTEU": 3.0,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "46-vesselName-7",
-            "commodityGroup": "68",
-            "shipper": "CMA CGM",
-            "nTEU": 3.39,
             "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
@@ -175,7 +112,70 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "46-vesselName-5",
+            "commodityGroup": "6",
+            "shipper": "FIT",
+            "nTEU": 4.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "46-vesselName-6",
+            "commodityGroup": "21",
+            "shipper": "FIT",
+            "nTEU": 3.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "46-vesselName-7",
+            "commodityGroup": "68",
+            "shipper": "FIT",
+            "nTEU": 3.39,
+            "origin": "INDIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -184,9 +184,9 @@
             ],
             "name": "46-vesselName-8",
             "commodityGroup": "42",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 16.0,
-            "origin": "BELGIUM",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,7 +196,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -205,9 +205,9 @@
             ],
             "name": "46-vesselName-9",
             "commodityGroup": "2",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "PANAMA",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,7 +217,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c8c18edd-16ed-4918-9e57-696353191e29",
+            "group_uuid": "3bca1fbc-8650-4124-8e41-ab98bc4104bb",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -226,9 +226,9 @@
             ],
             "name": "46-vesselName-10",
             "commodityGroup": "25",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 7.0,
-            "origin": "PANAMA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         }
     ]

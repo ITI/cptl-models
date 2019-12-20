@@ -1,3 +1,88 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "60ec6f88-9922-4f49-8f65-61610fd95fe6",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "60ec6f88-9922-4f49-8f65-61610fd95fe6",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-1",
+            "commodityGroup": "3",
+            "shipper": "FIT",
+            "nTEU": 4.0,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "60ec6f88-9922-4f49-8f65-61610fd95fe6",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-2",
+            "commodityGroup": "39",
+            "shipper": "FIT",
+            "nTEU": 2.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "60ec6f88-9922-4f49-8f65-61610fd95fe6",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-3",
+            "commodityGroup": "94",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "e81f54cd-6aaa-4630-8ef9-995a23657a0e",
+            "group_uuid": "273b89a8-a346-477a-bd1f-1927d5b0ec99",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -16,8 +16,29 @@
             ],
             "name": "76-vesselName-0",
             "commodityGroup": "84",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 0.36,
+            "origin": "UNITED KINGDOM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21165,
+            "LDT": 28365,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "273b89a8-a346-477a-bd1f-1927d5b0ec99",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "76-vesselName-1",
+            "commodityGroup": "72",
+            "shipper": "FIT",
+            "nTEU": 2.0,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -28,28 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "e81f54cd-6aaa-4630-8ef9-995a23657a0e",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "76-vesselName-1",
-            "commodityGroup": "72",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 2.0,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 21165,
-            "LDT": 28365,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "e81f54cd-6aaa-4630-8ef9-995a23657a0e",
+            "group_uuid": "273b89a8-a346-477a-bd1f-1927d5b0ec99",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -58,29 +58,8 @@
             ],
             "name": "76-vesselName-2",
             "commodityGroup": "82",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 0.64,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 21165,
-            "LDT": 28365,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "e81f54cd-6aaa-4630-8ef9-995a23657a0e",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "76-vesselName-3",
-            "commodityGroup": "86",
-            "shipper": "Crowley",
-            "nTEU": 0.0,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
@@ -91,7 +70,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "e81f54cd-6aaa-4630-8ef9-995a23657a0e",
+            "group_uuid": "273b89a8-a346-477a-bd1f-1927d5b0ec99",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "76-vesselName-3",
+            "commodityGroup": "86",
+            "shipper": "Crowley",
+            "nTEU": 0.0,
+            "origin": "PUERTO RICO",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21165,
+            "LDT": 28365,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "273b89a8-a346-477a-bd1f-1927d5b0ec99",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -100,9 +100,9 @@
             ],
             "name": "76-vesselName-4",
             "commodityGroup": "87",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 1.0,
-            "origin": "VENEZUELA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         }
     ]

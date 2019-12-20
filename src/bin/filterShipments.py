@@ -22,6 +22,22 @@ def isIncludedVesselShipment(vesselShipmentDict):
     result = berthMask
     return result
 
+def normalizeShipLine(vesselShipmentDict):
+    shipLine = vesselShipmentDict["shipper"]
+    result = None
+    if "Crowley" in shipLine:
+        result = "Crowley"
+    elif "King Ocean" in shipLine:
+        result = "King Ocean"
+    elif "MSC" in shipLine:
+        result = "MSC"
+    else:
+        # Ugly hack assumption
+        result = "FIT"
+
+    vesselShipmentDict["shipper"] = result
+    return vesselShipmentDict
+
 def main(argv):
     scenarioBase = argv[0]
 
@@ -45,6 +61,9 @@ def main(argv):
             
             results = \
                 list(filter(lambda x: isIncludedVesselShipment(x), shipmentJSON["commodities"]))
+            results = \
+                list(map(lambda x: normalizeShipLine(x), shipmentJSON["commodities"]))
+
             resultJSON = {"commodities": results}
             
             shipmentOutputFilePath = shipmentInputFilePath.replace(".json", ".filtered.json")

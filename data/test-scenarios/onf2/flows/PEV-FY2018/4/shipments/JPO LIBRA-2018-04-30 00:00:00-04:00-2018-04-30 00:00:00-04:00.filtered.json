@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,9 +16,9 @@
             ],
             "name": "125-vesselName-0",
             "commodityGroup": "3",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 8.0,
-            "origin": "ECUADOR",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -37,8 +37,71 @@
             ],
             "name": "125-vesselName-1",
             "commodityGroup": "84",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 2.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-2",
+            "commodityGroup": "21",
+            "shipper": "FIT",
+            "nTEU": 3.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-3",
+            "commodityGroup": "70",
+            "shipper": "FIT",
+            "nTEU": 6.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-4",
+            "commodityGroup": "18",
+            "shipper": "FIT",
+            "nTEU": 8.0,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -49,70 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-2",
-            "commodityGroup": "21",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 3.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-3",
-            "commodityGroup": "70",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 6.0,
-            "origin": "PORTUGAL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-4",
-            "commodityGroup": "18",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 8.0,
-            "origin": "BELGIUM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -121,9 +121,9 @@
             ],
             "name": "125-vesselName-5",
             "commodityGroup": "87",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 3.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,7 +133,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -142,50 +142,8 @@
             ],
             "name": "125-vesselName-6",
             "commodityGroup": "2",
-            "shipper": "CMA CGM",
+            "shipper": "FIT",
             "nTEU": 10.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-7",
-            "commodityGroup": "7",
-            "shipper": "CMA CGM",
-            "nTEU": 2.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-8",
-            "commodityGroup": "8",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 6.0,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -196,7 +154,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-7",
+            "commodityGroup": "7",
+            "shipper": "FIT",
+            "nTEU": 2.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-8",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 6.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -205,9 +205,9 @@
             ],
             "name": "125-vesselName-9",
             "commodityGroup": "82",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 0.13,
-            "origin": "PANAMA",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,7 +217,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -226,9 +226,9 @@
             ],
             "name": "125-vesselName-10",
             "commodityGroup": "15",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 4.0,
-            "origin": "SPAIN-S",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,7 +238,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -247,9 +247,9 @@
             ],
             "name": "125-vesselName-11",
             "commodityGroup": "33",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 0.35,
-            "origin": "UNITED KINGDOM",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -259,7 +259,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -268,7 +268,7 @@
             ],
             "name": "125-vesselName-12",
             "commodityGroup": "12",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 22.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
@@ -280,7 +280,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -289,9 +289,9 @@
             ],
             "name": "125-vesselName-13",
             "commodityGroup": "22",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 35.92,
-            "origin": "BAHAMAS",
+            "origin": "NETHERLANDS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,7 +301,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -310,9 +310,9 @@
             ],
             "name": "125-vesselName-14",
             "commodityGroup": "35",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 0.13,
-            "origin": "BRAZIL",
+            "origin": "ECUADOR",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,7 +322,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -331,9 +331,9 @@
             ],
             "name": "125-vesselName-15",
             "commodityGroup": "40",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "COSTA RICA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -343,7 +343,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -352,7 +352,7 @@
             ],
             "name": "125-vesselName-16",
             "commodityGroup": "48",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 2.0,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
@@ -364,7 +364,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -373,29 +373,8 @@
             ],
             "name": "125-vesselName-17",
             "commodityGroup": "76",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 48.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-18",
-            "commodityGroup": "20",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 8.0,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -406,18 +385,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "125-vesselName-19",
-            "commodityGroup": "",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 6.03,
-            "origin": "HONDURAS",
+            "name": "125-vesselName-18",
+            "commodityGroup": "20",
+            "shipper": "FIT",
+            "nTEU": 8.0,
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -427,7 +406,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-19",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 6.03,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -436,7 +436,7 @@
             ],
             "name": "125-vesselName-20",
             "commodityGroup": "10",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 46.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
@@ -448,7 +448,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -457,9 +457,9 @@
             ],
             "name": "125-vesselName-21",
             "commodityGroup": "19",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 7.75,
-            "origin": "BRAZIL",
+            "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -469,7 +469,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -478,9 +478,9 @@
             ],
             "name": "125-vesselName-22",
             "commodityGroup": "62",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 9.97,
-            "origin": "HONDURAS",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -490,7 +490,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -499,7 +499,7 @@
             ],
             "name": "125-vesselName-23",
             "commodityGroup": "47",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 10.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
@@ -511,7 +511,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -520,8 +520,29 @@
             ],
             "name": "125-vesselName-24",
             "commodityGroup": "69",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 2.13,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 41760,
+            "LDT": 48960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "125-vesselName-25",
+            "commodityGroup": "44",
+            "shipper": "FIT",
+            "nTEU": 20.75,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
@@ -532,28 +553,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "125-vesselName-25",
-            "commodityGroup": "44",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 20.75,
-            "origin": "ECUADOR",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 41760,
-            "LDT": 48960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -562,7 +562,7 @@
             ],
             "name": "125-vesselName-26",
             "commodityGroup": "85",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 4.0,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
@@ -574,7 +574,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -583,9 +583,9 @@
             ],
             "name": "125-vesselName-27",
             "commodityGroup": "95",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "BRAZIL",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -595,7 +595,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -604,7 +604,7 @@
             ],
             "name": "125-vesselName-28",
             "commodityGroup": "58",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 0.04,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
@@ -616,7 +616,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -625,7 +625,7 @@
             ],
             "name": "125-vesselName-29",
             "commodityGroup": "94",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 4.0,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
@@ -637,7 +637,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -646,9 +646,9 @@
             ],
             "name": "125-vesselName-30",
             "commodityGroup": "39",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 3.0,
-            "origin": "PORTUGAL",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -658,7 +658,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -667,7 +667,7 @@
             ],
             "name": "125-vesselName-31",
             "commodityGroup": "61",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 1.0,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
@@ -679,7 +679,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -688,9 +688,9 @@
             ],
             "name": "125-vesselName-32",
             "commodityGroup": "73",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 2.13,
-            "origin": "BAHAMAS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -700,7 +700,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -709,7 +709,7 @@
             ],
             "name": "125-vesselName-33",
             "commodityGroup": "6",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 10.0,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
@@ -721,7 +721,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -730,9 +730,9 @@
             ],
             "name": "125-vesselName-34",
             "commodityGroup": "63",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 3.0,
-            "origin": "HONDURAS",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -742,7 +742,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -751,7 +751,7 @@
             ],
             "name": "125-vesselName-35",
             "commodityGroup": "17",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 3.76,
             "origin": "PERU",
             "destination": "McIntosh Intersection"
@@ -763,7 +763,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -772,7 +772,7 @@
             ],
             "name": "125-vesselName-36",
             "commodityGroup": "68",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 2.0,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
@@ -784,7 +784,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -793,7 +793,7 @@
             ],
             "name": "125-vesselName-37",
             "commodityGroup": "14",
-            "shipper": "HAPAG LLOYD",
+            "shipper": "FIT",
             "nTEU": 4.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
@@ -805,7 +805,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -814,9 +814,9 @@
             ],
             "name": "125-vesselName-38",
             "commodityGroup": "38",
-            "shipper": "Hamburg-Sud",
+            "shipper": "FIT",
             "nTEU": 1.0,
-            "origin": "ITALY",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -826,7 +826,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "70fb110b-1025-463b-8937-e56aa7b0154d",
+            "group_uuid": "ed73103a-2e58-41f7-b527-d19e82d3edbf",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -835,7 +835,7 @@
             ],
             "name": "125-vesselName-39",
             "commodityGroup": "67",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 2.11,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"

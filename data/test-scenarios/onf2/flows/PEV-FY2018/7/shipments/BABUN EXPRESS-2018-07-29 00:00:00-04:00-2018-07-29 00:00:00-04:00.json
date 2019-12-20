@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "48",
             "shipper": "ANTILLEAN LINES",
             "nTEU": 0.25,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "24",
             "shipper": "ANTILLEAN LINES",
             "nTEU": 4.25,
-            "origin": "HONDURAS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -102,48 +102,6 @@
             "commodityGroup": "73",
             "shipper": "ANTILLEAN LINES",
             "nTEU": 2.0,
-            "origin": "JAMAICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-5",
-            "commodityGroup": "87",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 2.25,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-6",
-            "commodityGroup": "84",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 0.25,
             "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
@@ -154,7 +112,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-5",
+            "commodityGroup": "87",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 2.25,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-6",
+            "commodityGroup": "84",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 0.25,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",
@@ -165,90 +165,6 @@
             "commodityGroup": "39",
             "shipper": "ANTILLEAN LINES",
             "nTEU": 9.0,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-8",
-            "commodityGroup": "86",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 0.0,
-            "origin": "JAMAICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-9",
-            "commodityGroup": "62",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 9.5,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-10",
-            "commodityGroup": "85",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 0.5,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
-            "source": "Berth 17",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "126-vesselName-11",
-            "commodityGroup": "",
-            "shipper": "ANTILLEAN LINES",
-            "nTEU": 2.25,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -259,7 +175,91 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "ea688b23-7f28-449e-a71d-8354d0696926",
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-8",
+            "commodityGroup": "86",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 0.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-9",
+            "commodityGroup": "62",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 9.5,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-10",
+            "commodityGroup": "85",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 0.5,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "126-vesselName-11",
+            "commodityGroup": "",
+            "shipper": "ANTILLEAN LINES",
+            "nTEU": 2.25,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0de5c7fd-b4bf-4b67-b046-6ee33894810c",
             "source": "Berth 17",
             "transportation_methods": [
                 "Roadway",

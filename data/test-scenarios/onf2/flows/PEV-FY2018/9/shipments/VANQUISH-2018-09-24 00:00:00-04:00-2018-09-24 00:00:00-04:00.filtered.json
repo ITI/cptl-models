@@ -1,3 +1,67 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 33120,
+            "LDT": 40320,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6f3a42d2-1abb-4160-bda9-e71bed6101fd",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "89-vesselName-0",
+            "commodityGroup": "73",
+            "shipper": "FIT",
+            "nTEU": 4.0,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 33120,
+            "LDT": 40320,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6f3a42d2-1abb-4160-bda9-e71bed6101fd",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "89-vesselName-1",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 33120,
+            "LDT": 40320,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6f3a42d2-1abb-4160-bda9-e71bed6101fd",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "89-vesselName-2",
+            "commodityGroup": "3",
+            "shipper": "FIT",
+            "nTEU": 10.0,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

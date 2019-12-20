@@ -1,3 +1,46 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 9735,
+            "LDT": 16935,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ff75154d-6240-4989-ba83-e5643180d75a",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "16-vesselName-0",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 9735,
+            "LDT": 16935,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ff75154d-6240-4989-ba83-e5643180d75a",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "16-vesselName-1",
+            "commodityGroup": "44",
+            "shipper": "FIT",
+            "nTEU": 10.0,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

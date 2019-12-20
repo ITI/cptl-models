@@ -1,3 +1,46 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "2e493dac-a78d-44c6-a98c-a1120e066871",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "150-vesselName-0",
+            "commodityGroup": "27",
+            "shipper": "FIT",
+            "nTEU": 3.64,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 43200,
+            "LDT": 50400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "2e493dac-a78d-44c6-a98c-a1120e066871",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "150-vesselName-1",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 10.36,
+            "origin": "NETHERLANDS ANTILLES",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

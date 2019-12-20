@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,9 +16,9 @@
             ],
             "name": "80-vesselName-0",
             "commodityGroup": "23",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 0.35,
-            "origin": "COLOMBIA",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -37,8 +37,29 @@
             ],
             "name": "80-vesselName-1",
             "commodityGroup": "",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 2.03,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "80-vesselName-2",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 4.0,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -49,28 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "80-vesselName-2",
-            "commodityGroup": "8",
-            "shipper": "AMERICAN PRESIDENT LINES",
-            "nTEU": 4.0,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 23040,
-            "LDT": 30240,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -79,9 +79,9 @@
             ],
             "name": "80-vesselName-3",
             "commodityGroup": "87",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 6.0,
-            "origin": "VENEZUELA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -100,9 +100,9 @@
             ],
             "name": "80-vesselName-4",
             "commodityGroup": "33",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 0.64,
-            "origin": "BRAZIL",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "1657c5d8-fc0c-440a-93a3-087168b5a050",
+            "group_uuid": "07d80988-15c4-48cd-8c8f-b2364a5bdb7e",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -121,9 +121,9 @@
             ],
             "name": "80-vesselName-5",
             "commodityGroup": "84",
-            "shipper": "Maersk/Sealand.  (Containers)",
+            "shipper": "FIT",
             "nTEU": 1.97,
-            "origin": "GERMANY",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         }
     ]

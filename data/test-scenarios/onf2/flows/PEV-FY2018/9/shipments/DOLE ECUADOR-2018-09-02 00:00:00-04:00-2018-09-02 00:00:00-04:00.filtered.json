@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -16,9 +16,9 @@
             ],
             "name": "2-vesselName-0",
             "commodityGroup": "3",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "BRAZIL",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -37,9 +37,9 @@
             ],
             "name": "2-vesselName-1",
             "commodityGroup": "8",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 91.47,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -58,7 +58,7 @@
             ],
             "name": "2-vesselName-2",
             "commodityGroup": "39",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 0.55,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -79,9 +79,9 @@
             ],
             "name": "2-vesselName-3",
             "commodityGroup": "7",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 1.46,
-            "origin": "COSTA RICA",
+            "origin": "JAMAICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -100,29 +100,8 @@
             ],
             "name": "2-vesselName-4",
             "commodityGroup": "20",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 2.0,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 1440,
-            "LDT": 8640,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "2-vesselName-5",
-            "commodityGroup": "21",
-            "shipper": "Dole Fresh Fruit International LTD.",
-            "nTEU": 0.98,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
@@ -133,18 +112,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "2-vesselName-6",
-            "commodityGroup": "86",
-            "shipper": "Dole Fresh Fruit International LTD.",
-            "nTEU": 2.85,
-            "origin": "BAHAMAS",
+            "name": "2-vesselName-5",
+            "commodityGroup": "21",
+            "shipper": "FIT",
+            "nTEU": 0.98,
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -154,7 +133,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "cc488c72-0c13-427d-88b2-ee1de9267ddf",
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "2-vesselName-6",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 2.85,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 1440,
+            "LDT": 8640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "8d507068-9ee1-428a-bccd-9ac6b0c17e45",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -163,9 +163,9 @@
             ],
             "name": "2-vesselName-7",
             "commodityGroup": "",
-            "shipper": "Dole Fresh Fruit International LTD.",
+            "shipper": "FIT",
             "nTEU": 0.69,
-            "origin": "COSTA RICA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         }
     ]

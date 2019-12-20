@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 34560,
+            "LDT": 41760,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "a4006766-5578-4a92-a7c2-d2cf13141e20",
+            "source": "Berth 5",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "105-vesselName-0",
+            "commodityGroup": "89",
+            "shipper": "FIT",
+            "nTEU": 3.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

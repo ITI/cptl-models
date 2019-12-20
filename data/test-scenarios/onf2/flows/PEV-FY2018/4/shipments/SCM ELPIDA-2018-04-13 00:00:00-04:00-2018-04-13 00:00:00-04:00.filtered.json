@@ -1,3 +1,25 @@
 {
-    "commodities": []
+    "commodities": [
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "a446316f-ae21-4676-a243-653b921b9a9e",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "52-vesselName-0",
+            "commodityGroup": "87",
+            "shipper": "FIT",
+            "nTEU": 1.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        }
+    ]
 }

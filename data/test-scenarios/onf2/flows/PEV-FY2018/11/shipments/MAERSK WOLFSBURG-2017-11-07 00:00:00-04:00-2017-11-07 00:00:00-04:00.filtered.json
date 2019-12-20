@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "638f5d07-5572-43fe-a9e5-a8e8dd178467",
+            "group_uuid": "43e5e01d-1fe6-4f14-8339-bfd0a28c7fad",
             "source": "Berth 33",
             "transportation_methods": [
                 "Roadway",
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "638f5d07-5572-43fe-a9e5-a8e8dd178467",
+            "group_uuid": "43e5e01d-1fe6-4f14-8339-bfd0a28c7fad",
             "source": "Berth 33",
             "transportation_methods": [
                 "Roadway",
@@ -39,48 +39,6 @@
             "commodityGroup": "44",
             "shipper": "FIT",
             "nTEU": 26.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "638f5d07-5572-43fe-a9e5-a8e8dd178467",
-            "source": "Berth 33",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-2",
-            "commodityGroup": "86",
-            "shipper": "FIT",
-            "nTEU": 0.0,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "638f5d07-5572-43fe-a9e5-a8e8dd178467",
-            "source": "Berth 33",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-3",
-            "commodityGroup": "7",
-            "shipper": "FIT",
-            "nTEU": 1.72,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -91,7 +49,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "638f5d07-5572-43fe-a9e5-a8e8dd178467",
+            "group_uuid": "43e5e01d-1fe6-4f14-8339-bfd0a28c7fad",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-vesselName-2",
+            "commodityGroup": "86",
+            "shipper": "FIT",
+            "nTEU": 0.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "43e5e01d-1fe6-4f14-8339-bfd0a28c7fad",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-vesselName-3",
+            "commodityGroup": "7",
+            "shipper": "FIT",
+            "nTEU": 1.72,
+            "origin": "PERU",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "43e5e01d-1fe6-4f14-8339-bfd0a28c7fad",
             "source": "Berth 33",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "42",
             "shipper": "FIT",
             "nTEU": 1.0,
-            "origin": "BRAZIL",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         }
     ]

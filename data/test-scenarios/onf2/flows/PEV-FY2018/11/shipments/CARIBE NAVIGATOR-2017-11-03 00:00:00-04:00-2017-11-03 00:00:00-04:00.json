@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -16,6 +16,69 @@
             ],
             "name": "10-vesselName-0",
             "commodityGroup": "",
+            "shipper": "SEABOARD MARINE LTD",
+            "nTEU": 0.25,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "10-vesselName-1",
+            "commodityGroup": "83",
+            "shipper": "SEABOARD MARINE LTD",
+            "nTEU": 0.25,
+            "origin": "UNITED KINGDOM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "10-vesselName-2",
+            "commodityGroup": "86",
+            "shipper": "SEABOARD MARINE LTD",
+            "nTEU": 0.0,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "10-vesselName-3",
+            "commodityGroup": "39",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 0.25,
             "origin": "HONDURAS",
@@ -28,70 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "10-vesselName-1",
-            "commodityGroup": "83",
-            "shipper": "SEABOARD MARINE LTD",
-            "nTEU": 0.25,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "10-vesselName-2",
-            "commodityGroup": "86",
-            "shipper": "SEABOARD MARINE LTD",
-            "nTEU": 0.0,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "10-vesselName-3",
-            "commodityGroup": "39",
-            "shipper": "SEABOARD MARINE LTD",
-            "nTEU": 0.25,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -102,27 +102,6 @@
             "commodityGroup": "44",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "10-vesselName-5",
-            "commodityGroup": "87",
-            "shipper": "SEABOARD MARINE LTD",
-            "nTEU": 0.25,
             "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
@@ -133,7 +112,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "10-vesselName-5",
+            "commodityGroup": "87",
+            "shipper": "SEABOARD MARINE LTD",
+            "nTEU": 0.25,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -144,7 +144,7 @@
             "commodityGroup": "21",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 1.0,
-            "origin": "ITALY",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -154,7 +154,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -165,7 +165,7 @@
             "commodityGroup": "27",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
-            "origin": "BAHAMAS",
+            "origin": "TURKS AND CAICOS IS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,7 +175,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -186,7 +186,7 @@
             "commodityGroup": "94",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 0.25,
-            "origin": "COLOMBIA",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,7 +196,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c226586a-aac5-420e-821e-8612b269729a",
+            "group_uuid": "4ecdae25-551d-4cb1-841e-ba920ca63978",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -207,7 +207,7 @@
             "commodityGroup": "95",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 0.5,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         }
     ]

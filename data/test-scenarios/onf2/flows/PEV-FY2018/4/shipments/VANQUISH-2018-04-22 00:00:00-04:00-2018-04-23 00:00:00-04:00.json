@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2d8debd-8fa8-4f31-b4bf-abb66ad6667a",
+            "group_uuid": "5e623655-0ddb-4338-b0be-7002b444f92c",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2d8debd-8fa8-4f31-b4bf-abb66ad6667a",
+            "group_uuid": "5e623655-0ddb-4338-b0be-7002b444f92c",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -37,6 +37,27 @@
             ],
             "name": "91-vesselName-1",
             "commodityGroup": "84",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 2.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 30240,
+            "LDT": 37440,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "5e623655-0ddb-4338-b0be-7002b444f92c",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "91-vesselName-2",
+            "commodityGroup": "33",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 2.0,
             "origin": "PANAMA",
@@ -49,28 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2d8debd-8fa8-4f31-b4bf-abb66ad6667a",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "91-vesselName-2",
-            "commodityGroup": "33",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 2.0,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 30240,
-            "LDT": 37440,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f2d8debd-8fa8-4f31-b4bf-abb66ad6667a",
+            "group_uuid": "5e623655-0ddb-4338-b0be-7002b444f92c",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -81,7 +81,7 @@
             "commodityGroup": "81",
             "shipper": "MSC",
             "nTEU": 6.0,
-            "origin": "ITALY",
+            "origin": "TRINIDAD AND TOBAGO",
             "destination": "McIntosh Intersection"
         }
     ]
