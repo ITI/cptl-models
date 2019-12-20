@@ -40,9 +40,17 @@ def normalizeShipLine(vesselArrivalDict):
     vesselArrivalDict["shipper"] = result
     return vesselArrivalDict
 
+def isInTimeInterval(vesselArrivalDict, timeInterval):
+    result = False
+    time = vesselArrivalDict["time"]
+    if time in range( timeInterval[0], timeInterval[1] ):
+        result = True
+    return result
 
 def main(argv):
     scenarioBase = argv[0]
+    minTime = int(argv[1])
+    maxTime = int(argv[2])
     
     scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
     vesselScheduleSchema = None
@@ -52,6 +60,7 @@ def main(argv):
 
     for month in list(range(10,13)) + list(range(1,10)):
         print(month)
+        timeInterval = [minTime, maxTime]
         dayEpsilon = 0
         scheduleInputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.json"])
         scheduleOutputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.filtered.json"])
@@ -64,10 +73,12 @@ def main(argv):
         results = \
             list(filter(lambda x: isIncludedVesselArrival(x), vesselArrivals["shipments"]))
         results = \
+            list(filter(lambda x: isInTimeInterval(x, timeInterval), results))
+        results = \
             list(map(lambda x: updateShipmentFilePath(x), results))
         results = \
             list(map(lambda x: normalizeShipLine(x), results))
-
+        
         vesselScheduleDict = { "shipments": results,\
                                    "disruptions": vesselArrivals["disruptions"],\
                                    "start_time": vesselArrivals["start_time"],\
