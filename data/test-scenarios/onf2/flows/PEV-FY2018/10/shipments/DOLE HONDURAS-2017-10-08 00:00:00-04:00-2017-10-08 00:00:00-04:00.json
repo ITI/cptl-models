@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "9",
             "shipper": "King Ocean",
             "nTEU": 2.0,
-            "origin": "NICARAGUA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -60,6 +60,27 @@
             "commodityGroup": "7",
             "shipper": "King Ocean",
             "nTEU": 6.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "32-vesselName-3",
+            "commodityGroup": "90",
+            "shipper": "King Ocean",
+            "nTEU": 2.0,
             "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
@@ -70,15 +91,36 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "32-vesselName-3",
-            "commodityGroup": "90",
+            "name": "32-vesselName-4",
+            "commodityGroup": "3",
+            "shipper": "Dole Fresh Fruit International LTD.",
+            "nTEU": 2.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "32-vesselName-5",
+            "commodityGroup": "21",
             "shipper": "King Ocean",
             "nTEU": 2.0,
             "origin": "GUATEMALA",
@@ -91,49 +133,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "32-vesselName-4",
-            "commodityGroup": "3",
-            "shipper": "Dole Fresh Fruit International LTD.",
-            "nTEU": 2.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 10080,
-            "LDT": 17280,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "32-vesselName-5",
-            "commodityGroup": "21",
-            "shipper": "King Ocean",
-            "nTEU": 2.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 10080,
-            "LDT": 17280,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "5248dd00-03c8-45bd-8039-26129b6d2264",
+            "group_uuid": "50465bad-2228-4e15-8fca-a9432e9a8a5e",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -144,7 +144,7 @@
             "commodityGroup": "95",
             "shipper": "Dole Fresh Fruit International LTD.",
             "nTEU": 0.0,
-            "origin": "BELGIUM",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         }
     ]

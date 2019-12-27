@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -17,7 +17,7 @@
             "name": "88-vesselName-0",
             "commodityGroup": "86",
             "shipper": "FIT",
-            "nTEU": 0.0,
+            "nTEU": 0,
             "origin": "TURKS AND CAICOS IS",
             "destination": "McIntosh Intersection"
         },
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -38,7 +38,28 @@
             "name": "88-vesselName-1",
             "commodityGroup": "27",
             "shipper": "FIT",
-            "nTEU": 6.0,
+            "nTEU": 6,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28345,
+            "LDT": 35545,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-vesselName-2",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 4,
             "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
@@ -49,28 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "88-vesselName-2",
-            "commodityGroup": "",
-            "shipper": "FIT",
-            "nTEU": 4.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28345,
-            "LDT": 35545,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -80,7 +80,28 @@
             "name": "88-vesselName-3",
             "commodityGroup": "73",
             "shipper": "FIT",
-            "nTEU": 1.75,
+            "nTEU": 2,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28345,
+            "LDT": 35545,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-vesselName-4",
+            "commodityGroup": "35",
+            "shipper": "FIT",
+            "nTEU": 2,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -91,28 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "88-vesselName-4",
-            "commodityGroup": "35",
-            "shipper": "FIT",
-            "nTEU": 2.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 28345,
-            "LDT": 35545,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "63bb0116-2d42-4b7b-80ff-689841267ab7",
+            "group_uuid": "00df336d-cb6e-4e1c-87af-52fcf8a5241d",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -122,7 +122,7 @@
             "name": "88-vesselName-5",
             "commodityGroup": "63",
             "shipper": "FIT",
-            "nTEU": 2.0,
+            "nTEU": 2,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
         }

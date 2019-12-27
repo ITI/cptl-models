@@ -10,6 +10,7 @@ from jsonschema import validate
 from os import listdir
 from os.path import isfile, join
 import json
+import math
 import os
 import sys
 
@@ -38,6 +39,11 @@ def normalizeShipLine(vesselShipmentDict):
     vesselShipmentDict["shipper"] = result
     return vesselShipmentDict
 
+def roundTEU(vesselShipmentDict):
+    nTEU = vesselShipmentDict["nTEU"]
+    vesselShipmentDict["nTEU"] = math.ceil(nTEU)
+    return vesselShipmentDict
+
 def main(argv):
     scenarioBase = argv[0]
 
@@ -63,6 +69,8 @@ def main(argv):
                 list(filter(lambda x: isIncludedVesselShipment(x), shipmentJSON["commodities"]))
             results = \
                 list(map(lambda x: normalizeShipLine(x), results))
+            results = \
+                list(map(lambda x: roundTEU(x), results))
 
             resultJSON = {"commodities": results}
             
