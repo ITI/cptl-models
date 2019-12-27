@@ -7,18 +7,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "93e9aa43-b19c-4d53-b45e-f952516ce8ee",
+            "group_uuid": "bc6a5602-be12-46d0-957d-18fd77ca535a",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "118-vesselName-0",
+            "name": "118-ALLEGRO-0",
             "commodityGroup": "85",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "HONDURAS",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,38 +28,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "93e9aa43-b19c-4d53-b45e-f952516ce8ee",
+            "group_uuid": "bc6a5602-be12-46d0-957d-18fd77ca535a",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "118-vesselName-1",
+            "name": "118-ALLEGRO-1",
             "commodityGroup": "",
             "shipper": "MSC",
             "nTEU": 20.0,
-            "origin": "PORTUGAL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "93e9aa43-b19c-4d53-b45e-f952516ce8ee",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "118-vesselName-2",
-            "commodityGroup": "94",
-            "shipper": "MSC",
-            "nTEU": 4.0,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -70,18 +49,39 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "93e9aa43-b19c-4d53-b45e-f952516ce8ee",
+            "group_uuid": "bc6a5602-be12-46d0-957d-18fd77ca535a",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "118-vesselName-3",
+            "name": "118-ALLEGRO-2",
+            "commodityGroup": "94",
+            "shipper": "MSC",
+            "nTEU": 4.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "bc6a5602-be12-46d0-957d-18fd77ca535a",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "118-ALLEGRO-3",
             "commodityGroup": "86",
             "shipper": "MSC",
             "nTEU": 0.0,
-            "origin": "COSTA RICA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         }
     ]

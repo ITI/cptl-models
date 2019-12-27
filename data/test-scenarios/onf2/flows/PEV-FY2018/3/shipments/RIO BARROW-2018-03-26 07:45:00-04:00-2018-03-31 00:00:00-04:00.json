@@ -7,16 +7,58 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "35f7352b-c430-4bac-b276-2e2cbc327531",
+            "group_uuid": "300e8561-f8c5-470b-be34-399eb8b16413",
             "source": "Berth 19",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "106-vesselName-0",
+            "name": "106-RIO BARROW-0",
             "commodityGroup": "48",
             "shipper": "HAPAG LLOYD",
+            "nTEU": 2.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36465,
+            "LDT": 43665,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "300e8561-f8c5-470b-be34-399eb8b16413",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-RIO BARROW-1",
+            "commodityGroup": "25",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 10.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36465,
+            "LDT": 43665,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "300e8561-f8c5-470b-be34-399eb8b16413",
+            "source": "Berth 19",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "106-RIO BARROW-2",
+            "commodityGroup": "35",
+            "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
             "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
@@ -28,60 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "35f7352b-c430-4bac-b276-2e2cbc327531",
+            "group_uuid": "300e8561-f8c5-470b-be34-399eb8b16413",
             "source": "Berth 19",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "106-vesselName-1",
-            "commodityGroup": "25",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 10.0,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 36465,
-            "LDT": 43665,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "35f7352b-c430-4bac-b276-2e2cbc327531",
-            "source": "Berth 19",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-2",
-            "commodityGroup": "35",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 2.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 36465,
-            "LDT": 43665,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "35f7352b-c430-4bac-b276-2e2cbc327531",
-            "source": "Berth 19",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "106-vesselName-3",
+            "name": "106-RIO BARROW-3",
             "commodityGroup": "68",
             "shipper": "Hamburg-Sud",
             "nTEU": 1.0,
-            "origin": "PORTUGAL",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         }
     ]

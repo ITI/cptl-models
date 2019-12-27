@@ -7,14 +7,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-0",
+            "name": "90-VANTAGE-0",
             "commodityGroup": "44",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 2.0,
@@ -28,18 +28,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-1",
+            "name": "90-VANTAGE-1",
             "commodityGroup": "",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
-            "origin": "BRAZIL",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,18 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-2",
+            "name": "90-VANTAGE-2",
             "commodityGroup": "15",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
-            "origin": "ITALY",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,14 +70,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-3",
+            "name": "90-VANTAGE-3",
             "commodityGroup": "86",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 0.0,
@@ -91,17 +91,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-4",
+            "name": "90-VANTAGE-4",
             "commodityGroup": "73",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 0.0,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 30240,
+            "LDT": 37440,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "90-VANTAGE-5",
+            "commodityGroup": "48",
+            "shipper": "SEABOARD MARINE LTD",
+            "nTEU": 1.75,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -112,15 +133,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-5",
-            "commodityGroup": "48",
+            "name": "90-VANTAGE-6",
+            "commodityGroup": "69",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
             "origin": "BRAZIL",
@@ -133,39 +154,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
+            "group_uuid": "ebae736b-c3b7-4fce-812a-67fb0d107db2",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "90-vesselName-6",
-            "commodityGroup": "69",
-            "shipper": "SEABOARD MARINE LTD",
-            "nTEU": 1.75,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 30240,
-            "LDT": 37440,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "032cfa66-1299-4a7e-8e10-cf0b978ea16d",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "90-vesselName-7",
+            "name": "90-VANTAGE-7",
             "commodityGroup": "27",
             "shipper": "SEABOARD MARINE LTD",
             "nTEU": 1.75,
-            "origin": "TURKS AND CAICOS IS",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         }
     ]

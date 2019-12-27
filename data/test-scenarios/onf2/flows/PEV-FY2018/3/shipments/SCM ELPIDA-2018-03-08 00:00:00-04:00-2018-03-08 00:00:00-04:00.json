@@ -7,17 +7,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
             "source": "Berth 26",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "38-vesselName-0",
+            "name": "38-SCM ELPIDA-0",
             "commodityGroup": "85",
             "shipper": "SCM LINES",
             "nTEU": 1.18,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
+            "source": "Berth 26",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "38-SCM ELPIDA-1",
+            "commodityGroup": "76",
+            "shipper": "SCM LINES",
+            "nTEU": 51.57,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
@@ -28,35 +49,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
             "source": "Berth 26",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "38-vesselName-1",
-            "commodityGroup": "76",
-            "shipper": "SCM LINES",
-            "nTEU": 51.57,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 10080,
-            "LDT": 17280,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
-            "source": "Berth 26",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "38-vesselName-2",
+            "name": "38-SCM ELPIDA-2",
             "commodityGroup": "87",
             "shipper": "SCM LINES",
             "nTEU": 1.0,
@@ -70,18 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
             "source": "Berth 26",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "38-vesselName-3",
+            "name": "38-SCM ELPIDA-3",
             "commodityGroup": "",
             "shipper": "SCM LINES",
             "nTEU": 2.29,
-            "origin": "TRINIDAD AND TOBAGO",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,18 +91,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
             "source": "Berth 26",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "38-vesselName-4",
+            "name": "38-SCM ELPIDA-4",
             "commodityGroup": "44",
             "shipper": "SCM LINES",
             "nTEU": 6.0,
-            "origin": "VENEZUELA",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,18 +112,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "5959c574-4b4e-4a42-b3d3-941acef12ea9",
+            "group_uuid": "6402d42d-0a63-4241-86fa-27b70cee19fb",
             "source": "Berth 26",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "38-vesselName-5",
+            "name": "38-SCM ELPIDA-5",
             "commodityGroup": "86",
             "shipper": "SCM LINES",
             "nTEU": 11.96,
-            "origin": "COSTA RICA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         }
     ]

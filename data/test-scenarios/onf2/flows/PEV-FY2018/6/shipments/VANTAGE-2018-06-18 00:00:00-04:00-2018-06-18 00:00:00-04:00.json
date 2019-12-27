@@ -7,17 +7,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a9298ea3-ed64-48fa-ae06-515c61832284",
+            "group_uuid": "bcb3cfb4-855d-4a2c-90a9-eb8a838417dd",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "82-vesselName-0",
+            "name": "82-VANTAGE-0",
             "commodityGroup": "20",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 8.0,
+            "origin": "BELIZE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 24480,
+            "LDT": 31680,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "bcb3cfb4-855d-4a2c-90a9-eb8a838417dd",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "82-VANTAGE-1",
+            "commodityGroup": "33",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 2.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -28,39 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a9298ea3-ed64-48fa-ae06-515c61832284",
+            "group_uuid": "bcb3cfb4-855d-4a2c-90a9-eb8a838417dd",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "82-vesselName-1",
-            "commodityGroup": "33",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 2.0,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 24480,
-            "LDT": 31680,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "a9298ea3-ed64-48fa-ae06-515c61832284",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "82-vesselName-2",
+            "name": "82-VANTAGE-2",
             "commodityGroup": "8",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 4.0,
-            "origin": "COSTA RICA",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,18 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a9298ea3-ed64-48fa-ae06-515c61832284",
+            "group_uuid": "bcb3cfb4-855d-4a2c-90a9-eb8a838417dd",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "82-vesselName-3",
+            "name": "82-VANTAGE-3",
             "commodityGroup": "85",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 1.0,
-            "origin": "ARGENTINA",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,18 +91,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a9298ea3-ed64-48fa-ae06-515c61832284",
+            "group_uuid": "bcb3cfb4-855d-4a2c-90a9-eb8a838417dd",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "82-vesselName-4",
+            "name": "82-VANTAGE-4",
             "commodityGroup": "86",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 78.75,
-            "origin": "CAYMAN ISLANDS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         }
     ]

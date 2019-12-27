@@ -7,16 +7,58 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-0",
+            "name": "50-MAERSK IOWA-0",
             "commodityGroup": "3",
             "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-1",
+            "commodityGroup": "39",
+            "shipper": "MSC",
+            "nTEU": 5,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-2",
+            "commodityGroup": "44",
+            "shipper": "MSC",
             "nTEU": 2,
             "origin": "ECUADOR",
             "destination": "McIntosh Intersection"
@@ -28,17 +70,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-1",
-            "commodityGroup": "39",
+            "name": "50-MAERSK IOWA-3",
+            "commodityGroup": "19",
             "shipper": "MSC",
-            "nTEU": 5,
+            "nTEU": 2,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-4",
+            "commodityGroup": "22",
+            "shipper": "MSC",
+            "nTEU": 31,
             "origin": "NETHERLANDS",
             "destination": "McIntosh Intersection"
         },
@@ -49,77 +112,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-2",
-            "commodityGroup": "44",
-            "shipper": "MSC",
-            "nTEU": 2,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-3",
-            "commodityGroup": "19",
-            "shipper": "MSC",
-            "nTEU": 2,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-4",
-            "commodityGroup": "22",
-            "shipper": "MSC",
-            "nTEU": 31,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-5",
+            "name": "50-MAERSK IOWA-5",
             "commodityGroup": "24",
             "shipper": "MSC",
             "nTEU": 2,
@@ -133,18 +133,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-6",
+            "name": "50-MAERSK IOWA-6",
             "commodityGroup": "68",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "HAITI",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -154,18 +154,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-7",
+            "name": "50-MAERSK IOWA-7",
             "commodityGroup": "63",
             "shipper": "FIT",
             "nTEU": 3,
-            "origin": "GUATEMALA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,14 +175,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-8",
+            "name": "50-MAERSK IOWA-8",
             "commodityGroup": "9",
             "shipper": "MSC",
             "nTEU": 30,
@@ -196,14 +196,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-9",
+            "name": "50-MAERSK IOWA-9",
             "commodityGroup": "83",
             "shipper": "MSC",
             "nTEU": 2,
@@ -217,18 +217,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-10",
+            "name": "50-MAERSK IOWA-10",
             "commodityGroup": "73",
             "shipper": "MSC",
             "nTEU": 4,
-            "origin": "GUATEMALA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,14 +238,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-11",
+            "name": "50-MAERSK IOWA-11",
             "commodityGroup": "90",
             "shipper": "MSC",
             "nTEU": 7,
@@ -259,18 +259,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-12",
+            "name": "50-MAERSK IOWA-12",
             "commodityGroup": "20",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "COLOMBIA",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -280,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-13",
+            "name": "50-MAERSK IOWA-13",
             "commodityGroup": "28",
             "shipper": "FIT",
             "nTEU": 1,
-            "origin": "BELGIUM",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,18 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-14",
+            "name": "50-MAERSK IOWA-14",
             "commodityGroup": "2",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "NICARAGUA",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,14 +322,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-15",
+            "name": "50-MAERSK IOWA-15",
             "commodityGroup": "85",
             "shipper": "MSC",
             "nTEU": 7,
@@ -343,17 +343,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-16",
+            "name": "50-MAERSK IOWA-16",
             "commodityGroup": "84",
             "shipper": "FIT",
             "nTEU": 29,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-17",
+            "commodityGroup": "88",
+            "shipper": "MSC",
+            "nTEU": 3,
             "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
@@ -364,35 +385,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-17",
-            "commodityGroup": "88",
-            "shipper": "MSC",
-            "nTEU": 3,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-18",
+            "name": "50-MAERSK IOWA-18",
             "commodityGroup": "86",
             "shipper": "MSC",
             "nTEU": 2,
@@ -406,18 +406,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-19",
+            "name": "50-MAERSK IOWA-19",
             "commodityGroup": "35",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "GUATEMALA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -427,18 +427,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-20",
+            "name": "50-MAERSK IOWA-20",
             "commodityGroup": "48",
             "shipper": "MSC",
             "nTEU": 18,
-            "origin": "ITALY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -448,18 +448,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-21",
+            "name": "50-MAERSK IOWA-21",
             "commodityGroup": "49",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "ITALY",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -469,14 +469,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-22",
+            "name": "50-MAERSK IOWA-22",
             "commodityGroup": "64",
             "shipper": "FIT",
             "nTEU": 2,
@@ -490,18 +490,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-23",
+            "name": "50-MAERSK IOWA-23",
             "commodityGroup": "89",
             "shipper": "MSC",
             "nTEU": 15,
-            "origin": "ITALY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -511,14 +511,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-24",
+            "name": "50-MAERSK IOWA-24",
             "commodityGroup": "40",
             "shipper": "MSC",
             "nTEU": 1,
@@ -532,14 +532,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-25",
+            "name": "50-MAERSK IOWA-25",
             "commodityGroup": "70",
             "shipper": "MSC",
             "nTEU": 1,
@@ -553,14 +553,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-26",
+            "name": "50-MAERSK IOWA-26",
             "commodityGroup": "76",
             "shipper": "MSC",
             "nTEU": 2,
@@ -574,18 +574,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-27",
+            "name": "50-MAERSK IOWA-27",
             "commodityGroup": "4",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "COLOMBIA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -595,14 +595,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-28",
+            "name": "50-MAERSK IOWA-28",
             "commodityGroup": "18",
             "shipper": "MSC",
             "nTEU": 10,
@@ -616,18 +616,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-29",
+            "name": "50-MAERSK IOWA-29",
             "commodityGroup": "69",
             "shipper": "MSC",
             "nTEU": 5,
-            "origin": "ITALY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -637,18 +637,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-30",
+            "name": "50-MAERSK IOWA-30",
             "commodityGroup": "95",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "HAITI",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -658,79 +658,16 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-31",
+            "name": "50-MAERSK IOWA-31",
             "commodityGroup": "33",
             "shipper": "MSC",
-            "nTEU": 2,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-32",
-            "commodityGroup": "57",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-33",
-            "commodityGroup": "94",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 12960,
-            "LDT": 20160,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "50-vesselName-34",
-            "commodityGroup": "29",
-            "shipper": "FIT",
             "nTEU": 2,
             "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
@@ -742,18 +679,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-35",
-            "commodityGroup": "87",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "ITALY",
+            "name": "50-MAERSK IOWA-32",
+            "commodityGroup": "57",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -763,18 +700,81 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "98c37594-9824-4702-873c-2396ea3939bc",
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "50-vesselName-36",
+            "name": "50-MAERSK IOWA-33",
+            "commodityGroup": "94",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-34",
+            "commodityGroup": "29",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-35",
+            "commodityGroup": "87",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 12960,
+            "LDT": 20160,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "845c5918-01f0-4aef-a96b-4db719c70d50",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "50-MAERSK IOWA-36",
             "commodityGroup": "",
             "shipper": "MSC",
             "nTEU": 21,
-            "origin": "PANAMA",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         }
     ]

@@ -7,18 +7,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-0",
+            "name": "116-DUBLIN EXPRESS-0",
             "commodityGroup": "72",
             "shipper": "Hamburg-Sud",
             "nTEU": 11.39,
-            "origin": "UNITED KINGDOM",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,18 +28,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-1",
+            "name": "116-DUBLIN EXPRESS-1",
             "commodityGroup": "8",
             "shipper": "CMA CGM",
             "nTEU": 25.75,
-            "origin": "GUATEMALA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,14 +49,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-2",
+            "name": "116-DUBLIN EXPRESS-2",
             "commodityGroup": "42",
             "shipper": "CMA CGM",
             "nTEU": 24.0,
@@ -70,18 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-3",
+            "name": "116-DUBLIN EXPRESS-3",
             "commodityGroup": "7",
             "shipper": "HAPAG LLOYD",
             "nTEU": 10.0,
-            "origin": "GUATEMALA",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,18 +91,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-4",
+            "name": "116-DUBLIN EXPRESS-4",
             "commodityGroup": "15",
             "shipper": "Hamburg-Sud",
             "nTEU": 6.0,
-            "origin": "SPAIN-S",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,17 +112,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-5",
+            "name": "116-DUBLIN EXPRESS-5",
             "commodityGroup": "61",
             "shipper": "HAPAG LLOYD",
             "nTEU": 1.0,
+            "origin": "NICARAGUA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-6",
+            "commodityGroup": "",
+            "shipper": "CMA CGM",
+            "nTEU": 4.0,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -133,39 +154,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-6",
-            "commodityGroup": "",
-            "shipper": "CMA CGM",
-            "nTEU": 4.0,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-7",
+            "name": "116-DUBLIN EXPRESS-7",
             "commodityGroup": "2",
             "shipper": "Hamburg-Sud",
             "nTEU": 12.0,
-            "origin": "GERMANY",
+            "origin": "NICARAGUA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,14 +175,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-8",
+            "name": "116-DUBLIN EXPRESS-8",
             "commodityGroup": "6",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 28.45,
@@ -196,17 +196,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-9",
+            "name": "116-DUBLIN EXPRESS-9",
             "commodityGroup": "20",
             "shipper": "CMA CGM",
             "nTEU": 1.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-10",
+            "commodityGroup": "19",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 11.0,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-11",
+            "commodityGroup": "62",
+            "shipper": "HAPAG LLOYD",
+            "nTEU": 2.0,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -217,56 +259,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-10",
-            "commodityGroup": "19",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 11.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-11",
-            "commodityGroup": "62",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 2.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-12",
+            "name": "116-DUBLIN EXPRESS-12",
             "commodityGroup": "70",
             "shipper": "Hamburg-Sud",
             "nTEU": 12.4,
@@ -280,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-13",
+            "name": "116-DUBLIN EXPRESS-13",
             "commodityGroup": "44",
             "shipper": "Hamburg-Sud",
             "nTEU": 25.59,
-            "origin": "HONDURAS",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,18 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-14",
+            "name": "116-DUBLIN EXPRESS-14",
             "commodityGroup": "69",
             "shipper": "CMA CGM",
             "nTEU": 0.01,
-            "origin": "ECUADOR",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,18 +322,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-15",
+            "name": "116-DUBLIN EXPRESS-15",
             "commodityGroup": "68",
             "shipper": "CMA CGM",
             "nTEU": 3.74,
-            "origin": "BAHAMAS",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -343,18 +343,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-16",
+            "name": "116-DUBLIN EXPRESS-16",
             "commodityGroup": "95",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -364,14 +364,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-17",
+            "name": "116-DUBLIN EXPRESS-17",
             "commodityGroup": "14",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
@@ -385,18 +385,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-18",
+            "name": "116-DUBLIN EXPRESS-18",
             "commodityGroup": "22",
             "shipper": "CMA CGM",
             "nTEU": 11.0,
-            "origin": "BELGIUM",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,14 +406,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-19",
+            "name": "116-DUBLIN EXPRESS-19",
             "commodityGroup": "12",
             "shipper": "Hamburg-Sud",
             "nTEU": 1.0,
@@ -427,18 +427,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-20",
+            "name": "116-DUBLIN EXPRESS-20",
             "commodityGroup": "94",
             "shipper": "HAPAG LLOYD",
             "nTEU": 6.0,
-            "origin": "COLOMBIA",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -448,18 +448,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-21",
+            "name": "116-DUBLIN EXPRESS-21",
             "commodityGroup": "40",
             "shipper": "Hamburg-Sud",
             "nTEU": 4.0,
-            "origin": "NICARAGUA",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -469,59 +469,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-22",
+            "name": "116-DUBLIN EXPRESS-22",
             "commodityGroup": "76",
             "shipper": "Hamburg-Sud",
             "nTEU": 22.0,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-23",
-            "commodityGroup": "3",
-            "shipper": "AMERICAN PRESIDENT LINES",
-            "nTEU": 2.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-24",
-            "commodityGroup": "25",
-            "shipper": "CMA CGM",
-            "nTEU": 5.0,
             "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
@@ -532,18 +490,60 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-25",
+            "name": "116-DUBLIN EXPRESS-23",
+            "commodityGroup": "3",
+            "shipper": "AMERICAN PRESIDENT LINES",
+            "nTEU": 2.0,
+            "origin": "PERU",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-24",
+            "commodityGroup": "25",
+            "shipper": "CMA CGM",
+            "nTEU": 5.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-25",
             "commodityGroup": "48",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "BRAZIL",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -553,18 +553,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-26",
+            "name": "116-DUBLIN EXPRESS-26",
             "commodityGroup": "49",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.33,
-            "origin": "BRAZIL",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -574,14 +574,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-27",
+            "name": "116-DUBLIN EXPRESS-27",
             "commodityGroup": "58",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.01,
@@ -595,18 +595,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-28",
+            "name": "116-DUBLIN EXPRESS-28",
             "commodityGroup": "21",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "PORTUGAL",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -616,18 +616,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-29",
+            "name": "116-DUBLIN EXPRESS-29",
             "commodityGroup": "28",
             "shipper": "HAPAG LLOYD",
             "nTEU": 3.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -637,18 +637,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-30",
+            "name": "116-DUBLIN EXPRESS-30",
             "commodityGroup": "87",
             "shipper": "Hamburg-Sud",
             "nTEU": 3.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -658,38 +658,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-31",
+            "name": "116-DUBLIN EXPRESS-31",
             "commodityGroup": "31",
             "shipper": "HAPAG LLOYD",
             "nTEU": 1.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "116-vesselName-32",
-            "commodityGroup": "52",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 0.33,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -700,18 +679,39 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-33",
+            "name": "116-DUBLIN EXPRESS-32",
+            "commodityGroup": "52",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 0.33,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "116-DUBLIN EXPRESS-33",
             "commodityGroup": "73",
             "shipper": "Hamburg-Sud",
             "nTEU": 3.0,
-            "origin": "COLOMBIA",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -721,18 +721,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-34",
+            "name": "116-DUBLIN EXPRESS-34",
             "commodityGroup": "33",
             "shipper": "Hamburg-Sud",
             "nTEU": 1.0,
-            "origin": "COLOMBIA",
+            "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -742,14 +742,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-35",
+            "name": "116-DUBLIN EXPRESS-35",
             "commodityGroup": "10",
             "shipper": "Hamburg-Sud",
             "nTEU": 3.0,
@@ -763,18 +763,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-36",
+            "name": "116-DUBLIN EXPRESS-36",
             "commodityGroup": "63",
             "shipper": "Hamburg-Sud",
             "nTEU": 1.0,
-            "origin": "COLOMBIA",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -784,18 +784,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-37",
+            "name": "116-DUBLIN EXPRESS-37",
             "commodityGroup": "17",
             "shipper": "Hamburg-Sud",
             "nTEU": 6.0,
-            "origin": "GERMANY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -805,14 +805,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-38",
+            "name": "116-DUBLIN EXPRESS-38",
             "commodityGroup": "67",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 1.63,
@@ -826,18 +826,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f92fc39e-8338-49b0-af1c-0b3346551a02",
+            "group_uuid": "1392787d-2c07-48f3-a089-606ee0500313",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "116-vesselName-39",
+            "name": "116-DUBLIN EXPRESS-39",
             "commodityGroup": "84",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.77,
-            "origin": "GERMANY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         }
     ]

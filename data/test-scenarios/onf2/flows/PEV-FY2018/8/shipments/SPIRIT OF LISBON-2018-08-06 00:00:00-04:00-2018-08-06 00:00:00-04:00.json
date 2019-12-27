@@ -7,14 +7,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-0",
+            "name": "30-SPIRIT OF LISBON-0",
             "commodityGroup": "57",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.02,
@@ -28,18 +28,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-1",
+            "name": "30-SPIRIT OF LISBON-1",
             "commodityGroup": "70",
             "shipper": "HAPAG LLOYD",
             "nTEU": 2.0,
-            "origin": "BAHAMAS",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,18 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-2",
+            "name": "30-SPIRIT OF LISBON-2",
             "commodityGroup": "90",
             "shipper": "HAPAG LLOYD",
             "nTEU": 2.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,58 +70,16 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-3",
+            "name": "30-SPIRIT OF LISBON-3",
             "commodityGroup": "94",
             "shipper": "CMA CGM",
-            "nTEU": 4.0,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-4",
-            "commodityGroup": "40",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 7.0,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-5",
-            "commodityGroup": "48",
-            "shipper": "Hamburg-Sud",
             "nTEU": 4.0,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
@@ -133,14 +91,56 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-6",
+            "name": "30-SPIRIT OF LISBON-4",
+            "commodityGroup": "40",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 7.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-5",
+            "commodityGroup": "48",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 4.0,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-6",
             "commodityGroup": "76",
             "shipper": "HAPAG LLOYD",
             "nTEU": 20.0,
@@ -154,18 +154,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-7",
+            "name": "30-SPIRIT OF LISBON-7",
             "commodityGroup": "",
             "shipper": "HAPAG LLOYD",
             "nTEU": 9.23,
-            "origin": "VENEZUELA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,18 +175,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-8",
+            "name": "30-SPIRIT OF LISBON-8",
             "commodityGroup": "3",
             "shipper": "CMA CGM",
             "nTEU": 2.0,
-            "origin": "PANAMA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,18 +196,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-9",
+            "name": "30-SPIRIT OF LISBON-9",
             "commodityGroup": "73",
             "shipper": "Hamburg-Sud",
             "nTEU": 9.0,
-            "origin": "VIRGIN ISLAND",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,18 +217,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-10",
+            "name": "30-SPIRIT OF LISBON-10",
             "commodityGroup": "25",
             "shipper": "Hamburg-Sud",
             "nTEU": 25.0,
-            "origin": "COLOMBIA",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,14 +238,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-11",
+            "name": "30-SPIRIT OF LISBON-11",
             "commodityGroup": "85",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
@@ -259,18 +259,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-12",
+            "name": "30-SPIRIT OF LISBON-12",
             "commodityGroup": "6",
             "shipper": "HAPAG LLOYD",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -280,14 +280,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-13",
+            "name": "30-SPIRIT OF LISBON-13",
             "commodityGroup": "38",
             "shipper": "HAPAG LLOYD",
             "nTEU": 3.0,
@@ -301,18 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-14",
+            "name": "30-SPIRIT OF LISBON-14",
             "commodityGroup": "17",
             "shipper": "Hamburg-Sud",
             "nTEU": 15.0,
-            "origin": "COLOMBIA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,14 +322,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-15",
+            "name": "30-SPIRIT OF LISBON-15",
             "commodityGroup": "15",
             "shipper": "Hamburg-Sud",
             "nTEU": 6.0,
@@ -343,18 +343,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-16",
+            "name": "30-SPIRIT OF LISBON-16",
             "commodityGroup": "42",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "CHILE",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -364,14 +364,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-17",
+            "name": "30-SPIRIT OF LISBON-17",
             "commodityGroup": "47",
             "shipper": "Hamburg-Sud",
             "nTEU": 14.0,
@@ -385,18 +385,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-18",
+            "name": "30-SPIRIT OF LISBON-18",
             "commodityGroup": "82",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "SPAIN-S",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,18 +406,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-19",
+            "name": "30-SPIRIT OF LISBON-19",
             "commodityGroup": "2",
             "shipper": "Hamburg-Sud",
             "nTEU": 6.0,
-            "origin": "NICARAGUA",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -427,18 +427,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-20",
+            "name": "30-SPIRIT OF LISBON-20",
             "commodityGroup": "7",
             "shipper": "AMERICAN PRESIDENT LINES",
             "nTEU": 6.0,
-            "origin": "GUATEMALA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -448,14 +448,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-21",
+            "name": "30-SPIRIT OF LISBON-21",
             "commodityGroup": "9",
             "shipper": "CMA CGM",
             "nTEU": 16.0,
@@ -469,17 +469,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-22",
+            "name": "30-SPIRIT OF LISBON-22",
             "commodityGroup": "83",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.14,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-23",
+            "commodityGroup": "22",
+            "shipper": "CMA CGM",
+            "nTEU": 31.0,
+            "origin": "NETHERLANDS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-24",
+            "commodityGroup": "87",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 2.0,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
@@ -490,60 +532,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-23",
-            "commodityGroup": "22",
-            "shipper": "CMA CGM",
-            "nTEU": 31.0,
-            "origin": "BELGIUM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-24",
-            "commodityGroup": "87",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 2.0,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-25",
+            "name": "30-SPIRIT OF LISBON-25",
             "commodityGroup": "95",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 0.11,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "CAYMAN ISLANDS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -553,14 +553,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-26",
+            "name": "30-SPIRIT OF LISBON-26",
             "commodityGroup": "8",
             "shipper": "HAPAG LLOYD",
             "nTEU": 8.0,
@@ -574,14 +574,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-27",
+            "name": "30-SPIRIT OF LISBON-27",
             "commodityGroup": "62",
             "shipper": "HAPAG LLOYD",
             "nTEU": 4.0,
@@ -595,17 +595,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-28",
+            "name": "30-SPIRIT OF LISBON-28",
             "commodityGroup": "12",
             "shipper": "HAPAG LLOYD",
             "nTEU": 4.0,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-29",
+            "commodityGroup": "74",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 1.0,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -616,39 +637,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-29",
-            "commodityGroup": "74",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 1.0,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-30",
+            "name": "30-SPIRIT OF LISBON-30",
             "commodityGroup": "96",
             "shipper": "Hamburg-Sud",
             "nTEU": 4.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -658,14 +658,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-31",
+            "name": "30-SPIRIT OF LISBON-31",
             "commodityGroup": "19",
             "shipper": "Hamburg-Sud",
             "nTEU": 4.0,
@@ -679,18 +679,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-32",
+            "name": "30-SPIRIT OF LISBON-32",
             "commodityGroup": "20",
             "shipper": "HAPAG LLOYD",
             "nTEU": 5.0,
-            "origin": "VENEZUELA",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -700,18 +700,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-33",
+            "name": "30-SPIRIT OF LISBON-33",
             "commodityGroup": "30",
             "shipper": "CMA CGM",
             "nTEU": 4.0,
-            "origin": "CHILE",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -721,14 +721,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-34",
+            "name": "30-SPIRIT OF LISBON-34",
             "commodityGroup": "63",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.89,
@@ -742,18 +742,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-35",
+            "name": "30-SPIRIT OF LISBON-35",
             "commodityGroup": "29",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "BELGIUM",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -763,18 +763,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-36",
+            "name": "30-SPIRIT OF LISBON-36",
             "commodityGroup": "84",
             "shipper": "HAPAG LLOYD",
             "nTEU": 3.03,
-            "origin": "GERMANY",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -784,14 +784,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-37",
+            "name": "30-SPIRIT OF LISBON-37",
             "commodityGroup": "67",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 6.83,
@@ -805,80 +805,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-38",
+            "name": "30-SPIRIT OF LISBON-38",
             "commodityGroup": "52",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.7,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-39",
-            "commodityGroup": "39",
-            "shipper": "Maersk/Sealand.  (Containers)",
-            "nTEU": 2.0,
-            "origin": "NETHERLANDS ANTILLES",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-40",
-            "commodityGroup": "44",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 7.39,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-41",
-            "commodityGroup": "16",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 4.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -889,101 +826,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-42",
-            "commodityGroup": "34",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 4.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-43",
-            "commodityGroup": "61",
-            "shipper": "HAPAG LLOYD",
-            "nTEU": 1.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-44",
-            "commodityGroup": "14",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 2.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-45",
-            "commodityGroup": "69",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 8.0,
-            "origin": "PORTUGAL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 7200,
-            "LDT": 14400,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "30-vesselName-46",
-            "commodityGroup": "33",
+            "name": "30-SPIRIT OF LISBON-39",
+            "commodityGroup": "39",
             "shipper": "Maersk/Sealand.  (Containers)",
-            "nTEU": 1.0,
+            "nTEU": 2.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-40",
+            "commodityGroup": "44",
+            "shipper": "HAPAG LLOYD",
+            "nTEU": 7.39,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -994,18 +868,144 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-47",
+            "name": "30-SPIRIT OF LISBON-41",
+            "commodityGroup": "16",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 4.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-42",
+            "commodityGroup": "34",
+            "shipper": "HAPAG LLOYD",
+            "nTEU": 4.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-43",
+            "commodityGroup": "61",
+            "shipper": "HAPAG LLOYD",
+            "nTEU": 1.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-44",
+            "commodityGroup": "14",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 2.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-45",
+            "commodityGroup": "69",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 8.0,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-46",
+            "commodityGroup": "33",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 1.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "30-SPIRIT OF LISBON-47",
             "commodityGroup": "21",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "ITALY",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1015,18 +1015,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-48",
+            "name": "30-SPIRIT OF LISBON-48",
             "commodityGroup": "10",
             "shipper": "Hamburg-Sud",
             "nTEU": 2.0,
-            "origin": "ITALY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1036,14 +1036,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-49",
+            "name": "30-SPIRIT OF LISBON-49",
             "commodityGroup": "4",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 1.21,
@@ -1057,18 +1057,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-50",
+            "name": "30-SPIRIT OF LISBON-50",
             "commodityGroup": "68",
             "shipper": "Hamburg-Sud",
             "nTEU": 4.75,
-            "origin": "BRAZIL",
+            "origin": "PORTUGAL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1078,14 +1078,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-51",
+            "name": "30-SPIRIT OF LISBON-51",
             "commodityGroup": "11",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.14,
@@ -1099,14 +1099,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "3d7018fc-f5a0-4acd-8104-0a52fa702522",
+            "group_uuid": "1c1ae41c-dfcf-4099-b7dd-cf9688153be4",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "30-vesselName-52",
+            "name": "30-SPIRIT OF LISBON-52",
             "commodityGroup": "58",
             "shipper": "Hamburg-Sud",
             "nTEU": 0.02,

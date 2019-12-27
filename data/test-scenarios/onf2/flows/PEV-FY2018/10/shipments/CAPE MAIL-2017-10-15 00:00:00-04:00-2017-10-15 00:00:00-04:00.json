@@ -7,17 +7,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d56407d3-2111-4681-a24c-6e4bd824d7a0",
+            "group_uuid": "5f465e6c-35d5-40ae-8149-9f7f30131f77",
             "source": "Berth 21",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "63-vesselName-0",
+            "name": "63-CAPE MAIL-0",
             "commodityGroup": "94",
             "shipper": "MBC LINE (MARINE BULK CARRIERS)",
             "nTEU": 1.75,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 20160,
+            "LDT": 27360,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "5f465e6c-35d5-40ae-8149-9f7f30131f77",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "63-CAPE MAIL-1",
+            "commodityGroup": "87",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 3.5,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
@@ -28,39 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d56407d3-2111-4681-a24c-6e4bd824d7a0",
+            "group_uuid": "5f465e6c-35d5-40ae-8149-9f7f30131f77",
             "source": "Berth 21",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "63-vesselName-1",
-            "commodityGroup": "87",
-            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
-            "nTEU": 3.5,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 20160,
-            "LDT": 27360,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d56407d3-2111-4681-a24c-6e4bd824d7a0",
-            "source": "Berth 21",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "63-vesselName-2",
+            "name": "63-CAPE MAIL-2",
             "commodityGroup": "86",
             "shipper": "MBC LINE (MARINE BULK CARRIERS)",
             "nTEU": 0.0,
-            "origin": "GUATEMALA",
+            "origin": "TURKS AND CAICOS IS",
             "destination": "McIntosh Intersection"
         }
     ]

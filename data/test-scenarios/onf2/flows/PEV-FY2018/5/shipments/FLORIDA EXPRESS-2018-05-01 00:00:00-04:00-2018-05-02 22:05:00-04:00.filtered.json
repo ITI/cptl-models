@@ -7,17 +7,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a15eb5d1-132a-484e-aecf-3a45dbbeaa8d",
+            "group_uuid": "e5853ce1-4c3c-4ccc-849c-f4401afa3688",
             "source": "Berth 33",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "12-vesselName-0",
+            "name": "12-FLORIDA EXPRESS-0",
             "commodityGroup": "86",
             "shipper": "FIT",
             "nTEU": 0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 0,
+            "LDT": 7200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "e5853ce1-4c3c-4ccc-849c-f4401afa3688",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "12-FLORIDA EXPRESS-1",
+            "commodityGroup": "89",
+            "shipper": "FIT",
+            "nTEU": 4,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
@@ -28,39 +49,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "a15eb5d1-132a-484e-aecf-3a45dbbeaa8d",
+            "group_uuid": "e5853ce1-4c3c-4ccc-849c-f4401afa3688",
             "source": "Berth 33",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "12-vesselName-1",
-            "commodityGroup": "89",
-            "shipper": "FIT",
-            "nTEU": 4,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 0,
-            "LDT": 7200,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "a15eb5d1-132a-484e-aecf-3a45dbbeaa8d",
-            "source": "Berth 33",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "12-vesselName-2",
+            "name": "12-FLORIDA EXPRESS-2",
             "commodityGroup": "27",
             "shipper": "FIT",
             "nTEU": 7,
-            "origin": "PANAMA",
+            "origin": "VENEZUELA",
             "destination": "McIntosh Intersection"
         }
     ]

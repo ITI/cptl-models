@@ -7,17 +7,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6982f93b-68a8-4ca0-aa03-a09ddcf36c8b",
+            "group_uuid": "f6751711-ae31-441c-9568-b29d3c504785",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "8-vesselName-0",
+            "name": "8-MAERSK OHIO-0",
             "commodityGroup": "9",
             "shipper": "FIT",
             "nTEU": 4,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 1440,
+            "LDT": 8640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f6751711-ae31-441c-9568-b29d3c504785",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "8-MAERSK OHIO-1",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 4,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 1440,
+            "LDT": 8640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "f6751711-ae31-441c-9568-b29d3c504785",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "8-MAERSK OHIO-2",
+            "commodityGroup": "39",
+            "shipper": "FIT",
+            "nTEU": 2,
             "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
@@ -28,56 +70,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6982f93b-68a8-4ca0-aa03-a09ddcf36c8b",
+            "group_uuid": "f6751711-ae31-441c-9568-b29d3c504785",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "8-vesselName-1",
-            "commodityGroup": "84",
-            "shipper": "FIT",
-            "nTEU": 4,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 1440,
-            "LDT": 8640,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6982f93b-68a8-4ca0-aa03-a09ddcf36c8b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "8-vesselName-2",
-            "commodityGroup": "39",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 1440,
-            "LDT": 8640,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6982f93b-68a8-4ca0-aa03-a09ddcf36c8b",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "8-vesselName-3",
+            "name": "8-MAERSK OHIO-3",
             "commodityGroup": "",
             "shipper": "MSC",
             "nTEU": 2,
@@ -91,18 +91,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6982f93b-68a8-4ca0-aa03-a09ddcf36c8b",
+            "group_uuid": "f6751711-ae31-441c-9568-b29d3c504785",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "8-vesselName-4",
+            "name": "8-MAERSK OHIO-4",
             "commodityGroup": "85",
             "shipper": "FIT",
             "nTEU": 4,
-            "origin": "VENEZUELA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         }
     ]

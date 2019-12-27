@@ -7,14 +7,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-0",
+            "name": "64-MSC MONICA-0",
             "commodityGroup": "29",
             "shipper": "MSC",
             "nTEU": 3,
@@ -28,57 +28,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-1",
+            "name": "64-MSC MONICA-1",
             "commodityGroup": "49",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "ARGENTINA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-2",
-            "commodityGroup": "17",
-            "shipper": "MSC",
-            "nTEU": 2,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-3",
-            "commodityGroup": "82",
             "shipper": "MSC",
             "nTEU": 1,
             "origin": "UNITED KINGDOM",
@@ -91,17 +49,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-4",
-            "commodityGroup": "70",
+            "name": "64-MSC MONICA-2",
+            "commodityGroup": "17",
             "shipper": "MSC",
-            "nTEU": 59,
+            "nTEU": 2,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -112,18 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-5",
-            "commodityGroup": "39",
+            "name": "64-MSC MONICA-3",
+            "commodityGroup": "82",
             "shipper": "MSC",
-            "nTEU": 15,
-            "origin": "SPAIN-S",
+            "nTEU": 1,
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,14 +91,56 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-6",
+            "name": "64-MSC MONICA-4",
+            "commodityGroup": "70",
+            "shipper": "MSC",
+            "nTEU": 59,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-5",
+            "commodityGroup": "39",
+            "shipper": "MSC",
+            "nTEU": 15,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-6",
             "commodityGroup": "45",
             "shipper": "MSC",
             "nTEU": 11,
@@ -154,17 +154,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-7",
+            "name": "64-MSC MONICA-7",
             "commodityGroup": "84",
             "shipper": "MSC",
             "nTEU": 19,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-8",
+            "commodityGroup": "87",
+            "shipper": "MSC",
+            "nTEU": 7,
             "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
@@ -175,39 +196,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-8",
-            "commodityGroup": "87",
-            "shipper": "MSC",
-            "nTEU": 7,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-9",
+            "name": "64-MSC MONICA-9",
             "commodityGroup": "8",
             "shipper": "MSC",
             "nTEU": 5,
-            "origin": "GUATEMALA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,14 +217,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-10",
+            "name": "64-MSC MONICA-10",
             "commodityGroup": "16",
             "shipper": "MSC",
             "nTEU": 4,
@@ -238,18 +238,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-11",
+            "name": "64-MSC MONICA-11",
             "commodityGroup": "25",
             "shipper": "MSC",
             "nTEU": 150,
-            "origin": "ITALY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -259,14 +259,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-12",
+            "name": "64-MSC MONICA-12",
             "commodityGroup": "62",
             "shipper": "MSC",
             "nTEU": 2,
@@ -280,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-13",
+            "name": "64-MSC MONICA-13",
             "commodityGroup": "54",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "GUATEMALA",
+            "origin": "NICARAGUA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,18 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-14",
+            "name": "64-MSC MONICA-14",
             "commodityGroup": "63",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "GUATEMALA",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,18 +322,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-15",
+            "name": "64-MSC MONICA-15",
             "commodityGroup": "85",
             "shipper": "MSC",
             "nTEU": 6,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -343,18 +343,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-16",
+            "name": "64-MSC MONICA-16",
             "commodityGroup": "3",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "CHILE",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -364,80 +364,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-17",
+            "name": "64-MSC MONICA-17",
             "commodityGroup": "33",
             "shipper": "MSC",
             "nTEU": 16,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-18",
-            "commodityGroup": "60",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-19",
-            "commodityGroup": "21",
-            "shipper": "MSC",
-            "nTEU": 6,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-20",
-            "commodityGroup": "57",
-            "shipper": "MSC",
-            "nTEU": 1,
             "origin": "PORTUGAL",
             "destination": "McIntosh Intersection"
         },
@@ -448,14 +385,77 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-21",
+            "name": "64-MSC MONICA-18",
+            "commodityGroup": "60",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-19",
+            "commodityGroup": "21",
+            "shipper": "MSC",
+            "nTEU": 6,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-20",
+            "commodityGroup": "57",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-21",
             "commodityGroup": "10",
             "shipper": "MSC",
             "nTEU": 5,
@@ -469,17 +469,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-22",
+            "name": "64-MSC MONICA-22",
             "commodityGroup": "4",
             "shipper": "MSC",
             "nTEU": 4,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-23",
+            "commodityGroup": "52",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-24",
+            "commodityGroup": "7",
+            "shipper": "MSC",
+            "nTEU": 3,
             "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
@@ -490,60 +532,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-23",
-            "commodityGroup": "52",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-24",
-            "commodityGroup": "7",
-            "shipper": "MSC",
-            "nTEU": 3,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-25",
+            "name": "64-MSC MONICA-25",
             "commodityGroup": "44",
             "shipper": "MSC",
             "nTEU": 10,
-            "origin": "GERMANY",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -553,18 +553,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-26",
+            "name": "64-MSC MONICA-26",
             "commodityGroup": "22",
             "shipper": "MSC",
             "nTEU": 99,
-            "origin": "BRAZIL",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -574,14 +574,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-27",
+            "name": "64-MSC MONICA-27",
             "commodityGroup": "15",
             "shipper": "MSC",
             "nTEU": 14,
@@ -595,18 +595,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-28",
+            "name": "64-MSC MONICA-28",
             "commodityGroup": "20",
             "shipper": "MSC",
             "nTEU": 24,
-            "origin": "BRAZIL",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -616,18 +616,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-29",
+            "name": "64-MSC MONICA-29",
             "commodityGroup": "69",
             "shipper": "MSC",
             "nTEU": 115,
-            "origin": "BELGIUM",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -637,14 +637,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-30",
+            "name": "64-MSC MONICA-30",
             "commodityGroup": "94",
             "shipper": "MSC",
             "nTEU": 75,
@@ -658,18 +658,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-31",
+            "name": "64-MSC MONICA-31",
             "commodityGroup": "40",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "NETHERLANDS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -679,99 +679,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-32",
+            "name": "64-MSC MONICA-32",
             "commodityGroup": "76",
-            "shipper": "MSC",
-            "nTEU": 20,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-33",
-            "commodityGroup": "27",
-            "shipper": "MSC",
-            "nTEU": 2,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-34",
-            "commodityGroup": "81",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-35",
-            "commodityGroup": "",
-            "shipper": "MSC",
-            "nTEU": 44,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-36",
-            "commodityGroup": "19",
             "shipper": "MSC",
             "nTEU": 20,
             "origin": "GERMANY",
@@ -784,18 +700,102 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-37",
+            "name": "64-MSC MONICA-33",
+            "commodityGroup": "27",
+            "shipper": "MSC",
+            "nTEU": 2,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-34",
+            "commodityGroup": "81",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-35",
+            "commodityGroup": "",
+            "shipper": "MSC",
+            "nTEU": 44,
+            "origin": "NETHERLANDS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-36",
+            "commodityGroup": "19",
+            "shipper": "MSC",
+            "nTEU": 20,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-37",
             "commodityGroup": "72",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "BAHAMAS",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -805,38 +805,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-38",
+            "name": "64-MSC MONICA-38",
             "commodityGroup": "23",
             "shipper": "MSC",
             "nTEU": 3,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-39",
-            "commodityGroup": "24",
-            "shipper": "MSC",
-            "nTEU": 2,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -847,14 +826,35 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-40",
+            "name": "64-MSC MONICA-39",
+            "commodityGroup": "24",
+            "shipper": "MSC",
+            "nTEU": 2,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-40",
             "commodityGroup": "68",
             "shipper": "MSC",
             "nTEU": 19,
@@ -868,17 +868,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-41",
+            "name": "64-MSC MONICA-41",
             "commodityGroup": "42",
             "shipper": "MSC",
             "nTEU": 10,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 17280,
+            "LDT": 24480,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "64-MSC MONICA-42",
+            "commodityGroup": "12",
+            "shipper": "MSC",
+            "nTEU": 1,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -889,35 +910,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-42",
-            "commodityGroup": "12",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 17280,
-            "LDT": 24480,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "64-vesselName-43",
+            "name": "64-MSC MONICA-43",
             "commodityGroup": "83",
             "shipper": "MSC",
             "nTEU": 8,
@@ -931,14 +931,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-44",
+            "name": "64-MSC MONICA-44",
             "commodityGroup": "11",
             "shipper": "MSC",
             "nTEU": 3,
@@ -952,18 +952,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-45",
+            "name": "64-MSC MONICA-45",
             "commodityGroup": "89",
             "shipper": "MSC",
             "nTEU": 20,
-            "origin": "ITALY",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -973,18 +973,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-46",
+            "name": "64-MSC MONICA-46",
             "commodityGroup": "34",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "GUATEMALA",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -994,14 +994,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-47",
+            "name": "64-MSC MONICA-47",
             "commodityGroup": "71",
             "shipper": "MSC",
             "nTEU": 1,
@@ -1015,14 +1015,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-48",
+            "name": "64-MSC MONICA-48",
             "commodityGroup": "73",
             "shipper": "MSC",
             "nTEU": 24,
@@ -1036,18 +1036,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-49",
+            "name": "64-MSC MONICA-49",
             "commodityGroup": "32",
             "shipper": "MSC",
             "nTEU": 12,
-            "origin": "COLOMBIA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1057,18 +1057,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-50",
+            "name": "64-MSC MONICA-50",
             "commodityGroup": "97",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "UNITED KINGDOM",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1078,14 +1078,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-51",
+            "name": "64-MSC MONICA-51",
             "commodityGroup": "48",
             "shipper": "MSC",
             "nTEU": 49,
@@ -1099,18 +1099,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c43866b3-78eb-4ab8-aa3a-b9db9973a7bd",
+            "group_uuid": "0fd0ee1e-e346-46ef-a608-20fb1a083a46",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "64-vesselName-52",
+            "name": "64-MSC MONICA-52",
             "commodityGroup": "95",
             "shipper": "MSC",
             "nTEU": 8,
-            "origin": "UNITED KINGDOM",
+            "origin": "NETHERLANDS",
             "destination": "McIntosh Intersection"
         }
     ]

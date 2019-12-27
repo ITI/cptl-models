@@ -7,18 +7,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-0",
+            "name": "104-MSC VITTORIA-0",
             "commodityGroup": "44",
             "shipper": "MSC",
             "nTEU": 13.6,
-            "origin": "BAHAMAS",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,18 +28,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-1",
+            "name": "104-MSC VITTORIA-1",
             "commodityGroup": "49",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "UNITED KINGDOM",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,17 +49,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-2",
+            "name": "104-MSC VITTORIA-2",
             "commodityGroup": "64",
             "shipper": "MAERSK LINE",
             "nTEU": 1.74,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-3",
+            "commodityGroup": "82",
+            "shipper": "MSC",
+            "nTEU": 1.55,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -70,35 +91,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-3",
-            "commodityGroup": "82",
-            "shipper": "MSC",
-            "nTEU": 1.55,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-4",
+            "name": "104-MSC VITTORIA-4",
             "commodityGroup": "15",
             "shipper": "MAERSK LINE",
             "nTEU": 1.74,
@@ -112,18 +112,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-5",
+            "name": "104-MSC VITTORIA-5",
             "commodityGroup": "23",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "HONDURAS",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,14 +133,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-6",
+            "name": "104-MSC VITTORIA-6",
             "commodityGroup": "25",
             "shipper": "MAERSK LINE",
             "nTEU": 2.0,
@@ -154,14 +154,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-7",
+            "name": "104-MSC VITTORIA-7",
             "commodityGroup": "68",
             "shipper": "MSC",
             "nTEU": 28.0,
@@ -175,18 +175,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-8",
+            "name": "104-MSC VITTORIA-8",
             "commodityGroup": "12",
             "shipper": "MSC",
             "nTEU": 0.67,
-            "origin": "COLOMBIA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,18 +196,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-9",
+            "name": "104-MSC VITTORIA-9",
             "commodityGroup": "94",
             "shipper": "MAERSK LINE",
             "nTEU": 4.75,
-            "origin": "COLOMBIA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,18 +217,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-10",
+            "name": "104-MSC VITTORIA-10",
             "commodityGroup": "9",
             "shipper": "MAERSK LINE",
             "nTEU": 1.75,
-            "origin": "COLOMBIA",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,14 +238,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-11",
+            "name": "104-MSC VITTORIA-11",
             "commodityGroup": "11",
             "shipper": "MAERSK LINE",
             "nTEU": 7.01,
@@ -259,14 +259,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-12",
+            "name": "104-MSC VITTORIA-12",
             "commodityGroup": "48",
             "shipper": "MSC",
             "nTEU": 8.37,
@@ -280,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-13",
+            "name": "104-MSC VITTORIA-13",
             "commodityGroup": "83",
             "shipper": "MSC",
             "nTEU": 4.19,
-            "origin": "VENEZUELA",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,17 +301,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-14",
+            "name": "104-MSC VITTORIA-14",
             "commodityGroup": "87",
             "shipper": "MSC",
             "nTEU": 10.57,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-15",
+            "commodityGroup": "22",
+            "shipper": "MSC",
+            "nTEU": 103.59,
             "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
@@ -322,35 +343,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-15",
-            "commodityGroup": "22",
-            "shipper": "MSC",
-            "nTEU": 103.59,
-            "origin": "NETHERLANDS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-16",
+            "name": "104-MSC VITTORIA-16",
             "commodityGroup": "45",
             "shipper": "MSC",
             "nTEU": 3.0,
@@ -364,18 +364,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-17",
+            "name": "104-MSC VITTORIA-17",
             "commodityGroup": "8",
             "shipper": "MSC",
             "nTEU": 4.0,
-            "origin": "COLOMBIA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -385,18 +385,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-18",
+            "name": "104-MSC VITTORIA-18",
             "commodityGroup": "89",
             "shipper": "MAERSK LINE",
             "nTEU": 6.0,
-            "origin": "ITALY",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,17 +406,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-19",
+            "name": "104-MSC VITTORIA-19",
             "commodityGroup": "34",
             "shipper": "MSC",
             "nTEU": 3.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-20",
+            "commodityGroup": "72",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-21",
+            "commodityGroup": "73",
+            "shipper": "MSC",
+            "nTEU": 15.42,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -427,57 +469,36 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-20",
-            "commodityGroup": "72",
-            "shipper": "MSC",
-            "nTEU": 2.0,
-            "origin": "HAITI",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-21",
-            "commodityGroup": "73",
-            "shipper": "MSC",
-            "nTEU": 15.42,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-22",
+            "name": "104-MSC VITTORIA-22",
             "commodityGroup": "27",
+            "shipper": "MSC",
+            "nTEU": 1.0,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-23",
+            "commodityGroup": "32",
             "shipper": "MSC",
             "nTEU": 1.0,
             "origin": "HONDURAS",
@@ -490,39 +511,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-23",
-            "commodityGroup": "32",
-            "shipper": "MSC",
-            "nTEU": 1.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-24",
+            "name": "104-MSC VITTORIA-24",
             "commodityGroup": "95",
             "shipper": "MSC",
             "nTEU": 5.48,
-            "origin": "GERMANY",
+            "origin": "NETHERLANDS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -532,14 +532,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-25",
+            "name": "104-MSC VITTORIA-25",
             "commodityGroup": "29",
             "shipper": "MSC",
             "nTEU": 4.0,
@@ -553,14 +553,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-26",
+            "name": "104-MSC VITTORIA-26",
             "commodityGroup": "33",
             "shipper": "MSC",
             "nTEU": 9.8,
@@ -574,18 +574,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-27",
+            "name": "104-MSC VITTORIA-27",
             "commodityGroup": "84",
             "shipper": "MAERSK LINE",
             "nTEU": 6.55,
-            "origin": "PORTUGAL",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -595,18 +595,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-28",
+            "name": "104-MSC VITTORIA-28",
             "commodityGroup": "88",
             "shipper": "MSC",
             "nTEU": 4.0,
-            "origin": "ITALY",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -616,18 +616,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-29",
+            "name": "104-MSC VITTORIA-29",
             "commodityGroup": "70",
             "shipper": "MAERSK LINE",
             "nTEU": 5.95,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -637,14 +637,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-30",
+            "name": "104-MSC VITTORIA-30",
             "commodityGroup": "76",
             "shipper": "MSC",
             "nTEU": 2.5,
@@ -658,18 +658,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-31",
+            "name": "104-MSC VITTORIA-31",
             "commodityGroup": "39",
             "shipper": "MAERSK LINE",
             "nTEU": 0.24,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -679,18 +679,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-32",
+            "name": "104-MSC VITTORIA-32",
             "commodityGroup": "",
             "shipper": "MAERSK LINE",
             "nTEU": 7.51,
-            "origin": "TURKS AND CAICOS IS",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -700,18 +700,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-33",
+            "name": "104-MSC VITTORIA-33",
             "commodityGroup": "16",
             "shipper": "MSC",
             "nTEU": 0.5,
-            "origin": "CHILE",
+            "origin": "ECUADOR",
             "destination": "McIntosh Intersection"
         },
         {
@@ -721,18 +721,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-34",
+            "name": "104-MSC VITTORIA-34",
             "commodityGroup": "63",
             "shipper": "MSC",
             "nTEU": 3.0,
-            "origin": "BRAZIL",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -742,14 +742,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-35",
+            "name": "104-MSC VITTORIA-35",
             "commodityGroup": "90",
             "shipper": "MSC",
             "nTEU": 2.19,
@@ -763,18 +763,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-36",
+            "name": "104-MSC VITTORIA-36",
             "commodityGroup": "56",
             "shipper": "MSC",
             "nTEU": 0.19,
-            "origin": "GUATEMALA",
+            "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -784,18 +784,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-37",
+            "name": "104-MSC VITTORIA-37",
             "commodityGroup": "69",
             "shipper": "Hamburg-Sud",
             "nTEU": 7.02,
-            "origin": "ITALY",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -805,18 +805,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-38",
+            "name": "104-MSC VITTORIA-38",
             "commodityGroup": "21",
             "shipper": "MSC",
             "nTEU": 10.0,
-            "origin": "BAHAMAS",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -826,14 +826,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-39",
+            "name": "104-MSC VITTORIA-39",
             "commodityGroup": "4",
             "shipper": "MSC",
             "nTEU": 2.0,
@@ -847,122 +847,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-40",
+            "name": "104-MSC VITTORIA-40",
             "commodityGroup": "10",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-41",
-            "commodityGroup": "38",
-            "shipper": "MSC",
-            "nTEU": 2.0,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-42",
-            "commodityGroup": "93",
-            "shipper": "MSC",
-            "nTEU": 0.92,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-43",
-            "commodityGroup": "7",
-            "shipper": "MSC",
-            "nTEU": 19.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-44",
-            "commodityGroup": "53",
-            "shipper": "MSC",
-            "nTEU": 10.0,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 38880,
-            "LDT": 46080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "104-vesselName-45",
-            "commodityGroup": "85",
-            "shipper": "MSC",
-            "nTEU": 3.88,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
@@ -973,14 +868,119 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-46",
+            "name": "104-MSC VITTORIA-41",
+            "commodityGroup": "38",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-42",
+            "commodityGroup": "93",
+            "shipper": "MSC",
+            "nTEU": 0.92,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-43",
+            "commodityGroup": "7",
+            "shipper": "MSC",
+            "nTEU": 19.0,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-44",
+            "commodityGroup": "53",
+            "shipper": "MSC",
+            "nTEU": 10.0,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-45",
+            "commodityGroup": "85",
+            "shipper": "MSC",
+            "nTEU": 3.88,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "104-MSC VITTORIA-46",
             "commodityGroup": "20",
             "shipper": "MSC",
             "nTEU": 34.16,
@@ -994,18 +994,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-47",
+            "name": "104-MSC VITTORIA-47",
             "commodityGroup": "35",
             "shipper": "MSC",
             "nTEU": 1.19,
-            "origin": "ITALY",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1015,18 +1015,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-48",
+            "name": "104-MSC VITTORIA-48",
             "commodityGroup": "40",
             "shipper": "MSC",
             "nTEU": 8.0,
-            "origin": "COSTA RICA",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1036,18 +1036,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-49",
+            "name": "104-MSC VITTORIA-49",
             "commodityGroup": "42",
             "shipper": "Hamburg-Sud",
             "nTEU": 1.0,
-            "origin": "CHILE",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -1057,14 +1057,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-50",
+            "name": "104-MSC VITTORIA-50",
             "commodityGroup": "18",
             "shipper": "MSC",
             "nTEU": 2.0,
@@ -1078,18 +1078,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "82630e0d-98cb-41d8-a345-47b0b2e58c55",
+            "group_uuid": "7e5b2ccf-a3d3-4350-8a05-1dc4384164d5",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "104-vesselName-51",
+            "name": "104-MSC VITTORIA-51",
             "commodityGroup": "19",
             "shipper": "MSC",
             "nTEU": 22.0,
-            "origin": "GERMANY",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         }
     ]

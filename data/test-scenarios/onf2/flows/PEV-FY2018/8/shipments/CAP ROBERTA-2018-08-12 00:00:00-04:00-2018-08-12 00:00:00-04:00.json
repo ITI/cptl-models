@@ -7,17 +7,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "30028577-5554-48fe-b3e6-54746698edc3",
+            "group_uuid": "962e6dad-8931-4766-9512-023b4e0c9344",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "60-vesselName-0",
+            "name": "60-CAP ROBERTA-0",
             "commodityGroup": "20",
             "shipper": "Hamburg-Sud",
             "nTEU": 8.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "962e6dad-8931-4766-9512-023b4e0c9344",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "60-CAP ROBERTA-1",
+            "commodityGroup": "3",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 14.0,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
@@ -28,35 +49,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "30028577-5554-48fe-b3e6-54746698edc3",
+            "group_uuid": "962e6dad-8931-4766-9512-023b4e0c9344",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "60-vesselName-1",
-            "commodityGroup": "3",
-            "shipper": "Maersk/Sealand.  (Containers)",
-            "nTEU": 14.0,
-            "origin": "ECUADOR",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "30028577-5554-48fe-b3e6-54746698edc3",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "60-vesselName-2",
+            "name": "60-CAP ROBERTA-2",
             "commodityGroup": "8",
             "shipper": "AMERICAN PRESIDENT LINES",
             "nTEU": 4.0,
@@ -70,18 +70,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "30028577-5554-48fe-b3e6-54746698edc3",
+            "group_uuid": "962e6dad-8931-4766-9512-023b4e0c9344",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "60-vesselName-3",
+            "name": "60-CAP ROBERTA-3",
             "commodityGroup": "44",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 10.0,
-            "origin": "BELGIUM",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,14 +91,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "30028577-5554-48fe-b3e6-54746698edc3",
+            "group_uuid": "962e6dad-8931-4766-9512-023b4e0c9344",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "60-vesselName-4",
+            "name": "60-CAP ROBERTA-4",
             "commodityGroup": "76",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 2.0,

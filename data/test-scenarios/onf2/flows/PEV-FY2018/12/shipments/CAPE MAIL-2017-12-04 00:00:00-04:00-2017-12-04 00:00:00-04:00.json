@@ -7,38 +7,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "739e2507-be3f-4194-90ee-98974fc91844",
+            "group_uuid": "c09a9f64-29dc-4905-8812-fae7e889ca82",
             "source": "Berth 21",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "16-vesselName-0",
+            "name": "16-CAPE MAIL-0",
             "commodityGroup": "",
             "shipper": "MBC LINE (MARINE BULK CARRIERS)",
             "nTEU": 1.75,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "739e2507-be3f-4194-90ee-98974fc91844",
-            "source": "Berth 21",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "16-vesselName-1",
-            "commodityGroup": "86",
-            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
-            "nTEU": 0.0,
             "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
@@ -49,18 +28,39 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "739e2507-be3f-4194-90ee-98974fc91844",
+            "group_uuid": "c09a9f64-29dc-4905-8812-fae7e889ca82",
             "source": "Berth 21",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "16-vesselName-2",
+            "name": "16-CAPE MAIL-1",
+            "commodityGroup": "86",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "c09a9f64-29dc-4905-8812-fae7e889ca82",
+            "source": "Berth 21",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "16-CAPE MAIL-2",
             "commodityGroup": "87",
             "shipper": "MBC LINE (MARINE BULK CARRIERS)",
             "nTEU": 1.75,
-            "origin": "ITALY",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         }
     ]

@@ -7,18 +7,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "36-vesselName-0",
+            "name": "36-PELAGIC EXPRESS-0",
             "commodityGroup": "86",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 16.0,
-            "origin": "GUATEMALA",
+            "origin": "TURKS AND CAICOS IS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,18 +28,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "36-vesselName-1",
+            "name": "36-PELAGIC EXPRESS-1",
             "commodityGroup": "39",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.67,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,14 +49,14 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "36-vesselName-2",
+            "name": "36-PELAGIC EXPRESS-2",
             "commodityGroup": "90",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.02,
@@ -70,17 +70,38 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "36-vesselName-3",
+            "name": "36-PELAGIC EXPRESS-3",
             "commodityGroup": "85",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 0.65,
+            "origin": "LEEWARD AND WINDWARD",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 14400,
+            "LDT": 21600,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "36-PELAGIC EXPRESS-4",
+            "commodityGroup": "95",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 1.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -91,39 +112,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
+            "group_uuid": "df2244a2-9fd4-4ce5-bb2f-b6ac020b9a3b",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "36-vesselName-4",
-            "commodityGroup": "95",
-            "shipper": "Seacor Marine Inc.",
-            "nTEU": 1.0,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 14400,
-            "LDT": 21600,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "11ba84e0-0e8f-4c4d-a6ba-f71e98c5c469",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "36-vesselName-5",
+            "name": "36-PELAGIC EXPRESS-5",
             "commodityGroup": "84",
             "shipper": "Seacor Marine Inc.",
             "nTEU": 1.67,
-            "origin": "GERMANY",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         }
     ]

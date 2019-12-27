@@ -7,38 +7,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "301d6492-1add-407e-b4d3-82a440fcc157",
+            "group_uuid": "3cec9055-5996-4be5-b00b-c923562b00d4",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "23-vesselName-0",
+            "name": "23-DOLE CALIFORNIA-0",
             "commodityGroup": "21",
             "shipper": "FIT",
             "nTEU": 1,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "301d6492-1add-407e-b4d3-82a440fcc157",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "23-vesselName-1",
-            "commodityGroup": "8",
-            "shipper": "FIT",
-            "nTEU": 100,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -49,18 +28,39 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "301d6492-1add-407e-b4d3-82a440fcc157",
+            "group_uuid": "3cec9055-5996-4be5-b00b-c923562b00d4",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "23-vesselName-2",
+            "name": "23-DOLE CALIFORNIA-1",
+            "commodityGroup": "8",
+            "shipper": "FIT",
+            "nTEU": 100,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "3cec9055-5996-4be5-b00b-c923562b00d4",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "23-DOLE CALIFORNIA-2",
             "commodityGroup": "7",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "GUATEMALA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         }
     ]
