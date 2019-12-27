@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "29",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "COSTA RICA",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "84",
             "shipper": "FIT",
             "nTEU": 11,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -81,6 +81,48 @@
             "commodityGroup": "",
             "shipper": "MSC",
             "nTEU": 8,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-4",
+            "commodityGroup": "28",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-5",
+            "commodityGroup": "90",
+            "shipper": "FIT",
+            "nTEU": 2,
             "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
@@ -91,16 +133,100 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "15-MAERSK KENTUCKY-4",
-            "commodityGroup": "28",
+            "name": "15-MAERSK KENTUCKY-6",
+            "commodityGroup": "48",
+            "shipper": "FIT",
+            "nTEU": 6,
+            "origin": "COSTA RICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-7",
+            "commodityGroup": "94",
             "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-8",
+            "commodityGroup": "89",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-9",
+            "commodityGroup": "4",
+            "shipper": "FIT",
+            "nTEU": 4,
+            "origin": "PERU",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-10",
+            "commodityGroup": "69",
+            "shipper": "FIT",
             "nTEU": 1,
             "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
@@ -112,133 +238,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-5",
-            "commodityGroup": "90",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "DOMINICAN REPUBLIC",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-6",
-            "commodityGroup": "48",
-            "shipper": "FIT",
-            "nTEU": 6,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-7",
-            "commodityGroup": "94",
-            "shipper": "MSC",
-            "nTEU": 1,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-8",
-            "commodityGroup": "89",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "GLF MEX",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-9",
-            "commodityGroup": "4",
-            "shipper": "FIT",
-            "nTEU": 4,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-10",
-            "commodityGroup": "69",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "PERU",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -249,7 +249,7 @@
             "commodityGroup": "33",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "UNITED KINGDOM",
+            "origin": "JAMAICA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -259,7 +259,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -270,7 +270,7 @@
             "commodityGroup": "85",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "VENEZUELA",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -280,7 +280,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -291,7 +291,7 @@
             "commodityGroup": "20",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "ARGENTINA",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,7 +301,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -312,7 +312,7 @@
             "commodityGroup": "76",
             "shipper": "FIT",
             "nTEU": 58,
-            "origin": "ECUADOR",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -322,7 +322,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -343,7 +343,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -354,7 +354,7 @@
             "commodityGroup": "39",
             "shipper": "FIT",
             "nTEU": 4,
-            "origin": "VENEZUELA",
+            "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -364,7 +364,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -375,7 +375,7 @@
             "commodityGroup": "2",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "CHILE",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -385,7 +385,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -396,7 +396,7 @@
             "commodityGroup": "44",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "PANAMA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,7 +406,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -427,7 +427,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -438,27 +438,6 @@
             "commodityGroup": "22",
             "shipper": "MSC",
             "nTEU": 138,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 4320,
-            "LDT": 11520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "15-MAERSK KENTUCKY-21",
-            "commodityGroup": "49",
-            "shipper": "MSC",
-            "nTEU": 1,
             "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
@@ -469,7 +448,28 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "15-MAERSK KENTUCKY-21",
+            "commodityGroup": "49",
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "ECUADOR",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 4320,
+            "LDT": 11520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -480,7 +480,7 @@
             "commodityGroup": "70",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "COLOMBIA",
+            "origin": "URUGUAY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -490,7 +490,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -501,7 +501,7 @@
             "commodityGroup": "9",
             "shipper": "MSC",
             "nTEU": 2,
-            "origin": "BELGIUM",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -511,7 +511,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -532,7 +532,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -543,7 +543,7 @@
             "commodityGroup": "83",
             "shipper": "MSC",
             "nTEU": 1,
-            "origin": "GERMANY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -553,7 +553,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -574,7 +574,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -585,7 +585,7 @@
             "commodityGroup": "68",
             "shipper": "FIT",
             "nTEU": 3,
-            "origin": "BAHAMAS",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -595,7 +595,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -606,7 +606,7 @@
             "commodityGroup": "42",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "PANAMA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -616,7 +616,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "64fd9bd5-b9cf-40c7-ac85-9f9364042db8",
+            "group_uuid": "251dc967-0546-4dc3-a6d3-ab9e1f9dd06b",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -627,7 +627,7 @@
             "commodityGroup": "57",
             "shipper": "MSC",
             "nTEU": 4,
-            "origin": "SPAIN-S",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         }
     ]

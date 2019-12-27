@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7e19a95b-0149-4e42-9b80-15d81396adda",
+            "group_uuid": "6c46dc63-6c29-42f6-b941-0883f5d4fd60",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -17,6 +17,48 @@
             "name": "127-CAP REINGA-0",
             "commodityGroup": "8",
             "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 4.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6c46dc63-6c29-42f6-b941-0883f5d4fd60",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "127-CAP REINGA-1",
+            "commodityGroup": "19",
+            "shipper": "Hamburg-Sud",
+            "nTEU": 2.01,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6c46dc63-6c29-42f6-b941-0883f5d4fd60",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "127-CAP REINGA-2",
+            "commodityGroup": "20",
+            "shipper": "Hamburg-Sud",
             "nTEU": 4.0,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
@@ -28,49 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7e19a95b-0149-4e42-9b80-15d81396adda",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "127-CAP REINGA-1",
-            "commodityGroup": "19",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 2.01,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 36000,
-            "LDT": 43200,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "7e19a95b-0149-4e42-9b80-15d81396adda",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "127-CAP REINGA-2",
-            "commodityGroup": "20",
-            "shipper": "Hamburg-Sud",
-            "nTEU": 4.0,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 36000,
-            "LDT": 43200,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "7e19a95b-0149-4e42-9b80-15d81396adda",
+            "group_uuid": "6c46dc63-6c29-42f6-b941-0883f5d4fd60",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -81,7 +81,7 @@
             "commodityGroup": "3",
             "shipper": "AMERICAN PRESIDENT LINES",
             "nTEU": 2.0,
-            "origin": "CHILE",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         }
     ]

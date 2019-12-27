@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7905ee5d-fc22-452d-9e4b-2717322276f3",
+            "group_uuid": "28c0ae00-220c-4736-96f5-8fb0631522d9",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "86",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 87.5,
-            "origin": "COSTA RICA",
+            "origin": "CAYMAN ISLANDS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7905ee5d-fc22-452d-9e4b-2717322276f3",
+            "group_uuid": "28c0ae00-220c-4736-96f5-8fb0631522d9",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "44",
             "shipper": "Crowley",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7905ee5d-fc22-452d-9e4b-2717322276f3",
+            "group_uuid": "28c0ae00-220c-4736-96f5-8fb0631522d9",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -58,6 +58,27 @@
             ],
             "name": "78-CARIBE NAVIGATOR-2",
             "commodityGroup": "",
+            "shipper": "HYBUR SHIPPING",
+            "nTEU": 1.0,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 25700,
+            "LDT": 32900,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "28c0ae00-220c-4736-96f5-8fb0631522d9",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "78-CARIBE NAVIGATOR-3",
+            "commodityGroup": "81",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 1.0,
             "origin": "ITALY",
@@ -70,28 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "7905ee5d-fc22-452d-9e4b-2717322276f3",
-            "source": "Berth 16",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "78-CARIBE NAVIGATOR-3",
-            "commodityGroup": "81",
-            "shipper": "HYBUR SHIPPING",
-            "nTEU": 1.0,
-            "origin": "MEXICO",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 25700,
-            "LDT": 32900,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "7905ee5d-fc22-452d-9e4b-2717322276f3",
+            "group_uuid": "28c0ae00-220c-4736-96f5-8fb0631522d9",
             "source": "Berth 16",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "73",
             "shipper": "HYBUR SHIPPING",
             "nTEU": 2.0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "NETHERLANDS ANTILLES",
             "destination": "McIntosh Intersection"
         }
     ]

@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -18,6 +18,27 @@
             "commodityGroup": "19",
             "shipper": "FIT",
             "nTEU": 1,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 14400,
+            "LDT": 21600,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "47-BF LETICIA-1",
+            "commodityGroup": "",
+            "shipper": "FIT",
+            "nTEU": 2,
             "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
@@ -28,15 +49,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "47-BF LETICIA-1",
-            "commodityGroup": "",
+            "name": "47-BF LETICIA-2",
+            "commodityGroup": "39",
             "shipper": "FIT",
             "nTEU": 2,
             "origin": "DOMINICAN REPUBLIC",
@@ -49,28 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "47-BF LETICIA-2",
-            "commodityGroup": "39",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 14400,
-            "LDT": 21600,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "3",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "HONDURAS",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -123,7 +123,7 @@
             "commodityGroup": "86",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "BELGIUM",
+            "origin": "PUERTO RICO",
             "destination": "McIntosh Intersection"
         },
         {
@@ -133,7 +133,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -144,7 +144,7 @@
             "commodityGroup": "8",
             "shipper": "FIT",
             "nTEU": 231,
-            "origin": "HONDURAS",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -154,7 +154,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -165,7 +165,7 @@
             "commodityGroup": "22",
             "shipper": "FIT",
             "nTEU": 4,
-            "origin": "BELGIUM",
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -175,7 +175,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "8da8eba0-c85c-43e4-83aa-191fe27dc44e",
+            "group_uuid": "633d847a-8e6c-43e8-b8e9-0b56189d933c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -186,7 +186,7 @@
             "commodityGroup": "12",
             "shipper": "FIT",
             "nTEU": 1,
-            "origin": "GUATEMALA",
+            "origin": "COSTA RICA",
             "destination": "McIntosh Intersection"
         }
     ]

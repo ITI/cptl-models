@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "22",
             "shipper": "MSC",
             "nTEU": 1.75,
-            "origin": "ITALY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "33",
             "shipper": "MSC",
             "nTEU": 10.0,
-            "origin": "PANAMA",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "34",
             "shipper": "ZIM CONTAINER",
             "nTEU": 1.0,
-            "origin": "ITALY",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -81,7 +81,7 @@
             "commodityGroup": "94",
             "shipper": "MSC",
             "nTEU": 3.5,
-            "origin": "GERMANY",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "25",
             "shipper": "MSC",
             "nTEU": 14.04,
-            "origin": "ITALY",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -123,27 +123,6 @@
             "commodityGroup": "19",
             "shipper": "MSC",
             "nTEU": 3.05,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-6",
-            "commodityGroup": "68",
-            "shipper": "MSC",
-            "nTEU": 7.89,
             "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
@@ -154,38 +133,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "19-MSC MARTA-7",
-            "commodityGroup": "69",
+            "name": "19-MSC MARTA-6",
+            "commodityGroup": "68",
             "shipper": "MSC",
-            "nTEU": 32.64,
-            "origin": "PERU",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-8",
-            "commodityGroup": "9",
-            "shipper": "MSC",
-            "nTEU": 1.0,
+            "nTEU": 7.89,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
@@ -196,7 +154,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-7",
+            "commodityGroup": "69",
+            "shipper": "MSC",
+            "nTEU": 32.64,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-8",
+            "commodityGroup": "9",
+            "shipper": "MSC",
+            "nTEU": 1.0,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -207,7 +207,7 @@
             "commodityGroup": "",
             "shipper": "MSC",
             "nTEU": 3.75,
-            "origin": "GERMANY",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,7 +217,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -228,7 +228,7 @@
             "commodityGroup": "73",
             "shipper": "MSC",
             "nTEU": 0.0,
-            "origin": "TURKS AND CAICOS IS",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,7 +238,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -259,7 +259,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -270,111 +270,6 @@
             "commodityGroup": "83",
             "shipper": "MSC",
             "nTEU": 0.08,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-13",
-            "commodityGroup": "87",
-            "shipper": "MSC",
-            "nTEU": 2.68,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-14",
-            "commodityGroup": "16",
-            "shipper": "MSC",
-            "nTEU": 1.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-15",
-            "commodityGroup": "8",
-            "shipper": "MSC",
-            "nTEU": 4.0,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-16",
-            "commodityGroup": "48",
-            "shipper": "MSC",
-            "nTEU": 0.07,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-17",
-            "commodityGroup": "90",
-            "shipper": "MSC",
-            "nTEU": 2.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -385,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "19-MSC MARTA-18",
-            "commodityGroup": "49",
+            "name": "19-MSC MARTA-13",
+            "commodityGroup": "87",
             "shipper": "MSC",
-            "nTEU": 0.86,
-            "origin": "ITALY",
+            "nTEU": 2.68,
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -406,18 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "19-MSC MARTA-19",
-            "commodityGroup": "3",
+            "name": "19-MSC MARTA-14",
+            "commodityGroup": "16",
             "shipper": "MSC",
-            "nTEU": 0.86,
-            "origin": "PORTUGAL",
+            "nTEU": 1.0,
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -427,36 +322,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "19-MSC MARTA-20",
-            "commodityGroup": "20",
-            "shipper": "MSC",
-            "nTEU": 6.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 5760,
-            "LDT": 12960,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "19-MSC MARTA-21",
-            "commodityGroup": "70",
+            "name": "19-MSC MARTA-15",
+            "commodityGroup": "8",
             "shipper": "MSC",
             "nTEU": 4.0,
             "origin": "SPAIN-S",
@@ -469,7 +343,133 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-16",
+            "commodityGroup": "48",
+            "shipper": "MSC",
+            "nTEU": 0.07,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-17",
+            "commodityGroup": "90",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-18",
+            "commodityGroup": "49",
+            "shipper": "MSC",
+            "nTEU": 0.86,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-19",
+            "commodityGroup": "3",
+            "shipper": "MSC",
+            "nTEU": 0.86,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-20",
+            "commodityGroup": "20",
+            "shipper": "MSC",
+            "nTEU": 6.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "19-MSC MARTA-21",
+            "commodityGroup": "70",
+            "shipper": "MSC",
+            "nTEU": 4.0,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 5760,
+            "LDT": 12960,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -480,7 +480,7 @@
             "commodityGroup": "10",
             "shipper": "MSC",
             "nTEU": 4.0,
-            "origin": "BRAZIL",
+            "origin": "CHILE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -490,7 +490,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -511,7 +511,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8b71de8-db79-4a63-bca0-f272bdaffd55",
+            "group_uuid": "70ce555f-b124-48cb-a753-556eb0ad9f8c",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",

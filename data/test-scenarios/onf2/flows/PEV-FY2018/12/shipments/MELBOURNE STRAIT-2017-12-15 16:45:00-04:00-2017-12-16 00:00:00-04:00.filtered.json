@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2ab901a-a934-42eb-80ed-a498b93a04ca",
+            "group_uuid": "7ad3b5b6-ddb1-420b-9b83-a7d9586a6d4c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -16,6 +16,48 @@
             ],
             "name": "76-MELBOURNE STRAIT-0",
             "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21165,
+            "LDT": 28365,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7ad3b5b6-ddb1-420b-9b83-a7d9586a6d4c",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "76-MELBOURNE STRAIT-1",
+            "commodityGroup": "72",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "VIRGIN ISLAND",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 21165,
+            "LDT": 28365,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "7ad3b5b6-ddb1-420b-9b83-a7d9586a6d4c",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "76-MELBOURNE STRAIT-2",
+            "commodityGroup": "82",
             "shipper": "FIT",
             "nTEU": 1,
             "origin": "BAHAMAS",
@@ -28,49 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2ab901a-a934-42eb-80ed-a498b93a04ca",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "76-MELBOURNE STRAIT-1",
-            "commodityGroup": "72",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "NETHERLANDS ANTILLES",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 21165,
-            "LDT": 28365,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f2ab901a-a934-42eb-80ed-a498b93a04ca",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "76-MELBOURNE STRAIT-2",
-            "commodityGroup": "82",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 21165,
-            "LDT": 28365,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "f2ab901a-a934-42eb-80ed-a498b93a04ca",
+            "group_uuid": "7ad3b5b6-ddb1-420b-9b83-a7d9586a6d4c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -81,7 +81,7 @@
             "commodityGroup": "86",
             "shipper": "Crowley",
             "nTEU": 0,
-            "origin": "CAYMAN ISLANDS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "f2ab901a-a934-42eb-80ed-a498b93a04ca",
+            "group_uuid": "7ad3b5b6-ddb1-420b-9b83-a7d9586a6d4c",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "87",
             "shipper": "FIT",
             "nTEU": 1,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         }
     ]

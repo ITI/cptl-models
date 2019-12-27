@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "39",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "BELGIUM",
+            "origin": "ITALY",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "73",
             "shipper": "FIT",
             "nTEU": 10,
-            "origin": "BAHAMAS",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "86",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "CAYMAN ISLANDS",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -81,69 +81,6 @@
             "commodityGroup": "8",
             "shipper": "FIT",
             "nTEU": 296,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "137-CHIQUITA EXPRESS-4",
-            "commodityGroup": "48",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "137-CHIQUITA EXPRESS-5",
-            "commodityGroup": "22",
-            "shipper": "FIT",
-            "nTEU": 4,
-            "origin": "NETHERLANDS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 40320,
-            "LDT": 47520,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "137-CHIQUITA EXPRESS-6",
-            "commodityGroup": "20",
-            "shipper": "FIT",
-            "nTEU": 23,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -154,17 +91,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "137-CHIQUITA EXPRESS-7",
-            "commodityGroup": "44",
+            "name": "137-CHIQUITA EXPRESS-4",
+            "commodityGroup": "48",
             "shipper": "FIT",
-            "nTEU": 8,
+            "nTEU": 1,
             "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
@@ -175,7 +112,70 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "137-CHIQUITA EXPRESS-5",
+            "commodityGroup": "22",
+            "shipper": "FIT",
+            "nTEU": 4,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "137-CHIQUITA EXPRESS-6",
+            "commodityGroup": "20",
+            "shipper": "FIT",
+            "nTEU": 23,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "137-CHIQUITA EXPRESS-7",
+            "commodityGroup": "44",
+            "shipper": "FIT",
+            "nTEU": 8,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -186,7 +186,7 @@
             "commodityGroup": "7",
             "shipper": "FIT",
             "nTEU": 4,
-            "origin": "HONDURAS",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,7 +196,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "d8a90213-45ee-41b7-9904-cf259a8eb64a",
+            "group_uuid": "67d7e721-450b-43c5-b402-4856bab548e0",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -207,7 +207,7 @@
             "commodityGroup": "42",
             "shipper": "FIT",
             "nTEU": 0,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         }
     ]

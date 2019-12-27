@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "29",
             "shipper": "ZIM CONTAINER",
             "nTEU": 1.0,
-            "origin": "SPAIN-S",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -39,7 +39,7 @@
             "commodityGroup": "95",
             "shipper": "MSC",
             "nTEU": 3.09,
-            "origin": "DOMINICAN REPUBLIC",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -81,7 +81,7 @@
             "commodityGroup": "25",
             "shipper": "MSC",
             "nTEU": 40.74,
-            "origin": "PANAMA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -102,48 +102,6 @@
             "commodityGroup": "48",
             "shipper": "ZIM CONTAINER",
             "nTEU": 2.0,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-5",
-            "commodityGroup": "49",
-            "shipper": "ZIM CONTAINER",
-            "nTEU": 0.26,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-6",
-            "commodityGroup": "3",
-            "shipper": "MSC",
-            "nTEU": 34.91,
             "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
@@ -154,7 +112,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-5",
+            "commodityGroup": "49",
+            "shipper": "ZIM CONTAINER",
+            "nTEU": 0.26,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-6",
+            "commodityGroup": "3",
+            "shipper": "MSC",
+            "nTEU": 34.91,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -175,7 +175,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -186,153 +186,6 @@
             "commodityGroup": "64",
             "shipper": "MSC",
             "nTEU": 7.72,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-9",
-            "commodityGroup": "82",
-            "shipper": "MSC",
-            "nTEU": 0.5,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-10",
-            "commodityGroup": "70",
-            "shipper": "ZIM CONTAINER",
-            "nTEU": 8.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-11",
-            "commodityGroup": "39",
-            "shipper": "MSC",
-            "nTEU": 4.08,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-12",
-            "commodityGroup": "84",
-            "shipper": "MSC",
-            "nTEU": 3.25,
-            "origin": "ECUADOR",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-13",
-            "commodityGroup": "8",
-            "shipper": "MSC",
-            "nTEU": 6.97,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-14",
-            "commodityGroup": "74",
-            "shipper": "MSC",
-            "nTEU": 2.0,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-15",
-            "commodityGroup": "33",
-            "shipper": "MSC",
-            "nTEU": 7.0,
             "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
@@ -343,122 +196,17 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-16",
-            "commodityGroup": "85",
+            "name": "27-MSC KRYSTAL-9",
+            "commodityGroup": "82",
             "shipper": "MSC",
-            "nTEU": 6.0,
-            "origin": "BAHAMAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-17",
-            "commodityGroup": "27",
-            "shipper": "ZIM CONTAINER",
-            "nTEU": 1.0,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-18",
-            "commodityGroup": "10",
-            "shipper": "MSC",
-            "nTEU": 16.0,
-            "origin": "PANAMA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-19",
-            "commodityGroup": "20",
-            "shipper": "MSC",
-            "nTEU": 74.78,
-            "origin": "BRAZIL",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-20",
-            "commodityGroup": "21",
-            "shipper": "MSC",
-            "nTEU": 5.01,
-            "origin": "JAMAICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-21",
-            "commodityGroup": "4",
-            "shipper": "MSC",
-            "nTEU": 11.0,
+            "nTEU": 0.5,
             "origin": "UNITED KINGDOM",
             "destination": "McIntosh Intersection"
         },
@@ -469,17 +217,59 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-22",
-            "commodityGroup": "87",
+            "name": "27-MSC KRYSTAL-10",
+            "commodityGroup": "70",
+            "shipper": "ZIM CONTAINER",
+            "nTEU": 8.0,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-11",
+            "commodityGroup": "39",
             "shipper": "MSC",
-            "nTEU": 2.0,
+            "nTEU": 4.08,
+            "origin": "SPAIN-S",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-12",
+            "commodityGroup": "84",
+            "shipper": "MSC",
+            "nTEU": 3.25,
             "origin": "GERMANY",
             "destination": "McIntosh Intersection"
         },
@@ -490,18 +280,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-23",
-            "commodityGroup": "38",
+            "name": "27-MSC KRYSTAL-13",
+            "commodityGroup": "8",
             "shipper": "MSC",
-            "nTEU": 3.87,
-            "origin": "HONDURAS",
+            "nTEU": 6.97,
+            "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -511,39 +301,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-24",
-            "commodityGroup": "69",
-            "shipper": "MSC",
-            "nTEU": 20.19,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-25",
-            "commodityGroup": "2",
+            "name": "27-MSC KRYSTAL-14",
+            "commodityGroup": "74",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
+            "origin": "NETHERLANDS ANTILLES",
             "destination": "McIntosh Intersection"
         },
         {
@@ -553,36 +322,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-26",
-            "commodityGroup": "7",
-            "shipper": "MSC",
-            "nTEU": 2.0,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-27",
-            "commodityGroup": "28",
+            "name": "27-MSC KRYSTAL-15",
+            "commodityGroup": "33",
             "shipper": "MSC",
             "nTEU": 7.0,
             "origin": "BELGIUM",
@@ -595,17 +343,122 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "27-MSC KRYSTAL-28",
-            "commodityGroup": "44",
+            "name": "27-MSC KRYSTAL-16",
+            "commodityGroup": "85",
             "shipper": "MSC",
-            "nTEU": 290.6,
+            "nTEU": 6.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-17",
+            "commodityGroup": "27",
+            "shipper": "ZIM CONTAINER",
+            "nTEU": 1.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-18",
+            "commodityGroup": "10",
+            "shipper": "MSC",
+            "nTEU": 16.0,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-19",
+            "commodityGroup": "20",
+            "shipper": "MSC",
+            "nTEU": 74.78,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-20",
+            "commodityGroup": "21",
+            "shipper": "MSC",
+            "nTEU": 5.01,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-21",
+            "commodityGroup": "4",
+            "shipper": "MSC",
+            "nTEU": 11.0,
             "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
@@ -616,7 +469,154 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-22",
+            "commodityGroup": "87",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-23",
+            "commodityGroup": "38",
+            "shipper": "MSC",
+            "nTEU": 3.87,
+            "origin": "BARBADOS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-24",
+            "commodityGroup": "69",
+            "shipper": "MSC",
+            "nTEU": 20.19,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-25",
+            "commodityGroup": "2",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-26",
+            "commodityGroup": "7",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-27",
+            "commodityGroup": "28",
+            "shipper": "MSC",
+            "nTEU": 7.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-28",
+            "commodityGroup": "44",
+            "shipper": "MSC",
+            "nTEU": 290.6,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -627,7 +627,7 @@
             "commodityGroup": "22",
             "shipper": "MSC",
             "nTEU": 1.75,
-            "origin": "GERMANY",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         },
         {
@@ -637,7 +637,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -648,7 +648,7 @@
             "commodityGroup": "94",
             "shipper": "MSC",
             "nTEU": 27.5,
-            "origin": "COLOMBIA",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -658,7 +658,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -669,7 +669,7 @@
             "commodityGroup": "11",
             "shipper": "MSC",
             "nTEU": 2.75,
-            "origin": "TRINIDAD AND TOBAGO",
+            "origin": "VENEZUELA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -679,7 +679,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -690,90 +690,6 @@
             "commodityGroup": "40",
             "shipper": "MSC",
             "nTEU": 2.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-33",
-            "commodityGroup": "19",
-            "shipper": "MSC",
-            "nTEU": 0.99,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-34",
-            "commodityGroup": "73",
-            "shipper": "MSC",
-            "nTEU": 2.64,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-35",
-            "commodityGroup": "23",
-            "shipper": "MSC",
-            "nTEU": 0.44,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 8640,
-            "LDT": 15840,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
-            "source": "Berth 32",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "27-MSC KRYSTAL-36",
-            "commodityGroup": "68",
-            "shipper": "MSC",
-            "nTEU": 7.26,
             "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
@@ -784,7 +700,91 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "6273b32a-32b5-4687-aee0-e9b3128d8c8f",
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-33",
+            "commodityGroup": "19",
+            "shipper": "MSC",
+            "nTEU": 0.99,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-34",
+            "commodityGroup": "73",
+            "shipper": "MSC",
+            "nTEU": 2.64,
+            "origin": "LEEWARD AND WINDWARD",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-35",
+            "commodityGroup": "23",
+            "shipper": "MSC",
+            "nTEU": 0.44,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-MSC KRYSTAL-36",
+            "commodityGroup": "68",
+            "shipper": "MSC",
+            "nTEU": 7.26,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 8640,
+            "LDT": 15840,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "84595227-29c5-4e7c-a4e6-8b83176b67c8",
             "source": "Berth 32",
             "transportation_methods": [
                 "Roadway",
@@ -795,7 +795,7 @@
             "commodityGroup": "9",
             "shipper": "MSC",
             "nTEU": 12.0,
-            "origin": "NICARAGUA",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         }
     ]

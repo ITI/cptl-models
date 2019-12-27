@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "9",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 1.72,
-            "origin": "VENEZUELA",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -60,7 +60,7 @@
             "commodityGroup": "73",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 0.0,
-            "origin": "VIRGIN ISLAND",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -91,7 +91,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -102,7 +102,7 @@
             "commodityGroup": "30",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 3.5,
-            "origin": "GUATEMALA",
+            "origin": "VIRGIN ISLAND",
             "destination": "McIntosh Intersection"
         },
         {
@@ -112,7 +112,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -123,48 +123,6 @@
             "commodityGroup": "3",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 6.0,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "8-MAERSK WEYMOUTH-6",
-            "commodityGroup": "10",
-            "shipper": "Maersk/Sealand.  (Containers)",
-            "nTEU": 1.0,
-            "origin": "CHILE",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 2880,
-            "LDT": 10080,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
-            "source": "Berth 31",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "8-MAERSK WEYMOUTH-7",
-            "commodityGroup": "62",
-            "shipper": "Maersk/Sealand.  (Containers)",
-            "nTEU": 1.0,
             "origin": "GUATEMALA",
             "destination": "McIntosh Intersection"
         },
@@ -175,7 +133,49 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "8-MAERSK WEYMOUTH-6",
+            "commodityGroup": "10",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 1.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "8-MAERSK WEYMOUTH-7",
+            "commodityGroup": "62",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 1.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -186,7 +186,7 @@
             "commodityGroup": "2",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 16.0,
-            "origin": "NICARAGUA",
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,7 +196,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -207,7 +207,7 @@
             "commodityGroup": "85",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 2.0,
-            "origin": "BAHAMAS",
+            "origin": "DOMINICAN REPUBLIC",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,7 +217,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -228,7 +228,7 @@
             "commodityGroup": "",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 1.28,
-            "origin": "SPAIN-S",
+            "origin": "HONDURAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,7 +238,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "187d538e-0715-436a-a9dd-323a062007da",
+            "group_uuid": "e7b029c0-441a-4052-b9d9-b9e47566de01",
             "source": "Berth 31",
             "transportation_methods": [
                 "Roadway",
@@ -249,7 +249,7 @@
             "commodityGroup": "7",
             "shipper": "Maersk/Sealand.  (Containers)",
             "nTEU": 2.0,
-            "origin": "NICARAGUA",
+            "origin": "PERU",
             "destination": "McIntosh Intersection"
         }
     ]

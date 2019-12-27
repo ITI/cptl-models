@@ -7,7 +7,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -18,7 +18,7 @@
             "commodityGroup": "68",
             "shipper": "FIT",
             "nTEU": 9,
-            "origin": "BAHAMAS",
+            "origin": "VENEZUELA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -28,7 +28,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -49,7 +49,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -70,7 +70,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -81,90 +81,6 @@
             "commodityGroup": "69",
             "shipper": "FIT",
             "nTEU": 15,
-            "origin": "COLOMBIA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-4",
-            "commodityGroup": "9",
-            "shipper": "FIT",
-            "nTEU": 7,
-            "origin": "BELGIUM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-5",
-            "commodityGroup": "22",
-            "shipper": "FIT",
-            "nTEU": 6,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-6",
-            "commodityGroup": "85",
-            "shipper": "FIT",
-            "nTEU": 6,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-7",
-            "commodityGroup": "94",
-            "shipper": "FIT",
-            "nTEU": 5,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
@@ -175,7 +91,91 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-4",
+            "commodityGroup": "9",
+            "shipper": "FIT",
+            "nTEU": 7,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-5",
+            "commodityGroup": "22",
+            "shipper": "FIT",
+            "nTEU": 6,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-6",
+            "commodityGroup": "85",
+            "shipper": "FIT",
+            "nTEU": 6,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-7",
+            "commodityGroup": "94",
+            "shipper": "FIT",
+            "nTEU": 5,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -186,7 +186,7 @@
             "commodityGroup": "",
             "shipper": "FIT",
             "nTEU": 9,
-            "origin": "VENEZUELA",
+            "origin": "NICARAGUA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -196,7 +196,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -207,7 +207,7 @@
             "commodityGroup": "73",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "COLOMBIA",
+            "origin": "LEEWARD AND WINDWARD",
             "destination": "McIntosh Intersection"
         },
         {
@@ -217,7 +217,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -228,7 +228,7 @@
             "commodityGroup": "21",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "COLOMBIA",
+            "origin": "BELIZE",
             "destination": "McIntosh Intersection"
         },
         {
@@ -238,7 +238,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -249,7 +249,7 @@
             "commodityGroup": "25",
             "shipper": "FIT",
             "nTEU": 33,
-            "origin": "PORTUGAL",
+            "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
         {
@@ -259,7 +259,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -270,7 +270,7 @@
             "commodityGroup": "10",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "PERU",
+            "origin": "BAHAMAS",
             "destination": "McIntosh Intersection"
         },
         {
@@ -280,7 +280,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -291,7 +291,7 @@
             "commodityGroup": "48",
             "shipper": "FIT",
             "nTEU": 2,
-            "origin": "BELGIUM",
+            "origin": "SPAIN-S",
             "destination": "McIntosh Intersection"
         },
         {
@@ -301,7 +301,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -322,7 +322,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -333,153 +333,6 @@
             "commodityGroup": "17",
             "shipper": "FIT",
             "nTEU": 1,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-16",
-            "commodityGroup": "64",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-17",
-            "commodityGroup": "3",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "SPAIN-S",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-18",
-            "commodityGroup": "70",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "UNITED KINGDOM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-19",
-            "commodityGroup": "63",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "GUATEMALA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-20",
-            "commodityGroup": "90",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "COSTA RICA",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-21",
-            "commodityGroup": "33",
-            "shipper": "FIT",
-            "nTEU": 2,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-22",
-            "commodityGroup": "19",
-            "shipper": "FIT",
-            "nTEU": 14,
             "origin": "BRAZIL",
             "destination": "McIntosh Intersection"
         },
@@ -490,18 +343,18 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "45-MONTE AZUL-23",
-            "commodityGroup": "20",
+            "name": "45-MONTE AZUL-16",
+            "commodityGroup": "64",
             "shipper": "FIT",
-            "nTEU": 8,
-            "origin": "COSTA RICA",
+            "nTEU": 2,
+            "origin": "COLOMBIA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -511,162 +364,15 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
                 "Sea",
                 "Transloading"
             ],
-            "name": "45-MONTE AZUL-24",
-            "commodityGroup": "29",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "BELGIUM",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-25",
-            "commodityGroup": "38",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "HONDURAS",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-26",
-            "commodityGroup": "84",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-27",
-            "commodityGroup": "87",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "VIRGIN ISLAND",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-28",
-            "commodityGroup": "16",
-            "shipper": "FIT",
-            "nTEU": 5,
-            "origin": "ITALY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-29",
-            "commodityGroup": "12",
-            "shipper": "FIT",
-            "nTEU": 1,
-            "origin": "NETHERLANDS ANTILLES",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-30",
-            "commodityGroup": "76",
-            "shipper": "FIT",
-            "nTEU": 5,
-            "origin": "GERMANY",
-            "destination": "McIntosh Intersection"
-        },
-        {
-            "EAT": 15840,
-            "LDT": 23040,
-            "cargo_categories": [
-                "Non-hazardous"
-            ],
-            "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
-            "source": "Berth 30",
-            "transportation_methods": [
-                "Roadway",
-                "Sea",
-                "Transloading"
-            ],
-            "name": "45-MONTE AZUL-31",
-            "commodityGroup": "2",
+            "name": "45-MONTE AZUL-17",
+            "commodityGroup": "3",
             "shipper": "FIT",
             "nTEU": 2,
             "origin": "CHILE",
@@ -679,7 +385,301 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-18",
+            "commodityGroup": "70",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-19",
+            "commodityGroup": "63",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-20",
+            "commodityGroup": "90",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-21",
+            "commodityGroup": "33",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "UNITED KINGDOM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-22",
+            "commodityGroup": "19",
+            "shipper": "FIT",
+            "nTEU": 14,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-23",
+            "commodityGroup": "20",
+            "shipper": "FIT",
+            "nTEU": 8,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-24",
+            "commodityGroup": "29",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "GUATEMALA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-25",
+            "commodityGroup": "38",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "BRAZIL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-26",
+            "commodityGroup": "84",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-27",
+            "commodityGroup": "87",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-28",
+            "commodityGroup": "16",
+            "shipper": "FIT",
+            "nTEU": 5,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-29",
+            "commodityGroup": "12",
+            "shipper": "FIT",
+            "nTEU": 1,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-30",
+            "commodityGroup": "76",
+            "shipper": "FIT",
+            "nTEU": 5,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "45-MONTE AZUL-31",
+            "commodityGroup": "2",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "GERMANY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -690,7 +690,7 @@
             "commodityGroup": "11",
             "shipper": "FIT",
             "nTEU": 7,
-            "origin": "ITALY",
+            "origin": "PANAMA",
             "destination": "McIntosh Intersection"
         },
         {
@@ -700,7 +700,7 @@
                 "Non-hazardous"
             ],
             "delay_cost": null,
-            "group_uuid": "c6e490d1-4018-4507-957b-d466ed069a4c",
+            "group_uuid": "778c3064-3e42-4b84-a3d4-0c2847edfbb9",
             "source": "Berth 30",
             "transportation_methods": [
                 "Roadway",
@@ -711,7 +711,7 @@
             "commodityGroup": "88",
             "shipper": "FIT",
             "nTEU": 6,
-            "origin": "ITALY",
+            "origin": "BELGIUM",
             "destination": "McIntosh Intersection"
         }
     ]
