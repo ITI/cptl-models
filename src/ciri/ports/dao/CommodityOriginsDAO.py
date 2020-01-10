@@ -62,6 +62,7 @@ class CSVCommodityOriginsDAO():
         return result
     
     def computeCommodityGroupIntervals(self, odDf):
+        #commoditiesODDf = odDf.groupby(['commodityGroup', 'origin'], as_index=False).agg({'nTEU':'sum'})
         commoditiesODDf = odDf.groupby(['commodityGroup', 'origin'], as_index=False).agg({'nTEU':'sum'})
         commodityGroupDf = odDf.groupby(['commodityGroup'], as_index=False).agg({'nTEU':'sum'})
 

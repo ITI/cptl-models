@@ -52,7 +52,7 @@ def main(argv):
     minTime = int(argv[1])
     maxTime = int(argv[2])
     
-    scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
+    scheduleSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/schedule.schema.v2.json"
     vesselScheduleSchema = None
     with open(scheduleSchemaFilePath) as scheduleSchemaFile:
         vesselScheduleSchema = json.load(scheduleSchemaFile)

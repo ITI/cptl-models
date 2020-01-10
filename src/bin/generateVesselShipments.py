@@ -36,7 +36,7 @@ def main(argv):
     scenarioBase = argv[0]
 
     commodityCodeDictInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", "HS Codes.csv"])    
-    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
+    shipmentSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/shipment.schema.v2.json"
     vesselShipmentSchema = None
     with open(shipmentSchemaFilePath) as shipmentSchemaFile:
         vesselShipmentSchema = json.load(shipmentSchemaFile)
