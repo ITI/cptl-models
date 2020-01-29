@@ -37,6 +37,8 @@ class CSVCommodityOriginsDAO():
             commodityCodesReader = csv.DictReader(commodityCodeDictInputFile)
             for commodityCodesData in commodityCodesReader:
                 key = commodityCodesData["HS Code"]
+                if '' != key:
+                    key = str(int(key))
                 value = commodityCodesData["Commodity Description"]
                 commodityCodes[key] = value
         return commodityCodes

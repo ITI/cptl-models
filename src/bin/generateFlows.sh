@@ -10,5 +10,5 @@ python3 src/bin/generateVesselShipments.py `pwd`/data/test-scenarios/onf2
 python3 src/bin/filterShipments.py `pwd`/data/test-scenarios/onf2 
 
 echo "CREATE EXPERIMENTS"
-#python3 ./src/bin/buildExperiments.py data/test-scenarios/onf2 nolh1 data/may-exps 5 CLEAN
-#python3 ./src/bin/buildExperiments.py data/test-scenarios/onf2 nolh1 data/may-exps 5 GENERATE
+python3 ./src/bin/buildExperiments.py data/test-scenarios/onf2 nolh1 data/may-exps 5 CLEAN
+python3 ./src/bin/buildExperiments.py data/test-scenarios/onf2 nolh1 data/may-exps 5 GENERATE

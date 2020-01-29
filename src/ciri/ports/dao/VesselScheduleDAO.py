@@ -79,7 +79,7 @@ class CSVVesselScheduleDAO():
         visitDict["arrival_node"] = "PEV"
         visitDict["departure_node"] = "PEV"
         visitDict["destination_node"] = visitEvent.arrivalBerth
-        visitDict["shipment_file"] = ".".join([ "shipment", visitEvent.id, "json"])
+        visitDict["shipment_file"] = ".".join([ visitEvent.id, "json"])
         visitDict["shipment_uuid"] = str(uuid.uuid4())
         visitDict["shipper"] = visitEvent.shippingLine
         visitDict["time"] = time

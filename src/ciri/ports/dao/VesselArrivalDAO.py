@@ -327,12 +327,15 @@ class VesselArrivalEventFusionDAO():
                 direction = va.commodityTEU[commodityGroup][0]
                 shipLine = va.commodityTEU[commodityGroup][1]
                 nTEU = float(va.commodityTEU[commodityGroup][2])
+                if nTEU == 0:
+                    nTEU = 0.0123  # Flag to indicate updated since zero amount
 
                 #cb["commodityGroup"] = commodityGroup
                 cb["shipper"] = self.normalizeShipLine(shipLine, berthNum)
                 cb["nTEU"] = nTEU
                 (origin, destination) = commodityOriginsDAO.getOrigins(commodityGroup)
                 cb["origin"] = origin
+                cb["commodityGroup"] = commodityGroup
                 cb["destination"] = destination
                 cb["name"] = f"{va_idx}-{vesselName}-{cg_idx}:{commodityGroup}:{origin}"
                 shipmentsDict[shipmentKey].append(cb)

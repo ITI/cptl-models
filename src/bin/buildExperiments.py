@@ -9,6 +9,7 @@ All rights reserved
 from jsonschema import validate
 import json
 import os
+import os.path
 import shutil
 import sys
 
@@ -82,17 +83,21 @@ def createScheduleAndShipments(expDirPath, expFlowsParams):
     with open(scheduleSchemaFilePath) as scheduleSchemaFile:
         scheduleSchema = json.load(scheduleSchemaFile)
     scheduleSchemaFile.close()
-    outputJSON(scheduleData, scheduleSchema, scheduleOutputPath)
 
     # Validate and output shipments
     for vesselArrivalData in scheduleData["shipments"]:
         shipmentFile = vesselArrivalData["shipment_file"]
-        shipmentFilePath = scheduleTemplateFilePath.replace("schedule.filtered.json", shipmentFile)
+        parentDir = os.path.dirname(scheduleTemplateFilePath)
+        shipmentFilePath = "/".join([parentDir, shipmentFile])
         shipmentData = None
-        
-        with open(shipmentFilePath) as shipmentFile:
-            shipmentData = json.load(shipmentFile)
-        shipmentFile.close()
+
+        if not os.path.isfile(shipmentFilePath):
+            print(f"File not found: {shipmentFilePath}")
+            continue
+        else:
+            with open(shipmentFilePath) as shipmentFile:
+                shipmentData = json.load(shipmentFile)
+            shipmentFile.close()
 
         # set the LDT and the delay costs appropriately
         for teuArrival in shipmentData["commodities"]:
@@ -106,7 +111,15 @@ def createScheduleAndShipments(expDirPath, expFlowsParams):
             shipmentSchema = json.load(shipmentSchemaFile)
         shipmentSchemaFile.close()
         outputJSON(shipmentData, shipmentSchema, shipmentOutputPath)
-    
+        
+        # 2.  Update the schedule data with the generated output path
+        #   we have to wait until after we do this as the template passes in
+        #   the correct filepath
+        for vesselArrival in scheduleData["shipments"]:
+            fileName = vesselArrival["shipment_file"].split("/")[1]
+            vesselArrival["shipment_file"] = "/".join(["shipments", fileName])
+        outputJSON(scheduleData, scheduleSchema, scheduleOutputPath)    
+
 def createTransportationGraph(expDirPath, expGraphParams):
     """
     in reality, we want to have a better reference convention for
@@ -154,7 +167,10 @@ def createTransportationGraph(expDirPath, expGraphParams):
     outputJSON(graphTemplateData, transGraphSchema, graphOutputPath)
 
 def createExperimentDir(outputBase, expIdx, expParams):
-    dirPath = "/".join([outputBase, str(expIdx)])
+    dirPath = "/".join([outputBase, expIdx])
+    if os.path.isdir(dirPath):
+        return dirPath
+    
     os.mkdir(dirPath)
     
     expParamsPath = "/".join([dirPath, "exp_params.json"])
@@ -194,52 +210,60 @@ def main(argv):
     month = argv[3]
     action = argv[4]
 
-    transGraphSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/network.schema.v2.json"
-    shipmentSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/shipment.schema.v2.json"
-    scheduleSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/schedule.schema.v2.json"
-
     graphTemplateFilePath =\
         "/".join([scenarioBase, "networks/transportation.gnsi"])
-    scheduleTemplateFilePath =\
+    scheduleTemplateAllFilePath =\
         "/".join([scenarioBase, f"flows/PEV-FY2018/{month}/schedule.filtered.json"])
     experimentFilePath =\
         "/".join([scenarioBase, f"experiments/{experimentFileName}.txt"])
 
+    transGraphSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/network.schema.v2.json"
+    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
+    scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
+
     if "GENERATE" == action:
-        # 1.  Generate valid experiments to run
         os.mkdir(outputBase)
         with open(experimentFilePath) as experimentFile:
             for expIdx, line in enumerate(experimentFile):
-                linePcs = line.split()
-                
-                expParams = {}
-                expParams["graph.transportation"] = {}
-                expParams["flows"] = {}
-                
-                expParams["graph.transportation"]["dwellTime.days"] = float(linePcs[0])
-                expParams["graph.transportation"]["gateServiceTime.mins"] = int(linePcs[1])
-                expParams["graph.transportation"]["roadCapacity.teu"] = int(linePcs[2])
-                expParams["graph.transportation"]["craneRate.teu-hr"] = int(linePcs[3])
-                expParams["graph.transportation"]["templateFilePath"] = graphTemplateFilePath
-                expParams["graph.transportation"]["schemaFilePath"] = transGraphSchemaFilePath
-                
-                expParams["flows"]["prioritization"] = int(linePcs[4])
-                expParams["flows"]["ldt.days"] = int(linePcs[6])
-                expParams["flows"]["scheduleTemplateFilePath"] = scheduleTemplateFilePath
-                expParams["flows"]["scheduleSchemaFilePath"] = scheduleSchemaFilePath
-                expParams["flows"]["shipmentSchemaFilePath"] = shipmentSchemaFilePath
-                expParams["flows"]["simDuration.weeks"] = int(linePcs[5])
+                for shipper in ["", "Crowley", "MSC", "King Ocean", "FIT"]:
+                    expId = str(expIdx)
+                    scheduleTemplateFilePath = scheduleTemplateAllFilePath
 
-                expDirPath = createExperimentDir(outputBase, expIdx, expParams)
-                createTransportationGraph(expDirPath, expParams["graph.transportation"])
-                createScheduleAndShipments(expDirPath, expParams["flows"])
+                    if "" != shipper:
+                        expId = ".".join([str(expIdx), shipper])
+                        scheduleTemplateFilePath = scheduleTemplateAllFilePath.replace("schedule.filtered.json", \
+                                                                                           f"schedule.filtered.{shipper}.json")
+
+                    linePcs = line.split()
+                
+                    expParams = {}
+                    expParams["graph.transportation"] = {}
+                    expParams["flows"] = {}
+                
+                    expParams["graph.transportation"]["dwellTime.days"] = float(linePcs[0])
+                    expParams["graph.transportation"]["gateServiceTime.mins"] = int(linePcs[1])
+                    expParams["graph.transportation"]["roadCapacity.teu"] = int(linePcs[2])
+                    expParams["graph.transportation"]["craneRate.teu-hr"] = int(linePcs[3])
+                    expParams["graph.transportation"]["templateFilePath"] = graphTemplateFilePath
+                    expParams["graph.transportation"]["schemaFilePath"] = transGraphSchemaFilePath
+                
+                    expParams["flows"]["prioritization"] = int(linePcs[4])
+                    expParams["flows"]["ldt.days"] = int(linePcs[6])
+                    expParams["flows"]["scheduleTemplateFilePath"] = scheduleTemplateFilePath
+                    expParams["flows"]["scheduleSchemaFilePath"] = scheduleSchemaFilePath
+                    expParams["flows"]["shipmentSchemaFilePath"] = shipmentSchemaFilePath
+                    expParams["flows"]["simDuration.weeks"] = int(linePcs[5])
+
+                    expDirPath = createExperimentDir(outputBase, expId, expParams)
+                    createTransportationGraph(expDirPath, expParams["graph.transportation"])
+                    createScheduleAndShipments(expDirPath, expParams["flows"])
+
     elif "RUN" == action:
         # 2.  Run the experiments with different parameters
         pass
     elif "CLEAN" == action:
         # 3.  Clean up the experiments
         shutil.rmtree(outputBase)
-
 
 if __name__ == "__main__":
     main(sys.argv[1:])

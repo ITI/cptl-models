@@ -36,7 +36,7 @@ def main(argv):
     scenarioBase = argv[0]
 
     commodityCodeDictInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", "HS Codes.csv"])    
-    shipmentSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/shipment.schema.v2.json"
+    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
     vesselShipmentSchema = None
     with open(shipmentSchemaFilePath) as shipmentSchemaFile:
         vesselShipmentSchema = json.load(shipmentSchemaFile)
@@ -71,7 +71,11 @@ def main(argv):
 
         initializeDir(commodityShipmentsOutputFileBase)
         initializeDir(commodityOriginsOutputFileBase)
-
+        
+        for shipper in ["Crowley", "MSC","King Ocean", "FIT"]:
+            commodityShipmentsOutputFileBase2 = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments-{shipper}"])
+            initializeDir(commodityShipmentsOutputFileBase2)
+            
         coDAO = CSVCommodityOriginsDAO()
         commodityOrigins = coDAO.readCommodityOrigins(commodityOriginsInputFilePath)
         odDf = coDAO.convertToPandasDataframe(commodityOrigins)

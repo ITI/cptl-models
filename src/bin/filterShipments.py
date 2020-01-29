@@ -47,7 +47,7 @@ def roundTEU(vesselShipmentDict):
 def main(argv):
     scenarioBase = argv[0]
 
-    shipmentSchemaFilePath = "/Users/polutropos/Documents/Repositories/CIRI/cptl-models/data/schema/shipment.schema.v2.json"
+    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
     vesselShipmentSchema = None
     with open(shipmentSchemaFilePath) as shipmentSchemaFile:
         vesselShipmentSchema = json.load(shipmentSchemaFile)
@@ -57,21 +57,36 @@ def main(argv):
     for month in list(range(10,13)) + list(range(1,10)):
         print(month)
         commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments"])
-        
-        shipmentInputFilePaths = [f for f in listdir(commodityShipmentsInputFileBase) if isfile(join(commodityShipmentsInputFileBase, f))]
-        for shipmentInputFileName in shipmentInputFilePaths:
-            shipmentInputFilePath = "/".join([commodityShipmentsInputFileBase, shipmentInputFileName])
-            with open(shipmentInputFilePath) as shipmentInputFile:
-                shipmentJSON = json.load(shipmentInputFile)
-            shipmentInputFile.close()
-            
-            results = \
-                list(filter(lambda x: isIncludedVesselShipment(x), shipmentJSON["commodities"]))
-            results = \
-                list(map(lambda x: normalizeShipLine(x), results))
-            results = \
-                list(map(lambda x: roundTEU(x), results))
+        generateShipments(commodityShipmentsInputFileBase, shipper=None)
 
+        for shipper in ["Crowley", "MSC", "King Ocean", "FIT"]:
+            commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments"])
+            generateShipments(commodityShipmentsInputFileBase, shipper)
+
+def generateShipments(commodityShipmentsInputFileBase, shipper):        
+    # Generate shipment file
+    shipmentInputFilePaths = [f for f in listdir(commodityShipmentsInputFileBase) if isfile(join(commodityShipmentsInputFileBase, f))]
+    for shipmentInputFileName in shipmentInputFilePaths:
+        shipmentInputFilePath = "/".join([commodityShipmentsInputFileBase, shipmentInputFileName])
+        if "filtered" in shipmentInputFileName:
+            continue
+        with open(shipmentInputFilePath) as shipmentInputFile:
+            shipmentJSON = json.load(shipmentInputFile)
+        shipmentInputFile.close()
+            
+        results = \
+            list(filter(lambda x: isIncludedVesselShipment(x), shipmentJSON["commodities"]))
+        results = \
+            list(map(lambda x: normalizeShipLine(x), results))
+        results = \
+            list(map(lambda x: roundTEU(x), results))
+        
+        if None != shipper:
+            results = \
+                list(filter(lambda x: x["shipper"] == shipper, results))
+            shipmentInputFilePath = shipmentInputFilePath.replace("shipments/", f"shipments-{shipper}/")
+
+        if len(results) > 0:
             resultJSON = {"commodities": results}
             
             shipmentOutputFilePath = shipmentInputFilePath.replace(".json", ".filtered.json")
