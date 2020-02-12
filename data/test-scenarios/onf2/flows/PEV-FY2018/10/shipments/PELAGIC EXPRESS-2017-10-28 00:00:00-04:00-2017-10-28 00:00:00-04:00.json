@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "397c60e9-6b9e-4e57-9af2-20195620cccb",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "122-PELAGIC EXPRESS-0",
+            "commodityGroup": "84",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 2.0,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 38880,
+            "LDT": 46080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "397c60e9-6b9e-4e57-9af2-20195620cccb",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "122-PELAGIC EXPRESS-1",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 4.0,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b9d05bc5-a23a-4665-955e-38803095740b",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-GRAND EXPRESS-0",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 5.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 36000,
+            "LDT": 43200,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b9d05bc5-a23a-4665-955e-38803095740b",
+            "source": "Berth 15",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "112-GRAND EXPRESS-1",
+            "commodityGroup": "39",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 2.0,
+            "origin": "PERU",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

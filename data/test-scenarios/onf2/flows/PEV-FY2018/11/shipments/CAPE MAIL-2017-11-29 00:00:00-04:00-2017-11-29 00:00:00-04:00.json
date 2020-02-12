@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "2db0fb45-0ad2-42f9-b71d-9d3633ee7dfd",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "140-CAPE MAIL-0",
+            "commodityGroup": "",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 0.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 40320,
+            "LDT": 47520,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "2db0fb45-0ad2-42f9-b71d-9d3633ee7dfd",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "140-CAPE MAIL-1",
+            "commodityGroup": "86",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 0.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

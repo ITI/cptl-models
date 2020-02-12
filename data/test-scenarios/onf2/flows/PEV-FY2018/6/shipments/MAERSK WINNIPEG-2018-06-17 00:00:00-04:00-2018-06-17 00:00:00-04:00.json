@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "8a0402ce-b750-47fa-976e-d09e518fd172",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "78-MAERSK WINNIPEG-0",
+            "commodityGroup": "61",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 0.88,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "8a0402ce-b750-47fa-976e-d09e518fd172",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "78-MAERSK WINNIPEG-1",
+            "commodityGroup": "52",
+            "shipper": "Maersk/Sealand.  (Containers)",
+            "nTEU": 2.64,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

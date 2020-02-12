@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b62a7b44-4698-411c-be28-f545c64361cd",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-ALLEGRO-0",
+            "commodityGroup": "",
+            "shipper": "MSC",
+            "nTEU": 7.0,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b62a7b44-4698-411c-be28-f545c64361cd",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "27-ALLEGRO-1",
+            "commodityGroup": "86",
+            "shipper": "MSC",
+            "nTEU": 0.0,
+            "origin": "NETHERLANDS ANTILLES",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

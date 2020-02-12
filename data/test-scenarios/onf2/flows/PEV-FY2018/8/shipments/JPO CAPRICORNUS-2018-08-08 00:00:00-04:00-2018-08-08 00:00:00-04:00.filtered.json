@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "e9f53fcd-5ac5-4a8b-82f1-87e74b6db298",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "38-JPO CAPRICORNUS-0",
+            "commodityGroup": "22",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 10080,
+            "LDT": 17280,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "e9f53fcd-5ac5-4a8b-82f1-87e74b6db298",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "38-JPO CAPRICORNUS-1",
+            "commodityGroup": "20",
+            "shipper": "FIT",
+            "nTEU": 2,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

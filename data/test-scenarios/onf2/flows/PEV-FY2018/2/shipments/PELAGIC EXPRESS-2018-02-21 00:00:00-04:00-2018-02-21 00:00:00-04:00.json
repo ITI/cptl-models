@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "fc7af0e4-05ac-4164-b9cb-6afe3c1f94c2",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "95-PELAGIC EXPRESS-0",
+            "commodityGroup": "73",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 7.0,
+            "origin": "BELGIUM",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "fc7af0e4-05ac-4164-b9cb-6afe3c1f94c2",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "95-PELAGIC EXPRESS-1",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 21.99,
+            "origin": "BAHAMAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

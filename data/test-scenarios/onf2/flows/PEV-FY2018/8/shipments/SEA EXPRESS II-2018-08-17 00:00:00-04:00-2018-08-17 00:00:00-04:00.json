@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6d132987-6678-4c80-acc9-e9ae1e396362",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "86-SEA EXPRESS II-0",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 0.0,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "6d132987-6678-4c80-acc9-e9ae1e396362",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "86-SEA EXPRESS II-1",
+            "commodityGroup": "72",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 2.0,
+            "origin": "PORTUGAL",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

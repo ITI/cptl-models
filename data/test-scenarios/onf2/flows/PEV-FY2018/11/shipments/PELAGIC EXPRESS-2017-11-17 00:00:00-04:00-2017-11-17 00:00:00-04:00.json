@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "d6155a79-27bd-43b1-81a1-fd1178c1d26a",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "77-PELAGIC EXPRESS-0",
+            "commodityGroup": "27",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 10.0,
+            "origin": "PANAMA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 23040,
+            "LDT": 30240,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "d6155a79-27bd-43b1-81a1-fd1178c1d26a",
+            "source": "Berth 16",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "77-PELAGIC EXPRESS-1",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "5c74f7a4-85c0-4585-a7e2-62612ae535b9",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "53-CAPE MAIL-0",
+            "commodityGroup": "88",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 1.75,
+            "origin": "COLOMBIA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 15840,
+            "LDT": 23040,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "5c74f7a4-85c0-4585-a7e2-62612ae535b9",
+            "source": "Berth 18",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "53-CAPE MAIL-1",
+            "commodityGroup": "86",
+            "shipper": "MBC LINE (MARINE BULK CARRIERS)",
+            "nTEU": 0.0,
+            "origin": "PUERTO RICO",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

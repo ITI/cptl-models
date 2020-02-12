@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4db6c543-3a01-4e52-a854-e80099fb2162",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-DELPHINUS-0",
+            "commodityGroup": "95",
+            "shipper": "King Ocean",
+            "nTEU": 4.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 28800,
+            "LDT": 36000,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4db6c543-3a01-4e52-a854-e80099fb2162",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "88-DELPHINUS-1",
+            "commodityGroup": "86",
+            "shipper": "King Ocean",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

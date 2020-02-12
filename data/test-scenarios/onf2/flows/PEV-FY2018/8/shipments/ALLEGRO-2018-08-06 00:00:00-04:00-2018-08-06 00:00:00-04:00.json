@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "48491af1-7357-44bc-a1c3-cc00c7ae4d65",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "31-ALLEGRO-0",
+            "commodityGroup": "86",
+            "shipper": "MSC",
+            "nTEU": 0.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "48491af1-7357-44bc-a1c3-cc00c7ae4d65",
+            "source": "Berth 32",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "31-ALLEGRO-1",
+            "commodityGroup": "76",
+            "shipper": "MSC",
+            "nTEU": 2.0,
+            "origin": "ECUADOR",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

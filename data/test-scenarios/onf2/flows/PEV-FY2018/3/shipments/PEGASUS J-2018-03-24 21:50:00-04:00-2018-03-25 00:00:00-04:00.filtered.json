@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 34430,
+            "LDT": 41630,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0c0a49bb-4a6f-4bcc-9e89-f6b9ef98a3aa",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "101-PEGASUS J-0",
+            "commodityGroup": "48",
+            "shipper": "Crowley",
+            "nTEU": 3,
+            "origin": "ITALY",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 34430,
+            "LDT": 41630,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "0c0a49bb-4a6f-4bcc-9e89-f6b9ef98a3aa",
+            "source": "Berth 33",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "101-PEGASUS J-1",
+            "commodityGroup": "62",
+            "shipper": "Crowley",
+            "nTEU": 5,
+            "origin": "HONDURAS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

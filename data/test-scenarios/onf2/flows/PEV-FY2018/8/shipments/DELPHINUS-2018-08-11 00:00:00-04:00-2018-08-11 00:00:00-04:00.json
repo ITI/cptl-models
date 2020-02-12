@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 14400,
+            "LDT": 21600,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4b7f4161-7798-4d2a-aa12-9d6c1c2b666d",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "57-DELPHINUS-0",
+            "commodityGroup": "72",
+            "shipper": "King Ocean",
+            "nTEU": 2.0,
+            "origin": "CHILE",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 14400,
+            "LDT": 21600,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4b7f4161-7798-4d2a-aa12-9d6c1c2b666d",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "57-DELPHINUS-1",
+            "commodityGroup": "86",
+            "shipper": "King Ocean",
+            "nTEU": 0.0,
+            "origin": "JAMAICA",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}

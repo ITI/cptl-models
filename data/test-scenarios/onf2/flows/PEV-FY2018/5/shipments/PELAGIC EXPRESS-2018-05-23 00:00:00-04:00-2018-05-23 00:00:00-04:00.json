@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 31680,
+            "LDT": 38880,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b2120a8b-745e-4fa4-9726-abb4a03cd5a2",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "98-PELAGIC EXPRESS-0",
+            "commodityGroup": "95",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 1.0,
+            "origin": "NICARAGUA",
+            "destination": "McIntosh Intersection"
+        },
+        {
+            "EAT": 31680,
+            "LDT": 38880,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b2120a8b-745e-4fa4-9726-abb4a03cd5a2",
+            "source": "Berth 17",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "name": "98-PELAGIC EXPRESS-1",
+            "commodityGroup": "86",
+            "shipper": "Seacor Marine Inc.",
+            "nTEU": 23.0,
+            "origin": "TURKS AND CAICOS IS",
+            "destination": "McIntosh Intersection"
+        }
+    ]
+}
