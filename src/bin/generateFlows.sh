@@ -1,6 +1,6 @@
 #!/bin/bash
-#SCENARIO_REPO_HOME=/home/share/Code/cptl-models/data/test-scenarios
-SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/nolhBaseline
+SCENARIO_REPO_HOME=/home/share/Code/cptl-models/data/test-scenarios
+#SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/nolhBaseline
 DES_HOME=/home/share/des
 
 echo "Enter Scenario Reference"
@@ -36,9 +36,7 @@ export PYTHONPATH=$DES_HOME/src:`pwd`/src
 
 ## TASK 5 (OK):  Run the Scenario, Get Calibration Report
 #multiCommodityNetworkSim.py -o $SCENARIO_DIR/results/output.sqlite -t $SIM_RUN_TIME -si 100 -s $SCENARIO_DIR/flows/schedule.json
-python ./src/bin/calibrationReporter.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
-
-exit
+#python ./src/bin/calibrationReporter.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
 
 ### PDT EXTENSION:  ADVANCED ECONOMIC MODULE
 ##  TASK 1:  Generate the Cost Table for Simulation Output
@@ -48,13 +46,13 @@ exit
 
 ### PDT EXTENSION:  LATIN HYPERCUBE SCENARIO GENERATION
 ## TASK 1 (OK):  Create Experiments from Template
-EXPERIMENT_NAME=nolhBaseline
-TEMPLATE_REPO_HOME=$SCENARIO_REPO_HOME
-EXPERIMENT_REPO_HOME=/home/share/Code/cptl-models/build/$EXPERIMENT_NAME
-rm -rf $EXPERIMENT_REPO_HOME
-mkdir $EXPERIMENT_REPO_HOME
-python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH CLEAN
-python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH GENERATE
+#EXPERIMENT_NAME=nolhBaseline
+#TEMPLATE_REPO_HOME=$SCENARIO_REPO_HOME
+#EXPERIMENT_REPO_HOME=/home/share/Code/cptl-models/build/$EXPERIMENT_NAME
+#rm -rf $EXPERIMENT_REPO_HOME
+#mkdir $EXPERIMENT_REPO_HOME
+#python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH CLEAN
+#python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH GENERATE
 
 
 

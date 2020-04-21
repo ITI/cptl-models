@@ -20,27 +20,24 @@ def setDelayCost(teuArrival, prioritization):
     """
     delayCost = 0
 
-    namePcs = teuArrival["name"].split(":")
-    if namePcs[1] == '':
-        # cannot prioritize by commodity type if not known
-        #print(f"No commodity found {teuArrival['name']}")
+    if '' == teuArrival["commodityGroup"]:
         return delayCost
     
-    commodityGroup = int(namePcs[1])
+    commodityGroup = int(teuArrival["commodityGroup"])
     origin = teuArrival["origin"]
 
     if 1 == prioritization:
         delayCost = 0
     elif 2 == prioritization:
         # Prioritize by $ value per TEU
-        if 61 == commodityGroup and "NICARAGUA" == origin:
+        if 61 == commodityGroup: # and "NICARAGUA" == origin:
             delayCost = 10
     elif 3 == prioritization:
         # Prioritize by TEU Volumes
-        if 8 == commodityGroup and \
-                ("GUATEMALA" == origin or "HONDURAS" == origin):
+        if 8 == commodityGroup:
+            # and ("GUATEMALA" == origin or "HONDURAS" == origin):
             delayCost = 10
-    else:
+    elif 4 == prioritization:
         # Prioritize by Customs Value
         if 85 == commodityGroup and \
                 ("DOMINICAN REPUBLIC" == origin):
