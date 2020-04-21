@@ -59,67 +59,66 @@ def main(argv):
     minTime = int(argv[1])
     maxTime = int(argv[2])
     
-    scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
+    scheduleSchemaFilePath = "/home/share/Code/cptl-models/data/schema/schedule.schema.v2.json"
     vesselScheduleSchema = None
     with open(scheduleSchemaFilePath) as scheduleSchemaFile:
         vesselScheduleSchema = json.load(scheduleSchemaFile)
     scheduleSchemaFile.close()
 
-    for month in list(range(10,13)) + list(range(1,10)):
-        print(month)
-        timeInterval = [minTime, maxTime]
-        dayEpsilon = 0
-        scheduleInputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.json"])
-        scheduleOutputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.filtered.json"])
+    timeInterval = [minTime, maxTime]
+    print(timeInterval)
+    dayEpsilon = 0
+    scheduleInputFilePath = "/".join([scenarioBase, "flows/schedule.raw.json"])
+    scheduleOutputFilePath = "/".join([scenarioBase, "flows/schedule.json"])
         
-        vesselArrivals = None
-        with open(scheduleInputFilePath) as scheduleInputFile:
-            vesselArrivals = json.load(scheduleInputFile)
-        scheduleInputFile.close()
+    vesselArrivals = None
+    with open(scheduleInputFilePath) as scheduleInputFile:
+        vesselArrivals = json.load(scheduleInputFile)
+    scheduleInputFile.close()
 
-        results = \
-            list(filter(lambda x: isIncludedVesselArrival(x), vesselArrivals["shipments"]))
-        results = \
-            list(filter(lambda x: isInTimeInterval(x, timeInterval), results))
-        results = \
-            list(map(lambda x: updateShipmentFilePath(x), results))
-        results = \
-            list(map(lambda x: normalizeShipLine(x), results))
+    results = \
+        list(filter(lambda x: isIncludedVesselArrival(x), vesselArrivals["shipments"]))
+    results = \
+        list(filter(lambda x: isInTimeInterval(x, timeInterval), results))
+    results = \
+        list(map(lambda x: updateShipmentFilePath(x), results))
+    results = \
+        list(map(lambda x: normalizeShipLine(x), results))
         
-        vesselScheduleDict = { "shipments": results,\
-                                   "disruptions": vesselArrivals["disruptions"],\
-                                   "start_time": vesselArrivals["start_time"],\
-                                   "workday_start": vesselArrivals["workday_start"],\
-                                   "workday_end": vesselArrivals["workday_end"],\
-                                   "network": vesselArrivals["network"] }
+    vesselScheduleDict = { "shipments": results,\
+                           "disruptions": vesselArrivals["disruptions"],\
+                           "start_time": vesselArrivals["start_time"],\
+                           "workday_start": vesselArrivals["workday_start"],\
+                           "workday_end": vesselArrivals["workday_end"],\
+                           "network": vesselArrivals["network"] }
 
-        # Generate the vessel schedule for everyone
-        validate(vesselScheduleDict, vesselScheduleSchema)
-        with open(scheduleOutputFilePath, 'w') as scheduleOutputFile:
-            resultStr = json.dumps(vesselScheduleDict, indent=4)
-            scheduleOutputFile.write(resultStr)
-        scheduleOutputFile.close()
+    # Generate the vessel schedule for everyone
+    validate(vesselScheduleDict, vesselScheduleSchema)
+    with open(scheduleOutputFilePath, 'w') as scheduleOutputFile:
+        resultStr = json.dumps(vesselScheduleDict, indent=4)
+        scheduleOutputFile.write(resultStr)
+    scheduleOutputFile.close()
 
-        # Generate the vessel schedule for individual stakeholders
-        for shipperName in ["Crowley", "MSC", "King Ocean", "FIT"]:
-            shipperSchedule = filter(lambda x: x["shipper"] == shipperName, vesselScheduleDict["shipments"])
-            shipperSchedule = map(lambda x: updateVesselArrivalFile(x), shipperSchedule)
+    # Generate the vessel schedule for individual stakeholders
+    for shipperName in ["Crowley", "MSC", "King Ocean", "FIT"]:
+        shipperSchedule = filter(lambda x: x["shipper"] == shipperName, vesselScheduleDict["shipments"])
+        shipperSchedule = map(lambda x: updateVesselArrivalFile(x), shipperSchedule)
 
-            shipperScheduleDict = {}
-            shipperScheduleDict["shipments"] = list(shipperSchedule)
-            shipperScheduleDict["disruptions"] = vesselScheduleDict["disruptions"]
-            shipperScheduleDict["network"] = vesselScheduleDict["network"]
-            shipperScheduleDict["start_time"] = vesselScheduleDict["start_time"]
-            shipperScheduleDict["workday_end"] = vesselScheduleDict["workday_end"]
-            shipperScheduleDict["workday_start"] = vesselScheduleDict["workday_start"]
+        shipperScheduleDict = {}
+        shipperScheduleDict["shipments"] = list(shipperSchedule)
+        shipperScheduleDict["disruptions"] = vesselScheduleDict["disruptions"]
+        shipperScheduleDict["network"] = vesselScheduleDict["network"]
+        shipperScheduleDict["start_time"] = vesselScheduleDict["start_time"]
+        shipperScheduleDict["workday_end"] = vesselScheduleDict["workday_end"]
+        shipperScheduleDict["workday_start"] = vesselScheduleDict["workday_start"]
 
-            validate(shipperScheduleDict, vesselScheduleSchema)
-            scheduleOutputFileName2 = ".".join(["schedule", "filtered", shipperName, "json"])
-            scheduleOutputFilePath2 = scheduleOutputFilePath.replace("schedule.filtered.json", scheduleOutputFileName2)
-            with open(scheduleOutputFilePath2, 'w') as scheduleOutputFile2:
-                resultStr = json.dumps(shipperScheduleDict, indent=4)
-                scheduleOutputFile2.write(resultStr)
-            scheduleOutputFile2.close()
+        validate(shipperScheduleDict, vesselScheduleSchema)
+        scheduleOutputFileName2 = ".".join(["schedule", shipperName, "json"])
+        scheduleOutputFilePath2 = scheduleOutputFilePath.replace("schedule.json", scheduleOutputFileName2)
+        with open(scheduleOutputFilePath2, 'w') as scheduleOutputFile2:
+            resultStr = json.dumps(shipperScheduleDict, indent=4)
+            scheduleOutputFile2.write(resultStr)
+        scheduleOutputFile2.close()
 
 if __name__ == "__main__":
     main(sys.argv[1:])

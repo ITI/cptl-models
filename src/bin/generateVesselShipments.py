@@ -34,47 +34,48 @@ def getStartTime(month):
 
 def main(argv):
     scenarioBase = argv[0]
-
-    commodityCodeDictInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", "HS Codes.csv"])    
-    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
+    month = int(argv[1])
+    
+    commodityCodeDictInputFilePath = "/".join([scenarioBase, "data/HS Codes.csv"])    
+    shipmentSchemaFilePath = "/home/share/Code/cptl-models/data/schema/shipment.schema.v2.json"
     vesselShipmentSchema = None
     with open(shipmentSchemaFilePath) as shipmentSchemaFile:
         vesselShipmentSchema = json.load(shipmentSchemaFile)
     shipmentSchemaFile.close()
 
     # Loop through the months
-    for month in list(range(10,13)) + list(range(1,10)):
-        print(month)
+    #for month in list(range(10,13)) + list(range(1,10)):
+    #    print(month)
 
-        # -- set up the vessel arrival event fusion DAO
-        dayEpsilon = 0
-        fusionMethod = "SHIP_DATE"
-        scheduleInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/VesselCalls.csv"])
-        commoditiesInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/ImportedCommods.csv"])
-        scheduleOutputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.json"])
+    # -- set up the vessel arrival event fusion DAO
+    dayEpsilon = 0
+    fusionMethod = "SHIP_DATE"
+    scheduleInputFilePath = "/".join([scenarioBase, "data/VesselCalls.csv"])
+    commoditiesInputFilePath = "/".join([scenarioBase, "data/ImportedCommods.csv"])
+    scheduleOutputFilePath = "/".join([scenarioBase, "flows/schedule.json"])
 
-        vesselDAO = VesselArrivalEventFusionDAO.create(scheduleInputFilePath, commoditiesInputFilePath)
-        scheduleVesselArrivalEvents = vesselDAO.scheduleVesselArrivalEventDAO.vesselArrivalEvents
-        commoditiesVesselArrivalEvents = vesselDAO.commoditiesVesselArrivalEventDAO.vesselArrivalEvents
-        vesselDAO.matchedScheduleVesselArrivalEvents = np.zeros( len(scheduleVesselArrivalEvents) )
-        vesselDAO.matchedCommoditiesVesselArrivalEvents = np.zeros( len(commoditiesVesselArrivalEvents) )
+    vesselDAO = VesselArrivalEventFusionDAO.create(scheduleInputFilePath, commoditiesInputFilePath)
+    scheduleVesselArrivalEvents = vesselDAO.scheduleVesselArrivalEventDAO.vesselArrivalEvents
+    commoditiesVesselArrivalEvents = vesselDAO.commoditiesVesselArrivalEventDAO.vesselArrivalEvents
+    vesselDAO.matchedScheduleVesselArrivalEvents = np.zeros( len(scheduleVesselArrivalEvents) )
+    vesselDAO.matchedCommoditiesVesselArrivalEvents = np.zeros( len(commoditiesVesselArrivalEvents) )
         
-        vesselDAO.fuseVesselArrivalEvents(scheduleVesselArrivalEvents,\
-                                              commoditiesVesselArrivalEvents,\
-                                              dayEpsilon,\
-                                              fusionMethod)
+    vesselDAO.fuseVesselArrivalEvents(scheduleVesselArrivalEvents,\
+                                      commoditiesVesselArrivalEvents,\
+                                      dayEpsilon,\
+                                      fusionMethod)
 
-        # -- set up the commodity origins DAO
-        commodityOriginsInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/CommodityOrigins.csv"])
-        commodityShipmentsOutputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments"])
-        commodityOriginsOutputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/commodityOrigins"])
+    # -- set up the commodity origins DAO
+    commodityOriginsInputFilePath = "/".join([scenarioBase, "data/CommodityOrigins.csv"])
+    commodityShipmentsOutputFileBase = "/".join([scenarioBase, "flows/shipments"])
+    commodityOriginsOutputFileBase = "/".join([scenarioBase, "results/commodityOrigins"])
 
-        initializeDir(commodityShipmentsOutputFileBase)
-        initializeDir(commodityOriginsOutputFileBase)
+    initializeDir(commodityShipmentsOutputFileBase)
+    initializeDir(commodityOriginsOutputFileBase)
         
-        for shipper in ["Crowley", "MSC","King Ocean", "FIT"]:
-            commodityShipmentsOutputFileBase2 = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments-{shipper}"])
-            initializeDir(commodityShipmentsOutputFileBase2)
+    for shipper in ["Crowley", "MSC","King Ocean", "FIT"]:
+        commodityShipmentsOutputFileBase2 = "/".join([scenarioBase, "flows", f"shipments-{shipper}"])
+        initializeDir(commodityShipmentsOutputFileBase2)
             
         coDAO = CSVCommodityOriginsDAO()
         commodityOrigins = coDAO.readCommodityOrigins(commodityOriginsInputFilePath)

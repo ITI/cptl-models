@@ -22,61 +22,60 @@ def getStartTime(month):
 
 def main(argv):
     scenarioBase = argv[0]
+    month = int(argv[1])
     
-    scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
+    scheduleSchemaFilePath = "/home/share/Code/cptl-models/data/schema/schedule.schema.v2.json"
     vesselScheduleSchema = None
     with open(scheduleSchemaFilePath) as scheduleSchemaFile:
         vesselScheduleSchema = json.load(scheduleSchemaFile)
     scheduleSchemaFile.close()
 
-    for month in list(range(10,13)) + list(range(1,10)):
-        print(month)
-        dayEpsilon = 0
-        fusionMethod = "SHIP_DATE"
-        scheduleInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/VesselCalls.csv"])
-        commoditiesInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/ImportedCommods.csv"])
-        scheduleOutputFilePath = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/schedule.json"])
+    dayEpsilon = 0
+    fusionMethod = "SHIP_DATE"
+    scheduleInputFilePath = "/".join([scenarioBase, "data/VesselCalls.csv"])
+    commoditiesInputFilePath = "/".join([scenarioBase, "data/ImportedCommods.csv"])
+    scheduleOutputFilePath = "/".join([scenarioBase, "flows/schedule.raw.json"])
 
-        vesselDAO = VesselArrivalEventFusionDAO.create(scheduleInputFilePath, commoditiesInputFilePath)
-        scheduleVesselArrivalEvents = vesselDAO.scheduleVesselArrivalEventDAO.vesselArrivalEvents
-        commoditiesVesselArrivalEvents = vesselDAO.commoditiesVesselArrivalEventDAO.vesselArrivalEvents
-        vesselDAO.matchedScheduleVesselArrivalEvents = np.zeros( len(scheduleVesselArrivalEvents) )
-        vesselDAO.matchedCommoditiesVesselArrivalEvents = np.zeros( len(commoditiesVesselArrivalEvents) )
+    vesselDAO = VesselArrivalEventFusionDAO.create(scheduleInputFilePath, commoditiesInputFilePath)
+    scheduleVesselArrivalEvents = vesselDAO.scheduleVesselArrivalEventDAO.vesselArrivalEvents
+    commoditiesVesselArrivalEvents = vesselDAO.commoditiesVesselArrivalEventDAO.vesselArrivalEvents
+    vesselDAO.matchedScheduleVesselArrivalEvents = np.zeros( len(scheduleVesselArrivalEvents) )
+    vesselDAO.matchedCommoditiesVesselArrivalEvents = np.zeros( len(commoditiesVesselArrivalEvents) )
 
-        vesselDAO.fuseVesselArrivalEvents(scheduleVesselArrivalEvents,\
-                                              commoditiesVesselArrivalEvents,\
-                                              dayEpsilon,\
-                                              fusionMethod)
+    vesselDAO.fuseVesselArrivalEvents(scheduleVesselArrivalEvents,\
+                                      commoditiesVesselArrivalEvents,\
+                                      dayEpsilon,\
+                                      fusionMethod)
 
-        unmatchedScheduleVesselArrivalEvents = vesselDAO.getUnmatchedVesselArrivalEvents("VesselSchedule")
-        unmatchedCommoditiesVesselArrivalEvents = vesselDAO.getUnmatchedVesselArrivalEvents("Commodities")
+    unmatchedScheduleVesselArrivalEvents = vesselDAO.getUnmatchedVesselArrivalEvents("VesselSchedule")
+    unmatchedCommoditiesVesselArrivalEvents = vesselDAO.getUnmatchedVesselArrivalEvents("Commodities")
         
-        monthLabel = month
-        scheduleInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/VesselCalls.csv"])
-        commoditiesInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/ImportedCommods.csv"])
+    monthLabel = month
+    scheduleInputFilePath = "/".join([scenarioBase, "data/VesselCalls.csv"])
+    commoditiesInputFilePath = "/".join([scenarioBase, "data/ImportedCommods.csv"])
 
-        setName = "intersection"
-        shipmentOutfilePrefix = "shipments"
-        disruptionsList = []
-        transportationNetworkFilePath = "../../../networks/transportation.gnsi"
-        startTime = getStartTime(month)
-        workdayStart = "08:00"
-        workdayEnd = "17:00"
+    setName = "intersection"
+    shipmentOutfilePrefix = "shipments"
+    disruptionsList = []
+    transportationNetworkFilePath = "../networks/transportation.gnsi"
+    startTime = getStartTime(month)
+    workdayStart = "08:00"
+    workdayEnd = "17:00"
 
-        vesselScheduleDict = vesselDAO.getVesselSchedule(setName,\
-                                                             shipmentOutfilePrefix,\
-                                                             disruptionsList,\
-                                                             transportationNetworkFilePath,\
-                                                             startTime,\
-                                                             workdayStart,\
-                                                             workdayEnd)
-        validate(vesselScheduleDict, vesselScheduleSchema)
+    vesselScheduleDict = vesselDAO.getVesselSchedule(setName,\
+                                                     shipmentOutfilePrefix,\
+                                                     disruptionsList,\
+                                                     transportationNetworkFilePath,\
+                                                     startTime,\
+                                                     workdayStart,\
+                                                     workdayEnd)
+    validate(vesselScheduleDict, vesselScheduleSchema)
     
-        with open(scheduleOutputFilePath, 'w') as outFile:
-            vesselScheduleJSON = json.dumps(vesselScheduleDict, indent=4)
-            print(len(vesselScheduleDict["shipments"]))
-            outFile.write(vesselScheduleJSON)
-        outFile.close()
+    with open(scheduleOutputFilePath, 'w') as outFile:
+        vesselScheduleJSON = json.dumps(vesselScheduleDict, indent=4)
+        print(len(vesselScheduleDict["shipments"]))
+        outFile.write(vesselScheduleJSON)
+    outFile.close()
 
 if __name__ == "__main__":
     main(sys.argv[1:])

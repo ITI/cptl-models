@@ -47,21 +47,19 @@ def roundTEU(vesselShipmentDict):
 def main(argv):
     scenarioBase = argv[0]
 
-    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
+    shipmentSchemaFilePath = "/home/share/Code/cptl-models/data/schema/shipment.schema.v2.json"
     vesselShipmentSchema = None
     with open(shipmentSchemaFilePath) as shipmentSchemaFile:
         vesselShipmentSchema = json.load(shipmentSchemaFile)
     shipmentSchemaFile.close()
 
     # Loop through the months
-    for month in list(range(10,13)) + list(range(1,10)):
-        print(month)
-        commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments"])
-        generateShipments(commodityShipmentsInputFileBase, shipper=None)
+    commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/shipments"])
+    generateShipments(commodityShipmentsInputFileBase, shipper=None)
 
-        for shipper in ["Crowley", "MSC", "King Ocean", "FIT"]:
-            commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/PEV-FY2018", f"{month}/shipments"])
-            generateShipments(commodityShipmentsInputFileBase, shipper)
+    for shipper in ["Crowley", "MSC", "King Ocean", "FIT"]:
+        commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/shipments"])
+        generateShipments(commodityShipmentsInputFileBase, shipper)
 
 def generateShipments(commodityShipmentsInputFileBase, shipper):        
     # Generate shipment file

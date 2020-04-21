@@ -10,7 +10,7 @@ from ciri.ports.dao.VesselArrivalDAO import VesselScheduleVesselArrivalEventDAO,
 import numpy as np
 import sys
 
-def getFusionResultForMonth(monthLabel, scheduleInputFilePath, commoditiesInputFilePath):
+def getFusionResultForMonth(scheduleInputFilePath, commoditiesInputFilePath):
     vesselDAO = VesselArrivalEventFusionDAO.create(scheduleInputFilePath, commoditiesInputFilePath)
     
     scheduleVesselArrivalEvents = vesselDAO.scheduleVesselArrivalEventDAO.vesselArrivalEvents
@@ -56,7 +56,7 @@ def getFusionResultForMonth(monthLabel, scheduleInputFilePath, commoditiesInputF
     pctUnmatchedCommodsTEU = getTEU(unmatchedCommoditiesVesselArrivalEvents) / float(getTEU(commoditiesVesselArrivalEvents))
     pctUnmatchedCommodsTEU = round(pctUnmatchedCommodsTEU, 2)
 
-    result = f"{monthLabel}\t{dfIntersection.shape[0]}\t{dfUnmatchedVessels.shape[0]}\t{dfUnmatchedCommodities.shape[0]}\t{pctUnmatchedScheduleVessels}\t{pctUnmatchedCommodsVessels}\t{pctUnmatchedCommodsTEU}"
+    result = f"{dfIntersection.shape[0]}\t{dfUnmatchedVessels.shape[0]}\t{dfUnmatchedCommodities.shape[0]}\t{pctUnmatchedScheduleVessels}\t{pctUnmatchedCommodsVessels}\t{pctUnmatchedCommodsTEU}"
     return result
 
 def getTEU(vesselArrivalEvents):
@@ -73,19 +73,18 @@ def getTEU(vesselArrivalEvents):
 
 def main(argv):
     scenarioBase = argv[0]
-    outFilePath = argv[1]
+    outFilePath = "/".join([scenarioBase, "results/data-intersection.txt"])
 
     results = []
-    results.append("\t".join(['monthLabel','intersection','unmatchedVessels','unmatchedCommods', '% unmatchedVessels', '% unmatchedCommmods']))
-    for month in list(range(10,13)) + list(range(1,10)):
-        print(month)
-        monthLabel = month
-        scheduleInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/VesselCalls.csv"])
-        commoditiesInputFilePath = "/".join([scenarioBase, "data/PEV-FY2018", f"{month}/ImportedCommods.csv"])
-        result = getFusionResultForMonth(monthLabel, scheduleInputFilePath, commoditiesInputFilePath)
-        results.append(result)
-        
+    results.append("\t".join(['intersection','unmatchedVessels','unmatchedCommods', '% unmatchedVessels', '% unmatchedCommmods (vsl)', '% unmatchedCommods (teu)']))
+
+    scheduleInputFilePath = "/".join([scenarioBase, "data/VesselCalls.csv"])
+    commoditiesInputFilePath = "/".join([scenarioBase, "data/ImportedCommods.csv"])
+
+    result = getFusionResultForMonth(scheduleInputFilePath, commoditiesInputFilePath)
+    results.append(result)        
     results.append("\n")
+    
     with open(outFilePath, 'w') as outFile:
         outFile.write("\n".join(results))
     outFile.close()
