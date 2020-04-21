@@ -166,19 +166,26 @@ def createTransportationGraph(expDirPath, expGraphParams):
 
     outputJSON(graphTemplateData, transGraphSchema, graphOutputPath)
 
-def createExperimentDir(outputBase, expIdx, expParams):
-    dirPath = "/".join([outputBase, expIdx])
+def createExperimentDir(scenarioBase, outputBase, experimentName, scenarioRef, expIdx, expParams):
+    expUrn = "_".join([scenarioRef, experimentName, expIdx])
+    dirPath = "/".join([outputBase, expUrn])
     if os.path.isdir(dirPath):
         return dirPath
     
     os.mkdir(dirPath)
     
-    expParamsPath = "/".join([dirPath, "exp_params.json"])
+    dirNames = ["config", "data"]
+    for dirName in dirNames:
+        srcDataPath = "/".join([scenarioBase, scenarioRef, dirName])
+        destDataPath = "/".join([dirPath, dirName])
+        shutil.copytree(srcDataPath, destDataPath)
+
+    expParamsPath = "/".join([dirPath, "config/exp_params.json"])
     with open(expParamsPath, 'w') as expParamsFile:
         jsonData = json.dumps(expParams, indent=4)
         expParamsFile.write(jsonData)
     expParamsFile.close()
-
+        
     # ./networks
     networkPath = "/".join([dirPath, "networks"])
     os.mkdir(networkPath)
@@ -191,35 +198,40 @@ def createExperimentDir(outputBase, expIdx, expParams):
     shipmentsPath = "/".join([flowsPath, "shipments"])
     os.mkdir(shipmentsPath)
 
+    # ./results
+    resultsPath = "/".join([dirPath, "results"])
+    os.mkdir(resultsPath)
+    
     return dirPath
 
 def usage():
-    print("buildExperiments.py <scenarioBase> <experimentName> <outputBase> <month> <action>")
+    print("buildExperiments.py <scenarioBase> <scenarioRef> <experimentName> <outputBase> <month> <action>")
 
 def main(argv):
     """
     Given an experiment parameters file, generate and run.
     """
-    if len(argv) != 5:
+    if len(argv) != 6:
         usage()
         sys.exit(-1)
 
     scenarioBase = argv[0]
-    experimentFileName = argv[1]
-    outputBase = argv[2]
-    month = argv[3]
-    action = argv[4]
+    scenarioRef = argv[1]
+    experimentFileName = argv[2]
+    outputBase = argv[3]
+    month = argv[4]
+    action = argv[5]
 
     graphTemplateFilePath =\
-        "/".join([scenarioBase, "networks/transportation.gnsi"])
+        "/".join([scenarioBase, scenarioRef, "networks/transportation.gnsi"])
     scheduleTemplateAllFilePath =\
-        "/".join([scenarioBase, f"flows/PEV-FY2018/{month}/schedule.filtered.json"])
+        "/".join([scenarioBase, scenarioRef, f"flows/schedule.json"])
     experimentFilePath =\
-        "/".join([scenarioBase, f"experiments/{experimentFileName}.txt"])
+        "/".join([scenarioBase, scenarioRef, f"data/experiments/{experimentFileName}.txt"])
 
-    transGraphSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/network.schema.v2.json"
-    shipmentSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/shipment.schema.v2.json"
-    scheduleSchemaFilePath = "/Users/gweaver/Documents/Repositories/ITI/cptl-models/data/schema/schedule.schema.v2.json"
+    transGraphSchemaFilePath = "/home/share/Code/cptl-models/data/schema/network.schema.v2.json"
+    shipmentSchemaFilePath = "/home/share/Code/cptl-models/data/schema/shipment.schema.v2.json"
+    scheduleSchemaFilePath = "/home/share/Code/cptl-models/data/schema/schedule.schema.v2.json"
 
     if "GENERATE" == action:
         os.mkdir(outputBase)
@@ -231,12 +243,13 @@ def main(argv):
 
                     if "" != shipper:
                         expId = ".".join([str(expIdx), shipper])
-                        scheduleTemplateFilePath = scheduleTemplateAllFilePath.replace("schedule.filtered.json", \
-                                                                                           f"schedule.filtered.{shipper}.json")
+                        scheduleTemplateFilePath = scheduleTemplateAllFilePath.replace("schedule.json", \
+                                                                                           f"schedule.{shipper}.json")
 
                     linePcs = line.split()
                 
                     expParams = {}
+                    expParams["ref"] = "_".join([scenarioRef, f"{experimentFileName}_{expId}"])
                     expParams["graph.transportation"] = {}
                     expParams["flows"] = {}
                 
@@ -254,10 +267,10 @@ def main(argv):
                     expParams["flows"]["shipmentSchemaFilePath"] = shipmentSchemaFilePath
                     expParams["flows"]["simDuration.weeks"] = int(linePcs[5])
 
-                    expDirPath = createExperimentDir(outputBase, expId, expParams)
+                    expDirPath = createExperimentDir(scenarioBase, outputBase, experimentFileName, scenarioRef, expId, expParams)
                     createTransportationGraph(expDirPath, expParams["graph.transportation"])
                     createScheduleAndShipments(expDirPath, expParams["flows"])
-
+                    
     elif "RUN" == action:
         # 2.  Run the experiments with different parameters
         pass

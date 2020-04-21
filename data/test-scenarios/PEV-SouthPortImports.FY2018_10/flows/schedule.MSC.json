@@ -1,0 +1,27 @@
+{
+    "shipments": [
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments-MSC/ALLEGRO-2017-10-02 00:00:00-04:00-2017-10-02 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "5b16234f-2370-4b2a-90de-f302ea3c5251",
+            "shipper": "MSC",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments-MSC/JSP AMIHAN-2017-10-04 00:00:00-04:00-2017-10-04 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "1f3a1615-7308-4cf5-93d9-6e35519752ae",
+            "shipper": "MSC",
+            "time": 4320
+        }
+    ],
+    "disruptions": [],
+    "network": "../networks/transportation.gnsi",
+    "start_time": "2017-10-01 00:00:00-0400",
+    "workday_end": "08:00",
+    "workday_start": "17:00"
+}

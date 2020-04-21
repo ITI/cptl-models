@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "cb9ec746-7653-40a7-8855-92b2774a08a0",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "MSC",
+            "nTEU": 7.0,
+            "origin": "DOMINICAN REPUBLIC",
+            "commodityGroup": "",
+            "destination": "McIntosh Intersection",
+            "name": "27-ALLEGRO-0::DOMINICAN REPUBLIC"
+        },
+        {
+            "EAT": 7200,
+            "LDT": 14400,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "cb9ec746-7653-40a7-8855-92b2774a08a0",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "MSC",
+            "nTEU": 0.0123,
+            "origin": "BAHAMAS",
+            "commodityGroup": "86",
+            "destination": "McIntosh Intersection",
+            "name": "27-ALLEGRO-1:86:BAHAMAS"
+        }
+    ]
+}

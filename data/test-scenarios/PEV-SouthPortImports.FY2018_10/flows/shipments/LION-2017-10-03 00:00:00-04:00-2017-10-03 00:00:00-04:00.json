@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b3763cea-32dd-4f19-9caf-bd554a35ad53",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "King Ocean",
+            "nTEU": 2.0,
+            "origin": "ITALY",
+            "commodityGroup": "87",
+            "destination": "McIntosh Intersection",
+            "name": "9-LION-0:87:ITALY"
+        },
+        {
+            "EAT": 2880,
+            "LDT": 10080,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "b3763cea-32dd-4f19-9caf-bd554a35ad53",
+            "source": "Berth 31",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "King Ocean",
+            "nTEU": 0.0123,
+            "origin": "BAHAMAS",
+            "commodityGroup": "86",
+            "destination": "McIntosh Intersection",
+            "name": "9-LION-1:86:BAHAMAS"
+        }
+    ]
+}

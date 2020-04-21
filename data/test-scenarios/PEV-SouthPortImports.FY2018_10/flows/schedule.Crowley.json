@@ -1,0 +1,54 @@
+{
+    "shipments": [
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments-Crowley/PAVO J-2017-10-02 00:00:00-04:00-2017-10-02 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "a3377a23-df66-490a-a460-505a301e7c0d",
+            "shipper": "Crowley",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments-Crowley/TUCANA J-2017-10-02 00:00:00-04:00-2017-10-02 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "8d7d99de-94bb-4f8a-996d-dfc4bdf1a798",
+            "shipper": "Crowley",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments-Crowley/AS FIORELLA-2017-10-04 02:25:00-04:00-2017-10-05 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "b4296980-8bf6-410e-9bc7-127347d003fb",
+            "shipper": "Crowley",
+            "time": 4465
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments-Crowley/K-BREEZE-2017-10-04 00:00:00-04:00-2017-10-04 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "7127e7c8-2f3a-4dee-8aee-5c9eb27a4c32",
+            "shipper": "Crowley",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 33",
+            "shipment_file": "shipments-Crowley/DENEB J-2017-10-04 23:10:00-04:00-2017-10-05 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "62c334e2-284a-4572-a2d0-3ed0d4c46033",
+            "shipper": "Crowley",
+            "time": 5710
+        }
+    ],
+    "disruptions": [],
+    "network": "../networks/transportation.gnsi",
+    "start_time": "2017-10-01 00:00:00-0400",
+    "workday_end": "08:00",
+    "workday_start": "17:00"
+}

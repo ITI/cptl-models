@@ -1,0 +1,63 @@
+{
+    "shipments": [
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments-FIT/SPIRIT OF TOKYO-2017-10-01 00:00:00-04:00-2017-10-01 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "40249698-e526-4a29-abca-f824f75d1c5f",
+            "shipper": "FIT",
+            "time": 0
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments-FIT/JPO LIBRA-2017-10-02 00:00:00-04:00-2017-10-02 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "dc0afac9-d1a2-4661-b565-995d739f5984",
+            "shipper": "FIT",
+            "time": 1440
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments-FIT/WASHINGTON EXPRESS-2017-10-03 00:00:00-04:00-2017-10-03 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "ddc32922-deff-403f-9aba-dfacf3d7e5b8",
+            "shipper": "FIT",
+            "time": 2880
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments-FIT/MAERSK KENTUCKY-2017-10-04 00:00:00-04:00-2017-10-04 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "948638eb-14b4-4dc5-80b9-b159644f629c",
+            "shipper": "FIT",
+            "time": 4320
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 30",
+            "shipment_file": "shipments-FIT/MONTE ROSA-2017-10-05 00:00:00-04:00-2017-10-05 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "68efc5da-1f17-454d-a07b-a18b8296ec45",
+            "shipper": "FIT",
+            "time": 5760
+        },
+        {
+            "arrival_node": "PEV",
+            "departure_node": "PEV",
+            "destination_node": "Berth 32",
+            "shipment_file": "shipments-FIT/MSC KALAMATA-2017-10-05 00:00:00-04:00-2017-10-05 00:00:00-04:00.filtered.json",
+            "shipment_uuid": "e9de2782-92b3-49c0-9818-3b1193dbcde9",
+            "shipper": "FIT",
+            "time": 5760
+        }
+    ],
+    "disruptions": [],
+    "network": "../networks/transportation.gnsi",
+    "start_time": "2017-10-01 00:00:00-0400",
+    "workday_end": "08:00",
+    "workday_start": "17:00"
+}

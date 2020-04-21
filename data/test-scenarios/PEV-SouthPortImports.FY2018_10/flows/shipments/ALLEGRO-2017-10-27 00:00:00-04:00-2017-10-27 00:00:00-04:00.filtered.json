@@ -1,0 +1,46 @@
+{
+    "commodities": [
+        {
+            "EAT": 37440,
+            "LDT": 44640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4eeb56f8-479a-4795-ac3e-6d7d187f5a1a",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "MSC",
+            "nTEU": 1,
+            "origin": "HONDURAS",
+            "commodityGroup": "",
+            "destination": "McIntosh Intersection",
+            "name": "116-ALLEGRO-0::HONDURAS"
+        },
+        {
+            "EAT": 37440,
+            "LDT": 44640,
+            "cargo_categories": [
+                "Non-hazardous"
+            ],
+            "delay_cost": null,
+            "group_uuid": "4eeb56f8-479a-4795-ac3e-6d7d187f5a1a",
+            "source": "Berth 30",
+            "transportation_methods": [
+                "Roadway",
+                "Sea",
+                "Transloading"
+            ],
+            "shipper": "MSC",
+            "nTEU": 2,
+            "origin": "VENEZUELA",
+            "commodityGroup": "76",
+            "destination": "McIntosh Intersection",
+            "name": "116-ALLEGRO-1:76:VENEZUELA"
+        }
+    ]
+}
