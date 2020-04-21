@@ -30,9 +30,9 @@ def main(argv):
     with open(dataSourceInventoryPath) as dataSourceInventoryFile:
         dataSourceInventoryDict = json.load(dataSourceInventoryFile)
 
-    for dUrn in dataSourceInventoryDict:
-        dataSourceInventoryDict[dUrn] = \
-            "/".join([scenarioDir, dataSourceInventoryDict[dUrn]])
+    #for dUrn in dataSourceInventoryDict:
+    #    dataSourceInventoryDict[dUrn] = \
+    #        "/".join([scenarioDir, dataSourceInventoryDict[dUrn]])
         
     cReporter = CoreCalibrationReporter.create(scenarioDir,\
                                                configDirPath,\

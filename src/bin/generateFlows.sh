@@ -35,7 +35,7 @@ export PYTHONPATH=$DES_HOME/src:`pwd`/src
 #python3 src/bin/filterShipments.py $SCENARIO_DIR
 
 ## TASK 5 (OK):  Run the Scenario, Get Calibration Report
-multiCommodityNetworkSim.py -o $SCENARIO_DIR/results/output.sqlite -t $SIM_RUN_TIME -si 100 -s $SCENARIO_DIR/flows/schedule.json
+#multiCommodityNetworkSim.py -o $SCENARIO_DIR/results/output.sqlite -t $SIM_RUN_TIME -si 100 -s $SCENARIO_DIR/flows/schedule.json
 python ./src/bin/calibrationReporter.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
 
 exit
