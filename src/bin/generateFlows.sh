@@ -42,7 +42,7 @@ export PYTHONPATH=$DES_HOME/src:`pwd`/src
 ##  TASK 1:  Generate the Cost Table for Simulation Output
 #python $DES_HOME/scripts/postProcessing/generateCostTable.py -i $SCENARIO_DIR/data/PEV_FY18_Import.sqlite -o $SCENARIO_DIR/results/output.sqlite
 ##  TASK 2:  Get the Calibration Report
-#python -m pdb ./src/bin/calibrationReporterEcon.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
+#python ./src/bin/calibrationReporterEcon.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
 
 ### PDT EXTENSION:  LATIN HYPERCUBE SCENARIO GENERATION
 ## TASK 1 (OK):  Create Experiments from Template
@@ -59,6 +59,9 @@ do
     echo $s
     multiCommodityNetworkSim.py -o $EXPERIMENT_REPO_HOME/$s/results/output.sqlite -t $SIM_RUN_TIME -si 100 -s $EXPERIMENT_REPO_HOME/$s/flows/schedule.json
     python ./src/bin/calibrationReporter.py $EXPERIMENT_REPO_HOME/$s $MONTH $SIM_DURATION_DAYS
+
+    python $DES_HOME/scripts/postProcessing/generateCostTable.py -i $EXPERIMENT_REPO_HOME/$s/data/PEV_FY18_Import.sqlite -o $EXPERIMENT_REPO_HOME/$s/results/output.sqlite
+    python ./src/bin/calibrationReporterEcon.py $EXPERIMENT_REPO_HOME/$s $MONTH $SIM_DURATION_DAYS
 done
 
 
