@@ -1,6 +1,6 @@
 #!/bin/bash
 SCENARIO_REPO_HOME=/home/share/Code/cptl-models/data/test-scenarios
-#SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/nolhBaseline
+#SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/nolhDisrupted
 DES_HOME=/home/share/des
 
 echo "Enter Scenario Reference"
@@ -42,19 +42,23 @@ export PYTHONPATH=$DES_HOME/src:`pwd`/src
 ##  TASK 1:  Generate the Cost Table for Simulation Output
 #python $DES_HOME/scripts/postProcessing/generateCostTable.py -i $SCENARIO_DIR/data/PEV_FY18_Import.sqlite -o $SCENARIO_DIR/results/output.sqlite
 ##  TASK 2:  Get the Calibration Report
-python -m pdb ./src/bin/calibrationReporterEcon.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
-
-exit
+#python -m pdb ./src/bin/calibrationReporterEcon.py $SCENARIO_DIR $MONTH $SIM_DURATION_DAYS
 
 ### PDT EXTENSION:  LATIN HYPERCUBE SCENARIO GENERATION
 ## TASK 1 (OK):  Create Experiments from Template
-#EXPERIMENT_NAME=nolhBaseline
-#TEMPLATE_REPO_HOME=$SCENARIO_REPO_HOME
-#EXPERIMENT_REPO_HOME=/home/share/Code/cptl-models/build/$EXPERIMENT_NAME
-#rm -rf $EXPERIMENT_REPO_HOME
-#mkdir $EXPERIMENT_REPO_HOME
-#python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH CLEAN
-#python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH GENERATE
+EXPERIMENT_NAME=nolhDisrupted
+TEMPLATE_REPO_HOME=$SCENARIO_REPO_HOME
+EXPERIMENT_REPO_HOME=/home/share/Code/cptl-models/build/$EXPERIMENT_NAME
+rm -rf $EXPERIMENT_REPO_HOME
+mkdir $EXPERIMENT_REPO_HOME
+python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH CLEAN
+python3 ./src/bin/buildExperiments.py $TEMPLATE_REPO_HOME $SCENARIO_REF $EXPERIMENT_NAME $EXPERIMENT_REPO_HOME $MONTH GENERATE
 
+for s in `ls $EXPERIMENT_REPO_HOME | grep -v "MSC" | grep -v "King Ocean" | grep -v "FIT" | grep -v "Crowley"`
+do
+    echo $s
+    multiCommodityNetworkSim.py -o $EXPERIMENT_REPO_HOME/$s/results/output.sqlite -t $SIM_RUN_TIME -si 100 -s $EXPERIMENT_REPO_HOME/$s/flows/schedule.json
+    python ./src/bin/calibrationReporter.py $EXPERIMENT_REPO_HOME/$s $MONTH $SIM_DURATION_DAYS
+done
 
 
