@@ -51,11 +51,11 @@ def main(argv):
             for dsUrn in results.keys():
                 result = results[dsUrn]
                 fileContents.append(dsUrn)
-                fileContents.append(result.to_csv(index=False))
+                fileContents.append(result.to_csv(index=True))
         else:
             if "Ref" in result:
                 result.drop("Ref", axis=1, inplace=True)
-            fileContents.append(result.to_csv(index=False))
+            fileContents.append(result.to_csv(index=True))
 
         
     with open(outputFilePath, 'w') as outputFile:

@@ -685,7 +685,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
         dataSourceUrns = self.dataSourceDict.keys()
 
         nCodes = 98
-        hs2CodeCols = list(map(lambda x: x, range(1, 98+1)))
+        hs2CodeCols = list(map(lambda x: x, range(0, nCodes+1)))
         hs2CodeCols = hs2CodeCols + ["Data Source", "Ref"]
         pctTEUPerHS2CodeDf = pd.DataFrame(columns = hs2CodeCols)
 
@@ -745,14 +745,14 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 ".".join([measurementUrn, outputDbEdition])
             hs2CodeDictDf = self.selectTEUCountsByHS2Codes(outputDbUrn)
             hs2CodeDict =\
-                dict(zip( range(1, nCodes+1), np.zeros(nCodes) ))
+                dict(zip( range(0, nCodes+1), np.zeros(nCodes+1) ))
             #includes '' and n/a so won't sum to 100%
             total = hs2CodeDictDf["TEU"].sum() 
             for idx, row in hs2CodeDictDf.iterrows():
-                key = idx
-                if key in range(1, nCodes+1):
-                    val = row["TEU"] / total * 100
-                    hs2CodeDict[key] = val
+                key = int(idx)
+                if key in range(0, nCodes+1):
+                    val = float(row["TEU"]) / total * 100
+                    hs2CodeDict[key] = round(val, 2)
             hs2CodeDict["Data Source"] = outputDbUrn
             hs2CodeDict["Ref"] = measurementEditionUrn
             pctTEUPerHS2CodeDf = \
@@ -786,7 +786,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 ".".join([measurementUrn, commodityOriginEdition])
             commodityOriginDf = self.dataFramesDict[commodityOriginUrn]
             numTEUDf = commodityOriginDf.groupby(["Foreign Initial Country"])["TEUS"].sum()
-            total = numTEUDf.sum()
+            total = float(numTEUDf.sum())
             numTEUDfPct = numTEUDf / total * 100
             numTEUDfPct = numTEUDfPct.round(2)
 
@@ -798,7 +798,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             countryCodesDict = \
                 dict(zip( countryCodes, np.zeros(nCodes) ))
 
-            for countryCode in range(1, nCodes+1):
+            for countryCode in countryCodes:
                 if countryCode in numTEUDfPct:
                     val = numTEUDfPct.at[countryCode]
                     countryCodesDict[countryCode] = val
@@ -826,8 +826,8 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 if '' == key or "n/a" == key:
                     continue
                 if key in countryCodes:
-                    val = row["TEU"] / total * 100
-                    countryCodeDict[key] = val 
+                    val = float(row["TEU"]) / total * 100
+                    countryCodeDict[key] = round(val, 2)
             countryCodeDict["Data Source"] = outputDbUrn
             countryCodeDict["Ref"] = measurementEditionUrn
             pctTEUPerCountryDf = \
@@ -932,7 +932,8 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             commodityOriginDf = self.dataFramesDict[commodityOriginUrn]
             numTEUHS2CodeCountryDf = commodityOriginDf.groupby(["HS Code 2 Digit","Foreign Initial Country"])["TEUS"].sum()
             numTEUHS2CodeDf = commodityOriginDf.groupby(["HS Code 2 Digit"])["TEUS"].sum()
-            pctTEUHS2CodeCountryDf = numTEUHS2CodeCountryDf / numTEUHS2CodeDf
+            pctTEUHS2CodeCountryDf = numTEUHS2CodeCountryDf / numTEUHS2CodeDf * 100
+            pctTEUHS2CodeCountryDf = pctTEUHS2CodeCountryDf.round(2)
             resultKeys.append(commodityOriginUrn)
 
         # Data Source 2:  PDT Output DB
@@ -943,9 +944,10 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".", "_")
             measurementEditionUrn = \
                 ".".join([measurementUrn, outputDbEdition])
-            numTEUHS2CodeCountryDf = self.selectTEUCountsByHS2CodeCountry(outputDbUrn)
-            numTEUHS2CodeDf = self.selectTEUCountsByHS2Codes(outputDbUrn)
-            pctTEUHS2CodeCountryDf2 = numTEUHS2CodeCountryDf / numTEUHS2CodeDf
+            numTEUHS2CodeCountryDf2 = self.selectTEUCountsByHS2CodeCountry(outputDbUrn)
+            numTEUHS2CodeDf2 = self.selectTEUCountsByHS2Codes(outputDbUrn)
+            pctTEUHS2CodeCountryDf2 = numTEUHS2CodeCountryDf2 / numTEUHS2CodeDf2 * 100
+            pctTEUHS2CodeCountryDf2 = pctTEUHS2CodeCountryDf2.round(2)
             resultKeys.append(outputDbUrn)
 
         # ITERATE AND OUTPUT RESULT
