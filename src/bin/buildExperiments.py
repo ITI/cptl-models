@@ -143,17 +143,20 @@ def createTransportationGraph(expDirPath, expGraphParams):
     gates = filter(lambda x: x["rdf:type"] == "Gate", graphTemplateData["nodes"])
     for gate in gates:
         gate["service_time"] = gateServiceTime
-
+        gate["cycle_time"] = round(float(gate["capacity"]) / gate["service_time"])
+        
     # Set the road capacity for McIntosh Gate to McIntosh Intersection
     roads = filter(lambda x: x["rdf:type"] == "Gate-Intersection", graphTemplateData["links"])
     for road in roads:
         road["capacity"] = roadCapacity
-
+        road["cycle_time"] = round(float(road["capacity"]) / road["travel_time"])
+                                   
     # Set the crane rate for the Cranes
     cranes = filter(lambda x: x["rdf:type"] == "Berth-Dock", graphTemplateData["links"])
     for crane in cranes:
         crane["travel_time"] = round( 60.0 / craneRate, 1 )
-
+        crane["cycle_time"] = round(float(crane["capacity"]) / crane["travel_time"])
+                                   
     graphOutputPath = "/".join([expDirPath, "networks/transportation.gnsi"])    
 
     transGraphSchema = None
@@ -231,7 +234,7 @@ def main(argv):
     scheduleSchemaFilePath = "/home/share/Code/cptl-models/data/schema/schedule.schema.v2.json"
 
     if "GENERATE" == action:
-        os.mkdir(outputBase)
+        #        os.mkdir(outputBase)
         with open(experimentFilePath) as experimentFile:
             for expIdx, line in enumerate(experimentFile):
                 for shipper in ["", "Crowley", "MSC", "King Ocean", "FIT"]:
