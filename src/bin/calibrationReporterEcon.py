@@ -24,7 +24,7 @@ def main(argv):
 
     configDirPath = "/".join([scenarioDir, "config"])
     dataSourceInventoryPath = "/".join([configDirPath, "inventory.json"])
-    outputFilePath = "/".join([scenarioDir, "results/calibration_econ.log"])
+    outputFilePath = "/".join([scenarioDir, "results/calibration.econ.log"])
     
     dataSourceInventoryDict = None
     with open(dataSourceInventoryPath) as dataSourceInventoryFile:
