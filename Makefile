@@ -2,13 +2,13 @@
 
 export DES_HOME=/home/share/des
 export PYTHONPATH=$(DES_HOME)/src:./src
-export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build
+export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/templates
 
 export PORT=PEV
 export YEAR=FY2018
 export MONTH=10
 export DESC=SouthPortImports
-export SIM_DURATION_DAYS=2
+export SIM_DURATION_DAYS=16
 
 export SCENARIO_REF=$(PORT)-$(DESC).$(YEAR)_$(MONTH)_$(SIM_DURATION_DAYS)
 export SCENARIO_DIR=$(SCENARIO_REPO_HOME)/$(SCENARIO_REF)
