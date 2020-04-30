@@ -31,4 +31,4 @@ generate.expdesign: init.expdesign
 	python3 ./src/bin/buildExperiments.py $(TEMPLATE_REPO_HOME) $(SCENARIO_REF) $(EXPERIMENT_NAME) $(EXPERIMENT_REPO_HOME) $(MONTH) GENERATE
 
 simulate.expdesign:
-	@echo "TBD"
+	./src/bin/runExperimentScenarios.sh $(EXPERIMENT_NAME)
