@@ -24,7 +24,7 @@ def main(argv):
 
     configDirPath = "/".join([scenarioDir, "config"])
     dataSourceInventoryPath = "/".join([configDirPath, "inventory.json"])
-    outputFilePath = "/".join([scenarioDir, "results/calibration.econ.log"])
+    outputFileDir = "/".join([scenarioDir, "results/measurements"])
     
     dataSourceInventoryDict = None
     with open(dataSourceInventoryPath) as dataSourceInventoryFile:
@@ -41,25 +41,25 @@ def main(argv):
                                                     simDurationDays)
     ecReporter.loadDataSources()
 
-    fileContents = []
     for mUrn in ecReporter.measurementUrns:
+        fileContents = []
+        
         result = ecReporter.getMeasurement(mUrn)
-        print(mUrn)
-        fileContents.append(mUrn)                    
         if type(result) is dict:
             results = result
             for dsUrn in results.keys():
                 result = results[dsUrn]
-                fileContents.append(dsUrn)
                 fileContents.append(result.to_csv(index=True))
         else:
             if "Ref" in result:
                 result.drop("Ref", axis=1, inplace=True)
             fileContents.append(result.to_csv(index=True))
-
-        
-    with open(outputFilePath, 'w') as outputFile:
-        outputFile.write("\n".join(fileContents))
+            
+        measurementName = mUrn.split(":")[-1]
+        measurementFileName = measurementName + ".econ.csv"
+        outputFilePath = "/".join([outputFileDir, measurementFileName])
+        with open(outputFilePath, 'w') as outputFile:
+            outputFile.write("\n".join(fileContents))
     
 if __name__ == "__main__":
     main(sys.argv[1:])

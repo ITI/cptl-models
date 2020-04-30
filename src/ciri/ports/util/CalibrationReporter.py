@@ -75,8 +75,8 @@ class CoreCalibrationReporter():
                                             "Ref": measurementEditionUrn},\
                                            ignore_index=True)
 
-        #-- Data Source 2:  PDTInputSchedule
-        vesselScheduleUrns = list(filter(lambda x: "PDTInputSchedule" in x, dataSourceUrns))
+        #-- Data Source 2:  DESInputSchedule
+        vesselScheduleUrns = list(filter(lambda x: "DESInputSchedule" in x, dataSourceUrns))
         for vesselScheduleUrn in vesselScheduleUrns:
             vesselScheduleEdition = vesselScheduleUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -89,8 +89,8 @@ class CoreCalibrationReporter():
                                             "Ref": measurementEditionUrn},\
                                            ignore_index=True)
 
-        #-- Data Source 3:  PDTOutputDB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        #-- Data Source 3:  DESOutputDB
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -143,8 +143,8 @@ class CoreCalibrationReporter():
                                     "Ref": measurementEditionUrn},\
                                    ignore_index=True)
             
-        #-- Data Source 3:  PDTOutputDB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        #-- Data Source 3:  DESOutputDB
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -187,8 +187,8 @@ class CoreCalibrationReporter():
                                               "Data Source": vesselCallUrn,\
                                               "Ref": measurementEditionUrn},\
                                              ignore_index=True)
-        #-- Data Source 2:  PDTOutputDB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        #-- Data Source 2:  DESOutputDB
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -277,8 +277,8 @@ class CoreCalibrationReporter():
 
         teuTransitTimesDf = pd.DataFrame(columns = ["min","max", "mean", "Data Source", "Ref"])
 
-        #-- Data Source 1:  PDTOutputDB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        #-- Data Source 1:  DESOutputDB
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -341,10 +341,10 @@ class CoreCalibrationReporter():
                 self.loadTEUReport(dataSourceUrn)
             elif "ImportedCommods" in dataSourceUrn:
                 self.loadImportedCommods(dataSourceUrn)
-            elif "PDTInputSchedule" in dataSourceUrn:
-                self.loadPDTInputSchedule(dataSourceUrn)
-            elif "PDTOutputDB" in dataSourceUrn:
-                self.loadPDTOutputDB(dataSourceUrn)
+            elif "DESInputSchedule" in dataSourceUrn:
+                self.loadDESInputSchedule(dataSourceUrn)
+            elif "DESOutputDB" in dataSourceUrn:
+                self.loadDESOutputDB(dataSourceUrn)
         return
 
     def loadVesselCalls(self, dataSourceUrn):
@@ -389,13 +389,13 @@ class CoreCalibrationReporter():
         importedCommodsDf = importedCommodsDf[day_mask]
         self.dataFramesDict[dataSourceUrn] = importedCommodsDf
 
-    def loadPDTInputSchedule(self, dataSourceUrn):
+    def loadDESInputSchedule(self, dataSourceUrn):
         vesselSchedule = {}
         with open( "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]]), 'r') as vesselScheduleFile:
             vesselSchedule = json.load(vesselScheduleFile)
         self.dataFramesDict[dataSourceUrn] = vesselSchedule
 
-    def loadPDTOutputDB(self, dataSourceUrn):
+    def loadDESOutputDB(self, dataSourceUrn):
         conn = self.createConnection( "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]]) )
         self.dataFramesDict[dataSourceUrn] = conn
 
@@ -482,10 +482,10 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 self.loadHS2Codes(dataSourceUrn)
             elif "PDTInputEconomicAnalysis" in dataSourceUrn:
                 self.loadPDTInputEconomicAnalysis(dataSourceUrn)
-            elif "PDTInputSchedule" in dataSourceUrn:
-                self.loadPDTInputSchedule(dataSourceUrn)
-            elif "PDTOutputDB" in dataSourceUrn:
-                self.loadPDTOutputDB(dataSourceUrn)
+            elif "DESInputSchedule" in dataSourceUrn:
+                self.loadDESInputSchedule(dataSourceUrn)
+            elif "DESOutputDB" in dataSourceUrn:
+                self.loadDESOutputDB(dataSourceUrn)
         return
 
     def loadCommodityOrigins(self, dataSourceUrn):
@@ -503,7 +503,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
         conn = self.createConnection( "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]]) )
         self.dataFramesDict[dataSourceUrn] = conn
 
-    def loadPDTOutputDB(self, dataSourceUrn):
+    def loadDESOutputDB(self, dataSourceUrn):
         conn = self.createConnection( "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]]) )
         self.dataFramesDict[dataSourceUrn] = conn
         
@@ -566,7 +566,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             numCountries = self.unitRegistry.Quantity(numCountries, 'country')            
             nCountriesDf = nCountriesDf.append({"Value": numCountries, "Data Source": commodityOriginUrn, "Ref": measurementEditionUrn}, ignore_index=True)
 
-        #-- Data Source 2:  PDTInputSchedule
+        #-- Data Source 2:  DESInputSchedule
         # TBD
         
         #-- Data Source 3:  PDTInputEconomicAnalysis
@@ -579,8 +579,8 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             numCountries = self.unitRegistry.Quantity(numCountries, 'country')
             nCountriesDf = nCountriesDf.append({"Value": numCountries, "Data Source": econDbUrn, "Ref": measurementEditionUrn}, ignore_index=True)
         
-        #-- Data Source 4:  PDTOutputDB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        #-- Data Source 4:  DESOutputDB
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -598,7 +598,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             monthStr = self.getMonthTable()
             query = "SELECT DISTINCT Country FROM " + monthStr
             df = pd.read_sql_query(query, conn)
-        elif "PDTOutputDB" in dbUrn:
+        elif "DESOutputDB" in dbUrn:
             query = "SELECT DISTINCT Origin FROM output"
             df = pd.read_sql_query(query, conn)
         return df
@@ -657,7 +657,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             nHS2CodesDf = nHS2CodesDf.append({"Value": numHS2Codes, "Data Source": econDbUrn, "Ref": measurementEditionUrn}, ignore_index=True)
             
         #-- Data Source 5:  PDT Output DB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurmentEditionUrn = \
@@ -675,7 +675,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             monthStr = self.getMonthTable()
             query = "SELECT * FROM " + monthStr
             df = pd.read_sql_query(query, conn)
-        elif "PDTOutputDB" in dbUrn:
+        elif "DESOutputDB" in dbUrn:
             query = "SELECT DISTINCT \"NAICS Type\" FROM output"
             df = pd.read_sql_query(query, conn)
         return df
@@ -738,7 +738,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 pctTEUPerHS2CodeDf.append(pd.Series(hs2CodeDict), ignore_index=True)
 
         #-- Data Source 3:  PDT Output DB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -811,7 +811,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
         # TBD
         
         #-- Data Source 3:  PDT Output DB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -872,7 +872,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
             
         #-- Data Source 2:  PDT Input Schedule
         #-- Data Source 3:  PDT Output DB
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = \
@@ -939,7 +939,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
         # Data Source 2:  PDT Output DB
         resultDf2 = pd.DataFrame(index=countryCodes, columns=hs2CodeCols)                
         pctTEUHS2CodeCountryDf2 = None
-        outputDbUrns = list(filter(lambda x: "PDTOutputDB" in x, dataSourceUrns))
+        outputDbUrns = list(filter(lambda x: "DESOutputDB" in x, dataSourceUrns))
         for outputDbUrn in outputDbUrns:
             outputDbEdition = outputDbUrn.split(':')[-1].replace(".", "_")
             measurementEditionUrn = \

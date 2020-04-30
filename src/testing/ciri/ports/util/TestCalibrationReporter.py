@@ -108,8 +108,8 @@ class TestCoreCalibrationReporter(unittest.TestCase):
         dataSourceKeys = ["urn:cite:PEV:VesselCalls.FY2018_10",\
                           "urn:cite:PEV:TEUReport.FY2018",\
                           "urn:cite:PEV:ImportedCommods.FY2018_10",\
-                          "urn:cite:PEV:PDTInputSchedule.Medium_nolhBaseline_0",\
-                          "urn:cite:PEV:PDTOutputDB.Medium_nolhBaseline_0"]
+                          "urn:cite:PEV:SouthPortImports.FY2018_10#Inputs.DESInputSchedule",\
+                          "urn:cite:PEV:SouthPortImports.FY2018_10#Outputs.DESOutputDB"]
 
         vesselCallsPath = "data/VesselCalls.csv"
         teuReportPath = "data/TEU Report FY2018.csv"
@@ -142,11 +142,11 @@ class TestCoreCalibrationReporter(unittest.TestCase):
             self.cReporter.dataFramesDict[ vesselCallsUrn ]
         self.assertEqual(vesselCallsDf.shape[0], 62)
 
-        vesselScheduleUrn = "urn:cite:PEV:PDTInputSchedule.Medium_nolhBaseline_0"
+        vesselScheduleUrn = "urn:cite:PEV:SouthPortImports.FY2018_10#Inputs.DESInputSchedule"
         vesselSchedule = self.cReporter.dataFramesDict[ vesselScheduleUrn ]
         self.assertEqual( len(vesselSchedule["shipments"]), 18 )
     
-        outputDbUrn = "urn:cite:PEV:PDTOutputDB.Medium_nolhBaseline_0"
+        outputDbUrn = "urn:cite:PEV:SouthPortImports.FY2018_10#Outputs.DESOutputDB"
         simVesselCallsDf = self.cReporter.selectAllVessels(outputDbUrn)
         self.assertEqual(simVesselCallsDf.shape[0], 18)
 

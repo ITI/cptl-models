@@ -166,9 +166,16 @@ def createTransportationGraph(expDirPath, expGraphParams):
 
     outputJSON(graphTemplateData, transGraphSchema, graphOutputPath)
 
+def getExperimentUrn(scenarioRef, experimentName, expIdx):
+    experimentUrn = "urn:cite:" + scenarioRef.replace("-",":")
+    experimentUrn = experimentUrn + "_" + experimentName + str(expIdx)
+    return experimentUrn
+    
 def createExperimentDir(scenarioBase, outputBase, experimentName, scenarioRef, expIdx, expParams):
-    expUrn = "_".join([scenarioRef, experimentName, expIdx])
-    dirPath = "/".join([outputBase, expUrn])
+    expUrn = getExperimentUrn(scenarioRef, experimentName, expIdx)
+    experimentDirName = expUrn.replace("urn:cite:", "").replace(":","-")
+    dirPath = "/".join([outputBase, experimentDirName])
+
     if os.path.isdir(dirPath):
         return dirPath
     
@@ -180,6 +187,34 @@ def createExperimentDir(scenarioBase, outputBase, experimentName, scenarioRef, e
         destDataPath = "/".join([dirPath, dirName])
         shutil.copytree(srcDataPath, destDataPath)
 
+        # Update DES I/O entries in inventory
+        if "config" == dirName:
+            inventoryFilePath = "/".join([destDataPath, "inventory.json"])
+            jsonData = None
+            with open(inventoryFilePath, 'r') as inventoryFile:
+                jsonData = json.load(inventoryFile)
+            inventoryFile.close()
+
+            modifiedScenarioRef = scenarioRef
+            scenarioUrn = "urn:cite:" + modifiedScenarioRef.replace("-",":")
+
+            inventoryKeys = jsonData.keys()
+            newData = {}
+            delKeys = []
+            for key in inventoryKeys:
+                if scenarioUrn in key:
+                    newKey = key.replace(scenarioUrn, expUrn)
+                    newData[newKey] = jsonData[key]
+                    delKeys.append(key)
+            jsonData.update(newData)
+            for key in delKeys:
+                del jsonData[key]
+            
+            with open(inventoryFilePath, 'w') as inventoryFile:
+                jsonDataStr = json.dumps(jsonData, indent=4)
+                inventoryFile.write(jsonDataStr)
+            inventoryFile.close()
+        
     expParamsPath = "/".join([dirPath, "config/exp_params.json"])
     with open(expParamsPath, 'w') as expParamsFile:
         jsonData = json.dumps(expParams, indent=4)

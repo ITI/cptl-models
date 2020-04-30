@@ -2,13 +2,13 @@
 
 export DES_HOME=/home/share/des
 export PYTHONPATH=$(DES_HOME)/src:./src
-export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/templates
+export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/data/test-scenarios
 
 export PORT=PEV
 export YEAR=FY2018
 export MONTH=10
 export DESC=SouthPortImports
-export SIM_DURATION_DAYS=16
+export SIM_DURATION_DAYS=4
 
 export SCENARIO_REF=$(PORT)-$(DESC).$(YEAR)_$(MONTH)_$(SIM_DURATION_DAYS)
 export SCENARIO_DIR=$(SCENARIO_REPO_HOME)/$(SCENARIO_REF)
@@ -51,10 +51,13 @@ help-core:
 clean:	## remove build artifacts
 	rm -fr $(SCENARIO_DIR)
 
-init: init-base init-config init-data init-flows init-network init-results
+init: init-base init-calibration init-config init-data init-flows init-network init-results
 
 init-base:
 	mkdir $(SCENARIO_DIR)	
+
+init-calibration:
+	mkdir $(SCENARIO_DIR)/results/measurements
 
 init-config: ## initialize the artifacts
 	mkdir $(SCENARIO_DIR)/config
@@ -108,7 +111,7 @@ calibration:
 	python ./src/bin/calibrationReporter.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)
 
 describe-calibration:
-	cat $(SCENARIO_DIR)/results/calibration.log
+	ls $(SCENARIO_DIR)/results/measurements
 
 
 

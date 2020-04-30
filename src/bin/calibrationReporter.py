@@ -24,7 +24,7 @@ def main(argv):
 
     configDirPath = "/".join([scenarioDir, "config"])
     dataSourceInventoryPath = "/".join([configDirPath, "inventory.json"])
-    outputFilePath = "/".join([scenarioDir, "results/calibration.log"])
+    outputFileDir = "/".join([scenarioDir, "results/measurements"])
     
     dataSourceInventoryDict = None
     with open(dataSourceInventoryPath) as dataSourceInventoryFile:
@@ -41,15 +41,21 @@ def main(argv):
                                                simDurationDays)
     cReporter.loadDataSources()
 
-    fileContents = []
+
     for mUrn in cReporter.measurementUrns:
+        fileContents = []
+
         result = cReporter.getMeasurement(mUrn)
         result.drop("Ref", axis=1, inplace=True)
         fileContents.append(mUrn)
         fileContents.append(result.to_csv(index=False))
 
-    with open(outputFilePath, 'w') as outputFile:
-        outputFile.write("\n".join(fileContents))
-    
+        measurementName = mUrn.split(":")[-1]
+        measurementFileName = measurementName + ".csv"
+        outputFilePath = "/".join([outputFileDir, measurementFileName])
+        with open(outputFilePath, 'w') as outputFile:
+            outputFile.write("\n".join(fileContents))
+        outputFile.close()
+        
 if __name__ == "__main__":
     main(sys.argv[1:])
