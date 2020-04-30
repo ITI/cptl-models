@@ -1,0 +1,12 @@
+export PORT=PEV
+export YEAR=FY2018
+export MONTH=10
+export DESC=SouthPortImports
+export SIM_DURATION_DAYS=4
+
+export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/build/nolhBaseline
+
+export SCENARIO_REF=$(PORT)-$(DESC).$(YEAR)_$(MONTH)_$(SIM_DURATION_DAYS)_nolhBaseline0
+export SCENARIO_DIR=$(SCENARIO_REPO_HOME)/$(SCENARIO_REF)
+export SIM_DURATION=$$(( $(SIM_DURATION_DAYS) * 1440 ))
+export SIM_RUN_TIME=$$(( $(SIM_DURATION) + 5000 ))

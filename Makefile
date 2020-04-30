@@ -2,23 +2,12 @@
 
 export DES_HOME=/home/share/des
 export PYTHONPATH=$(DES_HOME)/src:./src
-export SCENARIO_REPO_HOME=/home/share/Code/cptl-models/data/test-scenarios
 
-export PORT=PEV
-export YEAR=FY2018
-export MONTH=10
-export DESC=SouthPortImports
-export SIM_DURATION_DAYS=4
-
-export SCENARIO_REF=$(PORT)-$(DESC).$(YEAR)_$(MONTH)_$(SIM_DURATION_DAYS)
-export SCENARIO_DIR=$(SCENARIO_REPO_HOME)/$(SCENARIO_REF)
-export SIM_DURATION=$$(( $(SIM_DURATION_DAYS) * 1440 ))
-export SIM_RUN_TIME=$$(( $(SIM_DURATION) + 5000 ))
-
-help: help-core
-
+include config/makeParams
 include src/Makefile.econ
 include src/Makefile.expdesign
+
+help: help-core
 
 help-core:
 	@echo "-----------------------------------------------------------------------------------------"

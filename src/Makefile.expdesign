@@ -11,11 +11,13 @@ help.expdesign:
 	@echo "------------------------------------------------------------------------------------------------------------------------"
 	@echo "clean.expdesign              Clean the generated experiments"
 	@echo "generate.expdesign           Generate a Latin Hypercube Experiment Design"
+	@echo "simulate.expdesign           Run experiment simulations (1 run per NOLH setting)"
 	@echo "------------------------------------------------------------------------------------------------------------------------"	
 
 EXPERIMENT_NAME=nolhBaseline
 TEMPLATE_REPO_HOME=$(SCENARIO_REPO_HOME)
 EXPERIMENT_REPO_HOME=build/$(EXPERIMENT_NAME)
+NRUNS=1
 
 clean.expdesign:
 	rm -fr $(EXPERIMENT_REPO_HOME)
@@ -28,5 +30,5 @@ init.expdesign:
 generate.expdesign: init.expdesign
 	python3 ./src/bin/buildExperiments.py $(TEMPLATE_REPO_HOME) $(SCENARIO_REF) $(EXPERIMENT_NAME) $(EXPERIMENT_REPO_HOME) $(MONTH) GENERATE
 
-
-
+simulate.expdesign:
+	@echo "TBD"
