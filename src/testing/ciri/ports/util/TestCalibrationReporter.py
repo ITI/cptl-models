@@ -46,7 +46,7 @@ class TestEconomicCalibrationReporter(unittest.TestCase):
             self.ecReporter.dataFramesDict[ importedCommodsUrn ]
         self.assertEqual(importedCommodsDf.shape[0], 1581)
         
-        economicAnalysisUrn = "urn:cite:PEV:PDTInputEconomicAnalysis.FY2018"
+        economicAnalysisUrn = "urn:cite:PEV:SouthPortImports.FY2018_10#Inputs.EconAnalysisImports"
         economicAnalysisDf = \
             self.ecReporter.selectAllCountries(economicAnalysisUrn)
         self.assertEqual(economicAnalysisDf.shape[0], 75)
@@ -110,7 +110,7 @@ class TestCoreCalibrationReporter(unittest.TestCase):
                           "urn:cite:PEV:ImportedCommods.FY2018_10",\
                           "urn:cite:PEV:SouthPortImports.FY2018_10#Inputs.DESInputSchedule",\
                           "urn:cite:PEV:SouthPortImports.FY2018_10#Outputs.DESOutputDB"]
-
+        
         vesselCallsPath = "data/VesselCalls.csv"
         teuReportPath = "data/TEU Report FY2018.csv"
         importedCommodsPath = "data/ImportedCommods.csv"
@@ -161,6 +161,87 @@ class TestCoreCalibrationReporter(unittest.TestCase):
         print(result.head())
 
         mUrn = "urn:cite:PDT:VesselDwellTime"
+        result = self.cReporter.getMeasurement(mUrn)
+        print(result.head())
+
+        mUrn = "urn:cite:PDT:TEUTransitTime"
+        result = self.cReporter.getMeasurement(mUrn)
+        print(result.head())
+
+class TestOptimizerCalibrationReporter(unittest.TestCase):
+
+    oReporter = None
+
+    def setUp(self):
+        scenarioDir = "data/optimizer-tests/PEV-SouthPortImports.FY2018_10_4_nolhBaseline_0"
+        configDir = "/".join([scenarioDir, "config"])
+
+        # Data sources
+        dataSourceInvPath = "/".join([scenarioDir, "config/inventory.json"])
+        with open(dataSourceInvPath) as dataSourceInvFile:
+            dataSourceInv = json.load(dataSourceInvFile)
+        month = 10
+        simDuration = 4
+
+        self.assertEqual(len(dataSourceInv.keys(), 9))
+
+class TestCoreCalibrationReporterWithOptimizer(unittest.TestCase):
+
+    cReporter = None
+
+    def setUp(self):
+        scenarioDir = "data/optimizer-tests/PEV-SouthPortImports.FY2018_10_4_nolhBaseline_0"
+        configDir = "config"
+
+        # Data sources
+        dataSourceKeys = ["urn:cite:PEV:VesselCalls.FY2018_10",\
+                          "urn:cite:PEV:TEUReport.FY2018",\
+                          "urn:cite:PEV:ImportedCommods.FY2018_10",\
+                          "urn:cite:PEV:SouthPortImports.FY2018_10_4#Inputs.DESInputSchedule",\
+                          "urn:cite:PEV:SouthPortImports.FY2018_10_4#Outputs.OptimizerOutputResults",\
+                          "urn:cite:PEV:SouthPortImports.FY2018_10_4#Outputs.OptimizerOutputRoutes"]
+
+        vesselCallsPath = "data/VesselCalls.csv"
+        teuReportPath = "data/TEU Report.csv"
+        importedCommodsPath = "data/ImportedCommods.csv"
+        vesselSchedulePath = "flows/schedule.json"
+        optimizerResultsPath = "results/output.opt.results"
+        optimizerRoutesPath = "results/output.opt.routes"
+        
+        dataSourcePaths = [ vesselCallsPath,
+                            teuReportPath,
+                            importedCommodsPath,
+                            vesselSchedulePath,
+                            optimizerResultsPath,
+                            optimizerRoutesPath ]
+        
+        dataSourceDict = dict(zip(dataSourceKeys, dataSourcePaths))
+        month = 10
+        simDuration = 4
+
+        self.assertEqual(len(dataSourceDict.keys()), 6)
+        self.cReporter = CoreCalibrationReporter.create(scenarioDir, configDir, dataSourceDict, month, simDuration)
+
+    def testCreate(self):
+        self.assertTrue( self.cReporter != None )
+        self.assertEqual( len(self.cReporter.dataSourceDict.keys()), 6)
+
+    def testLoadDataSources(self):
+        self.cReporter.loadDataSources()
+        self.assertEqual( len(self.cReporter.dataSourceDict.keys()), 6)
+
+        vesselCallsUrn = "urn:cite:PEV:VesselCalls.FY2018_10"
+        vesselCallsDf = \
+            self.cReporter.dataFramesDict[ vesselCallsUrn ]
+        self.assertEqual(vesselCallsDf.shape[0], 18)
+
+        outputResultsUrn = "urn:cite:PEV:SouthPortImports.FY2018_10_4#Outputs.OptimizerOutputResults"
+        teuDf = self.cReporter.selectAllTEU(outputResultsUrn)
+        self.assertEqual(teuDf.shape[0], 3014)
+
+    def testGetMeasurements(self):
+        self.cReporter.loadDataSources()
+        mUrn = "urn:cite:PDT:NumberOfTEU"
         result = self.cReporter.getMeasurement(mUrn)
         print(result.head())
 

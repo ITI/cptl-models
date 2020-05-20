@@ -8,10 +8,12 @@ All rights reserved
 """
 from ciri.ports.util.CalibrationReporter import CoreCalibrationReporter
 import json
+import numpy as np
 import sys
+from matplotlib import pyplot
 
 def usage():
-    print("calibrationReporter.py <scenarioDir> <month> <simDurationDays>")
+    print("outputTEUPaths.py <scenarioDir> <month> <simDurationDays>")
     sys.exit(-1)
     
 def main(argv):
@@ -40,18 +42,33 @@ def main(argv):
                                                month,\
                                                simDurationDays)
     cReporter.loadDataSources()
-
-    for mUrn in cReporter.measurementUrns:
+    
+    teuPathsInSimulation, teuPathsInOptimizer = None, None
+    for outputDbUrn in dataSourceInventoryDict.keys():
         fileContents = []
+        if "DESOutputDB" in outputDbUrn:
+            teuInSimulation = cReporter.selectAllTEU(outputDbUrn)
+            teuPathsInSimulation = teuInSimulation.groupby('Path Traveled').count()[['Commodity Name']]
+            teuPathsInSimulation = teuPathsInSimulation.rename(columns={"Commodity Name":"Count"})
+            teuPathsInSimulation = teuPathsInSimulation.sort_values(["Count"], ascending=False)
+            
+        elif "OptimizerOutputResults" in outputDbUrn:
+            teuInOptimizer = cReporter.selectAllTEU(outputDbUrn)
+            teuPathsInOptimizer = teuInOptimizer.groupby('Path Traveled').count()[['Commodity Name']]
+            teuPathsInOptimizer = teuPathsInOptimizer.rename(columns={"Commodity Name":"Count"})
+            teuPathsInOptimizer = teuPathsInOptimizer.sort_values(["Count"], ascending=False)
 
-        result = cReporter.getMeasurement(mUrn)
-        result.drop("Ref", axis=1, inplace=True)
-        fileContents.append(mUrn)
-        fileContents.append(result.to_csv(index=False))
-
-        measurementName = mUrn.split(":")[-1]
-        measurementFileName = measurementName + ".csv"
+    for resultType in ["simulation", "optimizer"]:
+        fileContents = []
+        
+        measurementFileName = ".".join(["TEUPaths", resultType, "csv"])
         outputFilePath = "/".join([outputFileDir, measurementFileName])
+
+        if "simulation" == resultType:
+            fileContents.append(teuPathsInSimulation.to_csv(index=True))
+        elif "optimizer" == resultType:
+            fileContents.append(teuPathsInOptimizer.to_csv(index=True))
+            
         with open(outputFilePath, 'w') as outputFile:
             outputFile.write("\n".join(fileContents))
         outputFile.close()

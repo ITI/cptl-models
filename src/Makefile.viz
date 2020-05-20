@@ -1,0 +1,29 @@
+
+export VIS_HOME=/home/share/Code/vis
+
+help.viz:
+	@echo "-----------------------------------------------------------------------------------------"
+	@echo "____________ _____   _   _ _                 _ _          _   _"
+	@echo "| ___ \  _  \_   _| | | | (_)               | (_)        | | (_)"
+	@echo "| |_/ / | | | | |   | | | |_ ___ _   _  __ _| |_ ______ _| |_ _  ___  _ __"
+	@echo "|  __/| | | | | |   | | | | / __| | | |/ _  | | |_  / _  | __| |/ _ \|  _ \ "
+	@echo "| |   | |/ /  | |   \ \_/ / \__ \ |_| | (_| | | |/ / (_| | |_| | (_) | | | | "
+	@echo "\_|   |___/   \_/    \___/|_|___/\__,_|\__,_|_|_/___\__,_|\__|_|\___/|_| |_| "
+	@echo "-----------------------------------------------------------------------------------------"
+	@echo "clean.viz				Clean visualization"
+	@echo "gen-flowmovie				Make flow movie"
+	@echo "gen-dashboard				Generate the dashboard"
+	@echo "-----------------------------------------------------------------------------------------"
+
+clean.viz:
+	rm $(SCENARIO_DIR)/results/flow_movie.mp4
+	rm $(SCENARIO_DIR)/results/full_dashboard_table.json
+	
+gen-flowmovie:
+	Rscript	$(VIS_HOME)/gganimate_flow_static_map_background.R $(SCENARIO_DIR)
+
+gen-dashboard:
+	Rscript $(VIS_HOME)/preprocess_for_dashboard.R $(SCENARIO_DIR)
+
+
+

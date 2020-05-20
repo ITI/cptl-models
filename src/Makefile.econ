@@ -23,7 +23,7 @@ init.econ:
 	cp -rf data/$(PORT)-$(YEAR)/EconAnalysisImports.sqlite $(SCENARIO_DIR)/data
 
 postprocess.econ: init.econ
-	python $(DES_HOME)/scripts/postProcessing/generateCostTable.py -i $(SCENARIO_DIR)/data/EconAnalysisImports.sqlite -o $(SCENARIO_DIR)/results/output.sqlite
+	python $(DES_HOME)/scripts/postProcessing/generateCostTable.py -i $(SCENARIO_DIR)/data/EconAnalysisImports.sqlite -o $(SCENARIO_DIR)/results/output.opt.sqlite
 
 calibration.econ: 
 	python ./src/bin/calibrationReporterEcon.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)

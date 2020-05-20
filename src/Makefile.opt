@@ -1,0 +1,36 @@
+CTSNDP_HOME=/home/share/Code/local/bin
+export GUROBI_HOME=/home/share/Code/github/gurobi902/linux64
+
+help.opt:
+	@echo "------------------------------------------------------------------------------------------------------------------------"
+	@echo "____________ _____   _____       _   _           _              "
+	@echo "| ___ \  _  \_   _| |  _  |     | | (_)         (_)             "
+	@echo "| |_/ / | | | | |   | | | |_ __ | |_ _ _ __ ___  _ _______ _ __ "
+	@echo "|  __/| | | | | |   | | | |  _ \| __| |  _   _ \| |_  / _ \  __|"
+	@echo "| |   | |/ /  | |   \ \_/ / |_) | |_| | | | | | | |/ /  __/ |   "
+	@echo "\_|   |___/   \_/    \___/| .__/ \__|_|_| |_| |_|_/___\___|_|   "
+	@echo "                          | |                                   "
+	@echo "                          |_|                                   "
+	@echo "------------------------------------------------------------------------------------------------------------------------"
+	@echo "clean.opt                   Clean the optimizer results"
+	@echo "calibration.opt             Extract measurements from the optimizer"
+	@echo "optimize.opt                Run the optimizer on a test case"
+	@echo "simulate.opt                Run the simulation with the optimizer inline"
+	@echo "------------------------------------------------------------------------------------------------------------------------"
+
+clean.opt:
+	rm $(SCENARIO_DIR)/results/output.opt.sqlite
+
+calibration.opt:
+	python ./src/bin/compareTEUDurations.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)
+	python ./src/bin/outputTEUPaths.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)
+
+optimize.opt:
+	$(CTSNDP_HOME)/ctsndp -u $(SCENARIO_DIR)/flows/schedule.json -f DES -o $(SCENARIO_DIR)/results/$(SCENARIO_REF).routes -r $(SCENARIO_DIR)/results/$(SCENARIO_REF).results
+	
+simulate.opt:
+	python src/bin/postprocessRoutes.py $(SCENARIO_DIR)/results/$(SCENARIO_REF).routes $(SCENARIO_DIR)/results/$(SCENARIO_REF).clean.routes
+	$(DES_HOME)/src/multiCommodityNetworkSim.py -o $(SCENARIO_DIR)/results/output.opt.sqlite -t $(SIM_RUN_TIME) -si 100 -p onf -pFile $(SCENARIO_DIR)/results/$(SCENARIO_REF).clean.routes -s $(SCENARIO_DIR)/flows/schedule.json
+
+
+	

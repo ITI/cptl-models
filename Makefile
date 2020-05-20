@@ -6,6 +6,8 @@ export PYTHONPATH=$(DES_HOME)/src:./src
 include config/makeParams
 include src/Makefile.econ
 include src/Makefile.expdesign
+include src/Makefile.opt
+include src/Makefile.viz
 
 help: help-core
 
@@ -35,6 +37,8 @@ help-core:
 	@echo "-----------------------------------------------------------------------------------------"
 	@echo "help.econ              PDT Economic Analysis"
 	@echo "help.expdesign         PDT Experiment Design"
+	@echo "help.opt               PDT Optimizer"
+	@echo "help.viz               PDT Visualization"
 	@echo "-----------------------------------------------------------------------------------------"
 
 clean:	## remove build artifacts

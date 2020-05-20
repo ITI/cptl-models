@@ -156,6 +156,17 @@ class CoreCalibrationReporter():
                                     "Data Source": outputDbUrn,\
                                     "Ref": measurementEditionUrn},\
                                    ignore_index=True)
+
+        #-- Data Source 4:  Optimizer Results
+        outputResultsUrns = list(filter(lambda x: "OptimizerOutputResults" in x, dataSourceUrns))
+        for outputResultsUrn in outputResultsUrns:
+            teuInResultsDf = self.selectAllTEU(outputResultsUrn)
+            numTEUInResults = teuInResultsDf.shape[0]
+            numTEUInResults = self.unitRegistry.Quantity(numTEUInResults, 'TEU')
+            nTEUDf = nTEUDf.append({"Value": numTEUInResults,\
+                                    "Data Source": outputResultsUrn,\
+                                    "Ref": ""},\
+                                   ignore_index=True)
         return nTEUDf
 
     def getVesselDwellTimes(self):
@@ -300,6 +311,27 @@ class CoreCalibrationReporter():
                                           "Data Source": outputDbUrn,\
                                           "Ref": measurementEditionUrn},\
                                          ignore_index=True)            
+
+        #-- Data Source 2:  Optimizer Output Results
+        outputResultsUrns = list(filter(lambda x: "OptimizerOutputResults" in x, dataSourceUrns))
+        for outputResultsUrn in outputResultsUrns:
+            teuInSimulation = self.selectAllTEU(outputResultsUrn)
+            teuDurationsInSimulation = teuInSimulation.apply(lambda x: self.getDuration(x), axis=1)
+            minDuration = np.round(teuDurationsInSimulation.min())
+            minDuration = self.unitRegistry.Quantity(minDuration, 'min')
+            maxDuration = np.round(teuDurationsInSimulation.max())
+            maxDuration = self.unitRegistry.Quantity(maxDuration, 'min')
+            
+            meanDuration = np.round(teuDurationsInSimulation.mean())
+            meanDuration = self.unitRegistry.Quantity(meanDuration, 'min')
+            teuTransitTimesDf =\
+                teuTransitTimesDf.append({"min": minDuration,\
+                                          "max": maxDuration,\
+                                          "mean": meanDuration,\
+                                          "Data Source": outputResultsUrn,\
+                                          "Ref": ""},\
+                                         ignore_index=True)            
+
         return teuTransitTimesDf
 
     def getDuration(self, x):
@@ -345,6 +377,8 @@ class CoreCalibrationReporter():
                 self.loadDESInputSchedule(dataSourceUrn)
             elif "DESOutputDB" in dataSourceUrn:
                 self.loadDESOutputDB(dataSourceUrn)
+            elif "OptimizerOutputResults" in dataSourceUrn:
+                self.loadOptimizerOutputResults(dataSourceUrn)
         return
 
     def loadVesselCalls(self, dataSourceUrn):
@@ -395,6 +429,10 @@ class CoreCalibrationReporter():
             vesselSchedule = json.load(vesselScheduleFile)
         self.dataFramesDict[dataSourceUrn] = vesselSchedule
 
+    def loadOptimizerOutputResults(self, dataSourceUrn):
+        resultsFilePath = "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]])
+        self.dataFramesDict[dataSourceUrn] = resultsFilePath
+        
     def loadDESOutputDB(self, dataSourceUrn):
         conn = self.createConnection( "/".join([self.scenarioDir, self.dataSourceDict[dataSourceUrn]]) )
         self.dataFramesDict[dataSourceUrn] = conn
@@ -429,10 +467,85 @@ class CoreCalibrationReporter():
         return df
 
     def selectAllTEU(self, outputDbUrn):
-        conn = self.dataFramesDict[outputDbUrn]
-        query = "SELECT \"Commodity Name\", \"Path Traveled\", Times FROM output WHERE \"Transport Unit\" = 'Container'"
-        df = pd.read_sql_query(query, conn)
-        return df
+        teuDf = None
+        if "DESOutputDB" in outputDbUrn:
+            conn = self.dataFramesDict[outputDbUrn]
+            query = "SELECT \"Commodity Name\", \"Path Traveled\", Times FROM output WHERE \"Transport Unit\" = 'Container'"
+            teuDf = pd.read_sql_query(query, conn)
+        elif "OptimizerOutputResults" in outputDbUrn:
+            resultsFilePath = self.dataFramesDict[outputDbUrn]
+
+            teuDf = pd.DataFrame(columns = ["Commodity Name", "Path Traveled", "Times", "EAT", "LDT"])
+            with open(resultsFilePath) as resultsFile:
+                # Extract the TEU from the Commodity Information
+                #  assuming each line is a TEU
+                startExtract = False
+                teuRecord = {}
+                
+                for line in resultsFile.readlines():
+                    if line.startswith("Routing Information:"):
+                        startExtract = True
+                    if line.startswith("Service Link Information:"):
+                        startExtract = False
+                        
+                    if not startExtract:
+                        continue
+
+                    if line.startswith("Moving"):
+                        # New TEU to record
+                        m = re.search("Moving (.*?) \(qty = (\d+), eat = (\d+), ldt = (\d+)\)", line)
+                        if None == m:
+                            print(line)
+                            continue
+                        
+                        commodityName = m.group(1).split(':', 1)[1]
+                        eat = m.group(3)
+                        ldt = m.group(4)
+
+                        teuRecord["Commodity Name"] = commodityName
+                        teuRecord["Path Traveled"] = []
+                        teuRecord["Times"] = []
+                        teuRecord["EAT"] = eat
+                        teuRecord["LDT"] = ldt
+                    elif line.startswith("\n") and "Commodity Name" in teuRecord:
+                        teuRecord["Path Traveled"] = ",".join(teuRecord["Path Traveled"])
+                        teuRecord["Times"] = ",".join(teuRecord["Times"])
+                        teuDf = teuDf.append(teuRecord, ignore_index=True)
+                        teuRecord = {}
+                    else:
+                        m = re.search("(.*?::OUT .*?) ==\{(.*?)\}==>(.*?::IN \(.*?\)) (.*?)", line) #fixed cost = (\d+), variable cost = (\d+), utilization = (\d+)", line)
+                        if None == m:
+                            continue
+                        sourceInfo = m.group(1)
+                        edgeInfo = m.group(2)
+                        targetInfo = m.group(3)
+
+                        mSource = re.search("(.*?)::OUT \((.*?)?departs: (.*?)\)", sourceInfo)
+                        sourceName = mSource.group(1).strip()
+                        sourceTime = str(round(float(mSource.group(3)),2))
+
+                        edgeName = edgeInfo.strip()
+                        edgeTime = str(round(float(mSource.group(3)), 2))
+
+                        mTarget = re.search("(.*?)::IN \(arrives: (.*?)\)", targetInfo)
+                        if None == mTarget:
+                            print(targetInfo)
+                        
+                        targetName = mTarget.group(1).strip()
+                        targetTime = str(round(float(mTarget.group(2)), 2))
+                        
+                        if 0 == len(teuRecord["Path Traveled"]):
+                            # Start of the path
+                            teuRecord["Path Traveled"].append(sourceName)
+                            teuRecord["Times"].append(sourceTime)
+
+                        teuRecord["Path Traveled"].append(edgeName)
+                        teuRecord["Path Traveled"].append(targetName)                        
+                        teuRecord["Times"].append(edgeTime)
+                        teuRecord["Times"].append(targetTime)                        
+
+            resultsFile.close()
+        return teuDf
 
 class EconomicCalibrationReporter(CoreCalibrationReporter):
 
@@ -480,7 +593,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
                 self.loadImportedCommods(dataSourceUrn)
             elif "HS2Codes" in dataSourceUrn:
                 self.loadHS2Codes(dataSourceUrn)
-            elif "PDTInputEconomicAnalysis" in dataSourceUrn:
+            elif "EconAnalysisImports" in dataSourceUrn:
                 self.loadPDTInputEconomicAnalysis(dataSourceUrn)
             elif "DESInputSchedule" in dataSourceUrn:
                 self.loadDESInputSchedule(dataSourceUrn)
@@ -570,7 +683,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
         # TBD
         
         #-- Data Source 3:  PDTInputEconomicAnalysis
-        econDbUrns = list(filter(lambda x: "PDTInputEconomicAnalysis" in x, dataSourceUrns))
+        econDbUrns = list(filter(lambda x: "EconAnalysisImports" in x, dataSourceUrns))
         for econDbUrn in econDbUrns:
             econDbEdition = econDbUrn.split(':')[-1].replace(".","_")
             measurementEditionUrn = ".".join([measurementUrn, econDbEdition])
@@ -594,7 +707,7 @@ class EconomicCalibrationReporter(CoreCalibrationReporter):
     def selectAllCountries(self, dbUrn):
         conn = self.dataFramesDict[dbUrn]
         df = None
-        if "PDTInputEconomicAnalysis" in dbUrn:
+        if "EconAnalysisImports" in dbUrn:
             monthStr = self.getMonthTable()
             query = "SELECT DISTINCT Country FROM " + monthStr
             df = pd.read_sql_query(query, conn)

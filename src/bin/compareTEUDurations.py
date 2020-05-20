@@ -8,10 +8,12 @@ All rights reserved
 """
 from ciri.ports.util.CalibrationReporter import CoreCalibrationReporter
 import json
+import numpy as np
 import sys
+from matplotlib import pyplot
 
 def usage():
-    print("calibrationReporter.py <scenarioDir> <month> <simDurationDays>")
+    print("compareTEUDurations.py <scenarioDir> <month> <simDurationDays>")
     sys.exit(-1)
     
 def main(argv):
@@ -40,21 +42,26 @@ def main(argv):
                                                month,\
                                                simDurationDays)
     cReporter.loadDataSources()
-
-    for mUrn in cReporter.measurementUrns:
+    
+    teuDurationsInSimulation, teuDurationsInOptimizer = None, None
+    for outputDbUrn in dataSourceInventoryDict.keys():
         fileContents = []
+        if "DESOutputDB" in outputDbUrn:
+            teuInSimulation = cReporter.selectAllTEU(outputDbUrn)
+            teuDurationsInSimulation = teuInSimulation.apply(lambda x: cReporter.getDuration(x), axis=1)
+            
+        elif "OptimizerOutputResults" in outputDbUrn:
+            teuInOptimizer = cReporter.selectAllTEU(outputDbUrn)
+            teuDurationsInOptimizer = teuInOptimizer.apply(lambda x: cReporter.getDuration(x), axis=1)
 
-        result = cReporter.getMeasurement(mUrn)
-        result.drop("Ref", axis=1, inplace=True)
-        fileContents.append(mUrn)
-        fileContents.append(result.to_csv(index=False))
-
-        measurementName = mUrn.split(":")[-1]
-        measurementFileName = measurementName + ".csv"
-        outputFilePath = "/".join([outputFileDir, measurementFileName])
-        with open(outputFilePath, 'w') as outputFile:
-            outputFile.write("\n".join(fileContents))
-        outputFile.close()
-        
+    bins = np.linspace(0, 5000, 100)
+    pyplot.hist(teuDurationsInSimulation, bins, alpha=0.5, label='Simulation')
+    pyplot.hist(teuDurationsInOptimizer, bins, alpha=0.5, label='Optimizer')
+    pyplot.legend(loc='upper right')
+    pyplot.title(scenarioDir.split("/")[-1])
+    
+    outputFilePath = "/".join([outputFileDir, "teuDurations.png"])
+    pyplot.savefig(outputFilePath)
+            
 if __name__ == "__main__":
     main(sys.argv[1:])
