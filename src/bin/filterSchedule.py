@@ -21,6 +21,7 @@ def isIncludedVesselArrival(vesselArrivalDict):
 
 def updateShipmentFilePath(vesselArrivalDict):
     shipmentFilePath = vesselArrivalDict["shipment_file"]
+    shipmentFilePath = shipmentFilePath.replace(":", "_")
     vesselArrivalDict["shipment_file"] = shipmentFilePath.replace(".json", ".filtered.json")
     return vesselArrivalDict
 

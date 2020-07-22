@@ -13,6 +13,7 @@ import json
 import math
 import os
 import sys
+import uuid
 
 def isIncludedVesselShipment(vesselShipmentDict):
     result = False
@@ -44,6 +45,11 @@ def roundTEU(vesselShipmentDict):
     vesselShipmentDict["nTEU"] = math.ceil(nTEU)
     return vesselShipmentDict
 
+def genUUID(vesselShipmentDict):
+    uuidVal = uuid.uuid4()
+    vesselShipmentDict["uuid"] = None #str(uuidVal)
+    return vesselShipmentDict
+    
 def main(argv):
     scenarioBase = argv[0]
 
@@ -57,17 +63,17 @@ def main(argv):
     commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/shipments"])
     generateShipments(commodityShipmentsInputFileBase, shipper=None)
 
-    for shipper in ["Crowley", "MSC", "King Ocean", "FIT"]:
-        commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/shipments"])
-        generateShipments(commodityShipmentsInputFileBase, shipper)
+    #for shipper in []: #["Crowley", "MSC", "King Ocean", "FIT"]:
+    #    commodityShipmentsInputFileBase = "/".join([scenarioBase, "flows/shipments"])
+    #    generateShipments(commodityShipmentsInputFileBase, shipper)
 
 def generateShipments(commodityShipmentsInputFileBase, shipper):        
     # Generate shipment file
     shipmentInputFilePaths = [f for f in listdir(commodityShipmentsInputFileBase) if isfile(join(commodityShipmentsInputFileBase, f))]
     for shipmentInputFileName in shipmentInputFilePaths:
         shipmentInputFilePath = "/".join([commodityShipmentsInputFileBase, shipmentInputFileName])
-        if "filtered" in shipmentInputFileName:
-            continue
+        #if not "filtered" in shipmentInputFileName:
+        #    continue
         with open(shipmentInputFilePath) as shipmentInputFile:
             shipmentJSON = json.load(shipmentInputFile)
         shipmentInputFile.close()
@@ -78,6 +84,8 @@ def generateShipments(commodityShipmentsInputFileBase, shipper):
             list(map(lambda x: normalizeShipLine(x), results))
         results = \
             list(map(lambda x: roundTEU(x), results))
+        #results = \
+        #    list(map(lambda x: genUUID(x), results))
         
         if None != shipper:
             results = \
@@ -88,6 +96,7 @@ def generateShipments(commodityShipmentsInputFileBase, shipper):
             resultJSON = {"commodities": results}
             
             shipmentOutputFilePath = shipmentInputFilePath.replace(".json", ".filtered.json")
+            shipmentOutputFilePath = shipmentOutputFilePath.replace(":", "_")
             with open(shipmentOutputFilePath, 'w') as shipmentOutputFile:
                 resultStr = json.dumps(resultJSON, indent=4)
                 shipmentOutputFile.write(resultStr)

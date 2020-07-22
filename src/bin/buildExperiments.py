@@ -7,42 +7,65 @@ Copyright (c) 2020 University of Illinois at Urbana-Champaign.
 All rights reserved
 """
 from jsonschema import validate
+from sqlite3 import Error
+from datetime import datetime
 import json
 import os
 import os.path
+import pandas as pd
 import shutil
+import sqlite3
 import sys
 
-def setDelayCost(teuArrival, prioritization):
+def getPerTEUDelayCosts(expDirPath, month, commodityGroup, origin):
+    econDBPath = "/".join([expDirPath, "data/EconAnalysisImports.sqlite"])
+
+    # establish the connection
+    conn = None
+    try:
+        conn = sqlite3.connect(econDBPath)
+    except Error as e:
+        print(e)
+
+    monthTables = [ "Oct17", "Nov17", "Dec17", "Jan18", "Feb18", "Mar18",\
+                    "Apr18", "May18", "Jun18", "Jul18", "Aug18", "Sep18" ]
+    monthTables = monthTables[3:] + monthTables[:3]
+    
+    # select the entry
+    monthIdx = month - 1
+    monthTable = monthTables[ monthIdx ]
+
+    country = origin
+    if country == '':
+        country = "Average Price"
+    df = pd.read_sql_query(f"SELECT * FROM {monthTable} WHERE Country = '{country}'", conn)
+
+    columnName = commodityGroup
+    if columnName == '':
+        columnName = "Average"
+
+    
+    metricIdx = -1  # Dollar Per TEU
+    # add $100 USD 'dust' to commodities with no cost
+    delayCost = int(df.iloc[ [metricIdx] ][ columnName ]) + 100 
+    delayPenaltyRate = delayCost * 0.05
+    delayPenaltyLimit = 500000  # accrue up to half a million penalty if you wish
+    return (delayCost, delayPenaltyRate, delayPenaltyLimit)
+
+def setDelayCostInformation(expDirPath, teuArrival, month):
     """
     Set the delay cost based on a prioritization function
     - for now, prioritize based on a few options
     """
-    delayCost = 0
-
-    if '' == teuArrival["commodityGroup"]:
-        return delayCost
+    delayCost, delayPenaltyRate, delayPenaltyLimit = 0, 0, 0
     
-    commodityGroup = int(teuArrival["commodityGroup"])
+    commodityGroup = teuArrival["commodityGroup"]
     origin = teuArrival["origin"]
-
-    if 1 == prioritization:
-        delayCost = 0
-    elif 2 == prioritization:
-        # Prioritize by $ value per TEU
-        if 61 == commodityGroup: # and "NICARAGUA" == origin:
-            delayCost = 10
-    elif 3 == prioritization:
-        # Prioritize by TEU Volumes
-        if 8 == commodityGroup:
-            # and ("GUATEMALA" == origin or "HONDURAS" == origin):
-            delayCost = 10
-    elif 4 == prioritization:
-        # Prioritize by Customs Value
-        if 85 == commodityGroup and \
-                ("DOMINICAN REPUBLIC" == origin):
-            delayCost = 10
-    return delayCost
+    
+    delayCost, delayPenaltyRate, delayPenaltyLimit =\
+        getPerTEUDelayCosts(expDirPath, month, commodityGroup, origin)
+            
+    return (delayCost, delayPenaltyRate, delayPenaltyLimit)
 
 def outputJSON(data, schemaData, outputPath):
     validate(data, schemaData)
@@ -61,7 +84,7 @@ def createScheduleAndShipments(expDirPath, expFlowsParams):
         scheduleTemplateData = json.load(scheduleTemplateFile)
     scheduleTemplateFile.close()
 
-    prioritization = expFlowsParams["prioritization"]
+    #prioritization = expFlowsParams["prioritization"]
     ldtDays = expFlowsParams["ldt.days"]
     ldtMins = ldtDays * 1440
     simDuration = expFlowsParams["simDuration.weeks"]
@@ -75,6 +98,8 @@ def createScheduleAndShipments(expDirPath, expFlowsParams):
     scheduleData["workday_end"] = scheduleTemplateData["workday_end"]
     scheduleData["workday_start"] = scheduleTemplateData["workday_start"]
 
+    startTime = datetime.strptime(scheduleData["start_time"], "%Y-%m-%d %H:%M:%S%z")
+    startMonth = startTime.month
     scheduleOutputPath = "/".join([expDirPath, "flows/schedule.json"])
     scheduleSchema = None
     with open(scheduleSchemaFilePath) as scheduleSchemaFile:
@@ -99,7 +124,10 @@ def createScheduleAndShipments(expDirPath, expFlowsParams):
         # set the LDT and the delay costs appropriately
         for teuArrival in shipmentData["commodities"]:
             teuArrival["LDT"] = teuArrival["EAT"] + ldtMins
-            teuArrival["delay_cost"] = setDelayCost(teuArrival, prioritization)
+            (delayCost, delayPenaltyRate, delayPenaltyLimit) = setDelayCostInformation(expDirPath, teuArrival, startMonth)
+            teuArrival["delay_cost"] = delayCost
+            teuArrival["delay_penalty_rate"] = delayPenaltyRate
+            teuArrival["delay_penalty_limit"] = delayPenaltyLimit
         
         shipmentFileName = shipmentFilePath.split("/")[-1]
         shipmentOutputPath = "/".join([expDirPath, "flows/shipments", shipmentFileName])
@@ -181,7 +209,7 @@ def createExperimentDir(scenarioBase, outputBase, experimentName, scenarioRef, e
     
     os.mkdir(dirPath)
     
-    dirNames = ["config", "data"]
+    dirNames = ["config", "data", "networks/csv"]
     for dirName in dirNames:
         srcDataPath = "/".join([scenarioBase, scenarioRef, dirName])
         destDataPath = "/".join([dirPath, dirName])
@@ -223,7 +251,7 @@ def createExperimentDir(scenarioBase, outputBase, experimentName, scenarioRef, e
         
     # ./networks
     networkPath = "/".join([dirPath, "networks"])
-    os.mkdir(networkPath)
+    #os.mkdir(networkPath)
     
     # ./flows
     flowsPath = "/".join([dirPath, "flows"])
@@ -269,10 +297,10 @@ def main(argv):
     scheduleSchemaFilePath = "/home/share/Code/cptl-models/data/schema/schedule.schema.v2.json"
 
     if "GENERATE" == action:
-        #        os.mkdir(outputBase)
+        #os.mkdir(outputBase)
         with open(experimentFilePath) as experimentFile:
             for expIdx, line in enumerate(experimentFile):
-                for shipper in ["", "Crowley", "MSC", "King Ocean", "FIT"]:
+                for shipper in [""]: #, "Crowley", "MSC", "King Ocean", "FIT"]:
                     expId = str(expIdx)
                     scheduleTemplateFilePath = scheduleTemplateAllFilePath
 
@@ -295,7 +323,7 @@ def main(argv):
                     expParams["graph.transportation"]["templateFilePath"] = graphTemplateFilePath
                     expParams["graph.transportation"]["schemaFilePath"] = transGraphSchemaFilePath
                 
-                    expParams["flows"]["prioritization"] = int(linePcs[4])
+                    #expParams["flows"]["prioritization"] = int(linePcs[4])
                     expParams["flows"]["ldt.days"] = int(linePcs[6])
                     expParams["flows"]["scheduleTemplateFilePath"] = scheduleTemplateFilePath
                     expParams["flows"]["scheduleSchemaFilePath"] = scheduleSchemaFilePath

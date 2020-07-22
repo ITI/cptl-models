@@ -315,8 +315,8 @@ class VesselArrivalEventFusionDAO():
             ldt = eat + timedelta(days=5)
             commodityBundle["LDT"] = self.getMinutesFromStartTime(ldt, startTime)
             commodityBundle["cargo_categories"] = ["Non-hazardous"]            
-            commodityBundle["delay_cost"] = None
-            commodityBundle["group_uuid"] = str(uuid.uuid4())
+            commodityBundle["delay_cost"] = 0
+            #commodityBundle["shipment_uuid"] = str(uuid.uuid4())
             commodityBundle["source"] = "Berth " + self.normalizeBerth(berthNum)
             commodityBundle["transportation_methods"] = ["Roadway", "Sea", "Transloading"]
 
@@ -337,6 +337,7 @@ class VesselArrivalEventFusionDAO():
                 cb["origin"] = origin
                 cb["commodityGroup"] = commodityGroup
                 cb["destination"] = destination
+                cb["group_uuid"] = str(uuid.uuid4())                
                 cb["name"] = f"{va_idx}-{vesselName}-{cg_idx}:{commodityGroup}:{origin}"
                 shipmentsDict[shipmentKey].append(cb)
         return shipmentsDict

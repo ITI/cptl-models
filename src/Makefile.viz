@@ -1,5 +1,8 @@
+export FLOW_VIS_HOME=/home/share/Code/CIRI/commodity-flows
+export DASH_VIS_HOME=/home/share/Code/CIRI/dashboard
 
-export VIS_HOME=/home/share/Code/vis
+export NAICS_CODE=all
+export HS_PREFIX=hsall
 
 help.viz:
 	@echo "-----------------------------------------------------------------------------------------"
@@ -10,20 +13,43 @@ help.viz:
 	@echo "| |   | |/ /  | |   \ \_/ / \__ \ |_| | (_| | | |/ / (_| | |_| | (_) | | | | "
 	@echo "\_|   |___/   \_/    \___/|_|___/\__,_|\__,_|_|_/___\__,_|\__|_|\___/|_| |_| "
 	@echo "-----------------------------------------------------------------------------------------"
-	@echo "clean.viz				Clean visualization"
-	@echo "gen-flowmovie				Make flow movie"
-	@echo "gen-dashboard				Generate the dashboard"
+	@echo "clean.viz			       Clean visualization"
+	@echo "gen-dashboard			       Generate the dashboard"
+	@echo "gen-delay_costs.sim                     Generate delay costs plots from DES"
+	@echo "gen-delay_costs.opt		       Generate delay costs plots from ONF routes"
+	@echo "gen-flowmovie			       Make flow movie"
+	@echo "gen-lateness_hist                       Generate a lateness histogram"
+	@echo "gen-teu_durations                       Generate TEU durations in system"
+	@echo "gen-teu_counts                          Generate commodity count histograms"
+	@echo "gen-utilization_plot                    Generate utilization plot"
 	@echo "-----------------------------------------------------------------------------------------"
 
+
 clean.viz:
-	rm $(SCENARIO_DIR)/results/flow_movie.mp4
-	rm $(SCENARIO_DIR)/results/full_dashboard_table.json
+	rm $(SCENARIO_DIR)/results/*.mp4
+	rm $(SCENARIO_DIR)/results/$(HS_PREFIX)_dashboard_table.json
+	rm $(SCENARIO_DIR)/results/*.png
+		
+gen-dashboard:
+	Rscript $(DASH_VIS_HOME)/preprocess_for_dashboard.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_dashboard_table.json --NAICS $(NAICS_CODE)
+
+gen-delay_costs.sim:
+	Rscript $(FLOW_VIS_HOME)/Delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.png --matrix $(HS_PREFIX)_delay_penalties_matrix.png --NAICS $(NAICS_CODE) --maxPenalty 50000 --dropEmpty TRUE
+
+gen-delay_costs.opt:
+	Rscript $(FLOW_VIS_HOME)/ONF_delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.opt.png --matrix $(HS_PREFIX)_delay_penalties_matrix.opt.png --NAICS $(NAICS_CODE) --maxPenalty 50000 --dropEmpty TRUE
 	
 gen-flowmovie:
-	Rscript	$(VIS_HOME)/gganimate_flow_static_map_background.R $(SCENARIO_DIR)
+	Rscript	$(FLOW_VIS_HOME)/gganimate_flow_static_map_background.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_teu.mp4 --NAICS $(NAICS_CODE)
 
-gen-dashboard:
-	Rscript $(VIS_HOME)/preprocess_for_dashboard.R $(SCENARIO_DIR)
+gen-lateness_hist:
+	Rscript $(FLOW_VIS_HOME)/Lateness_histogram.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_teu_lateness.png --NAICS $(NAICS_CODE)
 
+gen-teu_durations:
+	Rscript $(FLOW_VIS_HOME)/TEU_durations_histogram.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_teu_durations.png --NAICS $(NAICS_CODE)
 
+gen-teu_counts:
+	Rscript $(FLOW_VIS_HOME)/TEU_count_NAICS_histogram.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_teu_counts.png --NAICS $(NAICS_CODE)
 
+gen-utilization_plot:
+	Rscript $(FLOW_VIS_HOME)/plot_utilization.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_utilization.png --NAICS $(NAICS_CODE)

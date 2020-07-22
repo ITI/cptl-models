@@ -9,12 +9,14 @@ help.expdesign:
 	@echo "                                  | |                                                                       __/ | "
 	@echo "                                  |_|                                                                      |___/        "
 	@echo "------------------------------------------------------------------------------------------------------------------------"
-	@echo "clean.expdesign              Clean the generated experiments"
-	@echo "generate.expdesign           Generate a Latin Hypercube Experiment Design"
-	@echo "simulate.expdesign           Run experiment simulations (1 run per NOLH setting)"
+	@echo "clean.expdesign               Clean the generated experiments"
+	@echo "describe-corpus.expdesign     Describe the corpus of experiments"
+	@echo "describe-exp.expdesign        Describe the experiment"  
+	@echo "generate.expdesign            Generate a Latin Hypercube Experiment Design"
+	@echo "simulate.expdesign            Run experiment simulations (1 run per NOLH setting)"
 	@echo "------------------------------------------------------------------------------------------------------------------------"	
 
-EXPERIMENT_NAME=nolhBaseline
+EXPERIMENT_NAME=nolhDisrupted
 TEMPLATE_REPO_HOME=$(SCENARIO_REPO_HOME)
 EXPERIMENT_REPO_HOME=build/$(EXPERIMENT_NAME)
 NRUNS=1
@@ -26,7 +28,13 @@ clean.expdesign:
 init.expdesign:
 	mkdir -p $(EXPERIMENT_REPO_HOME)
 	cp -rf data/experiments $(TEMPLATE_REPO_HOME)/$(SCENARIO_REF)/data
+
+describe-corpus.expdesign:
+	ls data/experiments/*.txt | cut -d '/' -f 3 | sed -e 's/\.txt//g'
 	
+describe-exp.expdesign:
+	cat data/experiments/$(EXPERIMENT_NAME).txt
+
 generate.expdesign: init.expdesign
 	python3 ./src/bin/buildExperiments.py $(TEMPLATE_REPO_HOME) $(SCENARIO_REF) $(EXPERIMENT_NAME) $(EXPERIMENT_REPO_HOME) $(MONTH) GENERATE
 

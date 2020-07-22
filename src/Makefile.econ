@@ -11,8 +11,8 @@ help.econ:
 	@echo "------------------------------------------------------------------------------------------------------------------------"
 	@echo "clean.econ                  Clean build"	  
 	@echo "postprocess.econ            Postprocess"
-	@echo "calibration.econ            Get calibration report for scenario"
-	@echo "describe-calibration.econ   Get calibration results"   	      
+	@echo "measurements.econ           Compute economic measurements for scenario"
+	@echo "list-measurements.econ      List economic measurements"
 	@echo "------------------------------------------------------------------------------------------------------------------------"
 
 clean.econ:
@@ -25,8 +25,8 @@ init.econ:
 postprocess.econ: init.econ
 	python $(DES_HOME)/scripts/postProcessing/generateCostTable.py -i $(SCENARIO_DIR)/data/EconAnalysisImports.sqlite -o $(SCENARIO_DIR)/results/output.opt.sqlite
 
-calibration.econ: 
+measurements.econ: 
 	python ./src/bin/calibrationReporterEcon.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)
 
-describe-calibration.econ:
-	less $(SCENARIO_DIR)/results/calibration.econ.log
+list-measurements.econ:
+	ls $(SCENARIO_DIR)/results/measurements/*.econ.csv

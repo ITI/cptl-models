@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-export DES_HOME=/home/share/des
+export DES_HOME=/home/share/ciri-maritime-des
 export PYTHONPATH=$(DES_HOME)/src:./src
 
 include config/makeParams
@@ -30,8 +30,8 @@ help-core:
 	@echo "describe-scenario      Get scenario parameters"
 	@echo "generate               Generate scenario from data"
 	@echo "simulate               Run the simulation for scenario"
-	@echo "calibration            Get calibration report for scenario"
-	@echo "describe-calibration   Get calibration results"
+	@echo "measurements           Compute measurements for scenario"
+	@echo "list-measurements      List measurements"
 	@echo "-----------------------------------------------------------------------------------------"
 	@echo "PDT Extension Modules"
 	@echo "-----------------------------------------------------------------------------------------"
@@ -44,12 +44,12 @@ help-core:
 clean:	## remove build artifacts
 	rm -fr $(SCENARIO_DIR)
 
-init: init-base init-calibration init-config init-data init-flows init-network init-results
+init: init-base init-results init-measurements init-config init-data init-flows init-network
 
 init-base:
 	mkdir $(SCENARIO_DIR)	
 
-init-calibration:
+init-measurements:
 	mkdir $(SCENARIO_DIR)/results/measurements
 
 init-config: ## initialize the artifacts
@@ -98,13 +98,13 @@ generate-shipments:
 	python3 src/bin/filterShipments.py $(SCENARIO_DIR) 
 
 simulate: 
-	$(DES_HOME)/src/multiCommodityNetworkSim.py -o $(SCENARIO_DIR)/results/output.sqlite -t $(SIM_RUN_TIME) -si 100 -s $(SCENARIO_DIR)/flows/schedule.json
+	$(DES_HOME)/src/multiCommodityNetworkSim.py --baselineOnly --overwrite --deterministic -o $(SCENARIO_DIR)/results/output.sqlite -t $(SIM_RUN_TIME) -si 100 -s $(SCENARIO_DIR)/flows/schedule.json
 
-calibration:
+measurements:
 	python ./src/bin/calibrationReporter.py $(SCENARIO_DIR) $(MONTH) $(SIM_DURATION_DAYS)
 
-describe-calibration:
-	ls $(SCENARIO_DIR)/results/measurements
+list-measurements:
+	ls $(SCENARIO_DIR)/results/measurements | grep -v "econ.csv" | grep -v "optimizer.csv"
 
 
 
