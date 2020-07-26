@@ -48,7 +48,7 @@ def getPerTEUDelayCosts(expDirPath, month, commodityGroup, origin):
     metricIdx = -1  # Dollar Per TEU
     # add $100 USD 'dust' to commodities with no cost
     delayCost = int(df.iloc[ [metricIdx] ][ columnName ]) + 100 
-    delayPenaltyRate = delayCost * 0.05
+    delayPenaltyRate = (delayCost * 0.05) / (24.0 * 60) # $/minute 
     delayPenaltyLimit = 500000  # accrue up to half a million penalty if you wish
     return (delayCost, delayPenaltyRate, delayPenaltyLimit)
 

@@ -61,7 +61,7 @@ def patchEAT(simDBPath, vesselShipmentDict):
     except Error as e:
         print(e)
 
-    df = pd.read_sql_query(f"SELECT Times, `Path Traveled` FROM output WHERE `Commodity Name` LIKE '{name}%'", conn)
+    df = pd.read_sql_query(f"SELECT time FROM container WHERE container_name LIKE '{name}%' and source = 'Arrival'", conn)
 
     nTEUActual = df.shape[0]
     if nTEUActual != nTEU:
@@ -69,16 +69,7 @@ def patchEAT(simDBPath, vesselShipmentDict):
 
     # Assuming all TEU in a bundle arrive at the same time
     teuIdx = 0
-    times = df.iloc[ [teuIdx] ]["Times"]
-    timesPcs = times.tolist()[0].split(",")
-    path = df.iloc[ [teuIdx] ]["Path Traveled"]
-    pathPcs = path.tolist()[0].split(",")
-
-    if not source in pathPcs:
-        raise Exception(f"Source berth {source} not found in path {path}")
-
-    sIdx = pathPcs.index(source)
-    time = timesPcs[sIdx]
+    time = df.iloc[ [teuIdx] ]["time"]
 
     vesselShipmentDict["EAT"] = float(time)
     return vesselShipmentDict

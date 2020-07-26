@@ -9,7 +9,7 @@
 # - 
 #
 
-EXPERIMENT_NAME=nolhDisrupted
+EXPERIMENT_NAME=nolhDisruptedBig
 
 generateVisualizations(){
     code=$1
@@ -27,24 +27,26 @@ generateVisualizations(){
 rm -rf ~/$EXPERIMENT_NAME-viz
 mkdir ~/$EXPERIMENT_NAME-viz
 
-for expId in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17;
+for expId in {0..16};
 do
-    EXP_DIR=build/$EXPERIMENT_NAME/PEV-SouthPortImports.FY2018_10_8_nolhBaseline_0_nolhDisrupted$expId
+    SCENARIO_REF=PEV-SouthPortImports.FY2018_10_8_nolhBaseline_0_nolhDisruptedBig$expId
+    EXP_DIR=build/$EXPERIMENT_NAME/$SCENARIO_REF
     EXP_RESULTS_DIR=~/$EXPERIMENT_NAME-viz/exp$expId
     
     cd config
     rm makeParams    
-    ln -s makeParams.onfdesExp$expId.txt makeParams
+    ln -s $EXPERIMENT_NAME/exp$expId.txt makeParams
     cd ..
 
     rm -rf $EXP_DIR/results
     mkdir -p $EXP_DIR/results
     
-    # Run the required tasks to do the 
+    # Run the required tasks to do the
+    make init-measurements
     make simulate
     make optimize.opt
     #make postprocess.econ
-    make init-measurements measurements
+    make measurements
 
     # Generate visualizations for opt
     mkdir -p $EXP_DIR/results/vizs
@@ -77,4 +79,4 @@ do
     #cp -rf $EXP_DIR/results/ $EXP_RESULTS_DIR    
 done
 
-tar -czvf $EXPERIMENT_NAME-viz55.tar.gz ~/$EXPERIMENT_NAME-viz
+tar -czvf $EXPERIMENT_NAME-viz91.tar.gz ~/$EXPERIMENT_NAME-viz
