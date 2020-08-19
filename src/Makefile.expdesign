@@ -16,13 +16,14 @@ help.expdesign:
 	@echo "simulate.expdesign            Run experiment simulations (1 run per NOLH setting)"
 	@echo "------------------------------------------------------------------------------------------------------------------------"	
 
-EXPERIMENT_NAME=nolhDisruptedBig
+EXPERIMENT_NAME=nolhBaselineBig
 TEMPLATE_REPO_HOME=$(SCENARIO_REPO_HOME)
 EXPERIMENT_REPO_HOME=build/$(EXPERIMENT_NAME)
 NRUNS=1
 
 clean.expdesign:
 	rm -fr $(EXPERIMENT_REPO_HOME)
+	rm -fr config/$(EXPERIMENT_NAME)
 	rm -fr $(TEMPLATE_REPO_HOME)/$(SCENARIO_REF)/data/experiments
 	
 init.expdesign:
@@ -36,14 +37,14 @@ describe-exp.expdesign:
 	cat data/experiments/$(EXPERIMENT_NAME).txt
 
 generate.expdesign-configs:
-	#mkdir config/$(EXPERIMENT_NAME)
-	python ./src/bin/configMaker.py config/makeParams.onfdesExp0.txt 32 config/$(EXPERIMENT_NAME) $(EXPERIMENT_NAME)
+	mkdir config/$(EXPERIMENT_NAME)
+	python ./src/bin/configMaker.py config/makeParams.onfdesExp0.txt 16 config/$(EXPERIMENT_NAME) $(EXPERIMENT_NAME)
 
 generate.expdesign: init.expdesign generate.expdesign-configs
 	python3 ./src/bin/buildExperiments.py $(TEMPLATE_REPO_HOME) $(SCENARIO_REF) $(EXPERIMENT_NAME) $(EXPERIMENT_REPO_HOME) $(MONTH) GENERATE
 
 measurements.expdesign:
-	python3 ./src/bin/collectExpStats build/$(EXPERIMENT_NAME) 32 build/$(EXPERIMENT_NAME)/DelayPenalties.csv
+	python3 ./src/bin/collectExpStats.py build/$(EXPERIMENT_NAME) 15 build/$(EXPERIMENT_NAME)/DelayPenalties.csv
 
 simulate.expdesign:
 	./src/bin/runExperimentScenarios.sh $(EXPERIMENT_NAME)

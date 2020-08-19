@@ -35,6 +35,12 @@ def main(argv):
                 # hack of a line
                 newLine = re.sub(f"nolhDisruptedBig\d+", f"{experimentName}{expId}",line)
                 resultBuffer.append(newLine)
+            elif "export SCENARIO_REPO_HOME" in line:
+                searchRegex = f"{experimentName}"
+                replacement = f"{experimentName}{expId}"
+                # hack of a line
+                newLine = re.sub(f"nolhDisruptedBig", f"{experimentName}",line)
+                resultBuffer.append(newLine)
             else:
                 resultBuffer.append(line)
 

@@ -1,5 +1,5 @@
 CTSNDP_HOME=/home/share/Code/CIRI/ctsndp/cpp/build/bin
-export GUROBI_HOME=/home/share/Code/github/gurobi902/linux64
+#export GUROBI_HOME=/home/share/Code/github/gurobi902/linux64
 
 help.opt:
 	@echo "------------------------------------------------------------------------------------------------------------------------"
@@ -28,11 +28,13 @@ measurements.opt:
 
 optimize.opt:
 	rm -rf $(SCENARIO_DIR)/flows/shipments-opt
-	mkdir $(SCENARIO_DIR)/flows/shipments-opt	
+	rm -rf $(SCENARIO_DIR)/flows/shipments-des
+	mkdir $(SCENARIO_DIR)/flows/shipments-opt
+	
 	python src/bin/patchShipmentsWithBerthArrivalTimes.py $(SCENARIO_DIR)
 	mv $(SCENARIO_DIR)/flows/shipments $(SCENARIO_DIR)/flows/shipments-des
 	mv $(SCENARIO_DIR)/flows/shipments-opt $(SCENARIO_DIR)/flows/shipments
-	$(CTSNDP_HOME)/ctsndp --time_limit 1800 -u $(SCENARIO_DIR)/flows/schedule.json --log_all -f DES  --no_consolidations --time 360 -o $(SCENARIO_DIR)/results/ctsndp.routes -r $(SCENARIO_DIR)/results/ctsndp.results
+	(export GRB_LICENSE_FILE=/home/gweaver/gurobi.lic; $(CTSNDP_HOME)/ctsndp -u $(SCENARIO_DIR)/flows/schedule.json --log_all -f DES  --no_consolidations --time 360 --time_limit 3600 -o $(SCENARIO_DIR)/results/ctsndp.routes -r $(SCENARIO_DIR)/results/ctsndp.results)
 	python src/bin/postprocessRoutes.py $(SCENARIO_DIR)/results/ctsndp.routes $(SCENARIO_DIR)/results/ctsndp.clean.routes
 	mv $(SCENARIO_DIR)/flows/shipments $(SCENARIO_DIR)/flows/shipments-opt
 	mv $(SCENARIO_DIR)/flows/shipments-des $(SCENARIO_DIR)/flows/shipments

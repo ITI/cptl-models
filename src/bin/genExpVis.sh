@@ -27,9 +27,9 @@ generateVisualizations(){
 rm -rf ~/$EXPERIMENT_NAME-viz
 mkdir ~/$EXPERIMENT_NAME-viz
 
-for expId in {0..16};
+for expId in {0..15}; #{12..14};
 do
-    SCENARIO_REF=PEV-SouthPortImports.FY2018_10_8_nolhBaseline_0_nolhDisruptedBig$expId
+    SCENARIO_REF=PEV-SouthPortImports.FY2018_10_8_nolhBaseline_0_$EXPERIMENT_NAME$expId
     EXP_DIR=build/$EXPERIMENT_NAME/$SCENARIO_REF
     EXP_RESULTS_DIR=~/$EXPERIMENT_NAME-viz/exp$expId
     
@@ -78,5 +78,6 @@ do
     cp -rf $EXP_DIR/results/vizs $EXP_RESULTS_DIR
     #cp -rf $EXP_DIR/results/ $EXP_RESULTS_DIR    
 done
-
-tar -czvf $EXPERIMENT_NAME-viz91.tar.gz ~/$EXPERIMENT_NAME-viz
+make measurements.expdesign
+cp build/$EXPERIMENT_NAME/DelayPenalties.csv $EXP_RESULTS_DIR/
+tar -czvf $EXPERIMENT_NAME-viz95.tar.gz ~/$EXPERIMENT_NAME-viz
