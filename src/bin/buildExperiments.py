@@ -66,6 +66,7 @@ def getPerTEUDelayCosts(expDirPath, month, commodityGroup, origin, prioritizatio
     elif 5 == prioritization:
         # reefer or port plus operator
         delayPenaltyRate = 60.0 / (24.0 * 60)
+    
         
     delayPenaltyLimit = 500000  # accrue up to half a million penalty if you wish
     return (delayCost, delayPenaltyRate, delayPenaltyLimit)

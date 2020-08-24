@@ -34,10 +34,10 @@ gen-dashboard:
 	Rscript $(DASH_VIS_HOME)/preprocess_for_dashboard.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_dashboard_table.json --NAICS $(NAICS_CODE)
 
 gen-delay_costs.sim:
-	Rscript $(FLOW_VIS_HOME)/Delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.png --matrix $(HS_PREFIX)_delay_penalties_matrix.png --NAICS $(NAICS_CODE) --maxPenalty 50000 --dropEmpty TRUE
+	Rscript $(FLOW_VIS_HOME)/Delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.png --matrix $(HS_PREFIX)_delay_penalties_matrix.png --NAICS $(NAICS_CODE) --maxPenalty 100000 --dropEmpty TRUE
 
 gen-delay_costs.opt:
-	Rscript $(FLOW_VIS_HOME)/ONF_delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.opt.png --matrix $(HS_PREFIX)_delay_penalties_matrix.opt.png --NAICS $(NAICS_CODE) --maxPenalty 50000 --dropEmpty TRUE
+	Rscript $(FLOW_VIS_HOME)/ONF_delay_costs.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_delay_penalties_by_HS_code.opt.png --matrix $(HS_PREFIX)_delay_penalties_matrix.opt.png --NAICS $(NAICS_CODE) --maxPenalty 100000 --dropEmpty TRUE
 	
 gen-flowmovie:
 	Rscript	$(FLOW_VIS_HOME)/gganimate_flow_static_map_background.R --experiment $(SCENARIO_DIR) --output $(HS_PREFIX)_teu.mp4 --NAICS $(NAICS_CODE)
